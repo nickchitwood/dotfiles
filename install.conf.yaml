@@ -1,0 +1,25 @@
+- defaults:
+    link:
+      relink: true
+      force: true 
+- clean: ['~']
+
+- link:
+    ~/.zshrc:
+    ~/.aliases:
+    ~/.config/i3:
+    ~/.config/glances:
+    ~/.config/i3:
+    ~/.config/gtk-3.0:
+    ~/.config/i3status:
+    ~/.config/kitty:
+    ~/.config/picom:
+    ~/.config/ranger:
+    ~/.config/rofi:
+    
+- create:
+    - ~/.config
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+

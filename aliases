@@ -1,0 +1,4 @@
+# Developer
+alias v='nvim'
+alias vim='nvim'
+alias sudo='sudo '
