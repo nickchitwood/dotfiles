@@ -5,6 +5,7 @@
 - clean: ['~']
 
 - link:
+    ~/.xsettingsd:
     ~/.zshrc:
     ~/.aliases:
     ~/.config/i3:
