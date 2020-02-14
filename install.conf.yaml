@@ -9,6 +9,7 @@
     ~/.zshrc:
     ~/.aliases:
     ~/.config/i3:
+    ~/.p10k.zsh:
     ~/.config/glances:
     ~/.config/i3:
     ~/.config/gtk-3.0:
@@ -17,7 +18,7 @@
     ~/.config/picom:
     ~/.config/ranger:
     ~/.config/rofi:
-    
+
 - create:
     - ~/.config
 
