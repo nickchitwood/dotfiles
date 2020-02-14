@@ -207,5 +207,6 @@ for_window [class="Blueberry.py"] floating enable
 
 # Starup apps
 exec --no-startup-id xsettingsd
-exec --no-startup-id nitrogen --set-auto .config/i3/space.jpg
+exec --no-startup-id nitrogen --set-scaled --head=0 .config/i3/space.jpg
+exec --no-startup-id nitrogen --set-scaled --head=1 .config/i3/space.jpg
 exec --no-startup-id picom
