@@ -11,6 +11,7 @@
     ~/.config/i3:
     ~/.p10k.zsh:
     ~/.gitconfig:
+    ~/.config/fontconfig:    
     ~/.config/glances:
     ~/.config/i3:
     ~/.config/gtk-3.0:
