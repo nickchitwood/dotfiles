@@ -13,11 +13,11 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-#font pango:monospace 8
+font pango:monospace 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:DejaVu Sans Mono 8
+# font pango:DejaVu Sans Mono 8
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -65,6 +65,7 @@ bindsym $mod+d exec --no-startup-id rofi -monitor -1 -show drun
 
 # Window switcher
 bindsym $mod+Tab exec --no-startup-id rofi -show window
+bindsym $mod+grave exec --no-startup-id rofi -show window
 
 # change focus
 bindsym $mod+h focus left
@@ -179,6 +180,12 @@ mode "resize" {
         bindsym Up resize shrink height 10 px or 10 ppt
         bindsym Right resize grow width 10 px or 10 ppt
 
+        # change gaps interactively
+        bindsym minus gaps inner current minus 6
+        bindsym equal gaps inner current plus 6
+        bindsym Shift+minus gaps inner current minus 12
+        bindsym Shift+equal gaps inner current plus 12
+
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
         bindsym Escape mode "default"
@@ -197,10 +204,11 @@ bar {
 }
 
 # Enable gaps
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 1
 gaps outer 0
-gaps inner 5
+gaps inner 6
 smart_borders on
+smart_gaps on
 
 # Floating apps
 for_window [class="Blueberry.py"] floating enable
@@ -210,3 +218,4 @@ exec --no-startup-id xsettingsd
 exec --no-startup-id nitrogen --set-scaled --head=0 .config/i3/space.jpg
 exec --no-startup-id nitrogen --set-scaled --head=1 .config/i3/space.jpg
 exec --no-startup-id picom
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 

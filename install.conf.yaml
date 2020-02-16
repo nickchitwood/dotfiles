@@ -1,7 +1,6 @@
 - defaults:
     link:
       relink: true
-      force: true 
 - clean: ['~']
 
 - link:
@@ -20,6 +19,7 @@
     ~/.config/picom:
     ~/.config/ranger:
     ~/.config/rofi:
+    ~/.config/mpv:
 
 - create:
     - ~/.config
