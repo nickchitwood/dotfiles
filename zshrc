@@ -16,8 +16,6 @@ ZSH=/usr/share/oh-my-zsh
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 if [[ -v REMOTE_CONTAINERS_IPC ]]; then
-    autoload -Uz promptinit
-    promptinit
     ZSH_THEME="robbyrussell"
 fi
 
@@ -113,15 +111,15 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
 
+# Oh my ZSh
+source $ZSH/oh-my-zsh.sh
+
 if [[ ! -v REMOTE_CONTAINERS_IPC ]]; then
 	# Editors
 	export VISUAL=/usr/bin/nvim
 
 	# Terminal
 	export TERMINAL=/usr/bin/kitty
-
-	# Oh my ZSh
-	source $ZSH/oh-my-zsh.sh
 
 	# Powerlevel10k
 	source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
