@@ -15,7 +15,7 @@ ZSH=/usr/share/oh-my-zsh
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussel"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -109,17 +109,19 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
 
-# Editors
-export VISUAL=/usr/bin/nvim
+if [[ ! -v $REMOTE_CONTAINERS_IPC ]]; then
+	# Editors
+	export VISUAL=/usr/bin/nvim
 
-# Terminal
-export TERMINAL=/usr/bin/kitty
+	# Terminal
+	export TERMINAL=/usr/bin/kitty
 
-# Oh my ZSh
-source $ZSH/oh-my-zsh.sh
+	# Oh my ZSh
+	source $ZSH/oh-my-zsh.sh
 
-# Powerlevel10k
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+	# Powerlevel10k
+	source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+fi
 
 # Aliases
 source ~/.aliases
