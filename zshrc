@@ -135,3 +135,8 @@ fi
 # Aliases
 source ~/.aliases
 
+# Fix ranger opening in XTerm
+export TERMCMD=/usr/bin/kitty
+
+# Enable pyenv
+eval "$(pyenv init -)"
