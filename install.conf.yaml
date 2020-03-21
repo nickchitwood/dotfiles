@@ -20,6 +20,7 @@
     ~/.config/ranger:
     ~/.config/rofi:
     ~/.config/mpv:
+    ~/.ssh/config: ssh/config
 
 - create:
     - ~/.config

@@ -1,0 +1,3 @@
+Host pfsense
+	HostName pfsenes.nickchitwood.com
+	User admin
