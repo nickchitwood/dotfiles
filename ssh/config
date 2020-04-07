@@ -1,3 +1,8 @@
 Host pfsense
-	HostName pfsenes.nickchitwood.com
 	User admin
+
+Host rundeck
+	User ansible
+
+Host pve*
+	User root
