@@ -64,7 +64,7 @@ bindsym $mod+Shift+q kill
 floating_maximum_size 1500 x 1000
 
 # start rofi (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -monitor -1 -combi-modi "drun#run" -show combi
+bindsym $mod+d exec --no-startup-id rofi -monitor -4 -combi-modi "drun#run" -show combi
 
 # Window switcher
 bindsym $mod+Tab exec --no-startup-id rofi -show window
@@ -204,6 +204,7 @@ bar {
 	colors {
 		background #011627
 	}
+	tray_output primary
 }
 
 # Enable gaps
