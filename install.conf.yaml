@@ -4,7 +4,6 @@
 - clean: ['~']
 
 - link:
-    ~/.xsettingsd:
     ~/.zshrc:
     ~/.aliases:
     ~/.config/i3:
@@ -20,6 +19,7 @@
     ~/.config/ranger:
     ~/.config/rofi:
     ~/.config/mpv:
+    ~/.config/pacman: 
     ~/.ssh/config: ssh/config
 
 - create:
