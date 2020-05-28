@@ -1,6 +1,11 @@
+# Deal with "insecure completion directory" for mac
+ZSH_DISABLE_COMPFIX=true
+
 # Get current distro
-. /etc/os-release
-OS=$ID
+if [[ $OSTYPE != darwin* ]]; then
+	. /etc/os-release
+	OS=$ID
+fi
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -13,7 +18,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-if [[ -v REMOTE_CONTAINERS_IPC || $OS == "rhel" ]]; then
+if [[ -v REMOTE_CONTAINERS_IPC || $OS == "rhel" || $OSTYPE == darwin* ]]; then
     ZSH=~/.oh-my-zsh
 else
     ZSH=/usr/share/oh-my-zsh
@@ -122,7 +127,7 @@ fi
 # Oh my ZSh
 source $ZSH/oh-my-zsh.sh
 
-if [[ ! -v REMOTE_CONTAINERS_IPC && $OS != "rhel" ]]; then
+if [[ ! -v REMOTE_CONTAINERS_IPC && $OS != "rhel" && $OSTYPE != darwin* ]]; then
 	# Editors
 	export VISUAL=/usr/bin/nvim
 
@@ -139,7 +144,17 @@ if [[ ! -v REMOTE_CONTAINERS_IPC && $OS != "rhel" ]]; then
 
 fi
 
-# Aliases
+if [[ $OSTYPE == darwin* ]]; then
+
+	# Powerlevel10k
+	source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+	
+	# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+	[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+	
+	# Aliases
+	source ~/.aliases
+fi
 
 # Fix ranger opening in XTerm
 export TERMCMD=/usr/bin/kitty
