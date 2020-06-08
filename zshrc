@@ -160,4 +160,6 @@ fi
 export TERMCMD=/usr/bin/kitty
 
 # Enable pyenv
-eval "$(pyenv init -)"
+if [[ $OSTYPE != darwin* ]]; then
+	eval "$(pyenv init -)"
+fi
