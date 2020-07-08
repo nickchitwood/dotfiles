@@ -15,7 +15,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/o10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/OneDrive/Documents/Computer/FireHD7th/platform-tools:$PATH
 
 # Path to your oh-my-zsh installation.
 if [[ -v REMOTE_CONTAINERS_IPC || $OS == "rhel" || $OSTYPE == darwin* ]]; then
@@ -163,3 +163,6 @@ export TERMCMD=/usr/bin/kitty
 if [[ $OSTYPE != darwin* ]]; then
 	eval "$(pyenv init -)"
 fi
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
