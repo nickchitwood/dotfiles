@@ -6,3 +6,10 @@ Host rundeck
 
 Host pve*
 	User root
+
+Host RIV-AACI-01.rcoe.us
+	HostName RIV-AACI-01.rcoe.us
+
+Host paycheck.nickchitwood.com
+	User root
+	HostName paycheck.nickchitwood.com
