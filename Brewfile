@@ -1,10 +1,15 @@
+# Taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "romkatv/powerlevel10k"
+
+# Prerequisite casks
 cask "xquartz"
+
+# Brews
 brew "sqlite"
 brew "autoconf"
 brew "automake"
@@ -35,6 +40,8 @@ brew "wakeonlan"
 brew "youtube-dl"
 brew "zlib"
 brew "romkatv/powerlevel10k/powerlevel10k"
+
+# Additional casks
 cask "adoptopenjdk"
 cask "azure-data-studio"
 cask "blackhole"
