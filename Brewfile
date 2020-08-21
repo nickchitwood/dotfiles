@@ -5,6 +5,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "romkatv/powerlevel10k"
+tap "adoptopenjdk/openjdk"
 
 # Prerequisite casks
 cask "xquartz"
