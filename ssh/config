@@ -1,15 +1,8 @@
 Host pfsense
 	User admin
 
-Host rundeck
-	User ansible
-
-Host pve*
+Host pve* nextcloud bt radarr sonarr mirror usenet calibre plex qbittorrent mongo postgres wiki mysql pxe moviedb paycheck elastic jackett log influxdb grafana rundeck
 	User root
 
 Host RIV-AACI-01.rcoe.us
 	HostName RIV-AACI-01.rcoe.us
-
-Host paycheck.nickchitwood.com
-	User root
-	HostName paycheck.nickchitwood.com
