@@ -21,6 +21,7 @@
     ~/.config/mpv:
     ~/.config/pacman: 
     ~/.ssh/config: ssh/config
+    ~/Brewfile:
 
 - create:
     - ~/.config
