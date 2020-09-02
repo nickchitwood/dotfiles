@@ -80,7 +80,7 @@ DISABLE_AUTO_UPDATE="true"
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="yyyy-mm-dd"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -90,7 +90,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vi-mode z docker)
+plugins=(git vi-mode z docker zsh-autosuggestions)
 
 
 # User configuration
@@ -154,6 +154,8 @@ if [[ $OSTYPE == darwin* ]]; then
 	
 	# Aliases
 	source ~/.aliases
+
+	plugins+=(brew)
 fi
 
 # Fix ranger opening in XTerm
