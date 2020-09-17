@@ -17,7 +17,9 @@ fi
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/OneDrive/Documents/Computer/FireHD7th/platform-tools:$PATH
 
-# Path to your oh-my-zsh installation.
+# Path to your oh-my-zsh installation. 
+# Installed to user folder for RHEL, and MacOS. Arch installs to /usr/share
+
 if [[ -v REMOTE_CONTAINERS_IPC || $OS == "rhel" || $OSTYPE == darwin* ]]; then
     ZSH=~/.oh-my-zsh
 else
@@ -31,12 +33,6 @@ fi
 if [[ -v REMOTE_CONTAINERS_IPC || $OS == "rhel" ]]; then
     ZSH_THEME="robbyrussell"
 fi
-
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -127,7 +123,8 @@ fi
 # Oh my ZSh
 source $ZSH/oh-my-zsh.sh
 
-if [[ ! -v REMOTE_CONTAINERS_IPC && $OS != "rhel" && $OSTYPE != darwin* ]]; then
+# Arch Conf
+if [[ $OS == "arch" ]]; then
 	# Editors
 	export VISUAL=/usr/bin/nvim
 
@@ -141,9 +138,16 @@ if [[ ! -v REMOTE_CONTAINERS_IPC && $OS != "rhel" && $OSTYPE != darwin* ]]; then
 	[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 	
 	source ~/.aliases
+	
+	# Fix Ranger opening in XTerm
+	export TERMCMD=/usr/bin/kitty
+	
+	# Enable pyenv on Arch
+	eval "$(pyenv init -)"
 
 fi
 
+# Mac OS Specific Config
 if [[ $OSTYPE == darwin* ]]; then
 
 	# Powerlevel10k
@@ -156,15 +160,7 @@ if [[ $OSTYPE == darwin* ]]; then
 	source ~/.aliases
 
 	plugins+=(brew)
+	
+	# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+	export PATH="$PATH:$HOME/.rvm/bin"
 fi
-
-# Fix ranger opening in XTerm
-export TERMCMD=/usr/bin/kitty
-
-# Enable pyenv
-if [[ $OSTYPE != darwin* ]]; then
-	eval "$(pyenv init -)"
-fi
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
