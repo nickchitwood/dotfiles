@@ -1,7 +1,7 @@
 Host pfsense pihole
 	User admin
 
-Host pve* heimdall plex nextcloud bt sonarr jackett qbittorrent usenet radarr assistant audio rundeck print huginn log influx elastic mongo postgres wiki mysql pxe calibre grafana mirror moviedb paycheck
+Host pve* heimdall plex nextcloud bt sonarr jackett qbittorrent usenet radarr assistant audio rundeck print headphones huginn log influx elastic mongo postgres wiki mysql pxe calibre grafana mirror moviedb paycheck
 	User root
 
 Host RIV-AACI-01.rcoe.us

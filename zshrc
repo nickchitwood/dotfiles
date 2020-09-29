@@ -158,6 +158,7 @@ if [[ $OSTYPE == darwin* ]]; then
 	
 	# Aliases
 	source ~/.aliases
+	eval "$(pyenv init -)"
 
 	plugins+=(brew)
 	
