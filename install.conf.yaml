@@ -20,6 +20,7 @@
     ~/.config/rofi:
     ~/.config/mpv:
     ~/.config/pacman: 
+    ~/.config/nvim: 
     ~/.ssh/config: ssh/config
     ~/Brewfile:
 
