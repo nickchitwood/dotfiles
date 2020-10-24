@@ -1,3 +1,7 @@
+#CanonicalizeHostname yes
+#CanonicalDomains nickchitwood.com
+#CanonicalizeFallbackLocal yes
+
 Host pfsense pihole
 	User admin
 

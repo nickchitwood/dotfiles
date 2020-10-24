@@ -1,3 +1,5 @@
+zmodload zsh/zprof
+
 # Deal with "insecure completion directory" for mac
 ZSH_DISABLE_COMPFIX=true
 
@@ -13,9 +15,6 @@ fi
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/o10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/OneDrive/Documents/Computer/FireHD7th/platform-tools:$PATH
 
 # Path to your oh-my-zsh installation. 
 # Installed to user folder for RHEL, and MacOS. Arch installs to /usr/share
@@ -165,3 +164,5 @@ if [[ $OSTYPE == darwin* ]]; then
 	# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 	export PATH="$PATH:$HOME/.rvm/bin"
 fi
+
+zprof
