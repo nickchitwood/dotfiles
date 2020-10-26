@@ -1,5 +1,3 @@
-zmodload zsh/zprof
-
 # Deal with "insecure completion directory" for mac
 ZSH_DISABLE_COMPFIX=true
 
@@ -164,5 +162,3 @@ if [[ $OSTYPE == darwin* ]]; then
 	# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 	export PATH="$PATH:$HOME/.rvm/bin"
 fi
-
-zprof
