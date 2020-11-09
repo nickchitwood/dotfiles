@@ -1,3 +1,8 @@
+# Profile zsh startup
+if [[ "$ZPROF" = true ]]; then
+  zmodload zsh/zprof
+fi
+
 # Deal with "insecure completion directory" for mac
 ZSH_DISABLE_COMPFIX=true
 
@@ -83,7 +88,13 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vi-mode z docker zsh-autosuggestions)
+plugins=(
+	docker 
+	git 
+	vi-mode 
+	z 
+	zsh-autosuggestions
+	)
 
 
 # User configuration
@@ -94,11 +105,11 @@ plugins=(git vi-mode z docker zsh-autosuggestions)
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='nano'
+else
+  export EDITOR='nvim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -162,3 +173,8 @@ if [[ $OSTYPE == darwin* ]]; then
 	# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 	export PATH="$PATH:$HOME/.rvm/bin"
 fi
+
+if [[ "$ZPROF" = true ]]; then
+  zprof
+fi
+

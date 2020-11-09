@@ -24,6 +24,8 @@ brew "dos2unix"
 brew "f3"
 brew "freerdp"
 brew "gh"
+brew "go"
+brew "glib"
 brew "gsmartcontrol"
 brew "hub"
 brew "imagemagick"
@@ -44,16 +46,19 @@ brew "sox"
 brew "speedtest-cli"
 brew "tmux"
 brew "wakeonlan"
+brew "wget"
 brew "youtube-dl"
 brew "zlib"
 brew "zsh-autosuggestions"
 brew "romkatv/powerlevel10k/powerlevel10k"
 
 # Additional casks
+cask "1password"
 cask "adoptopenjdk"
 cask "adoptopenjdk8"
 cask "azure-data-studio"
 cask "bettertouchtool"
+cask "bibdesk"
 cask "bitbar"
 cask "blackhole"
 cask "calibre"
@@ -85,6 +90,7 @@ cask "xnviewmp"
 mas "Affinity Designer", id: 824171161
 mas "Deliveries", id: 290986013
 mas "Discovery", id: 1381004916
+mas "Disk Speed Test", id: 425264550
 mas "Final Cut Pro", id: 424389933
 mas "FruitJuice", id: 671736912
 mas "Marked 2", id: 890031187
@@ -93,10 +99,10 @@ mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To Do", id: 1274495053
 mas "Paprika Recipe Manager 3", id: 1303222628
 mas "PhotoSweeper", id: 463362050
+mas "Pocket", id: 568494494
 mas "Rakuten Cash Back", id: 1451893560
 mas "Reeder", id: 1449412482
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
 mas "Vimari", id: 1480933944
 mas "Xcode", id: 497799835
-
