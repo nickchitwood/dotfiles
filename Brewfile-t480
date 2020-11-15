@@ -1,18 +1,17 @@
-# Taps
+tap "adoptopenjdk/openjdk"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "adoptopenjdk/openjdk"
 tap "romkatv/powerlevel10k"
-
-# Prerequisite casks
 cask "xquartz"
-
-# Brews
 brew "argyll-cms"
+brew "openssl@1.1"
+brew "readline"
+brew "sqlite"
+brew "xz"
 brew "autoconf"
 brew "automake"
 brew "bfg"
@@ -25,6 +24,8 @@ brew "f3"
 brew "freerdp"
 brew "gh"
 brew "go"
+brew "pkg-config"
+brew "smartmontools"
 brew "gsmartcontrol"
 brew "hub"
 brew "imagemagick"
@@ -38,25 +39,17 @@ brew "mas"
 brew "neofetch"
 brew "neovim"
 brew "netcat"
-brew "openssl@1.1"
-brew "pkg-config"
 brew "pyenv"
 brew "rbenv"
-brew "readline"
-brew "smartmontools"
 brew "sox"
 brew "speedtest-cli"
-brew "sqlite"
 brew "tmux"
 brew "wakeonlan"
 brew "wget"
-brew "xz"
 brew "youtube-dl"
 brew "zlib"
 brew "zsh-autosuggestions"
 brew "romkatv/powerlevel10k/powerlevel10k"
-
-# Additional casks
 cask "1password"
 cask "adoptopenjdk"
 cask "adoptopenjdk8"
@@ -91,8 +84,6 @@ cask "veracrypt"
 cask "visual-studio-code"
 cask "vlc"
 cask "xnviewmp"
-
-# Mas List
 mas "Affinity Designer", id: 824171161
 mas "Deliveries", id: 290986013
 mas "Discovery", id: 1381004916

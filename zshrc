@@ -21,7 +21,6 @@ fi
 
 # Path to your oh-my-zsh installation. 
 # Installed to user folder for RHEL, and MacOS. Arch installs to /usr/share
-
 if [[ -v REMOTE_CONTAINERS_IPC || $OS == "rhel" || $OSTYPE == darwin* ]]; then
     ZSH=~/.oh-my-zsh
 else
@@ -86,8 +85,6 @@ HIST_STAMPS="yyyy-mm-dd"
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	docker 
 	git 
@@ -96,32 +93,7 @@ plugins=(
 	zsh-autosuggestions
 	)
 
-
 # User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='nano'
-else
-  export EDITOR='nvim'
-fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
@@ -133,10 +105,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Arch Conf
 if [[ $OS == "arch" ]]; then
-	# Editors
+	# Default apps
 	export VISUAL=/usr/bin/nvim
-
-	# Terminal
 	export TERMINAL=/usr/bin/kitty
 
 	# Powerlevel10k
@@ -152,11 +122,17 @@ if [[ $OS == "arch" ]]; then
 	
 	# Enable pyenv on Arch
 	eval "$(pyenv init -)"
-
 fi
 
 # Mac OS Specific Config
 if [[ $OSTYPE == darwin* ]]; then
+
+	# Preferred editor for local and remote sessions
+	if [[ -n $SSH_CONNECTION ]]; then
+	  export EDITOR='nano'
+	else
+	  export EDITOR='nvim'
+	fi
 
 	# Powerlevel10k
 	source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
@@ -166,12 +142,13 @@ if [[ $OSTYPE == darwin* ]]; then
 	
 	# Aliases
 	source ~/.aliases
-	eval "$(pyenv init -)"
 
+	# Development environment
+	eval "$(pyenv init -)"
+	eval "$(rbenv init -)"
+
+	# Mac OS Specific plugins
 	plugins+=(brew)
-	
-	# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-	export PATH="$PATH:$HOME/.rvm/bin"
 fi
 
 if [[ "$ZPROF" = true ]]; then
