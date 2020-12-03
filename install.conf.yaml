@@ -22,6 +22,7 @@
     ~/.config/pacman: 
     ~/.config/nvim: 
     ~/.ssh/config: ssh/config
+    ~/.tmux.conf:
     ~/Brewfile:
 
 - create:
