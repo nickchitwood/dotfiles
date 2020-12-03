@@ -10,3 +10,6 @@ Host pve* file heimdall plex nextcloud bt sonarr jackett qbittorrent usenet rada
 
 Host RIV-AACI-01.rcoe.us
 	HostName RIV-AACI-01.rcoe.us
+
+Host playwright
+	User playwright

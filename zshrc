@@ -4,7 +4,7 @@ if [[ "$ZPROF" = true ]]; then
 fi
 
 # Deal with "insecure completion directory" for mac
-ZSH_DISABLE_COMPFIX=true
+# ZSH_DISABLE_COMPFIX=true
 
 # Get current distro
 if [[ $OSTYPE != darwin* ]]; then
@@ -95,6 +95,16 @@ plugins=(
 
 # User configuration
 
+# Brew compleitions - zsh
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+
+fi
+
+
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
@@ -143,15 +153,16 @@ if [[ $OSTYPE == darwin* ]]; then
 	# Aliases
 	source ~/.aliases
 
-	# Development environment
-	eval "$(pyenv init -)"
-	eval "$(rbenv init -)"
-
+	# Fix brew path
+	export PATH="/usr/local/sbin:$PATH"	
+	
 	# Mac OS Specific plugins
 	plugins+=(brew)
+
+	# Load asdf
+	. $(brew --prefix asdf)/asdf.sh
 fi
 
 if [[ "$ZPROF" = true ]]; then
   zprof
 fi
-
