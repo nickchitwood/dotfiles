@@ -1,5 +1,4 @@
 tap "adoptopenjdk/openjdk"
-tap "caskroom/cask"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -7,8 +6,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "koekeishiya/formulae"
-tap "osgeo/osgeo4mac"
 tap "romkatv/powerlevel10k"
 brew "argyll-cms"
 brew "autoconf"
@@ -23,11 +20,10 @@ brew "xz"
 brew "glib"
 brew "bfg"
 brew "carthage"
-brew "pkg-config"
-brew "cask"
 brew "chronograf"
 brew "cmake"
 brew "dos2unix"
+brew "pkg-config"
 brew "f3"
 brew "harfbuzz"
 brew "lame"
@@ -35,6 +31,8 @@ brew "tesseract"
 brew "freerdp"
 brew "gcc"
 brew "gh"
+brew "libksba"
+brew "gnupg"
 brew "pango"
 brew "gtk+3"
 brew "smartmontools"
@@ -44,7 +42,6 @@ brew "imagemagick"
 brew "iperf3"
 brew "ipmitool"
 brew "jq"
-brew "libksba"
 brew "libxt"
 brew "make"
 brew "mas"
@@ -64,14 +61,11 @@ brew "wget"
 brew "youtube-dl"
 brew "zlib"
 brew "zsh-autosuggestions"
-brew "koekeishiya/formulae/yabai"
 brew "romkatv/powerlevel10k/powerlevel10k"
 cask "1password"
 cask "adoptopenjdk"
 cask "adoptopenjdk8"
 cask "alfred"
-cask "android-sdk"
-cask "android-studio"
 cask "azure-data-studio"
 cask "bettertouchtool"
 cask "bibdesk"
@@ -91,7 +85,6 @@ cask "gfortran"
 cask "gog-galaxy"
 cask "google-chrome"
 cask "handbrake"
-cask "hiddenbar"
 cask "intel-power-gadget"
 cask "iterm2"
 cask "logitech-options"
@@ -115,23 +108,41 @@ cask "zoom"
 cask "zoomus"
 mas "Affinity Designer", id: 824171161
 mas "AwardWallet", id: 1473828829
+mas "BusyCal", id: 567245998
+mas "Byword", id: 420212497
 mas "Compressor", id: 424390742
 mas "Deliveries", id: 290986013
+mas "Deliveries", id: 924726344
 mas "Discovery", id: 1381004916
+mas "Disk Speed Test", id: 425264550
 mas "Final Cut Pro", id: 424389933
 mas "FruitJuice", id: 671736912
+mas "Honey", id: 1472777122
+mas "Install OS X Mavericks", id: 675248567
+mas "Install OS X Mountain Lion", id: 537386512
+mas "Install OS X Mountain Lion", id: 537386512
 mas "Logic Pro", id: 634148309
+mas "Marked 2", id: 890031187
+mas "Media-Info", id: 550128418
 mas "Messenger", id: 1480068668
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To Do", id: 1274495053
+mas "Microsoft To Do", id: 1274495053
+mas "MindNode", id: 992076693
 mas "MindNode", id: 992076693
 mas "Motion", id: 434290957
 mas "Paprika Recipe Manager 3", id: 1303222628
+mas "Paprika Recipe Manager 3", id: 1303222628
+mas "PhotoSweeper", id: 463362050
 mas "PhotoSweeper", id: 463362050
 mas "Pixelmator", id: 407963104
+mas "Pixelmator", id: 407963104
+mas "Pocket", id: 568494494
 mas "Pocket", id: 568494494
 mas "Rakuten Cash Back", id: 1451893560
 mas "Reeder", id: 1449412482
+mas "Simplenote", id: 692867256
+mas "Slack", id: 803453959
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
 mas "Vimari", id: 1480933944
