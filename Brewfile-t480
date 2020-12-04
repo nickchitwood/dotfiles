@@ -48,13 +48,12 @@ brew "neovim"
 brew "netcat"
 brew "openconnect"
 brew "pcre2"
-brew "pyenv"
-brew "rbenv"
 brew "sox"
 brew "speedtest-cli"
 brew "tmux"
 brew "wakeonlan"
 brew "wget"
+brew "winetricks"
 brew "youtube-dl"
 brew "zlib"
 brew "zsh-autosuggestions"
@@ -121,13 +120,16 @@ cask "xnviewmp"
 cask "xquartz"
 cask "yubico-authenticator"
 cask "yubico-yubikey-manager"
+cask "zoom"
 cask "zoomus"
 mas "Affinity Designer", id: 824171161
+mas "AwardWallet", id: 1473828829
 mas "Deliveries", id: 290986013
 mas "Discovery", id: 1381004916
 mas "Disk Speed Test", id: 425264550
 mas "Final Cut Pro", id: 424389933
 mas "FruitJuice", id: 671736912
+mas "Honey", id: 1472777122
 mas "Marked 2", id: 890031187
 mas "Messenger", id: 1480068668
 mas "Microsoft Remote Desktop", id: 1295203466
