@@ -5,11 +5,12 @@
 
 - link:
     ~/.zshrc:
+    ~/.zprofile:
     ~/.aliases:
-    ~/.config/i3:
     ~/.p10k.zsh:
     ~/.gitconfig:
     ~/.config/fontconfig:    
+    ~/.config/chromium-flags.conf:
     ~/.config/glances:
     ~/.config/i3:
     ~/.config/gtk-3.0:
@@ -21,6 +22,7 @@
     ~/.config/mpv:
     ~/.config/pacman: 
     ~/.config/nvim: 
+    ~/.config/sway:
     ~/.ssh/config: ssh/config
     ~/.tmux.conf:
     ~/Brewfile:

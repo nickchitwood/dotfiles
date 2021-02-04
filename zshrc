@@ -114,7 +114,7 @@ fi
 source $ZSH/oh-my-zsh.sh
 
 # Arch Conf
-if [[ $OS == "arch" ]]; then
+if [[ $OS == "arch" && ($TERM != "screen-256color") && ($TERM != "linux") ]]; then
 	# Default apps
 	export VISUAL=/usr/bin/nvim
 	export TERMINAL=/usr/bin/kitty
@@ -125,13 +125,15 @@ if [[ $OS == "arch" ]]; then
 	# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 	[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 	
-	source ~/.aliases
-	
 	# Fix Ranger opening in XTerm
 	export TERMCMD=/usr/bin/kitty
 	
-	# Enable pyenv on Arch
-	eval "$(pyenv init -)"
+	# Enable asdf
+	. /opt/asdf-vm/asdf.sh
+
+	autoload -Uz compinit
+	compinit
+
 fi
 
 # Mac OS Specific Config
@@ -149,9 +151,6 @@ if [[ $OSTYPE == darwin* ]]; then
 	
 	# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 	[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-	
-	# Aliases
-	source ~/.aliases
 
 	# Fix brew path
 	export PATH="/usr/local/sbin:$PATH"	
@@ -162,6 +161,9 @@ if [[ $OSTYPE == darwin* ]]; then
 	# Load asdf
 	. $(brew --prefix asdf)/asdf.sh
 fi
+
+# Aliases
+source ~/.aliases
 
 if [[ "$ZPROF" = true ]]; then
   zprof
