@@ -22,6 +22,7 @@
     ~/.config/mpv:
     ~/.config/pacman: 
     ~/.config/nvim: 
+    ~/.config/spotifyd:
     ~/.config/sway:
     ~/.ssh/config: ssh/config
     ~/.tmux.conf:
