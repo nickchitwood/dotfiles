@@ -162,6 +162,9 @@ if [[ $OSTYPE == darwin* ]]; then
 	. $(brew --prefix asdf)/asdf.sh
 fi
 
+# Extended Globs
+setop extendedglob
+
 # Aliases
 source ~/.aliases
 
