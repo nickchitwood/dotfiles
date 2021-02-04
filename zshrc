@@ -163,7 +163,7 @@ if [[ $OSTYPE == darwin* ]]; then
 fi
 
 # Extended Globs
-setop extendedglob
+setopt extendedglob
 
 # Aliases
 source ~/.aliases
