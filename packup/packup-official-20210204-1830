@@ -3,6 +3,7 @@ automake
 base
 binutils
 bison
+blueberry
 bluez
 bluez-utils
 broadcom-wl
@@ -47,7 +48,6 @@ man-pages
 nano
 neofetch
 neovim
-nitrogen
 noto-fonts-emoji
 opensc
 openssh
@@ -72,6 +72,7 @@ refind
 remmina
 sudo
 sway
+systemd-resolvconf
 texinfo
 tmux
 tree
@@ -85,5 +86,7 @@ wget
 xorg-xwayland
 youtube-dl
 yubioath-desktop
+zathura
+zathura-pdf-mupdf
 zsh
 zsh-theme-powerlevel10k
