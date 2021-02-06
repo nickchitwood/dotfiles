@@ -134,6 +134,7 @@ if [[ $OS == "arch" && ($TERM != "screen-256color") && ($TERM != "linux") ]]; th
 	autoload -Uz compinit
 	compinit
 
+	alias ssh='kitty +kitten ssh '
 fi
 
 # Mac OS Specific Config
