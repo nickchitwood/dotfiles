@@ -24,9 +24,9 @@
     ~/.config/nvim: 
     ~/.config/spotifyd:
     ~/.config/sway:
+    ~/.config/wayvnc:
     ~/.ssh/config: ssh/config
     ~/.tmux.conf:
-    ~/Brewfile:
 
 - create:
     - ~/.config
