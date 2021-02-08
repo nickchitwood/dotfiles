@@ -1,3 +1,5 @@
+# Alias lookup
+
 # Developer
 alias v='nvim'
 alias vim='nvim'
