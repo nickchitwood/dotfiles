@@ -1,0 +1,61 @@
+2021-02-07 16:43:55	-->	nickybob (~nicholasc@097-094-106-033.biz.spectrum.com) has joined #sway
+2021-02-07 16:43:55	--	Topic for #sway is "sway - #sway-devel - http://swaywm.org/ - RTFM - Stick around a while, your question might not be answered immediately - Do not paste logs here, use a pastebin like https://gist.github.com"
+2021-02-07 16:43:55	--	Topic set by SirCmpwn (znc@irc.sircmpwn.com) on Tue, 15 Aug 2017 14:41:40
+2021-02-07 16:43:55	--	Channel #sway: 455 nicks (1 op, 0 voices, 454 normals)
+2021-02-07 16:43:57	--	Channel created on Mon, 10 Aug 2015 05:41:23
+2021-02-07 16:44:07	Borley	hmm actually ibus-daemon: Gtk-WARNING ** cannot open display :0
+2021-02-07 16:44:17	Borley	it may not be looking for the right display server
+2021-02-07 16:45:26	Arnavion	Last I checked, either ibus or sway didn't support the relevant wayland IME protocol anyway
+2021-02-07 16:47:09	<--	piledog (~piledog@240e:368:9f8f:bf00:52eb:71ff:fe56:8f4c) has quit (Ping timeout: 272 seconds)
+2021-02-07 16:48:06	Borley	I have no particular loyalty to ibus, maybe fcitx can work
+2021-02-07 16:48:26	Arnavion	Yes, fcitx works fine, albeit via toolkit env vars rather than any compositor integration
+2021-02-07 16:49:17	Arnavion	ie set GTK_IM_MODULE and QT_IM_MODULE env vars before starting sway
+2021-02-07 16:55:26	-->	andril (~andril@2601:586:8400:5e9:c196:c330:25ab:47a5) has joined #sway
+2021-02-07 17:09:25	<--	columbarius (~columbari@i5E86B3E7.versanet.de) has quit (Ping timeout: 240 seconds)
+2021-02-07 17:11:45	-->	columbarius (~columbari@mue-88-130-54-108.dsl.tropolys.de) has joined #sway
+2021-02-07 17:17:05	<--	alexherbo2 (~alexherbo@aorleans-653-1-20-133.w90-21.abo.wanadoo.fr) has quit (Ping timeout: 240 seconds)
+2021-02-07 17:38:10	-->	kupi (uid212005@gateway/web/irccloud.com/x-cjjlareohuvypkwe) has joined #sway
+2021-02-07 17:38:52	-->	piledog (~piledog@240e:368:9f8f:bf00:52eb:71ff:fe56:8f4c) has joined #sway
+2021-02-07 17:39:04	<--	nifker (~Thunderbi@200116b80ad77b0062de6682455f613e.dip.versatel-1u1.de) has quit (Quit: nifker)
+2021-02-07 17:42:02	-->	nickybob (~nicholasc@097-094-106-033.biz.spectrum.com) has joined #sway
+2021-02-07 17:42:02	--	Topic for #sway is "sway - #sway-devel - http://swaywm.org/ - RTFM - Stick around a while, your question might not be answered immediately - Do not paste logs here, use a pastebin like https://gist.github.com"
+2021-02-07 17:42:02	--	Topic set by SirCmpwn (znc@irc.sircmpwn.com) on Tue, 15 Aug 2017 14:41:40
+2021-02-07 17:42:02	--	Channel #sway: 456 nicks (1 op, 0 voices, 455 normals)
+2021-02-07 17:42:03	--	Channel created on Mon, 10 Aug 2015 05:41:23
+2021-02-07 17:42:28	<--	mathilde1 (~mathilde@188-67-189-21.bb.dnainternet.fi) has quit (Ping timeout: 260 seconds)
+2021-02-07 17:47:47	-->	inkbottle (~inkbottle@aaubervilliers-654-1-112-148.w86-198.abo.wanadoo.fr) has joined #sway
+2021-02-07 17:49:33	-->	epsilonKNOT (~aishat@c-73-215-141-174.hsd1.nj.comcast.net) has joined #sway
+2021-02-07 17:49:38	epsilonKNOT	o/
+2021-02-07 17:50:06	<--	midgard (~midgard@unaffiliated/m1dgard) has quit (Ping timeout: 246 seconds)
+2021-02-07 17:50:24	epsilonKNOT	i dunno if this is the place to ask for help about waybar but I dont think theres a waybar channel
+2021-02-07 17:51:24	epsilonKNOT	I'm currently having an issue where I'm getting the weird boxes in waybar when I visit youtube, with the error - (waybar:30259): Pango-WARNING **: 20:49:25.991: Invalid UTF-8 string passed to pango_layout_set_text()
+2021-02-07 17:51:33	<--	zebrag (~inkbottle@aaubervilliers-654-1-80-120.w86-212.abo.wanadoo.fr) has quit (Ping timeout: 264 seconds)
+2021-02-07 17:53:41	<--	piledog (~piledog@240e:368:9f8f:bf00:52eb:71ff:fe56:8f4c) has quit (Quit: WeeChat 3.0)
+2021-02-07 17:56:03	<--	andril (~andril@2601:586:8400:5e9:c196:c330:25ab:47a5) has quit (Quit: WeeChat 3.0)
+2021-02-07 17:57:05	-->	midgard (~midgard@unaffiliated/m1dgard) has joined #sway
+2021-02-07 17:57:46	fluix	sounds like something to do with non-ascii characters in the video title
+2021-02-07 17:58:12	fluix	oh, you mention "weird boxes", those are emojis that your font doesn't have glyphs for
+2021-02-07 17:58:44	<--	thomasg (~thomasg@gstaedtner.net) has quit (Ping timeout: 240 seconds)
+2021-02-07 18:00:43	-->	thomasg (~thomasg@gstaedtner.net) has joined #sway
+2021-02-07 18:01:16	epsilonKNOT	but I can see all emojis though
+2021-02-07 18:01:40	epsilonKNOT	or maybe... let me try again
+2021-02-07 18:04:19	<--	bennofs__ (~quassel@dslb-094-222-059-121.094.222.pools.vodafone-ip.de) has quit (Quit: No Ping reply in 180 seconds.)
+2021-02-07 18:05:48	-->	bennofs_ (~quassel@dslb-094-222-059-121.094.222.pools.vodafone-ip.de) has joined #sway
+2021-02-07 18:09:01	<--	zeden (~user@138-0-172-135.justwebtelecom.com.br) has quit (Quit: WeeChat 3.0)
+2021-02-07 18:23:48	wgwz	is it possible to try out sway on manjaro?
+2021-02-07 18:26:14	Arnavion	epsilonKNOT: fluix: If there's a pango warning about invalid utf-8 then those boxes are the replacement character glyph, not something a font will solve
+2021-02-07 18:26:50	epsilonKNOT	O-O
+2021-02-07 18:27:24	epsilonKNOT	Arnavion: i only vaguely heard about this, could you dumb it down plz?
+2021-02-07 18:29:27	Arnavion	waybar thinks the window title is utf-8. Firefox apparently begs to differ
+2021-02-07 18:29:47	epsilonKNOT	Ah
+2021-02-07 18:29:57	epsilonKNOT	ok, this is not good then
+2021-02-07 18:30:25	Arnavion	I assume sway just passes it through as an opaque char* rather than interpreting it or transforming the encoding in any way, but I don't know
+2021-02-07 18:31:06	Arnavion	Looking at what `swaymsg -t get_tree` says might give a clue, though even that introduces more moving parts into the process (JSON serializer) so who knows
+2021-02-07 18:31:40	epsilonKNOT	this is on wayfire, but the bug itself sounds like either a firefox or windows bug
+2021-02-07 18:31:46	epsilonKNOT	s/windows/waybar/
+2021-02-07 18:40:02	-->	midgard_ (~midgard@unaffiliated/m1dgard) has joined #sway
+2021-02-07 18:41:16	<--	midgard (~midgard@unaffiliated/m1dgard) has quit (Ping timeout: 240 seconds)
+2021-02-07 18:51:37	<--	aeroevan (~evan@pool-71-114-66-157.washdc.fios.verizon.net) has quit (Quit: ZNC 1.8.2 - https://znc.in)
+2021-02-07 18:55:39	-->	simbioz (~simbioz@unaffiliated/simbioz) has joined #sway
+2021-02-07 18:57:46	-->	aeroevan (~evan@pool-71-114-66-157.washdc.fios.verizon.net) has joined #sway
+2021-02-07 19:06:46	<--	js3z (~js3z@209.6.236.64) has quit (Ping timeout: 265 seconds)

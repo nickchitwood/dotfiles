@@ -4,6 +4,7 @@
 - clean: ['~']
 
 - link:
+    ~/.weechat:
     ~/.zshrc:
     ~/.zprofile:
     ~/.aliases:

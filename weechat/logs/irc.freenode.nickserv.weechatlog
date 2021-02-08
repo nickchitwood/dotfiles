@@ -1,0 +1,79 @@
+2021-02-07 16:00:35	nicholaschitwood	HELP REGISTER
+2021-02-07 16:00:35	--	NickServ: ***** NickServ Help *****
+2021-02-07 16:00:35	--	NickServ: Help for REGISTER:
+2021-02-07 16:00:35	--	NickServ:  
+2021-02-07 16:00:35	--	NickServ: This will register your current nickname with NickServ.
+2021-02-07 16:00:35	--	NickServ: This will allow you to assert some form of identity on
+2021-02-07 16:00:35	--	NickServ: the network and to be added to access lists. Furthermore,
+2021-02-07 16:00:35	--	NickServ: NickServ will warn users using your nick without
+2021-02-07 16:00:35	--	NickServ: identifying and allow you to kill ghosts.
+2021-02-07 16:00:35	--	NickServ: The password is a case-sensitive password that you make
+2021-02-07 16:00:35	--	NickServ: up. Please write down or memorize your password! You
+2021-02-07 16:00:35	--	NickServ: will need it later to change settings.
+2021-02-07 16:00:35	--	NickServ:  
+2021-02-07 16:00:35	--	NickServ: You have to confirm the email address. To do this,
+2021-02-07 16:00:35	--	NickServ: follow the instructions in the message sent to the email
+2021-02-07 16:00:35	--	NickServ: address.
+2021-02-07 16:00:35	--	NickServ:  
+2021-02-07 16:00:35	--	NickServ: Syntax: REGISTER <password> <email-address>
+2021-02-07 16:00:35	--	NickServ:  
+2021-02-07 16:00:35	--	NickServ: Examples:
+2021-02-07 16:00:35	--	NickServ:     /msg NickServ REGISTER bar foo@bar.com
+2021-02-07 16:00:35	--	NickServ: ***** End of Help *****
+2021-02-07 16:04:39	nickybob	HELP REGISTER
+2021-02-07 16:04:39	--	NickServ: ***** NickServ Help *****
+2021-02-07 16:04:39	--	NickServ: Help for REGISTER:
+2021-02-07 16:04:39	--	NickServ:  
+2021-02-07 16:04:39	--	NickServ: This will register your current nickname with NickServ.
+2021-02-07 16:04:39	--	NickServ: This will allow you to assert some form of identity on
+2021-02-07 16:04:39	--	NickServ: the network and to be added to access lists. Furthermore,
+2021-02-07 16:04:39	--	NickServ: NickServ will warn users using your nick without
+2021-02-07 16:04:39	--	NickServ: identifying and allow you to kill ghosts.
+2021-02-07 16:04:39	--	NickServ: The password is a case-sensitive password that you make
+2021-02-07 16:04:39	--	NickServ: up. Please write down or memorize your password! You
+2021-02-07 16:04:39	--	NickServ: will need it later to change settings.
+2021-02-07 16:04:39	--	NickServ:  
+2021-02-07 16:04:39	--	NickServ: You have to confirm the email address. To do this,
+2021-02-07 16:04:39	--	NickServ: follow the instructions in the message sent to the email
+2021-02-07 16:04:39	--	NickServ: address.
+2021-02-07 16:04:39	--	NickServ:  
+2021-02-07 16:04:39	--	NickServ: Syntax: REGISTER <password> <email-address>
+2021-02-07 16:04:39	--	NickServ:  
+2021-02-07 16:04:39	--	NickServ: Examples:
+2021-02-07 16:04:39	--	NickServ:     /msg NickServ REGISTER bar foo@bar.com
+2021-02-07 16:04:39	--	NickServ: ***** End of Help *****
+2021-02-07 16:07:15	nickybob	REGISTER astral-lesk-outcome-jettison nicholaschitwood@gmail.com
+2021-02-07 16:07:15	--	NickServ: An email containing nickname activation instructions has been sent to nicholaschitwood@gmail.com.
+2021-02-07 16:07:16	--	NickServ: If you do not complete registration within one day, your nickname will expire.
+2021-02-07 16:07:16	--	NickServ: nickybob is now registered to nicholaschitwood@gmail.com, with the password astral-lesk-outcome-jettison.
+2021-02-07 16:07:16	--	NickServ:  
+2021-02-07 16:07:16	--	NickServ: For frequently-asked questions about the network, please see the
+2021-02-07 16:07:16	--	NickServ: Knowledge Base page (https://freenode.net/kb/all). Should you need more
+2021-02-07 16:07:16	--	NickServ: help you can /join #freenode to find network staff.
+2021-02-07 16:07:47	nickybob	VERIFY REGISTER nickybob cqniacdaiebq
+2021-02-07 16:07:47	--	NickServ: nickybob has now been verified.
+2021-02-07 16:07:47	--	NickServ: Thank you for verifying your e-mail address! You have taken steps in ensuring that your registrations are not exploited.
+2021-02-07 16:10:05	--	irc: disconnected from server
+2021-02-07 16:27:36	nickybob	HELP IDENTIFY
+2021-02-07 16:27:36	--	NickServ: ***** NickServ Help *****
+2021-02-07 16:27:36	--	NickServ: Help for IDENTIFY:
+2021-02-07 16:27:36	--	NickServ:  
+2021-02-07 16:27:36	--	NickServ: IDENTIFY identifies you with services so that you
+2021-02-07 16:27:36	--	NickServ: can perform general maintenance and commands that
+2021-02-07 16:27:36	--	NickServ: require you to be logged in.
+2021-02-07 16:27:36	--	NickServ:  
+2021-02-07 16:27:36	--	NickServ: Syntax: IDENTIFY <password>
+2021-02-07 16:27:36	--	NickServ:  
+2021-02-07 16:27:36	--	NickServ: You can also identify for another nick than you
+2021-02-07 16:27:37	--	NickServ: are currently using.
+2021-02-07 16:27:37	--	NickServ:  
+2021-02-07 16:27:37	--	NickServ: Syntax: IDENTIFY <nick> <password>
+2021-02-07 16:27:37	--	NickServ:  
+2021-02-07 16:27:37	--	NickServ: Example:
+2021-02-07 16:27:37	--	NickServ:     /msg NickServ IDENTIFY foo
+2021-02-07 16:27:37	--	NickServ:     /msg NickServ IDENTIFY jilles foo
+2021-02-07 16:27:37	--	NickServ: ***** End of Help *****
+2021-02-07 16:29:32	nickybob	IDENTIFY dump-toady-elector-novelize
+2021-02-07 16:29:32	--	NickServ: You are now identified for nickybob.
+2021-02-07 16:29:50	nickybob	GROUP
+2021-02-07 16:29:50	--	NickServ: Nick nickybob is already registered to your account.

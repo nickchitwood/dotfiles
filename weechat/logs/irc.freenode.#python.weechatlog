@@ -1,0 +1,400 @@
+2021-02-07 16:43:04	-->	nickybob (~nicholasc@097-094-106-033.biz.spectrum.com) has joined #python
+2021-02-07 16:43:04	--	Topic for #python is "Anything about Python is on-topic. Don't paste, use https://bpaste.net/+python | Be nice. The Python CoC applies: https://j.mp/psf-coc | Tutorial: https://j.mp/MCAhYx | New programmer? https://j.mp/23X7emF | Ops are at #python-ops | #python-fr #python.de #python-uk #python-es #python.tw #python-br #python-nl #python-ir #python.it #python-ro #python-india #python-hu"
+2021-02-07 16:43:04	--	Topic set by nedbat (~nedbat@python/psf/nedbat) on Wed, 19 Aug 2020 13:18:59
+2021-02-07 16:43:04	--	Channel #python: 1779 nicks (0 ops, 0 voices, 1779 normals)
+2021-02-07 16:43:05	<--	woorn (worn@gateway/vpn/privateinternetaccess/worn) has quit (Ping timeout: 240 seconds)
+2021-02-07 16:43:05	--	Channel created on Sat, 25 Nov 2006 22:42:41
+2021-02-07 16:43:13	cyphase	you're converting to an int and back to a str; why is that?
+2021-02-07 16:43:15	<--	forgottenone (~forgotten@176.42.26.20) has quit (Quit: Konversation terminated!)
+2021-02-07 16:43:25	-->	FiveMagics (~FiveMagic@modemcable169.166-130-66.mc.videotron.ca) has joined #python
+2021-02-07 16:43:45	<--	Hunterkll (~hunterkll@2001:470:8b06:400:215:5dff:fefb:c04) has quit (Read error: Connection reset by peer)
+2021-02-07 16:44:07	-->	woorn (worn@gateway/vpn/privateinternetaccess/worn) has joined #python
+2021-02-07 16:44:31	-->	royal_screwup21 (52254809@gateway/web/cgi-irc/kiwiirc.com/ip.82.37.72.9) has joined #python
+2021-02-07 16:45:04	<--	pytorch (~pytorch@c-69-254-208-5.hsd1.fl.comcast.net) has quit (Quit: Leaving.)
+2021-02-07 16:45:07	-->	Blukunfando (~bkf@62.57.153.77.dyn.user.ono.com) has joined #python
+2021-02-07 16:45:09	vimart	cyphase:oh well, nahe taking input as integer because will want make sure user input Numbers, but converting to STR because will be printing elements ending with 4 so I will use if endswith()
+2021-02-07 16:46:20	-->	ClaymorePT (~Claymore@188.251.155.208) has joined #python
+2021-02-07 16:46:27	cyphase	vimart, if the user enters something not convertable to an int, it will raise an error. i would not be getting input like that in a comprehension, and instead make a loop where you're doing error checking
+2021-02-07 16:46:32	<--	ClaymorePT (~Claymore@188.251.155.208) has quit (Client Quit)
+2021-02-07 16:46:54	<--	wornt (worn@gateway/vpn/privateinternetaccess/worn) has quit (Ping timeout: 246 seconds)
+2021-02-07 16:46:58	-->	pytorch (~pytorch@c-69-254-208-5.hsd1.fl.comcast.net) has joined #python
+2021-02-07 16:47:09	<--	jbiggins1 (~Thunderbi@2600:1700:5a04:2c90:1dd7:f55d:f0e9:4343) has quit (Remote host closed the connection)
+2021-02-07 16:48:40	<--	PantelicGR (~PantelicG@unaffiliated/pantelicgr) has quit (Quit: Leaving)
+2021-02-07 16:48:41	cyphase	also, as an aside, don't convert ints to strs like that; instead of `i.__str__()`, use `str(i)`, or perhaps `f"{i}"`
+2021-02-07 16:49:25	<--	royal_screwup21 (52254809@gateway/web/cgi-irc/kiwiirc.com/ip.82.37.72.9) has quit (Ping timeout: 240 seconds)
+2021-02-07 16:49:46	<--	pytorch (~pytorch@c-69-254-208-5.hsd1.fl.comcast.net) has quit (Client Quit)
+2021-02-07 16:49:47	vimart	cyphase: Why you do not recommend it? I just discovered it now and works
+2021-02-07 16:49:53	cyphase	vimart, also, to check the last N digits of an int, you can do `i % 10**N == 4`
+2021-02-07 16:50:55	-->	pytorch (~pytorch@c-69-254-208-5.hsd1.fl.comcast.net) has joined #python
+2021-02-07 16:51:26	<--	audiocat (~theology@unaffiliated/theology) has quit (Remote host closed the connection)
+2021-02-07 16:51:37	<--	moldorcoder7 (~moldorcod@206.166.251.59) has quit (Ping timeout: 256 seconds)
+2021-02-07 16:51:49	-->	audiocat (~theology@unaffiliated/theology) has joined #python
+2021-02-07 16:52:00	<--	ikus060 (~ikus060@173-246-15-25.qc.cable.ebox.net) has quit (Quit: Leaving)
+2021-02-07 16:52:18	cyphase	vimart, why not `x.__str__()`? because that's an implementation detail; `str(x)` does more than just call `x.__str__()`. also `x.__str__()` is ugly :)
+2021-02-07 16:53:07	<--	pytorch (~pytorch@c-69-254-208-5.hsd1.fl.comcast.net) has quit (Client Quit)
+2021-02-07 16:53:18	-->	moldorcoder7 (~moldorcod@206.166.251.59) has joined #python
+2021-02-07 16:53:22	<--	zumba_addict (~zumba_add@108-197-162-97.lightspeed.cicril.sbcglobal.net) has quit (Ping timeout: 265 seconds)
+2021-02-07 16:53:49	vimart	str(x) ? all call str(i) you mean? sorry confused cyphase
+2021-02-07 16:54:07	<--	ranran8888 (4fb216cb@gateway/web/cgi-irc/kiwiirc.com/ip.79.178.22.203) has quit (Quit: Connection closed)
+2021-02-07 16:56:14	-->	rpkilby (~rpkilby@c-24-20-208-106.hsd1.or.comcast.net) has joined #python
+2021-02-07 16:56:26	<--	antonymcgreen (~Thunderbi@95.72.106.40) has quit (Quit: antonymcgreen)
+2021-02-07 16:56:29	vimart	cyphase: done it like that as you suggested: print([(i) for i in x if str(i) =='4'])
+2021-02-07 16:56:37	-->	ClaymorePT (~Claymore@188.251.155.208) has joined #python
+2021-02-07 16:56:59	-->	ybonatakis (~b10n1k@88.103.235.216) has joined #python
+2021-02-07 16:57:05	<--	schumaml (~schumaml@dslb-188-105-198-035.188.105.pools.vodafone-ip.de) has quit (Ping timeout: 240 seconds)
+2021-02-07 16:57:33	-->	dodobrain (~dodobrain@unaffiliated/freakabcd) has joined #python
+2021-02-07 16:58:36	-->	Wulf4 (~Wulf@unaffiliated/wulf) has joined #python
+2021-02-07 16:58:43	vimart	This part "i % 10**N == 4"  I need to study
+2021-02-07 16:59:03	-->	axscode (~axscode@49.147.87.173) has joined #python
+2021-02-07 16:59:09	ssbr	cyphase: it does only *slightly* more than call x.__str__()
+2021-02-07 16:59:38	ssbr	(I think the only difference is some checks on input type, return type, and where it sets the recursive repr barrier)
+2021-02-07 17:00:22	purplex88	im confused.. are methods in class, class attribute or instance attribute?
+2021-02-07 17:00:33	<--	iob (~b10n1k@88.103.227.101) has quit (Ping timeout: 264 seconds)
+2021-02-07 17:00:38	ssbr	purplex88: class attributes
+2021-02-07 17:00:56	purplex88	here it says instance attribute https://docs.python.org/3/tutorial/classes.html#instance-objects
+2021-02-07 17:01:21	purplex88	"A method is a function that “belongs to” an object." ?
+2021-02-07 17:01:30	ssbr	purplex88: it's using nonstandard terminology, or lying-to-children.
+2021-02-07 17:01:34	-->	Muimi (~ReedK0@unaffiliated/reedk0) has joined #python
+2021-02-07 17:01:48	<--	Wulf (~Wulf@unaffiliated/wulf) has quit (Ping timeout: 256 seconds)
+2021-02-07 17:01:49	--	Wulf4 is now known as Wulf
+2021-02-07 17:02:02	altendky	on a class they are a function and on an instance they are a bound method?
+2021-02-07 17:02:19	<--	NorthwestVegan (~Northwest@gateway/tor-sasl/northwestvegan) has quit (Remote host closed the connection)
+2021-02-07 17:02:42	<--	TulaZula (TulaZula@gateway/vpn/privateinternetaccess/tulazula) has quit (Quit: Leaving)
+2021-02-07 17:02:43	purplex88	i don't like it.. its supposed to be clear ..
+2021-02-07 17:02:43	<--	tiin57 (~tiin57@ec2-3-94-63-186.compute-1.amazonaws.com) has quit (Read error: Connection reset by peer)
+2021-02-07 17:02:57	ssbr	purplex88: attribute lookup semantics are the single most complex part of the python language, imo.
+2021-02-07 17:03:05	purplex88	"The other kind of instance attribute reference is a method"
+2021-02-07 17:03:27	ssbr	methods don't look up instance attributes at all, is the problem.
+2021-02-07 17:03:36	ssbr	it's a descriptor access for a class attribute
+2021-02-07 17:04:05	<--	axscode (~axscode@49.147.87.173) has quit (Ping timeout: 240 seconds)
+2021-02-07 17:04:09	purplex88	sounds complicated
+2021-02-07 17:04:09	<--	BataLoopPak (~bataloopp@unaffiliated/lucas-/x-9790181) has quit (Ping timeout: 264 seconds)
+2021-02-07 17:04:10	vimart	Nahe I don't get that `i % 10**N == 4`, How does it check if  i ends with 4? cyphase
+2021-02-07 17:04:27	purplex88	descriptor access is?
+2021-02-07 17:04:35	ssbr	purplex88: complex
+2021-02-07 17:04:40	-->	onosendi (~onosendi@ip68-109-176-91.ph.ph.cox.net) has joined #python
+2021-02-07 17:04:41	vimart	I know those operators only as modulus and exponation
+2021-02-07 17:05:00	purplex88	im not even reading these confusing docs
+2021-02-07 17:05:09	-->	zumba_addict (~zumba_add@108-197-162-97.lightspeed.cicril.sbcglobal.net) has joined #python
+2021-02-07 17:05:24	ssbr	vimart: well, it would for N == 1, right?
+2021-02-07 17:06:02	-->	tiin57 (~tiin57@ec2-3-94-63-186.compute-1.amazonaws.com) has joined #python
+2021-02-07 17:06:59	ssbr	vimart: it is modulus, but you have to think about what a decimal representation is: 3210 is 3 * 10**3 + 2 * 10**2 + 1 * 10**1 + 0 * 10**0 -- if you divide by ten, then the remainder will be the last digit, as that's the only part not divisible by 10. modulus recovers the remainder.
+2021-02-07 17:07:40	ssbr	vimart: x % 10**N in general will recover the last N digits, since those will be the remainder from dividing by 10**N
+2021-02-07 17:08:05	<--	ClaymorePT (~Claymore@188.251.155.208) has quit (Ping timeout: 240 seconds)
+2021-02-07 17:08:22	<--	rpkilby (~rpkilby@c-24-20-208-106.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2021-02-07 17:08:56	<--	onosendi (~onosendi@ip68-109-176-91.ph.ph.cox.net) has quit (Ping timeout: 240 seconds)
+2021-02-07 17:09:09	ssbr	purplex88: fwiw https://docs.python.org/3/reference/datamodel.html is the canonical reference
+2021-02-07 17:09:11	-->	NorthwestVegan (~Northwest@gateway/tor-sasl/northwestvegan) has joined #python
+2021-02-07 17:09:41	ssbr	ctrl+f for "Class instances" explains how attribute lookup works in a fairly straightforward way
+2021-02-07 17:10:07	<--	ganjajim (~anon@bras-base-mtrlpq2848w-grc-40-70-55-209-2.dsl.bell.ca) has quit (Remote host closed the connection)
+2021-02-07 17:10:18	-->	rpkilby (~rpkilby@c-24-20-208-106.hsd1.or.comcast.net) has joined #python
+2021-02-07 17:11:05	<--	elwood (~elwood@host-92-17-166-109.as13285.net) has quit (Ping timeout: 240 seconds)
+2021-02-07 17:11:25	vimart	Well I feel stupid because don't know what to put for N, always sucked in math
+2021-02-07 17:12:11	vimart	so I need to stay with converting to string
+2021-02-07 17:12:20	ssbr	purplex88: the tutorial is basically wrong in that there are two types of attribute lookup on instances, but they aren't "data attributes" vs "methods", but more like "instance attributes" vs "class attributes" and "descriptors". (Then there's a third thing, dynamic attributes via __getattr__ etc.)
+2021-02-07 17:12:29	<--	VlanX (~sysadmin@151.49.129.107) has quit (Quit: Konversation terminated!)
+2021-02-07 17:12:54	ssbr	purplex88: AFAIK nobody says "data attributes", and mostly use the word "instance attribute" to say what the tutorial means by "data attribute"
+2021-02-07 17:13:00	<--	frrs (uid130725@gateway/web/irccloud.com/x-lqhkvpaylihruacz) has quit (Quit: Connection closed for inactivity)
+2021-02-07 17:13:14	ssbr	methods are just one of many types of descriptor -- a dynamically generated attribute that is looked up on the class object
+2021-02-07 17:13:27	ssbr	(two other common ones: classmethod, property)
+2021-02-07 17:13:50	altendky	ssbr: so i thought that bound methods got bound on instantiation, not access.  i'm trying to reconcile that with the functions on the classes being turned into descriptors?
+2021-02-07 17:14:08	ssbr	altendky: they're bound on instantiation of the bound-method, which happens lazily when accessed
+2021-02-07 17:14:42	vimart	I can simply use ([i for i in x if i % 10== 4])
+2021-02-07 17:14:45	ssbr	altendky: easy test: >>> x = ""; x.isalpha is x.isalpha
+2021-02-07 17:14:45	ssbr	False
+2021-02-07 17:14:45	altendky	ssbr: so as long as you reassign the method on the class before accessing it on the instance you can still change it?  even after creating the instance of the class?
+2021-02-07 17:14:51	<--	rpkilby (~rpkilby@c-24-20-208-106.hsd1.or.comcast.net) has quit (Ping timeout: 256 seconds)
+2021-02-07 17:14:56	ssbr	altendky: yes
+2021-02-07 17:15:09	ssbr	altendky: also, *after* accessing it on the instance, as long as you don't save the generated bound method
+2021-02-07 17:15:20	<--	jimmyegg (~jimmyegg@pool-72-94-145-43.phlapa.fios.verizon.net) has quit (Remote host closed the connection)
+2021-02-07 17:15:22	purplex88	too much terminology lol just to use a python class.. i guess i'll just think of it as "class attributes"
+2021-02-07 17:16:02	<--	predmijat (~predmijat@mail.strogopro.com) has quit (Quit: bye)
+2021-02-07 17:16:10	purplex88	better yet, just "methods"
+2021-02-07 17:16:18	ssbr	purplex88: the only difference between methods and other class attributes are that they get wrapped to automagically pass `self`
+2021-02-07 17:16:29	ssbr	but yes, otherwise, lookup is identical in all respects -- just the wrapping bit is special.
+2021-02-07 17:16:34	<--	ybonatakis (~b10n1k@88.103.235.216) has quit (Ping timeout: 265 seconds)
+2021-02-07 17:17:28	-->	predmijat (~predmijat@mail.strogopro.com) has joined #python
+2021-02-07 17:18:17	purplex88	when you said "methods" is it instance attribute?
+2021-02-07 17:18:32	ssbr	purplex88: methods only exist on the class
+2021-02-07 17:18:42	ssbr	they are *accessible* from the instance, but looked up on the class. Does that make sense?
+2021-02-07 17:19:20	purplex88	yes
+2021-02-07 17:19:30	<--	F-i-G (~blargh@76-198-158-124.lightspeed.tukrga.sbcglobal.net) has quit (Quit: Leaving.)
+2021-02-07 17:19:43	purplex88	what are instance methods.. just to clear
+2021-02-07 17:19:56	purplex88	those with ___ ?
+2021-02-07 17:20:15	ssbr	purplex88: `methods that take self (the instance) as their first parameter; as opposed to "static methods" and "class methods"`
+2021-02-07 17:20:49	-->	ybonatakis (~b10n1k@88.103.227.101) has joined #python
+2021-02-07 17:20:53	ssbr	(class methods take the class (cls) as their first parameter; static methods have no magically-passed parameters)
+2021-02-07 17:20:55	<--	locrian9 (~mike@cpe-104-173-20-162.socal.res.rr.com) has quit (Quit: leaving)
+2021-02-07 17:21:23	purplex88	now its more clear.
+2021-02-07 17:22:08	-->	F-i-G (~blargh@76-198-158-124.lightspeed.tukrga.sbcglobal.net) has joined #python
+2021-02-07 17:22:46	-->	BataLoopPak (~bataloopp@unaffiliated/lucas-/x-9790181) has joined #python
+2021-02-07 17:23:07	purplex88	def f(self ..): is instance attribute, and def f(cls, ..) is class attribute and def f() is static attribute
+2021-02-07 17:23:43	purplex88	i was asking about def f(self ..) method so instance attribute
+2021-02-07 17:25:28	-->	yates (~user@fv-nc-f7af8b91e1-234237-1.tingfiber.com) has joined #python
+2021-02-07 17:25:47	-->	|oLa| (~|_oLa_|@2a00:23c7:d601:b500:5160:5db7:2890:28ec) has joined #python
+2021-02-07 17:25:50	ssbr	purplex88: no, none of them are instance attributes
+2021-02-07 17:26:18	ssbr	purplex88: and whether a method is an instance method, class method, or static method is not strictly about the parameters
+2021-02-07 17:26:38	ssbr	purplex88: you don't declare a classmethod by changing `self` to `cls`, but by adding a @classmethod decorator -- the name of the first parameter is just idiom, not syntactic
+2021-02-07 17:26:38	yates	why am i getting  requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://pypi.org/simple/python-pydev/   when i pip3 install pythone-pydev?
+2021-02-07 17:26:58	<--	aleph- (~aleph@lobsters/Auditor/Church-) has quit (Quit: WeeChat info:version)
+2021-02-07 17:26:59	ssbr	purplex88: "instance method" != "method that is an instance attribute" -- all methods are class attributes.
+2021-02-07 17:27:09	yates	this page shows 404 when i stick it into my browser: https://pypi.org/simple/python-pydev​​​​​​​
+2021-02-07 17:27:36	purplex88	ssbr: what is example of instance method?
+2021-02-07 17:27:56	greatgatsby	ssbr, functions can be attributes:  https://docs.python.org/3/tutorial/classes.html#class-objects
+2021-02-07 17:28:02	purplex88	ok nvm im confused enough
+2021-02-07 17:28:16	yates	any ideas?
+2021-02-07 17:28:23	ssbr	greatgatsby: not sure what you're correcting
+2021-02-07 17:28:33	ssbr	purplex88: "def foo(self): return 3"
+2021-02-07 17:28:36	altendky	yates: yep, is there a reason it should exist?
+2021-02-07 17:29:03	altendky	yates: https://pypi.org/search/?q=python-pydev there doesn't appear to be a python-pydev distribution package on pypi
+2021-02-07 17:29:08	yates	altendky: on my ubuntu system the app solaar requires it
+2021-02-07 17:29:11	greatgatsby	"none of those are instance attributes".   How is a def f(self, ...) not an instance attributue?
+2021-02-07 17:29:17	ssbr	purplex88: a function with no decorators is going to be an instance method unless something weird is going on.
+2021-02-07 17:29:18	-->	mekhami (~lawrencev@2605:a601:ab0a:bb00:3c66:67ed:7b37:c63a) has joined #python
+2021-02-07 17:29:21	purplex88	instance method does mean instance attribute?
+2021-02-07 17:29:22	altendky	yates: then get it from ubuntu
+2021-02-07 17:29:27	altendky	yates: don't run your system pip
+2021-02-07 17:29:33	ssbr	greatgatsby: it is a class attribute-- instance attributes are the things in the instance __dict__.
+2021-02-07 17:29:43	ssbr	greatgatsby: it is accessible from the instance, yes, but all class attributes are.
+2021-02-07 17:29:49	greatgatsby	although, personally, I distinguish between attributes holding state, and methods as function, whether or not that's technically correct
+2021-02-07 17:29:52	yates	altendky: apt search python-pydev turns up nothing.
+2021-02-07 17:29:53	altendky	yates: or share more context about the whole activity
+2021-02-07 17:30:06	ssbr	purplex88: no, it doesn't.
+2021-02-07 17:30:14	greatgatsby	ssbr, ok, I see what you're saying, thanks
+2021-02-07 17:30:15	ssbr	or at least, that's really unusual terminology.
+2021-02-07 17:30:19	altendky	yates: as in, what have you done, what have you tried that might have confused things, what exact output are you getting when running what command
+2021-02-07 17:30:25	<--	devJet (~devJet@unaffiliated/devjet) has quit (Ping timeout: 240 seconds)
+2021-02-07 17:30:29	-->	alloysious (b9f0f44c@185.240.244.76) has joined #python
+2021-02-07 17:30:38	purplex88	i thought 'attributes' refer to both 'methods' and 'variables'
+2021-02-07 17:30:44	yates	1) apt install solaar
+2021-02-07 17:30:53	yates	2) run solaar-cli
+2021-02-07 17:30:58	ssbr	purplex88: "attribute" means "anything after a .", yes. There's more than just methods and variables in that bunch!
+2021-02-07 17:30:59	-->	royal_screwup21 (52254809@gateway/web/cgi-irc/kiwiirc.com/ip.82.37.72.9) has joined #python
+2021-02-07 17:31:13	greatgatsby	this page is quite confusing:  https://docs.python.org/3/tutorial/classes.html#instance-objects
+2021-02-07 17:31:17	ssbr	(the use of the word "variable" in this sense is not standard Python terminolgoy either)
+2021-02-07 17:31:18	altendky	yates: since you used apt to install solaar, then either that package is broken or you have done some other stuff to break the system.
+2021-02-07 17:31:25	ssbr	greatgatsby: i view it as simply wrong. I've never seen some of those terms anywhere else.
+2021-02-07 17:31:25	altendky	yates: but, continue
+2021-02-07 17:31:30	greatgatsby	The other kind of instance attribute reference is a method. A method is a function that “belongs to” an object.
+2021-02-07 17:31:33	ssbr	(never seen "data attribute")
+2021-02-07 17:31:45	yates	3) 3) got this: https://paste.centos.org/view/3b5a8a47
+2021-02-07 17:31:52	ssbr	("data descriptor", yes, but not data attribute)
+2021-02-07 17:31:58	alloysious	Hi all - is this the right place to ask about problems with unittest decorators?
+2021-02-07 17:32:06	greatgatsby	so from that page, it's calling x.f() on an instantiated class an instance attribute <shrug>
+2021-02-07 17:32:08	yates	oh oh oh !
+2021-02-07 17:32:11	yates	pyudev
+2021-02-07 17:32:12	ssbr	alloysious: sure
+2021-02-07 17:32:13	cyphase	python-pyUdev
+2021-02-07 17:32:14	yates	not pydev
+2021-02-07 17:32:36	ssbr	greatgatsby: that page is not canonical though, https://docs.python.org/3/reference/datamodel.html is
+2021-02-07 17:32:45	<--	tiin57 (~tiin57@ec2-3-94-63-186.compute-1.amazonaws.com) has quit (Read error: Connection reset by peer)
+2021-02-07 17:32:57	-->	pytorch (~pytorch@c-69-254-208-5.hsd1.fl.comcast.net) has joined #python
+2021-02-07 17:33:00	purplex88	i'll just think of them as class attributes
+2021-02-07 17:33:05	ssbr	greatgatsby: and https://docs.python.org/3/reference/datamodel.html uses "instance attribute" to refer to "attributes which belong to the object" (are stored in __dict__ or via slots)
+2021-02-07 17:33:08	purplex88	for now
+2021-02-07 17:34:20	ssbr	purplex88: all methods (instance methods, class methods, static methods) are class attributes, with (in the case of instance and class methods) some magic that happens on lookup. so that understanding is correct.
+2021-02-07 17:34:51	<--	LiftLeft3 (googolplex@gateway/vpn/privateinternetaccess/googolplexking) has quit (Ping timeout: 246 seconds)
+2021-02-07 17:35:11	<--	arecaceae (root@gateway/vpn/privateinternetaccess/arecaceae) has quit (Remote host closed the connection)
+2021-02-07 17:35:11	-->	nuclearg1 (~nucleargr@c-73-150-253-137.hsd1.nj.comcast.net) has joined #python
+2021-02-07 17:35:22	alloysious	I'm trying to use a decorator to patch `builtins.open` with `mock_open` and be able to address the mock (as an argument to the test `mock_open`) , but I get `missing 1 required positional argument: mock_open`
+2021-02-07 17:35:25	<--	zumba_addict (~zumba_add@108-197-162-97.lightspeed.cicril.sbcglobal.net) has quit (Ping timeout: 265 seconds)
+2021-02-07 17:35:35	<--	gitesh (uid423739@gateway/web/irccloud.com/x-ijxlmvgeixhetxuu) has quit (Quit: Connection closed for inactivity)
+2021-02-07 17:35:45	<--	royal_screwup21 (52254809@gateway/web/cgi-irc/kiwiirc.com/ip.82.37.72.9) has quit (Ping timeout: 240 seconds)
+2021-02-07 17:35:52	-->	arecaceae (root@gateway/vpn/privateinternetaccess/arecaceae) has joined #python
+2021-02-07 17:36:29	-->	tiin57 (~tiin57@ec2-3-94-63-186.compute-1.amazonaws.com) has joined #python
+2021-02-07 17:36:55	<--	ijens (~ijens@unaffiliated/ijens) has quit (Remote host closed the connection)
+2021-02-07 17:37:00	-->	lolidunno (~lolidunno@FL1-119-242-26-37.tky.mesh.ad.jp) has joined #python
+2021-02-07 17:37:01	<--	Macuser (~Macuser@unaffiliated/macuser) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2021-02-07 17:37:05	yates	altendky: apt install python-pyudev gives this: https://paste.centos.org/view/ed2d7128
+2021-02-07 17:37:20	purplex88	an instance method is a class attribute, yeah thats what didn't seem to fit well
+2021-02-07 17:37:52	altendky	yates: apt installs dependencies itself.  do you run your system pip?  you shouldn't.
+2021-02-07 17:38:22	-->	audiofreeze (~theology@unaffiliated/theology) has joined #python
+2021-02-07 17:38:25	ssbr	alloysious: can you show the code?
+2021-02-07 17:38:40	purplex88	intuitively, should be instance method is instance attribute because its method is attribute of instance
+2021-02-07 17:38:44	yates	altendky: well i have run it in the past.
+2021-02-07 17:38:44	ssbr	( in e.g. bpaste.net )
+2021-02-07 17:38:54	yates	so now what? reinstall?
+2021-02-07 17:39:01	ssbr	purplex88: all class attributes can be accessed from the instance
+2021-02-07 17:39:07	yates	:(
+2021-02-07 17:39:14	altendky	yates: i might try uninstalling solaar and whatever command wipes it and then install it again
+2021-02-07 17:39:17	-->	aleph- (~aleph@lobsters/Auditor/Church-) has joined #python
+2021-02-07 17:41:56	-->	nickybob (~nicholasc@097-094-106-033.biz.spectrum.com) has joined #python
+2021-02-07 17:41:56	--	Topic for #python is "Anything about Python is on-topic. Don't paste, use https://bpaste.net/+python | Be nice. The Python CoC applies: https://j.mp/psf-coc | Tutorial: https://j.mp/MCAhYx | New programmer? https://j.mp/23X7emF | Ops are at #python-ops | #python-fr #python.de #python-uk #python-es #python.tw #python-br #python-nl #python-ir #python.it #python-ro #python-india #python-hu"
+2021-02-07 17:41:56	--	Topic set by nedbat (~nedbat@python/psf/nedbat) on Wed, 19 Aug 2020 13:18:59
+2021-02-07 17:41:56	--	Channel #python: 1767 nicks (0 ops, 0 voices, 1767 normals)
+2021-02-07 17:41:57	<--	audiocat (~theology@unaffiliated/theology) has quit (Ping timeout: 260 seconds)
+2021-02-07 17:41:58	--	Channel created on Sat, 25 Nov 2006 22:42:41
+2021-02-07 17:42:02	altendky	yates: do that with solaar (cyphase they want solaar, python-pyudev is a side note)
+2021-02-07 17:42:18	purplex88	in that case it won't carry self so class method
+2021-02-07 17:42:18	cyphase	do it with both
+2021-02-07 17:42:22	<--	FiveMagics (~FiveMagic@modemcable169.166-130-66.mc.videotron.ca) has quit (Ping timeout: 272 seconds)
+2021-02-07 17:42:30	-->	Asmodean (~Asmoedean@178.115.129.35.wireless.dyn.drei.com) has joined #python
+2021-02-07 17:43:05	-->	cdown_ (~cdown@163.114.131.1) has joined #python
+2021-02-07 17:43:35	greatgatsby	yates, is solaar using the python you installed pyudev into?  Do you need python3-pyudev instead?
+2021-02-07 17:44:15	greatgatsby	at least on ubuntu 20.04, solaar seems to be python3
+2021-02-07 17:45:02	-->	sunny94 (~sunny93@103.149.248.67) has joined #python
+2021-02-07 17:45:21	<--	cdown (~cdown@89.32.122.5) has quit (Ping timeout: 246 seconds)
+2021-02-07 17:45:24	--	cdown_ is now known as cdown
+2021-02-07 17:45:57	<--	GrayArea (~cpd@cpc115156-dals23-2-0-cust689.20-2.cable.virginm.net) has quit (Ping timeout: 256 seconds)
+2021-02-07 17:46:19	-->	Raito_Bezarius (~Raito@unaffiliated/raito-bezarius/x-8764578) has joined #python
+2021-02-07 17:46:34	<--	bilb_ono (~alexmarsh@ip68-227-84-38.sb.sd.cox.net) has quit (Quit: bilb_ono)
+2021-02-07 17:47:18	-->	linuxhistory (linuxhisto@gateway/vpn/privateinternetaccess/linuxhistory) has joined #python
+2021-02-07 17:47:47	-->	inkbottle (~inkbottle@aaubervilliers-654-1-112-148.w86-198.abo.wanadoo.fr) has joined #python
+2021-02-07 17:48:22	-->	LiftLeft3 (googolplex@gateway/vpn/privateinternetaccess/googolplexking) has joined #python
+2021-02-07 17:49:46	<--	mekhami (~lawrencev@2605:a601:ab0a:bb00:3c66:67ed:7b37:c63a) has quit (Ping timeout: 258 seconds)
+2021-02-07 17:50:25	<--	beatleboy07 (~beatleboy@c-24-17-50-149.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2021-02-07 17:50:30	yates	ok, so i "apt remove python-pyudev" and that also removed solaar. then i apt install solaar" and that installed both solaar and python-pyudev. but it still doesn't work
+2021-02-07 17:50:40	-->	beatleboy07 (~beatleboy@c-24-17-50-149.hsd1.wa.comcast.net) has joined #python
+2021-02-07 17:50:44	yates	https://paste.centos.org/view/bc8b0664
+2021-02-07 17:50:44	-->	Macuser (~Macuser@unaffiliated/macuser) has joined #python
+2021-02-07 17:50:56	yates	cyphase: let me tryt your suggestion
+2021-02-07 17:51:33	<--	zebrag (~inkbottle@aaubervilliers-654-1-80-120.w86-212.abo.wanadoo.fr) has quit (Ping timeout: 264 seconds)
+2021-02-07 17:51:45	-->	glik22_ (~glik22@99-36-164-253.lightspeed.snjsca.sbcglobal.net) has joined #python
+2021-02-07 17:51:50	yates	no joy. same problem.
+2021-02-07 17:51:52	-->	audiocat (~theology@unaffiliated/theology) has joined #python
+2021-02-07 17:52:14	yates	...after running "apt install --reinstall solaar"
+2021-02-07 17:52:24	yates	going over to #ubuntu
+2021-02-07 17:52:51	alloysious	ssbr: https://bpa.st/IXE4Y
+2021-02-07 17:53:14	<--	efm (~efm@vpn.tummy.com) has quit (Remote host closed the connection)
+2021-02-07 17:53:37	<--	dviola (~diego@unaffiliated/dviola) has quit (Quit: WeeChat 3.0)
+2021-02-07 17:54:10	-->	korg815 (~korg815@unaffiliated/korg815) has joined #python
+2021-02-07 17:54:19	<--	nuclearg1 (~nucleargr@c-73-150-253-137.hsd1.nj.comcast.net) has quit (Quit: WeeChat 3.0)
+2021-02-07 17:54:48	-->	nuclearg1 (~nucleargr@c-73-150-253-137.hsd1.nj.comcast.net) has joined #python
+2021-02-07 17:54:58	-->	jbiggins (~Thunderbi@2600:1700:5a04:2c90:c4d2:fb97:bd0e:27c2) has joined #python
+2021-02-07 17:55:24	-->	dviola (~diego@unaffiliated/dviola) has joined #python
+2021-02-07 17:55:25	<--	Macuser (~Macuser@unaffiliated/macuser) has quit (Ping timeout: 240 seconds)
+2021-02-07 17:55:47	ssbr	alloysious: looks like patch.dict doesn't cause an extra argument to be passed in, so remove the mock dict param
+2021-02-07 17:55:53	ssbr	alloysious: see https://docs.python.org/3/library/unittest.mock.html#patch-dict
+2021-02-07 17:56:21	<--	aleph- (~aleph@lobsters/Auditor/Church-) has quit (Quit: WeeChat info:version)
+2021-02-07 17:56:33	<--	CheckYourSix (~quassel@unaffiliated/checkyoursix) has quit (Ping timeout: 260 seconds)
+2021-02-07 17:56:55	-->	amo_ (~amogorkon@port-92-196-123-235.dynamic.as20676.net) has joined #python
+2021-02-07 17:57:47	-->	aleph- (~aleph@lobsters/Auditor/Church-) has joined #python
+2021-02-07 17:57:56	alloysious	ssbr: gurgle. So it's not possible to modify a mock.dict used as a decorator?
+2021-02-07 17:58:03	-->	zumba_addict (~zumba_add@108-197-162-97.lightspeed.cicril.sbcglobal.net) has joined #python
+2021-02-07 17:58:05	<--	bitmask (~bitmask@c-73-215-237-27.hsd1.nj.comcast.net) has quit (Quit: Gone to sleep...)
+2021-02-07 17:59:43	-->	rpkilby (~rpkilby@c-24-20-208-106.hsd1.or.comcast.net) has joined #python
+2021-02-07 18:00:03	<--	amo (~amogorkon@port-92-196-60-33.dynamic.as20676.net) has quit (Ping timeout: 246 seconds)
+2021-02-07 18:00:05	<--	amogorkon (~amogorkon@port-92-196-60-33.dynamic.as20676.net) has quit (Ping timeout: 240 seconds)
+2021-02-07 18:00:13	alloysious	that seems... poorly thought out :(
+2021-02-07 18:00:27	-->	amogorkon (~amogorkon@port-92-196-123-235.dynamic.as20676.net) has joined #python
+2021-02-07 18:00:47	alloysious	(I confirm removing mock dict param passes)
+2021-02-07 18:00:49	ssbr	alloysious: you can do anything you want, just access the patched thing directly.
+2021-02-07 18:00:56	-->	xyt (~xyt@2601:643:8880:a0a0:e962:51aa:8fc2:7f5a) has joined #python
+2021-02-07 18:01:04	ssbr	the parameters were never actually adding anything except a little convenience AFAIK.
+2021-02-07 18:01:23	alloysious	ssbr: ah of course. thanks for your help!
+2021-02-07 18:01:44	ssbr	glad I could help!
+2021-02-07 18:02:09	<--	alloysious (b9f0f44c@185.240.244.76) has quit (Quit: Connection closed)
+2021-02-07 18:02:25	<--	}ls{ (~kalle@unaffiliated/ls/x-8089558) has quit (Ping timeout: 240 seconds)
+2021-02-07 18:02:45	<--	tiin57 (~tiin57@ec2-3-94-63-186.compute-1.amazonaws.com) has quit (Read error: Connection reset by peer)
+2021-02-07 18:03:10	<--	ali1234 (~ali1234@2a01:4f8:210:2026::2) has quit (Remote host closed the connection)
+2021-02-07 18:03:22	-->	ali1234 (~ali1234@2a01:4f8:210:2026::2) has joined #python
+2021-02-07 18:03:34	<--	vlm (~vlm@gateway/tor-sasl/vlm) has quit (Ping timeout: 268 seconds)
+2021-02-07 18:03:53	-->	devJet (~devJet@unaffiliated/devjet) has joined #python
+2021-02-07 18:04:09	-->	tiwula (~lane@174-23-37-152.slkc.qwest.net) has joined #python
+2021-02-07 18:04:42	<--	billybigrigger (~billybigr@S01069acd7061cf1c.cg.shawcable.net) has quit (Quit: The Lounge - https://thelounge.chat)
+2021-02-07 18:05:04	<--	xyt (~xyt@2601:643:8880:a0a0:e962:51aa:8fc2:7f5a) has quit (Ping timeout: 240 seconds)
+2021-02-07 18:05:47	-->	tiin57 (~tiin57@ec2-3-94-63-186.compute-1.amazonaws.com) has joined #python
+2021-02-07 18:07:09	-->	}ls{ (~kalle@unaffiliated/ls/x-8089558) has joined #python
+2021-02-07 18:07:36	<--	PJBoy (~PJBoy@unaffiliated/pjboy) has quit (Ping timeout: 240 seconds)
+2021-02-07 18:07:42	<--	N0Lif3 (~N0Lif3@unaffiliated/n0lif3) has quit (Ping timeout: 272 seconds)
+2021-02-07 18:07:45	<--	Tost (~tost@p4fe9318d.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2021-02-07 18:08:36	-->	rolo_ (~error@2a02:8108:8dc0:1cec:c88a:25c5:3a03:b83f) has joined #python
+2021-02-07 18:09:04	-->	CheckYourSix (~quassel@unaffiliated/checkyoursix) has joined #python
+2021-02-07 18:09:43	-->	billybigrigger (~billybigr@S01069acd7061cf1c.cg.shawcable.net) has joined #python
+2021-02-07 18:09:55	<--	}ls{ (~kalle@unaffiliated/ls/x-8089558) has quit (Client Quit)
+2021-02-07 18:10:00	-->	locrian9 (~mike@99-153-255-194.lightspeed.irvnca.sbcglobal.net) has joined #python
+2021-02-07 18:10:45	<--	finkata (~finkata@83.222.188.39) has quit (Read error: Connection reset by peer)
+2021-02-07 18:10:51	-->	jjmojojjmojo (~jj@097-102-202-235.res.spectrum.com) has joined #python
+2021-02-07 18:10:57	<--	devJet (~devJet@unaffiliated/devjet) has quit (Remote host closed the connection)
+2021-02-07 18:11:10	-->	finkata (~finkata@83.222.188.39) has joined #python
+2021-02-07 18:11:17	-->	devJet (~devJet@unaffiliated/devjet) has joined #python
+2021-02-07 18:11:58	-->	geowiesnot (~user@i15-les02-ix2-87-89-181-157.sfr.lns.abo.bbox.fr) has joined #python
+2021-02-07 18:12:10	<--	pytorch (~pytorch@c-69-254-208-5.hsd1.fl.comcast.net) has quit (Quit: Leaving.)
+2021-02-07 18:13:17	<--	rolo_ (~error@2a02:8108:8dc0:1cec:c88a:25c5:3a03:b83f) has quit (Ping timeout: 272 seconds)
+2021-02-07 18:15:33	-->	Velgor (~Velgor@HSI-KBW-046-005-099-181.hsi8.kabel-badenwuerttemberg.de) has joined #python
+2021-02-07 18:15:54	<--	korg815 (~korg815@unaffiliated/korg815) has quit (Quit: WeeChat 2.8)
+2021-02-07 18:16:57	-->	efm (~efm@vpn.tummy.com) has joined #python
+2021-02-07 18:17:25	<--	Velgor (~Velgor@HSI-KBW-046-005-099-181.hsi8.kabel-badenwuerttemberg.de) has quit (Client Quit)
+2021-02-07 18:17:44	-->	mekhami (~lawrencev@2605:a601:ab0a:bb00:3c66:67ed:7b37:c63a) has joined #python
+2021-02-07 18:17:46	<--	efm (~efm@vpn.tummy.com) has quit (Client Quit)
+2021-02-07 18:18:07	<--	SoulsForBelial (~SoulsForB@p200300f12f4d4f00821f02fffeaf6272.dip0.t-ipconnect.de) has quit (Ping timeout: 260 seconds)
+2021-02-07 18:18:49	-->	SoulsForBelial (~SoulsForB@p200300f12f4d4f00821f02fffeaf6272.dip0.t-ipconnect.de) has joined #python
+2021-02-07 18:19:21	-->	jellyknight (~gelignite@55d48788.access.ecotel.net) has joined #python
+2021-02-07 18:19:32	<--	aleph- (~aleph@lobsters/Auditor/Church-) has quit (Quit: WeeChat info:version)
+2021-02-07 18:19:48	-->	pytorch (~pytorch@c-69-254-208-5.hsd1.fl.comcast.net) has joined #python
+2021-02-07 18:20:14	-->	aleph- (~aleph@lobsters/Auditor/Church-) has joined #python
+2021-02-07 18:21:18	<--	audiofreeze (~theology@unaffiliated/theology) has quit (Remote host closed the connection)
+2021-02-07 18:21:36	-->	audiofreeze (~theology@unaffiliated/theology) has joined #python
+2021-02-07 18:21:36	<--	geowiesnot (~user@i15-les02-ix2-87-89-181-157.sfr.lns.abo.bbox.fr) has quit (Ping timeout: 240 seconds)
+2021-02-07 18:21:54	<--	bancroft (~bancroft@bras-base-mtrlpq3015w-grc-22-184-145-153-244.dsl.bell.ca) has quit (Remote host closed the connection)
+2021-02-07 18:22:19	<--	puff (~user@S0106d4ca6d80a83c.vs.shawcable.net) has quit (Read error: Connection reset by peer)
+2021-02-07 18:22:40	-->	puff (~user@S0106d4ca6d80a83c.vs.shawcable.net) has joined #python
+2021-02-07 18:22:45	-->	cow[moo] (~asanger@c-69-244-155-110.hsd1.mi.comcast.net) has joined #python
+2021-02-07 18:22:47	<--	mekhami (~lawrencev@2605:a601:ab0a:bb00:3c66:67ed:7b37:c63a) has quit (Ping timeout: 272 seconds)
+2021-02-07 18:22:56	<--	gelignite (~gelignite@55d4dd61.access.ecotel.net) has quit (Ping timeout: 240 seconds)
+2021-02-07 18:23:14	-->	bilb_ono (~alexmarsh@ip68-227-84-38.sb.sd.cox.net) has joined #python
+2021-02-07 18:23:15	<--	rpkilby (~rpkilby@c-24-20-208-106.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2021-02-07 18:23:45	<--	devJet (~devJet@unaffiliated/devjet) has quit (Ping timeout: 240 seconds)
+2021-02-07 18:25:14	<--	dckx[sw] (~quassel@unaffiliated/jpugarte1) has quit (Quit: https://quassel-irc.org - Chat comfortably. Anywhere.)
+2021-02-07 18:26:06	--	woorn is now known as wornt
+2021-02-07 18:26:56	-->	Codaraxis_ (~Codaraxis@ip68-5-90-227.oc.oc.cox.net) has joined #python
+2021-02-07 18:27:13	-->	devJet (~devJet@unaffiliated/devjet) has joined #python
+2021-02-07 18:29:19	-->	dtux (~dtux@107-131-127-0.lightspeed.sntcca.sbcglobal.net) has joined #python
+2021-02-07 18:29:52	<--	nomic (~nomic@2a00:23c6:9910:1201:ccb7:2f21:e920:8ab9) has quit (Remote host closed the connection)
+2021-02-07 18:30:03	<--	cow[moo] (~asanger@c-69-244-155-110.hsd1.mi.comcast.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2021-02-07 18:30:15	-->	nomic (~nomic@2a00:23c6:9910:1201:ccb7:2f21:e920:8ab9) has joined #python
+2021-02-07 18:30:26	-->	rpkilby (~rpkilby@c-24-20-208-106.hsd1.or.comcast.net) has joined #python
+2021-02-07 18:30:46	<--	Codaraxis (Codaraxis@gateway/vpn/mullvad/codaraxis) has quit (Ping timeout: 256 seconds)
+2021-02-07 18:31:51	<--	pytorch (~pytorch@c-69-254-208-5.hsd1.fl.comcast.net) has quit (Quit: Leaving.)
+2021-02-07 18:32:27	<--	raxor2k (~raxor2k@7.221.181.62.in-addr.dgcsystems.net) has quit (Remote host closed the connection)
+2021-02-07 18:32:42	<--	tiin57 (~tiin57@ec2-3-94-63-186.compute-1.amazonaws.com) has quit (Read error: Connection reset by peer)
+2021-02-07 18:33:53	<--	jbiggins (~Thunderbi@2600:1700:5a04:2c90:c4d2:fb97:bd0e:27c2) has quit (Ping timeout: 260 seconds)
+2021-02-07 18:34:25	<--	rpkilby (~rpkilby@c-24-20-208-106.hsd1.or.comcast.net) has quit (Ping timeout: 240 seconds)
+2021-02-07 18:34:25	<--	devJet (~devJet@unaffiliated/devjet) has quit (Ping timeout: 240 seconds)
+2021-02-07 18:34:50	<--	blackwidowmovie0 (uid471480@gateway/web/irccloud.com/x-gxnxpxifflcpjqit) has quit (Quit: Connection closed for inactivity)
+2021-02-07 18:36:26	-->	tiin57 (~tiin57@ec2-3-94-63-186.compute-1.amazonaws.com) has joined #python
+2021-02-07 18:36:50	<--	tm (~sinnlos@unaffiliated/tm) has quit (Ping timeout: 272 seconds)
+2021-02-07 18:37:05	<--	tiwula (~lane@174-23-37-152.slkc.qwest.net) has quit (Quit: Leaving)
+2021-02-07 18:37:34	-->	jbiggins1 (~Thunderbi@2600:1700:5a04:2c90:c4d2:fb97:bd0e:27c2) has joined #python
+2021-02-07 18:38:12	-->	Fiji (~Fiji@unaffiliated/fiji) has joined #python
+2021-02-07 18:39:32	<--	jbiggins1 (~Thunderbi@2600:1700:5a04:2c90:c4d2:fb97:bd0e:27c2) has quit (Client Quit)
+2021-02-07 18:40:21	-->	tm (~sinnlos@unaffiliated/tm) has joined #python
+2021-02-07 18:42:24	<--	finkata (~finkata@83.222.188.39) has quit (Read error: Connection reset by peer)
+2021-02-07 18:43:22	-->	finkata (~finkata@83.222.188.39) has joined #python
+2021-02-07 18:43:26	-->	UniquelyElite (~UniquelyE@207.148.176.53) has joined #python
+2021-02-07 18:43:38	UniquelyElite	In python, is it possible to check an image to see if the pixels match another image exactly? Or a library to do so
+2021-02-07 18:44:05	<--	vdamewood (~vdamewood@unaffiliated/vdamewood) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2021-02-07 18:45:03	-->	dongcarl8 (~dongcarl@unaffiliated/dongcarl) has joined #python
+2021-02-07 18:45:04	<--	jjmojojjmojo (~jj@097-102-202-235.res.spectrum.com) has quit (Ping timeout: 272 seconds)
+2021-02-07 18:45:12	nvz	typically if the pixels match the entire file is going to match unless someone has done some sort of steganography
+2021-02-07 18:45:33	UniquelyElite	ok, so say I take two screenshots one after the other, both would be the same?
+2021-02-07 18:45:49	nvz	if nothing has changed, sure
+2021-02-07 18:45:59	<--	dongcarl (~dongcarl@unaffiliated/dongcarl) has quit (Ping timeout: 265 seconds)
+2021-02-07 18:45:59	--	dongcarl8 is now known as dongcarl
+2021-02-07 18:46:25	nvz	geeqie/gqview has a nice duplicate/similarity tool
+2021-02-07 18:46:38	-->	korg815 (~korg815@unaffiliated/korg815) has joined #python
+2021-02-07 18:46:41	nvz	it can not only compare by checksum but by pixel data and with custom threshold
+2021-02-07 18:47:01	<--	k_sze (~k_sze@unaffiliated/kira) has left #python ("Leaving")
+2021-02-07 18:47:20	UniquelyElite	will check it out. Just need the script to have slight vision at one point of its execution, checking the image with what should be displayed seems the best option
+2021-02-07 18:48:16	UniquelyElite	thanks anyhow you guys
+2021-02-07 18:48:37	UniquelyElite	or people ig
+2021-02-07 18:48:51	<--	UniquelyElite (~UniquelyE@207.148.176.53) has quit (Quit: Leaving)
+2021-02-07 18:48:52	<--	ivan_ (~ivan18m@unaffiliated/ivan18m) has quit (Remote host closed the connection)
+2021-02-07 18:49:24	<--	beatleboy07 (~beatleboy@c-24-17-50-149.hsd1.wa.comcast.net) has quit (Read error: Connection reset by peer)
+2021-02-07 18:49:34	-->	beatleboy07 (~beatleboy@c-24-17-50-149.hsd1.wa.comcast.net) has joined #python
+2021-02-07 18:52:24	<--	urodna (~urodna@unaffiliated/urodna) has quit (Quit: urodna)
+2021-02-07 18:52:55	<--	drazan (~drazan@216.243.54.231) has quit (Remote host closed the connection)
+2021-02-07 18:53:59	-->	mekhami (~lawrencev@2605:a601:ab0a:bb00:3c66:67ed:7b37:c63a) has joined #python
+2021-02-07 18:54:48	audiofreeze	nvz, hey
+2021-02-07 18:56:07	-->	rpkilby (~rpkilby@c-24-20-208-106.hsd1.or.comcast.net) has joined #python
+2021-02-07 18:57:03	-->	abhixec (~abhixec@c-67-169-139-16.hsd1.ca.comcast.net) has joined #python
+2021-02-07 18:57:16	-->	drazan (~drazan@216.243.54.231) has joined #python
+2021-02-07 18:59:14	<--	finkata (~finkata@83.222.188.39) has quit (Read error: Connection reset by peer)
+2021-02-07 18:59:35	-->	finkata (~finkata@83.222.188.39) has joined #python
+2021-02-07 19:02:22	<--	g0d-byte (~g0d-byte@2001:b07:ae5:76d1:dfcf:6d24:6d09:4032) has quit (Quit: Leaving)
+2021-02-07 19:02:54	<--	tiin57 (~tiin57@ec2-3-94-63-186.compute-1.amazonaws.com) has quit (Read error: Connection reset by peer)
+2021-02-07 19:02:59	<--	dakudos (~dakudos@c-73-229-175-50.hsd1.co.comcast.net) has quit (Ping timeout: 258 seconds)
+2021-02-07 19:03:16	<--	wyclif (~wyclif@unaffiliated/wyclif) has quit (Ping timeout: 240 seconds)
+2021-02-07 19:04:08	<--	rpkilby (~rpkilby@c-24-20-208-106.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2021-02-07 19:05:15	-->	onosendi (~onosendi@ip68-109-176-91.ph.ph.cox.net) has joined #python
+2021-02-07 19:06:24	-->	tiin57 (~tiin57@ec2-3-94-63-186.compute-1.amazonaws.com) has joined #python
