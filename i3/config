@@ -62,7 +62,7 @@ bindsym $mod+Shift+backslash exec chromium --profile-directory="Profile 1"
 bindsym $mod+Shift+q kill
 
 # Contrain focused window
-floating_maximum_size 1500 x 1000
+floating_maximum_size 1200 x 800
 
 # start rofi (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -monitor -4 -combi-modi "drun#run" -show combi
@@ -233,6 +233,7 @@ for_window [class="Blueberry.py"] floating enable
 for_window [app_id="chromium" title="Save File"] floating enable
 for_window [app_id="zoom" title="Zoom Cloud Meetings"] floating enable
 for_window [app_id="zoom" title="Zoom - Licensed Account"] floating enable
+for_window [app_id="org.remmina.Remmina" title="Remmina Remote Desktop Client"] floating enable
 
 # Glances
 for_window [title="glances"] move container to workspace $ws9
