@@ -85,7 +85,7 @@ def install_missing(installed: List, database: List):
 
 def main():
     installed = get_installed()
-    database = load_data()
+    # database = load_data()
     # compare(installed, database)
     return
 
