@@ -235,3 +235,133 @@
 2021-02-07 19:04:42	-->	delusionallogic_ (~delusiona@jnsn.dev) has joined #archlinux
 2021-02-07 19:05:40	<--	sols (~sols@2402:8100:301b:e0bd:7812:9d81:4064:4a47) has quit (Ping timeout: 258 seconds)
 2021-02-07 19:06:46	<--	js3z (~js3z@209.6.236.64) has quit (Ping timeout: 265 seconds)
+2021-02-07 22:51:08	-->	nickybob (~nicholasc@097-094-106-033.biz.spectrum.com) has joined #archlinux
+2021-02-07 22:51:08	--	Topic for #archlinux is "Welcome to Arch Linux, Good Luck: https://archlinux.org | Rules: https://goo.gl/XWFreH | Pastebins: !paste | Down? https://status.archlinux.org"
+2021-02-07 22:51:08	--	Topic set by jelle (~weechat@archlinux/developer/jelle) on Mon, 12 Oct 2020 09:16:36
+2021-02-07 22:51:08	--	Channel #archlinux: 1754 nicks (1 op, 0 voices, 1753 normals)
+2021-02-07 22:51:10	--	Channel created on Sat, 14 Feb 2004 21:08:31
+2021-02-07 22:51:27	-->	szorfein (~daggoth@gateway/tor-sasl/szorfein) has joined #archlinux
+2021-02-07 22:51:28	-->	sord937 (~sord937@gateway/tor-sasl/sord937) has joined #archlinux
+2021-02-07 22:52:05	<--	polve (~polve@62-11-205-236.dialup.tiscali.it) has quit (Ping timeout: 240 seconds)
+2021-02-07 22:52:08	-->	dvx (~dvx@185.63.97.64) has joined #archlinux
+2021-02-07 22:54:29	<--	hamburgler (hamburgler@gateway/vpn/protonvpn/hamburgler) has quit (Quit: Leaving)
+2021-02-07 22:54:45	-->	hamburgler (hamburgler@gateway/vpn/protonvpn/hamburgler) has joined #archlinux
+2021-02-07 22:54:49	-->	polve (~polve@62-11-205-236.dialup.tiscali.it) has joined #archlinux
+2021-02-07 22:58:13	<--	tomato (t0mato@gateway/vpn/mullvad/tomato) has quit (Quit: Ping timeout (120 seconds))
+2021-02-07 22:58:55	<--	sols (~sols@2402:8100:3004:323a:b64b:45f8:c85a:2fac) has quit (Ping timeout: 272 seconds)
+2021-02-07 22:59:19	-->	stonian (~stonian@244-230-144-85.ftth.glasoperator.nl) has joined #archlinux
+2021-02-07 22:59:22	-->	djapo (~archie@unaffiliated/djapo) has joined #archlinux
+2021-02-07 22:59:52	<--	hamburgler (hamburgler@gateway/vpn/protonvpn/hamburgler) has quit (Remote host closed the connection)
+2021-02-07 23:00:10	-->	hamburgler (hamburgler@gateway/vpn/protonvpn/hamburgler) has joined #archlinux
+2021-02-07 23:00:27	-->	markopasha (~cc@88.230.165.132) has joined #archlinux
+2021-02-07 23:01:19	<--	DaRaZak8 (~thelounge@105.red-88-10-168.dynamicip.rima-tde.net) has quit (Quit: bb)
+2021-02-07 23:01:41	<--	parabolize (~paraboliz@c-76-25-97-149.hsd1.co.comcast.net) has quit (Quit: leaving)
+2021-02-07 23:02:21	<--	alexge50 (~alexge50@unaffiliated/alexge50) has quit (Ping timeout: 264 seconds)
+2021-02-07 23:03:32	<--	mittens (~agent_whi@unaffiliated/agent-white/x-6197888) has quit (Quit: brb)
+2021-02-07 23:06:01	<--	lord| (~solenodic@unaffiliated/solenodic) has quit (Ping timeout: 265 seconds)
+2021-02-07 23:07:43	<--	GWM (~GWM@unaffiliated/gwm) has quit (Read error: Connection reset by peer)
+2021-02-07 23:07:50	-->	mittens (~agent_whi@unaffiliated/agent-white/x-6197888) has joined #archlinux
+2021-02-07 23:07:55	-->	kovagoadi (~kovagoadi@87-97-86-60.pool.digikabel.hu) has joined #archlinux
+2021-02-07 23:08:11	-->	GWM (~GWM@unaffiliated/gwm) has joined #archlinux
+2021-02-07 23:09:24	-->	manti7 (~manti7@176.10.104.94) has joined #archlinux
+2021-02-07 23:09:34	<--	d0tn0t (sid113377@gateway/web/irccloud.com/x-cycfcugtvovuegfo) has quit (Ping timeout: 256 seconds)
+2021-02-07 23:09:52	-->	d0tn0t (sid113377@gateway/web/irccloud.com/x-khvnsjgzeorqzqtp) has joined #archlinux
+2021-02-07 23:09:58	<--	pez (~pez@unaffiliated/pez) has quit (Ping timeout: 276 seconds)
+2021-02-07 23:09:58	<--	fckr (~fckr@233.ip-158-69-223.net) has quit (Ping timeout: 276 seconds)
+2021-02-07 23:10:00	<--	Mathisen (~mathisen@about/windows/staff/Mathisen) has quit (Remote host closed the connection)
+2021-02-07 23:10:27	<--	dfch (~dfch@unaffiliated/dfch) has quit (Remote host closed the connection)
+2021-02-07 23:10:37	-->	sols (~sols@2402:8100:303d:bf29:ca3c:8329:4d6b:95c9) has joined #archlinux
+2021-02-07 23:10:38	-->	pez (~pez@unaffiliated/pez) has joined #archlinux
+2021-02-07 23:10:43	-->	tomato (t0mato@gateway/vpn/mullvad/tomato) has joined #archlinux
+2021-02-07 23:10:45	-->	dfch (~dfch@unaffiliated/dfch) has joined #archlinux
+2021-02-07 23:10:49	-->	fckr (~fckr@233.ip-158-69-223.net) has joined #archlinux
+2021-02-07 23:11:10	-->	DaRaZak8 (~thelounge@105.red-88-10-168.dynamicip.rima-tde.net) has joined #archlinux
+2021-02-07 23:11:42	<--	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Ping timeout: 272 seconds)
+2021-02-07 23:12:23	-->	Mathisen (~mathisen@about/windows/staff/Mathisen) has joined #archlinux
+2021-02-07 23:12:27	-->	tmsmr (~Thunderbi@pd9f763b6.dip0.t-ipconnect.de) has joined #archlinux
+2021-02-07 23:13:32	<--	wisbit (~reddit@94.106.241.58) has quit (Ping timeout: 256 seconds)
+2021-02-07 23:13:39	<--	matt-h (~matt-h@cpe-24-198-71-25.maine.res.rr.com) has quit (Ping timeout: 246 seconds)
+2021-02-07 23:14:04	-->	tmsmr1 (~Thunderbi@pd9f763b6.dip0.t-ipconnect.de) has joined #archlinux
+2021-02-07 23:14:21	<--	ncuxo (~ident@ip-109-42-115-149.web.vodafone.de) has quit (Quit: Konversation terminated!)
+2021-02-07 23:14:51	<--	markopasha (~cc@88.230.165.132) has quit (Quit: WeeChat 3.0)
+2021-02-07 23:14:58	stonian	anyone know if any arch distros are available for testing on the M1 chipset yet?
+2021-02-07 23:15:09	-->	markopasha (~cc@88.230.165.132) has joined #archlinux
+2021-02-07 23:15:17	-->	ncuxo (~ncuxo@x5271632f.dyn.telefonica.de) has joined #archlinux
+2021-02-07 23:15:39	<--	markopasha (~cc@88.230.165.132) has quit (Client Quit)
+2021-02-07 23:16:05	ayekat	stonian: #archlinux-arm may have some info on that - arch linux itself only supports x86_64
+2021-02-07 23:16:10	-->	markopasha (~cc@88.230.165.132) has joined #archlinux
+2021-02-07 23:16:18	stonian	thank you kindly sir
+2021-02-07 23:16:50	-->	wisbit (~reddit@94.106.241.58) has joined #archlinux
+2021-02-07 23:18:11	-->	gloomy_desktop (~ldorigo@81.161.149.37) has joined #archlinux
+2021-02-07 23:19:53	-->	akstrfn (~akstrfn@2a02:8108:9480:304c:2a9:7cbc:b273:f121) has joined #archlinux
+2021-02-07 23:20:44	-->	amahl (~amahl@87-95-128-122.bb.dnainternet.fi) has joined #archlinux
+2021-02-07 23:20:44	<--	jathan (~jathan@69.61.93.38) has quit (Quit: WeeChat 2.3)
+2021-02-07 23:21:29	-->	nicecoats (~nicecoats@h235.145.88.75.dynamic.ip.windstream.net) has joined #archlinux
+2021-02-07 23:22:40	-->	eoli3n (~eoli3n@pop.92-184-112-18.mobile.abo.orange.fr) has joined #archlinux
+2021-02-07 23:24:31	-->	Jackneill (~Jackneill@unaffiliated/jackneill) has joined #archlinux
+2021-02-07 23:27:32	-->	matt-h (~matt-h@cpe-24-198-71-25.maine.res.rr.com) has joined #archlinux
+2021-02-07 23:29:35	<--	arecaceae (root@gateway/vpn/privateinternetaccess/arecaceae) has quit (Remote host closed the connection)
+2021-02-07 23:30:01	-->	arecaceae (root@gateway/vpn/privateinternetaccess/arecaceae) has joined #archlinux
+2021-02-07 23:31:37	amahl	years ago I have only used old memtest86 that was preinstalled on some distro isos like ubuntu. today I discovered memtest86.com and that they have it all proprietary and the new free version can only do 4 passes
+2021-02-07 23:31:46	promach3	Why do I have syntax error for "pacman-key" command ?
+2021-02-07 23:31:50	 *	promach3 uploaded an image: image.png (167KiB) < https://matrix.org/_matrix/media/r0/download/matrix.org/tgqChdxusLwSGdLPqrWAiCMF/image.png >
+2021-02-07 23:32:01	-->	tsujp (a32f386b@163.47.56.107) has joined #archlinux
+2021-02-07 23:32:16	amahl	so what do you use for testing RAM these days? if you want free open source unrestricted software? 
+2021-02-07 23:32:28	<--	sols (~sols@2402:8100:303d:bf29:ca3c:8329:4d6b:95c9) has quit (Ping timeout: 258 seconds)
+2021-02-07 23:33:13	tsujp	so on macOS you can edit a file called `/etc/synthetic.conf` and get aliases to do stuff like say `/ User/tsujp/Desktop/howdy` which will link `howdy` to `/howdy`. On Linux is a symlink enough to do the same (root to a folder for a user). Of course permissions need to be considered too so I wonder
+2021-02-07 23:33:25	tsujp	I am trying to get `/customdirname` as a folder for my Syncthing mount
+2021-02-07 23:33:25	-->	argo (~argo@unaffiliated/argo) has joined #archlinux
+2021-02-07 23:33:35	sheep	promach3: what do you get from pacman -Qkk pacman-key ?
+2021-02-07 23:33:51	<--	dendazen (~dendazen@pool-96-242-127-31.nwrknj.fios.verizon.net) has quit (Remote host closed the connection)
+2021-02-07 23:35:55	aminvakil	amahl: https://www.memtest.org/ https://archlinux.org/packages/extra/any/memtest86+/
+2021-02-07 23:35:57	phrik	Title: Memtest86+ - Advanced Memory Diagnostic Tool (at www.memtest.org)
+2021-02-07 23:36:04	Foxboron	promach3: why are you using pacman from git?
+2021-02-07 23:36:16	Foxboron	promach3: pacman -Q pacman
+2021-02-07 23:36:33	aminvakil	amahl: have you seen this package?
+2021-02-07 23:37:40	aminvakil	also https://wiki.archlinux.org/index.php/Stress_testing#Stressing_memory
+2021-02-07 23:37:41	phrik	Title: Stress testing - ArchWiki (at wiki.archlinux.org)
+2021-02-07 23:39:26	-->	WhyNot-POR (~quassel@2a01:c23:7c9a:a600:df5c:9c47:ec98:3ba2) has joined #archlinux
+2021-02-07 23:40:21	-->	feriman (~feriman@188.163.113.127) has joined #archlinux
+2021-02-07 23:40:30	<--	JoshDreamland (~Josh@enigma/joshdreamland) has quit (Quit: Leaving.)
+2021-02-07 23:43:50	-->	mcquinn (~Thunderbi@p5482c4ce.dip0.t-ipconnect.de) has joined #archlinux
+2021-02-07 23:44:42	<--	mittens (~agent_whi@unaffiliated/agent-white/x-6197888) has quit (Quit: night)
+2021-02-07 23:45:04	-->	ygt (~ygt@217.131.83.245) has joined #archlinux
+2021-02-07 23:46:10	-->	Netleak (~root@vmi138365.contaboserver.net) has joined #archlinux
+2021-02-07 23:54:51	--	irc: disconnected from server
+2021-02-07 23:55:15	-->	nickybob (~nicholasc@097-094-106-033.biz.spectrum.com) has joined #archlinux
+2021-02-07 23:55:15	--	Topic for #archlinux is "Welcome to Arch Linux, Good Luck: https://archlinux.org | Rules: https://goo.gl/XWFreH | Pastebins: !paste | Down? https://status.archlinux.org"
+2021-02-07 23:55:15	--	Topic set by jelle (~weechat@archlinux/developer/jelle) on Mon, 12 Oct 2020 09:16:36
+2021-02-07 23:55:15	--	Channel #archlinux: 1769 nicks (1 op, 0 voices, 1768 normals)
+2021-02-07 23:55:15	--	Channel created on Sat, 14 Feb 2004 21:08:31
+2021-02-07 23:55:48	Foxboron	promach3: yes and why are you using that?
+2021-02-07 23:57:07	promach3	ok, I removed pacman-git
+2021-02-07 23:57:11	mpan	amahl: also memtester, though it requires OS running, so it can’t test all memory. The advantage is that you can do partial tests, still quite useful, without stopping the whole environment.
+2021-02-07 23:57:23	promach3	and did pacman-key --init   and  pacman-key --populate archlinux
+2021-02-07 23:57:33	promach3	Foxboron: but I still have key issue
+2021-02-07 23:57:35	promach3	why ?
+2021-02-07 23:57:52	promach3	I mean invalid PGP signature
+2021-02-07 23:58:32	Foxboron	promach3: the signature is invalid. Messing with the keyring is not needed. The packages can be fetched 404 pages and what not. So check the files in the cache and verify what you got
+2021-02-08 00:00:35	<--	SpinTronix_ (~SpinTroni@HSI-KBW-091-089-022-246.hsi2.kabelbw.de) has quit (Ping timeout: 256 seconds)
+2021-02-08 00:00:45	<--	sudoforge (~sudoforge@c-73-243-238-132.hsd1.co.comcast.net) has quit (Ping timeout: 240 seconds)
+2021-02-08 00:01:31	-->	sillyKitty (~sillyKitt@dyndsl-095-033-033-017.ewe-ip-backbone.de) has joined #archlinux
+2021-02-08 00:04:32	promach3	Foxboron: you mean remove the package inside the cache and redownload again  ?
+2021-02-08 00:04:40	Foxboron	promach3: try
+2021-02-08 00:06:03	<--	nob0dy (~nob0dy@23.82.14.25) has quit (Read error: Connection reset by peer)
+2021-02-08 00:06:13	<--	unluckyshrubbery (~unluckysh@unaffiliated/unluckyshrubbery) has quit (Quit: ZNC 1.8.2 - https://znc.in)
+2021-02-08 00:06:41	<--	mryandao_ (~mryandao@gateway/tor-sasl/mryandao) has quit (Remote host closed the connection)
+2021-02-08 00:07:03	<--	nicecoats (~nicecoats@h235.145.88.75.dynamic.ip.windstream.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2021-02-08 00:07:13	-->	mryandao (~mryandao@gateway/tor-sasl/mryandao) has joined #archlinux
+2021-02-08 00:07:33	-->	Rum (~Rum@unaffiliated/rum) has joined #archlinux
+2021-02-08 00:08:08	-->	dupondje (~dupondje@artemis.dupie.be) has joined #archlinux
+2021-02-08 00:08:14	<--	wpp (wpp@wpp.infrapunks.org) has quit (Quit: leaving)
+2021-02-08 00:09:45	-->	wpp (wpp@wpp.infrapunks.org) has joined #archlinux
+2021-02-08 00:10:33	-->	revoltingPeasant (~joe@unaffiliated/th3-g0d5) has joined #archlinux
+2021-02-08 00:10:51	-->	nob0dy (~nob0dy@23.82.14.25) has joined #archlinux
+2021-02-08 00:10:52	<--	mryandao (~mryandao@gateway/tor-sasl/mryandao) has quit (Remote host closed the connection)
+2021-02-08 00:10:58	-->	arsdragonfly (uid130196@gateway/web/irccloud.com/x-ursrycaeosrqcgjt) has joined #archlinux
+2021-02-08 00:11:09	-->	mryandao (~mryandao@gateway/tor-sasl/mryandao) has joined #archlinux
+2021-02-08 00:11:14	<--	wpp (wpp@wpp.infrapunks.org) has quit (Client Quit)
+2021-02-08 00:12:16	-->	lord| (~solenodic@unaffiliated/solenodic) has joined #archlinux
+2021-02-08 00:13:35	-->	wpp (wpp@wpp.infrapunks.org) has joined #archlinux
+2021-02-08 00:13:43	-->	b1aDe (~B1aDe@2001:16b8:2e56:3200:c727:ed69:9e62:3bf) has joined #archlinux
+2021-02-08 06:29:04	--	irc: disconnected from server

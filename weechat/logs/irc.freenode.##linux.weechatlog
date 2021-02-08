@@ -1,0 +1,27 @@
+2021-02-08 00:08:46	-->	nickybob (~nicholasc@097-094-106-033.biz.spectrum.com) has joined ##linux
+2021-02-08 00:08:46	--	Topic for ##linux is "https://freenode.linux.community and please read the rules at https://freenode.linux.community/channel-rules/ -- Pastebin: "<command> | nc termbin.com 9999" (please don't use pastebin.com) -- Need an op? Join ##linux-ops"
+2021-02-08 00:08:46	--	Topic set by jim on Sun, 06 Sep 2020 19:19:47
+2021-02-08 00:08:46	--	Channel ##linux: 1791 nicks (0 ops, 0 voices, 1791 normals)
+2021-02-08 00:08:46	--	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/.
+2021-02-08 00:08:46	--	URL for ##linux: https://freenode.linux.community
+2021-02-08 00:08:46	-->	DevAntoine (~DevAntoin@78.196.234.32) has joined ##linux
+2021-02-08 00:08:47	--	Channel created on Fri, 09 Feb 2001 15:16:24
+2021-02-08 00:09:06	sunny93	Can I omit -n because I don't understand -n ..?
+2021-02-08 00:09:38	kerframil	in this case, probably.
+2021-02-08 00:10:50	<--	gnufr33dom (~gnufr33do@2600:8801:130e:c600::fd8a) has quit (Ping timeout: 264 seconds)
+2021-02-08 00:10:51	-->	nob0dy (~nob0dy@23.82.14.25) has joined ##linux
+2021-02-08 00:12:05	sauvin	I'm thinking maybe there was something wrong with Oriental colour vision.
+2021-02-08 00:12:16	-->	lord| (~solenodic@unaffiliated/solenodic) has joined ##linux
+2021-02-08 00:12:22	sunny93	But the OP can just use ssh user@target "cd /some/directory; program-to-execute", without the & and even if he closes the session, the process will still be running on the remote machine.
+2021-02-08 00:12:38	<--	czwolf (~Cz@2607:5300:60:1176::1) has quit (Ping timeout: 264 seconds)
+2021-02-08 00:12:45	-->	NetTerminalGene (~Thunderbi@unaffiliated/dontknow) has joined ##linux
+2021-02-08 00:13:29	-->	Petrushka (~devcon@deathstar.devconproductions.org) has joined ##linux
+2021-02-08 00:13:35	sauvin	A command doesn't terminate immediately when the login shell it was launched from goes poof?
+2021-02-08 00:13:43	-->	b1aDe (~B1aDe@2001:16b8:2e56:3200:c727:ed69:9e62:3bf) has joined ##linux
+2021-02-08 00:13:59	sunny93	No, it won't stop.
+2021-02-08 00:14:15	sunny93	Check my question: https://stackoverflow.com/questions/66095277/how-does-running-ssh-with-a-command-string-work-behind-the-scene
+2021-02-08 00:14:30	 *	sauvin reads
+2021-02-08 00:14:34	-->	czwolf (~Cz@2607:5300:60:1176::1) has joined ##linux
+2021-02-08 00:14:50	<--	Ringtailed-Fox (~User@unaffiliated/ringtailedfox) has quit (Read error: Connection reset by peer)
+2021-02-08 00:15:04	nvz	sauvin: there is a concept of orphaned processes being adopted by init
+2021-02-08 06:29:04	--	irc: disconnected from server

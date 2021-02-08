@@ -59,3 +59,36 @@
 2021-02-07 18:55:39	-->	simbioz (~simbioz@unaffiliated/simbioz) has joined #sway
 2021-02-07 18:57:46	-->	aeroevan (~evan@pool-71-114-66-157.washdc.fios.verizon.net) has joined #sway
 2021-02-07 19:06:46	<--	js3z (~js3z@209.6.236.64) has quit (Ping timeout: 265 seconds)
+2021-02-07 22:51:35	-->	nickybob (~nicholasc@097-094-106-033.biz.spectrum.com) has joined #sway
+2021-02-07 22:51:35	--	Topic for #sway is "sway - #sway-devel - http://swaywm.org/ - RTFM - Stick around a while, your question might not be answered immediately - Do not paste logs here, use a pastebin like https://gist.github.com"
+2021-02-07 22:51:35	--	Topic set by SirCmpwn (znc@irc.sircmpwn.com) on Tue, 15 Aug 2017 14:41:40
+2021-02-07 22:51:35	--	Channel #sway: 449 nicks (1 op, 0 voices, 448 normals)
+2021-02-07 22:51:37	--	Channel created on Mon, 10 Aug 2015 05:41:23
+2021-02-07 22:54:03	-->	simba1 (~simba@2001:a61:11c9:501:8e70:5aff:fe94:1034) has joined #sway
+2021-02-07 22:54:38	-->	cole-h (~cole-h@c-73-48-197-220.hsd1.ca.comcast.net) has joined #sway
+2021-02-07 23:05:39	<--	cole-h (~cole-h@c-73-48-197-220.hsd1.ca.comcast.net) has quit (Quit: Goodbye)
+2021-02-07 23:07:35	-->	cole-h (~cole-h@c-73-48-197-220.hsd1.ca.comcast.net) has joined #sway
+2021-02-07 23:21:12	-->	metalune (5ab7a39178@2a00:c70:1:178:170:40:189:1) has joined #sway
+2021-02-07 23:25:27	-->	siceloa (sicelomatr@gateway/shell/matrix.org/x-fsxmkrrqdurzswla) has joined #sway
+2021-02-07 23:26:33	siceloa	Hi, nice fix for https://github.com/swaywm/sway/issues/5991  I'll find time to try it soon
+2021-02-07 23:28:05	siceloa	One question though - seems the fix is specifically in swaynag. So I am not sure if it fixes swaybar. 
+2021-02-07 23:29:26	<--	simba1 (~simba@2001:a61:11c9:501:8e70:5aff:fe94:1034) has quit (Ping timeout: 264 seconds)
+2021-02-07 23:44:11	-->	gspe (~gspe@94-36-112-192.adsl-ull.clienti.tiscali.it) has joined #sway
+2021-02-07 23:54:51	--	irc: disconnected from server
+2021-02-07 23:55:15	-->	nickybob (~nicholasc@097-094-106-033.biz.spectrum.com) has joined #sway
+2021-02-07 23:55:15	--	Topic for #sway is "sway - #sway-devel - http://swaywm.org/ - RTFM - Stick around a while, your question might not be answered immediately - Do not paste logs here, use a pastebin like https://gist.github.com"
+2021-02-07 23:55:15	--	Topic set by SirCmpwn (znc@irc.sircmpwn.com) on Tue, 15 Aug 2017 14:41:40
+2021-02-07 23:55:15	--	Channel #sway: 453 nicks (1 op, 0 voices, 452 normals)
+2021-02-07 23:55:19	--	Channel created on Mon, 10 Aug 2015 05:41:23
+2021-02-07 23:55:25	Arnavion	siceloa: Yes, swaybar has virtual identical code and exactly the same omission - it only uses surface_{x,y} in the motion callback, not the enter callback. So it needs the same fix
+2021-02-07 23:56:35	<--	gspe (~gspe@94-36-112-192.adsl-ull.clienti.tiscali.it) has quit (Quit: gspe)
+2021-02-07 23:56:56	-->	gspe (~gspe@94-36-112-192.adsl-ull.clienti.tiscali.it) has joined #sway
+2021-02-07 23:58:07	siceloa	Yes, so I guess I must reopen the issue and mention swaybar again :-/
+2021-02-08 00:04:27	<--	metalune (5ab7a39178@2a00:c70:1:178:170:40:189:1) has left #sway ("Disconnected: closed")
+2021-02-08 00:04:28	-->	metalune (5ab7a39178@2a00:c70:1:178:170:40:189:1) has joined #sway
+2021-02-08 00:07:40	aplund	fluix: sway 1.5.1, wlr 0.12.0
+2021-02-08 00:07:45	<--	clktmr (~clktmr@dslb-188-097-086-206.188.097.pools.vodafone-ip.de) has quit (Ping timeout: 264 seconds)
+2021-02-08 00:11:10	-->	clktmr (~clktmr@dslb-088-069-042-045.088.069.pools.vodafone-ip.de) has joined #sway
+2021-02-08 00:11:18	aplund	it's probably a firefox bug.  The child process in wl-paste get blocked at a read() in a pipe to firefox
+2021-02-08 00:14:36	-->	mcoquelin (~mcoquelin@219-230-83-45.ftth.cust.kwaoo.net) has joined #sway
+2021-02-08 06:29:04	--	irc: disconnected from server

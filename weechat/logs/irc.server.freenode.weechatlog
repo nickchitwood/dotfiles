@@ -632,3 +632,200 @@
 2021-02-07 17:50:15	--	[Hoolean] End of /WHOIS list.
 2021-02-07 17:53:34	--	p :0 staff members
 2021-02-07 17:53:34	--	p :End of /STATS report
+2021-02-07 22:50:49	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2021-02-07 22:50:51	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2021-02-07 22:50:51	--	gnutls: receiving 2 certificates
+2021-02-07 22:50:51	--	 - certificate[1] info:
+2021-02-07 22:50:51	--	   - subject `CN=card.freenode.net', issuer `CN=R3,O=Let's Encrypt,C=US', serial 0x03032b92fa80b713489a422d961becbf9683, RSA key 4096 bits, signed using RSA-SHA256, activated `2020-12-21 05:48:33 UTC', expires `2021-03-21 05:48:33 UTC', pin-sha256="kK+ut4A5qoGqyxfORm/2KPeU2VoCvz5WGDdesWNtNVY="
+2021-02-07 22:50:51	--	 - certificate[2] info:
+2021-02-07 22:50:51	--	   - subject `CN=R3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x400175048314a4c8218c84a90c16cddf, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-07 19:21:40 UTC', expires `2021-09-29 19:21:40 UTC', pin-sha256="jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0="
+2021-02-07 22:50:51	--	gnutls: peer's certificate is trusted
+2021-02-07 22:50:51	--	irc: connected to chat.freenode.net/6697 (38.229.70.22)
+2021-02-07 22:50:52	--	card.freenode.net: *** Looking up your hostname...
+2021-02-07 22:50:52	--	card.freenode.net: *** Checking Ident
+2021-02-07 22:50:52	--	card.freenode.net: *** Found your hostname
+2021-02-07 22:50:57	--	card.freenode.net: *** No Ident response
+2021-02-07 22:50:57	--	irc: client capability, server supports: extended-join tls multi-prefix identify-msg account-notify chghost sasl cap-notify away-notify
+2021-02-07 22:50:57	--	irc: client capability, requesting: sasl
+2021-02-07 22:50:57	--	irc: client capability, enabled: sasl
+2021-02-07 22:50:58	--	You are now logged in as nickybob. (nickybob!nicholasch@097-094-106-033.biz.spectrum.com)
+2021-02-07 22:50:58	--	SASL authentication successful
+2021-02-07 22:50:59	--	Welcome to the freenode Internet Relay Chat Network nickybob
+2021-02-07 22:50:59	--	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.9
+2021-02-07 22:50:59	--	This server was created Sun Jul 12 2020 at 20:44:33 UTC
+2021-02-07 22:50:59	--	card.freenode.net ircd-seven-1.1.9 DOQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-02-07 22:50:59	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2021-02-07 22:50:59	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2021-02-07 22:50:59	--	MONITOR=100 WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+2021-02-07 22:50:59	--	There are 99 users and 86104 invisible on 34 servers
+2021-02-07 22:50:59	--	41 :IRC Operators online
+2021-02-07 22:50:59	--	39 :unknown connection(s)
+2021-02-07 22:50:59	--	45310 :channels formed
+2021-02-07 22:50:59	--	I have 4210 clients and 1 servers
+2021-02-07 22:50:59	--	4210 4761 :Current local users 4210, max 4761
+2021-02-07 22:50:59	--	86203 87998 :Current global users 86203, max 87998
+2021-02-07 22:50:59	--	Highest connection count: 4762 (4761 clients) (1691913 connections received)
+2021-02-07 22:50:59	--	- card.freenode.net Message of the Day -
+2021-02-07 22:50:59	--	-
+2021-02-07 22:50:59	--	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2021-02-07 22:50:59	--	- Team Cymru (http://www.team-cymru.org).
+2021-02-07 22:50:59	--	-
+2021-02-07 22:50:59	--	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+2021-02-07 22:50:59	--	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+2021-02-07 22:50:59	--	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+2021-02-07 22:50:59	--	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+2021-02-07 22:50:59	--	- cultural background. The first author to win the Hugo and Nebula novel awards
+2021-02-07 22:50:59	--	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+2021-02-07 22:50:59	--	-
+2021-02-07 22:50:59	--	-
+2021-02-07 22:50:59	--	- Welcome to freenode - supporting the free and open source
+2021-02-07 22:50:59	--	- software communities since 1998.
+2021-02-07 22:50:59	--	-
+2021-02-07 22:50:59	--	- By connecting to freenode you indicate that you have read and
+2021-02-07 22:50:59	--	- accept our policies and guidelines as set out on https://freenode.net
+2021-02-07 22:50:59	--	-
+2021-02-07 22:50:59	--	- In the event that you observe behaviour that contravenes our policies,
+2021-02-07 22:50:59	--	- please notify a volunteer staff member via private message, or send us an
+2021-02-07 22:50:59	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2021-02-07 22:50:59	--	- situation within a reasonable period of time, and we may request further
+2021-02-07 22:50:59	--	- information or, as appropriate, involve other parties such as channel operators
+2021-02-07 22:50:59	--	- Group Contacts representing an on-topic group.
+2021-02-07 22:50:59	--	-
+2021-02-07 22:50:59	--	- freenode runs an open proxy scanner.
+2021-02-07 22:50:59	--	-
+2021-02-07 22:50:59	--	- If you are looking for assistance, you may be able to find a list of
+2021-02-07 22:50:59	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining
+2021-02-07 22:50:59	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2021-02-07 22:50:59	--	- any of us at any time. Please note that freenode predominantly provides
+2021-02-07 22:50:59	--	- assistance via private message, and while we have a network channel the
+2021-02-07 22:50:59	--	- primary venue for support requests is via private message to a member
+2021-02-07 22:50:59	--	- of the volunteer staff team.
+2021-02-07 22:50:59	--	-
+2021-02-07 22:50:59	--	- From time to time, volunteer staff may send server-wide notices relating to
+2021-02-07 22:50:59	--	- the project, or the communities that we host. The majority of such notices
+2021-02-07 22:50:59	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2021-02-07 22:50:59	--	- do not miss them. Important messages relating to the freenode project, including
+2021-02-07 22:50:59	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2021-02-07 22:50:59	--	- global notices.
+2021-02-07 22:50:59	--	-
+2021-02-07 22:50:59	--	- Representing an on-topic project? Don't forget to register, more information
+2021-02-07 22:50:59	--	- can be found on the https://freenode.net website under "Group Registration".
+2021-02-07 22:50:59	--	-
+2021-02-07 22:50:59	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2021-02-07 22:50:59	--	- network going for close to two decades.
+2021-02-07 22:50:59	--	-
+2021-02-07 22:50:59	--	- Thank you for using freenode!
+2021-02-07 22:50:59	--	End of /MOTD command.
+2021-02-07 22:50:59	--	User mode [+Zi] by nickybob
+2021-02-07 22:50:59	--	freenode-connect (frigg@freenode/utility-bot/frigg): Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2021-02-07 22:50:59	--	CTCP requested by freenode-connect: VERSION
+2021-02-07 22:50:59	--	CTCP reply to freenode-connect: VERSION WeeChat 3.0 (Dec 20 2020 22:17:57)
+2021-02-07 22:51:17	--	archlinux-offtopic: No such channel
+2021-02-07 23:54:51	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2021-02-07 23:54:51	--	irc: disconnecting from server...
+2021-02-07 23:54:51	--	irc: disconnected from server
+2021-02-07 23:54:51	--	irc: reconnecting to server in 10 seconds
+2021-02-07 23:55:01	--	irc: reconnecting to server...
+2021-02-07 23:55:01	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2021-02-07 23:55:02	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2021-02-07 23:55:02	--	gnutls: receiving 2 certificates
+2021-02-07 23:55:02	--	 - certificate[1] info:
+2021-02-07 23:55:02	--	   - subject `CN=barjavel.freenode.net', issuer `CN=R3,O=Let's Encrypt,C=US', serial 0x0308b42e56c088bc92ade12b0b3232ced553, RSA key 4096 bits, signed using RSA-SHA256, activated `2021-01-18 05:10:24 UTC', expires `2021-04-18 05:10:24 UTC', pin-sha256="bFnj58vIMRePUHKVVm66438zdgYX5r9/Y4qVLKLiLbI="
+2021-02-07 23:55:02	--	 - certificate[2] info:
+2021-02-07 23:55:02	--	   - subject `CN=R3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x400175048314a4c8218c84a90c16cddf, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-07 19:21:40 UTC', expires `2021-09-29 19:21:40 UTC', pin-sha256="jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0="
+2021-02-07 23:55:02	--	gnutls: peer's certificate is trusted
+2021-02-07 23:55:02	--	irc: connected to chat.freenode.net/6697 (195.154.200.232)
+2021-02-07 23:55:02	--	barjavel.freenode.net: *** Looking up your hostname...
+2021-02-07 23:55:02	--	barjavel.freenode.net: *** Checking Ident
+2021-02-07 23:55:04	--	barjavel.freenode.net: *** Found your hostname
+2021-02-07 23:55:07	--	barjavel.freenode.net: *** No Ident response
+2021-02-07 23:55:07	--	irc: client capability, server supports: extended-join tls multi-prefix identify-msg account-notify chghost sasl cap-notify away-notify
+2021-02-07 23:55:07	--	irc: client capability, requesting: sasl
+2021-02-07 23:55:07	--	irc: client capability, enabled: sasl
+2021-02-07 23:55:08	--	You are now logged in as nickybob. (nickybob!nicholasch@097-094-106-033.biz.spectrum.com)
+2021-02-07 23:55:08	--	SASL authentication successful
+2021-02-07 23:55:09	--	Welcome to the freenode Internet Relay Chat Network nickybob
+2021-02-07 23:55:09	--	Your host is barjavel.freenode.net[195.154.200.232/6697], running version ircd-seven-1.1.9
+2021-02-07 23:55:09	--	This server was created Thu Dec 19 2019 at 20:10:02 UTC
+2021-02-07 23:55:09	--	barjavel.freenode.net ircd-seven-1.1.9 DOQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-02-07 23:55:09	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2021-02-07 23:55:09	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 WHOX KNOCK CPRIVMSG :are supported by this server
+2021-02-07 23:55:09	--	CNOTICE ETRACE SAFELIST ELIST=CTU MONITOR=100 :are supported by this server
+2021-02-07 23:55:09	--	There are 99 users and 87288 invisible on 34 servers
+2021-02-07 23:55:09	--	41 :IRC Operators online
+2021-02-07 23:55:09	--	44 :unknown connection(s)
+2021-02-07 23:55:09	--	45424 :channels formed
+2021-02-07 23:55:09	--	I have 4364 clients and 1 servers
+2021-02-07 23:55:09	--	4364 5891 :Current local users 4364, max 5891
+2021-02-07 23:55:09	--	87387 90930 :Current global users 87387, max 90930
+2021-02-07 23:55:09	--	Highest connection count: 5892 (5891 clients) (1840428 connections received)
+2021-02-07 23:55:09	--	- barjavel.freenode.net Message of the Day -
+2021-02-07 23:55:09	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2021-02-07 23:55:09	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2021-02-07 23:55:09	--	- this server!
+2021-02-07 23:55:09	--	-
+2021-02-07 23:55:09	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2021-02-07 23:55:09	--	- science-fiction author, a journalist and a critic. He is
+2021-02-07 23:55:09	--	- credited with having written the first novel to introduce
+2021-02-07 23:55:09	--	- the Grandfather Paradox in time travel, in his 1943 work
+2021-02-07 23:55:09	--	- 'Le Voyageur imprudent'.
+2021-02-07 23:55:09	--	-
+2021-02-07 23:55:09	--	- Welcome to freenode - supporting the free and open source
+2021-02-07 23:55:09	--	- software communities since 1998.
+2021-02-07 23:55:09	--	-
+2021-02-07 23:55:09	--	- By connecting to freenode you indicate that you have read and
+2021-02-07 23:55:09	--	- accept our policies and guidelines as set out on https://freenode.net
+2021-02-07 23:55:09	--	-
+2021-02-07 23:55:09	--	- In the event that you observe behaviour that contravenes our policies,
+2021-02-07 23:55:09	--	- please notify a volunteer staff member via private message, or send us an
+2021-02-07 23:55:09	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2021-02-07 23:55:09	--	- situation within a reasonable period of time, and we may request further
+2021-02-07 23:55:09	--	- information or, as appropriate, involve other parties such as channel operators
+2021-02-07 23:55:09	--	- Group Contacts representing an on-topic group.
+2021-02-07 23:55:09	--	-
+2021-02-07 23:55:09	--	- freenode runs an open proxy scanner.
+2021-02-07 23:55:09	--	-
+2021-02-07 23:55:09	--	- If you are looking for assistance, you may be able to find a list of
+2021-02-07 23:55:09	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining
+2021-02-07 23:55:09	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2021-02-07 23:55:09	--	- any of us at any time. Please note that freenode predominantly provides
+2021-02-07 23:55:09	--	- assistance via private message, and while we have a network channel the
+2021-02-07 23:55:09	--	- primary venue for support requests is via private message to a member
+2021-02-07 23:55:09	--	- of the volunteer staff team.
+2021-02-07 23:55:09	--	-
+2021-02-07 23:55:09	--	- From time to time, volunteer staff may send server-wide notices relating to
+2021-02-07 23:55:09	--	- the project, or the communities that we host. The majority of such notices
+2021-02-07 23:55:09	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2021-02-07 23:55:09	--	- do not miss them. Important messages relating to the freenode project, including
+2021-02-07 23:55:09	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2021-02-07 23:55:09	--	- global notices.
+2021-02-07 23:55:09	--	-
+2021-02-07 23:55:09	--	- Representing an on-topic project? Don't forget to register, more information
+2021-02-07 23:55:09	--	- can be found on the https://freenode.net website under "Group Registration".
+2021-02-07 23:55:09	--	-
+2021-02-07 23:55:09	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2021-02-07 23:55:09	--	- network going for close to two decades.
+2021-02-07 23:55:09	--	-
+2021-02-07 23:55:09	--	- Thank you for using freenode!
+2021-02-07 23:55:09	--	End of /MOTD command.
+2021-02-07 23:55:09	--	User mode [+Zi] by nickybob
+2021-02-07 23:55:09	--	freenode-connect (frigg@freenode/utility-bot/frigg): Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2021-02-07 23:55:09	--	CTCP requested by freenode-connect: VERSION
+2021-02-07 23:55:09	--	CTCP reply to freenode-connect: VERSION WeeChat 3.0 (Dec 20 2020 22:17:57)
+2021-02-08 06:29:04	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2021-02-08 06:29:04	--	irc: disconnecting from server...
+2021-02-08 06:29:04	--	irc: disconnected from server
+2021-02-08 06:29:04	--	irc: reconnecting to server in 10 seconds
+2021-02-08 06:29:14	--	irc: reconnecting to server...
+2021-02-08 06:29:14	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2021-02-08 06:29:15	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2021-02-08 06:29:15	--	gnutls: receiving 2 certificates
+2021-02-08 06:29:15	--	 - certificate[1] info:
+2021-02-08 06:29:15	--	   - subject `CN=wilhelm.freenode.net', issuer `CN=R3,O=Let's Encrypt,C=US', serial 0x030e730b9e85703aaa02403451e0d63bf162, RSA key 4096 bits, signed using RSA-SHA256, activated `2020-12-14 04:35:37 UTC', expires `2021-03-14 04:35:37 UTC', pin-sha256="hTztvT1wvX2vE0v7dbiMg4jzrSfrk5LnQd3hwaG+TUc="
+2021-02-08 06:29:15	--	 - certificate[2] info:
+2021-02-08 06:29:15	--	   - subject `CN=R3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x400175048314a4c8218c84a90c16cddf, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-07 19:21:40 UTC', expires `2021-09-29 19:21:40 UTC', pin-sha256="jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0="
+2021-02-08 06:29:15	--	gnutls: peer's certificate is trusted
+2021-02-08 06:29:15	--	irc: connected to chat.freenode.net/6697 (167.114.233.39)
+2021-02-08 06:29:15	--	wilhelm.freenode.net: *** Looking up your hostname...
+2021-02-08 06:29:15	--	wilhelm.freenode.net: *** Checking Ident
+2021-02-08 06:29:15	--	wilhelm.freenode.net: *** Found your hostname

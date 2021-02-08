@@ -5,13 +5,23 @@ import subprocess
 import urllib.request
 from typing import List, Set
 
-CATEGORIES = ["core", "sys_utils", ""]
 GROUPS = ["base-devel", "dlang"]
-HOSTNAME = (
-    subprocess.run(["hostnamectl", "--static"], capture_output=True)
-    .stdout.decode("utf-8")
-    .strip()
-)
+HOSTNAME = subprocess.check_output(
+    ["hostnamectl", "--static"], encoding="utf-8"
+).strip()
+SCOPES = {"1": HOSTNAME, "2": "Global", "3": "Ignore"}
+CATEGORIES = {
+    "1": "pacstrap",
+    "2": "System-Core",
+    "3": "System-Graphics",
+    "4": "System-Utilities",
+    "5": "System-Network",
+    "6": "Internet",
+    "7": "AudioVideo",
+    "8": "Graphics",
+    "9": "Development",
+    "10": "Office",
+}
 
 
 def check_aur(packages: Set):
@@ -62,31 +72,76 @@ def get_installed():
     return all_installed
 
 
-def load_data():
+def load_database():
     try:
-        with open("database.json") as f:
+        with open("arch_pkg/database.json") as f:
             return f
     except FileNotFoundError:
         return []
 
 
-def install_missing(installed: List, database: List):
-    # Compare installed to database
-    db_goal = [i for i in database if i["scope"] in ["global", HOSTNAME]]
+# def install_missing(installed: List, database: List):
+#     # Compare installed to database
+#     db_goal = [i for i in database if i["scope"] in ["global", HOSTNAME]]
 
-    # Iterate through goal list
-    for i in db_goal:
-        if i["pkg"] in [[i for i["pkg"] in installed]]:
+#     # Iterate through goal list
+#     for i in db_goal:
+#         if i["pkg"] in [[i for i["pkg"] in installed]]:
+#             next
+#         else:
+#             subprocess.run("paru", "-S", i["pkg"])
+#     return
+
+
+def add_to_database(installed: List, get_database: List):
+    database_pkgs = [i["pkg"] for i in get_database]
+    new_database = []
+    scopes = ", ".join([f"{i}-{SCOPES[i]}" for i in SCOPES])
+    categories = ", ".join([f"{i}-{CATEGORIES[i]}" for i in CATEGORIES])
+    for i in installed:
+        if i["pkg"] in database_pkgs:
+            new_database.append(i)
             next
         else:
-            subprocess.run("paru", "-S", i["pkg"])
-    return
+            description = subprocess.check_output(
+                ["expac", "'%d'", "-Q", i["pkg"]], text=True
+            ).strip()
+            # Assign Scope
+            scope_value = ""
+            while scope_value == "":
+                scope = input(
+                    f'Package {i["pkg"]} from {i["loc"]} not found: {description}\n{scopes}: '
+                )
+                try:
+                    scope_value = SCOPES[scope]
+                except KeyError:
+                    scope_value = ""
+            # Assign Category
+            cat_value = ""
+            while cat_value == "":
+                categ = input(
+                    f'Package {i["pkg"]} needs a category: {description}\n{categories}: '
+                )
+                try:
+                    cat_value = CATEGORIES[categ]
+                except KeyError:
+                    cat_value = ""
+            new_package = {
+                "pkg": i["pkg"],
+                "loc": i["loc"],
+                "scope": scope_value,
+                "category": cat_value,
+            }
+            new_database.append(new_package)
+    with open("arch_pkg.json", "w") as f:
+        f.write(json.dump(new_database))
+    return new_database
 
 
 def main():
     installed = get_installed()
-    # database = load_data()
-    # compare(installed, database)
+    get_database = load_database()
+    new_database = add_to_database(installed, get_database)
     return
 
 
