@@ -101,7 +101,6 @@ def add_to_database(installed: List, get_database: List):
     categories = ", ".join([f"{i}-{CATEGORIES[i]}" for i in CATEGORIES])
     for i in installed:
         if i["pkg"] in database_pkgs:
-            new_database.append(i)
             next
         else:
             description = subprocess.check_output(
@@ -137,21 +136,32 @@ def add_to_database(installed: List, get_database: List):
     combined_database = get_database + new_database
     with open("arch_pkg/database.json", "w") as f:
         json.dump(combined_database, f)
-    return new_database
+    return combined_database
 
 
-def install_missing(installed, database):
-    for i in CATEGORIES:
-        cat_pkgs = [j for j in database if j["category"] == i.value()]
-        print(cat_pkgs)
+def create_missing_list(installed, combined_database):
+    installed_packages = [i["pkg"] for i in installed]
+    with open("arch_pkg/install.txt", "w") as f:
+        for i in CATEGORIES:
+            cat_pkgs = [j for j in combined_database if j["category"] == CATEGORIES[i]]
+            print(f"Category {i}: {CATEGORIES[i]}")
+            for j in cat_pkgs:
+                if j["pkg"] in installed_packages or j["scope"] == "Ignore":
+                    print(f"{j['pkg']} already installed or ignored.")
+                    next
+                else:
+                    print(f"{j['pkg']} added to install.txt.")
+                    f.write(f"{j['pkg']}\n")
+            print("")
     return
 
 
 def main():
     installed = get_installed()
     get_database = load_database()
-    new_database = add_to_database(installed, get_database)
-    install_missing(installed, new_database)
+    combined_database = add_to_database(installed, get_database)
+    create_missing_list(installed, combined_database)
+    print("Missing list complete. Install using paru -S --needed - < arch_pkg.txt")
     return
 
 
