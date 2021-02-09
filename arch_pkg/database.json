@@ -296,7 +296,7 @@
   {
     "pkg": "libva-utils",
     "loc": "sync",
-    "scope": "Global",
+    "scope": "t480",
     "category": "System-Graphics"
   },
   {
@@ -439,12 +439,6 @@
   },
   {
     "pkg": "waybar",
-    "loc": "sync",
-    "scope": "Global",
-    "category": "System-Graphics"
-  },
-  {
-    "pkg": "wayland",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics"
@@ -600,7 +594,7 @@
     "category": "System-Network"
   },
   {
-    "pkg": "onedrive",
+    "pkg": "onedrive-abraunegg",
     "loc": "aur",
     "scope": "Global",
     "category": "System-Network"
@@ -820,11 +814,5 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Office"
-  },
-  {
-    "pkg": "chiaki",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "Games"
   }
 ]
