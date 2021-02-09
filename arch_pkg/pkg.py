@@ -21,6 +21,7 @@ CATEGORIES = {
     "8": "Graphics",
     "9": "Development",
     "10": "Office",
+    "11": "Games",
 }
 
 
@@ -75,7 +76,7 @@ def get_installed():
 def load_database():
     try:
         with open("arch_pkg/database.json") as f:
-            return f
+            return json.load(f)
     except FileNotFoundError:
         return []
 
@@ -133,15 +134,24 @@ def add_to_database(installed: List, get_database: List):
                 "category": cat_value,
             }
             new_database.append(new_package)
-    with open("arch_pkg.json", "w") as f:
-        f.write(json.dump(new_database))
+    combined_database = get_database + new_database
+    with open("arch_pkg/database.json", "w") as f:
+        json.dump(combined_database, f)
     return new_database
+
+
+def install_missing(installed, database):
+    for i in CATEGORIES:
+        cat_pkgs = [j for j in database if j["category"] == i.value()]
+        print(cat_pkgs)
+    return
 
 
 def main():
     installed = get_installed()
     get_database = load_database()
     new_database = add_to_database(installed, get_database)
+    install_missing(installed, new_database)
     return
 
 
