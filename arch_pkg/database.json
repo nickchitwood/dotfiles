@@ -768,42 +768,6 @@
     "category": "Development"
   },
   {
-    "pkg": "dbeaver",
-    "loc": "sync",
-    "scope": "Global",
-    "category": "Development"
-  },
-  {
-    "pkg": "git",
-    "loc": "sync",
-    "scope": "Global",
-    "category": "Development"
-  },
-  {
-    "pkg": "github-cli",
-    "loc": "sync",
-    "scope": "Global",
-    "category": "Development"
-  },
-  {
-    "pkg": "rstudio-desktop-bin",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "Development"
-  },
-  {
-    "pkg": "visual-studio-code-bin",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "Development"
-  },
-  {
-    "pkg": "p3x-onenote",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "Office"
-  },
-  {
     "pkg": "zathura",
     "loc": "sync",
     "scope": "Global",
