@@ -1,5 +1,6 @@
 import argparse
 import json
+import operator
 import os
 import subprocess
 import urllib.request
@@ -68,7 +69,7 @@ def get_installed():
     )
     # Return all_installed
     with open(f"arch_pkg/{HOSTNAME}_pkgs.json", "w") as f:
-        json.dump(all_installed, f)
+        json.dump(all_installed, f, indent=2)
 
     return all_installed
 
@@ -134,24 +135,37 @@ def add_to_database(installed: List, get_database: List):
             }
             new_database.append(new_package)
     combined_database = get_database + new_database
+
+    def sort_database(item):
+        group_number = [i for i in CATEGORIES if item["category"] == CATEGORIES[i]][0]
+        sort_key = f"{group_number.zfill(2)}-{item['pkg']}"
+        return sort_key
+
+    sorted_database = combined_database.sort(key=sort_database)
     with open("arch_pkg/database.json", "w") as f:
-        json.dump(combined_database, f)
+        json.dump(combined_database, f, indent=2)
     return combined_database
 
 
 def create_missing_list(installed, combined_database):
     installed_packages = [i["pkg"] for i in installed]
-    with open("arch_pkg/install.txt", "w") as f:
+    with open(f"arch_pkg/{HOSTNAME}_install.txt", "w") as f:
         for i in CATEGORIES:
             cat_pkgs = [j for j in combined_database if j["category"] == CATEGORIES[i]]
             print(f"Category {i}: {CATEGORIES[i]}")
             for j in cat_pkgs:
-                if j["pkg"] in installed_packages or j["scope"] == "Ignore":
-                    print(f"{j['pkg']} already installed or ignored.")
+                if j["pkg"] in installed_packages:
+                    print(f"{j['pkg']} already installed")
                     next
-                else:
+                elif j["scope"] == "Global":
                     print(f"{j['pkg']} added to install.txt.")
                     f.write(f"{j['pkg']}\n")
+                elif j["scope"] == "Ignore":
+                    print(f"{j['pkg']} on ignore list. Consider uninstalling.")
+                    next
+                else:
+                    print(f"{j['pkg']} out of scope for {HOSTNAME}")
+                    next
             print("")
     return
 
@@ -161,7 +175,9 @@ def main():
     get_database = load_database()
     combined_database = add_to_database(installed, get_database)
     create_missing_list(installed, combined_database)
-    print("Missing list complete. Install using paru -S --needed - < arch_pkg.txt")
+    print(
+        "Missing list complete. Install using paru -S --needed - < arch_pkg/install.txt"
+    )
     return
 
 
