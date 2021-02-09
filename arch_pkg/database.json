@@ -96,6 +96,12 @@
     "category": "System-Core"
   },
   {
+    "pkg": "git",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core"
+  },
+  {
     "pkg": "gnome-keyring",
     "loc": "sync",
     "scope": "Global",
@@ -766,6 +772,42 @@
     "loc": "aur",
     "scope": "Global",
     "category": "Development"
+  },
+  {
+    "pkg": "github-cli",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Development"
+  },
+  {
+    "pkg": "rstudio-desktop-bin",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Development"
+  },
+  {
+    "pkg": "visual-studio-code-bin",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Development"
+  },
+  {
+    "pkg": "cups",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office"
+  },
+  {
+    "pkg": "ghostscript",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office"
+  },
+  {
+    "pkg": "p3x-onenote",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Office"
   },
   {
     "pkg": "zathura",
