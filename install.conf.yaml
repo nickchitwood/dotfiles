@@ -26,6 +26,7 @@
     ~/.config/spotifyd:
     ~/.config/sway:
     ~/.config/wayvnc:
+    ~/.config/wofi:
     ~/.ssh/config: ssh/config
     ~/.tmux.conf:
 

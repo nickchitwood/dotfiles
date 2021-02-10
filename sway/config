@@ -37,7 +37,7 @@ bindsym $mod+Shift+q kill
 floating_maximum_size 1200 x 800
 
 # start rofi (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -monitor -4 -combi-modi "drun#run" -show combi
+bindsym $mod+d exec --no-startup-id wofi --show drun
 
 # Window switcher
 bindsym $mod+Tab exec --no-startup-id rofi -show window
