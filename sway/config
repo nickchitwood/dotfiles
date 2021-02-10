@@ -203,8 +203,7 @@ smart_gaps on
 # Floating apps
 for_window [class="Blueberry.py"] floating enable
 for_window [app_id="chromium" title="Save File"] floating enable
-for_window [app_id="zoom" title="Zoom Cloud Meetings"] floating enable
-for_window [app_id="zoom" title="Zoom - Licensed Account"] floating enable
+for_window [app_id="zoom" title="^(?!Zoom Meeting.*$)"] floating enable
 for_window [app_id="org.remmina.Remmina" title="Remmina Remote Desktop Client"] floating enable
 
 # Glances
