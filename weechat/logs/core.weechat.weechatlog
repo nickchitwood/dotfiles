@@ -638,3 +638,23 @@
 2021-02-08 06:29:17		Options reloaded from perl.conf
 2021-02-08 06:29:17		Options reloaded from script.conf
 2021-02-08 06:29:17		Options reloaded from fset.conf
+2021-02-10 21:42:35		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2021-02-10 21:46:34		Options reloaded from sec.conf
+2021-02-10 21:46:34		Options reloaded from weechat.conf
+2021-02-10 21:46:34		Options reloaded from plugins.conf
+2021-02-10 21:46:34		Options reloaded from charset.conf
+2021-02-10 21:46:34		Options reloaded from logger.conf
+2021-02-10 21:46:34		Options reloaded from exec.conf
+2021-02-10 21:46:34		Options reloaded from trigger.conf
+2021-02-10 21:46:34		Options reloaded from alias.conf
+2021-02-10 21:46:34		Options reloaded from buflist.conf
+2021-02-10 21:46:34		Options reloaded from fifo.conf
+2021-02-10 21:46:34		Options reloaded from xfer.conf
+2021-02-10 21:46:34		Options reloaded from irc.conf
+2021-02-10 21:46:34		Options reloaded from relay.conf
+2021-02-10 21:46:34		Options reloaded from guile.conf
+2021-02-10 21:46:34		Options reloaded from python.conf
+2021-02-10 21:46:34		Options reloaded from tcl.conf
+2021-02-10 21:46:34		Options reloaded from perl.conf
+2021-02-10 21:46:34		Options reloaded from script.conf
+2021-02-10 21:46:34		Options reloaded from fset.conf

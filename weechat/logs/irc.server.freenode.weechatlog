@@ -829,3 +829,93 @@
 2021-02-08 06:29:15	--	wilhelm.freenode.net: *** Looking up your hostname...
 2021-02-08 06:29:15	--	wilhelm.freenode.net: *** Checking Ident
 2021-02-08 06:29:15	--	wilhelm.freenode.net: *** Found your hostname
+2021-02-10 21:42:54	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2021-02-10 21:42:57	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2021-02-10 21:42:57	--	gnutls: receiving 2 certificates
+2021-02-10 21:42:57	--	 - certificate[1] info:
+2021-02-10 21:42:57	--	   - subject `CN=verne.freenode.net', issuer `CN=R3,O=Let's Encrypt,C=US', serial 0x044d47fdc5fd54dd38768411f0f83ff5cbb9, RSA key 4096 bits, signed using RSA-SHA256, activated `2021-01-18 04:27:55 UTC', expires `2021-04-18 04:27:55 UTC', pin-sha256="Q74oEM0HkeuTqhvZPuyEQ+2xyRHmNYaGjGAJlp+EZcc="
+2021-02-10 21:42:57	--	 - certificate[2] info:
+2021-02-10 21:42:57	--	   - subject `CN=R3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x400175048314a4c8218c84a90c16cddf, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-07 19:21:40 UTC', expires `2021-09-29 19:21:40 UTC', pin-sha256="jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0="
+2021-02-10 21:42:57	--	gnutls: peer's certificate is trusted
+2021-02-10 21:42:57	--	irc: connected to chat.freenode.net/6697 (185.30.166.38)
+2021-02-10 21:42:58	--	verne.freenode.net: *** Looking up your hostname...
+2021-02-10 21:42:58	--	verne.freenode.net: *** Checking Ident
+2021-02-10 21:42:58	--	verne.freenode.net: *** Found your hostname
+2021-02-10 21:43:07	--	verne.freenode.net: *** No Ident response
+2021-02-10 21:43:07	--	irc: client capability, server supports: extended-join tls multi-prefix identify-msg account-notify chghost sasl cap-notify away-notify
+2021-02-10 21:43:07	--	irc: client capability, requesting: sasl
+2021-02-10 21:43:08	--	irc: client capability, enabled: sasl
+2021-02-10 21:43:08	--	You are now logged in as nickybob. (nickybob!nicholasch@097-094-106-033.biz.spectrum.com)
+2021-02-10 21:43:08	--	SASL authentication successful
+2021-02-10 21:43:09	--	Welcome to the freenode Internet Relay Chat Network nickybob
+2021-02-10 21:43:09	--	Your host is verne.freenode.net[185.30.166.38/6697], running version ircd-seven-1.1.9
+2021-02-10 21:43:09	--	This server was created Mon Mar 16 2020 at 18:29:20 UTC
+2021-02-10 21:43:09	--	verne.freenode.net ircd-seven-1.1.9 DOQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-02-10 21:43:09	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2021-02-10 21:43:09	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX KNOCK :are supported by this server
+2021-02-10 21:43:09	--	SAFELIST ELIST=CTU CPRIVMSG CNOTICE MONITOR=100 :are supported by this server
+2021-02-10 21:43:09	--	There are 95 users and 83812 invisible on 33 servers
+2021-02-10 21:43:09	--	39 :IRC Operators online
+2021-02-10 21:43:09	--	48 :unknown connection(s)
+2021-02-10 21:43:09	--	45367 :channels formed
+2021-02-10 21:43:09	--	I have 4383 clients and 2 servers
+2021-02-10 21:43:09	--	4383 5006 :Current local users 4383, max 5006
+2021-02-10 21:43:09	--	83907 91110 :Current global users 83907, max 91110
+2021-02-10 21:43:09	--	Highest connection count: 5008 (5006 clients) (2612547 connections received)
+2021-02-10 21:43:09	--	- verne.freenode.net Message of the Day -
+2021-02-10 21:43:09	--	- Welcome to verne.freenode.net in Amsterdam, NL.
+2021-02-10 21:43:09	--	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2021-02-10 21:43:09	--	- this server!
+2021-02-10 21:43:09	--	-
+2021-02-10 21:43:09	--	-
+2021-02-10 21:43:09	--	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+2021-02-10 21:43:09	--	- a pioneering french author known for novels such as Twenty
+2021-02-10 21:43:09	--	- Thousand Leagues Under the Sea, A Journey to the Center of the
+2021-02-10 21:43:09	--	- Earth, and Around the World in Eighty Days. Often lauded as the
+2021-02-10 21:43:09	--	- Father of science fiction, Verne wrote about concepts such as
+2021-02-10 21:43:09	--	- space travel, skyscrapers, and worldwide communications
+2021-02-10 21:43:09	--	- networks long before these ideas became popularised or realised.
+2021-02-10 21:43:09	--	-
+2021-02-10 21:43:09	--	- Welcome to freenode - supporting the free and open source
+2021-02-10 21:43:09	--	- software communities since 1998.
+2021-02-10 21:43:09	--	-
+2021-02-10 21:43:09	--	- By connecting to freenode you indicate that you have read and
+2021-02-10 21:43:09	--	- accept our policies and guidelines as set out on https://freenode.net
+2021-02-10 21:43:09	--	-
+2021-02-10 21:43:09	--	- In the event that you observe behaviour that contravenes our policies,
+2021-02-10 21:43:09	--	- please notify a volunteer staff member via private message, or send us an
+2021-02-10 21:43:09	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2021-02-10 21:43:09	--	- situation within a reasonable period of time, and we may request further
+2021-02-10 21:43:09	--	- information or, as appropriate, involve other parties such as channel operators
+2021-02-10 21:43:09	--	- Group Contacts representing an on-topic group.
+2021-02-10 21:43:09	--	-
+2021-02-10 21:43:09	--	- freenode runs an open proxy scanner.
+2021-02-10 21:43:09	--	-
+2021-02-10 21:43:09	--	- If you are looking for assistance, you may be able to find a list of
+2021-02-10 21:43:09	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining
+2021-02-10 21:43:09	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2021-02-10 21:43:09	--	- any of us at any time. Please note that freenode predominantly provides
+2021-02-10 21:43:09	--	- assistance via private message, and while we have a network channel the
+2021-02-10 21:43:09	--	- primary venue for support requests is via private message to a member
+2021-02-10 21:43:09	--	- of the volunteer staff team.
+2021-02-10 21:43:09	--	-
+2021-02-10 21:43:09	--	- From time to time, volunteer staff may send server-wide notices relating to
+2021-02-10 21:43:09	--	- the project, or the communities that we host. The majority of such notices
+2021-02-10 21:43:09	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2021-02-10 21:43:09	--	- do not miss them. Important messages relating to the freenode project, including
+2021-02-10 21:43:09	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2021-02-10 21:43:09	--	- global notices.
+2021-02-10 21:43:09	--	-
+2021-02-10 21:43:09	--	- Representing an on-topic project? Don't forget to register, more information
+2021-02-10 21:43:09	--	- can be found on the https://freenode.net website under "Group Registration".
+2021-02-10 21:43:09	--	-
+2021-02-10 21:43:09	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2021-02-10 21:43:09	--	- network going for close to two decades.
+2021-02-10 21:43:09	--	-
+2021-02-10 21:43:09	--	- Thank you for using freenode!
+2021-02-10 21:43:09	--	End of /MOTD command.
+2021-02-10 21:43:09	--	User mode [+Zi] by nickybob
+2021-02-10 21:43:09	--	freenode-connect (frigg@freenode/utility-bot/frigg): Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2021-02-10 21:43:09	--	CTCP requested by freenode-connect: VERSION
+2021-02-10 21:43:09	--	CTCP reply to freenode-connect: VERSION WeeChat 3.0 (Dec 20 2020 22:17:57)
+2021-02-10 21:43:29	--	archlinux: No such channel

@@ -23,7 +23,6 @@
     ~/.config/mpv:
     ~/.config/pacman: 
     ~/.config/nvim: 
-    ~/.config/spotifyd:
     ~/.config/sway:
     ~/.config/waybar:
     ~/.config/wayvnc:
