@@ -25,6 +25,7 @@
     ~/.config/nvim: 
     ~/.config/spotifyd:
     ~/.config/sway:
+    ~/.config/waybar:
     ~/.config/wayvnc:
     ~/.config/wofi:
     ~/.ssh/config: ssh/config

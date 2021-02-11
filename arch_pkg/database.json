@@ -228,6 +228,12 @@
     "category": "System-Core"
   },
   {
+    "pkg": "seahorse",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core"
+  },
+  {
     "pkg": "stress",
     "loc": "sync",
     "scope": "Global",
@@ -325,6 +331,12 @@
   },
   {
     "pkg": "noto-fonts-emoji",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics"
+  },
+  {
+    "pkg": "otf-font-awesome",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics"
@@ -463,6 +475,12 @@
   },
   {
     "pkg": "wl-clipboard",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics"
+  },
+  {
+    "pkg": "wofi",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics"
@@ -744,6 +762,12 @@
     "category": "AudioVideo"
   },
   {
+    "pkg": "playerctl",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "AudioVideo"
+  },
+  {
     "pkg": "pulseaudio",
     "loc": "sync",
     "scope": "t480",
@@ -844,5 +868,17 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Office"
+  },
+  {
+    "pkg": "minigalaxy",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Games"
+  },
+  {
+    "pkg": "steam",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Games"
   }
 ]
