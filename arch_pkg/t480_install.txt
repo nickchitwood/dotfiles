@@ -1,3 +1,5 @@
-cifs-utils
-swayidle
-wl-clipboard
+seahorse
+otf-font-awesome
+playerctl
+minigalaxy
+steam
