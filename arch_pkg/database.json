@@ -144,6 +144,12 @@
     "category": "System-Core"
   },
   {
+    "pkg": "mlocate",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core"
+  },
+  {
     "pkg": "nano",
     "loc": "sync",
     "scope": "Global",
@@ -679,6 +685,12 @@
   },
   {
     "pkg": "remmina-plugin-rdesktop",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Network"
+  },
+  {
+    "pkg": "wakeonlan",
     "loc": "aur",
     "scope": "Global",
     "category": "System-Network"

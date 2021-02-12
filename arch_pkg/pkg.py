@@ -23,6 +23,7 @@ CATEGORIES = {
     "9": "Development",
     "10": "Office",
     "11": "Games",
+    "12": "Data"
 }
 
 
