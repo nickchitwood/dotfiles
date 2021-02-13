@@ -108,7 +108,19 @@
     "category": "System-Core"
   },
   {
+    "pkg": "gnome-disk-utility",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core"
+  },
+  {
     "pkg": "gnome-keyring",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core"
+  },
+  {
+    "pkg": "hwinfo",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core"
@@ -234,6 +246,12 @@
     "category": "System-Core"
   },
   {
+    "pkg": "rsync",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core"
+  },
+  {
     "pkg": "seahorse",
     "loc": "sync",
     "scope": "Global",
@@ -266,6 +284,12 @@
   {
     "pkg": "usbutils",
     "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core"
+  },
+  {
+    "pkg": "wev",
+    "loc": "aur",
     "scope": "Global",
     "category": "System-Core"
   },
