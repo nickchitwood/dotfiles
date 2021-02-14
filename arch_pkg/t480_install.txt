@@ -1,5 +1,0 @@
-seahorse
-otf-font-awesome
-playerctl
-minigalaxy
-steam

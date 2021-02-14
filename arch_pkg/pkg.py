@@ -23,8 +23,11 @@ CATEGORIES = {
     "9": "Development",
     "10": "Office",
     "11": "Games",
-    "12": "Data"
+    "12": "Data",
 }
+
+
+PATH = os.environ["PATH"].split(":")
 
 
 def check_aur(packages: Set):
@@ -83,19 +86,6 @@ def load_database():
         return []
 
 
-# def install_missing(installed: List, database: List):
-#     # Compare installed to database
-#     db_goal = [i for i in database if i["scope"] in ["global", HOSTNAME]]
-
-#     # Iterate through goal list
-#     for i in db_goal:
-#         if i["pkg"] in [[i for i["pkg"] in installed]]:
-#             next
-#         else:
-#             subprocess.run("paru", "-S", i["pkg"])
-#     return
-
-
 def add_to_database(installed: List, get_database: List):
     database_pkgs = [i["pkg"] for i in get_database]
     new_database = []
@@ -143,8 +133,13 @@ def add_to_database(installed: List, get_database: List):
         return sort_key
 
     sorted_database = combined_database.sort(key=sort_database)
+
+    whatis_database = [
+        i.update({"whatis": get_whatis(i["pkg"])}) for i in sorted_database
+    ]
+
     with open("arch_pkg/database.json", "w") as f:
-        json.dump(combined_database, f, indent=2)
+        json.dump(whatis_database, f, indent=2)
     return combined_database
 
 
@@ -171,13 +166,36 @@ def create_missing_list(installed, combined_database):
     return
 
 
+def check_if_in_path(filepath):
+    path_checks = [filepath for i in PATH if filepath.startswith(i)]
+    if len(path_checks) >= 1:
+        return True
+    else:
+        return False
+
+
+def get_whatis(package_name):
+    try:
+        files = subprocess.check_output(
+            ["pacman", "-Qql", package_name], encoding="utf-8"
+        ).splitlines()
+        files_only = [i for i in files if i[-1] != "/"]
+        path_files = [i for i in files_only if check_if_in_path(i)]
+        whatis = subprocess.check_output(
+            ["whatis"] + path_files, encoding="utf-8"
+        ).splitlines()
+        return whatis
+    except subprocess.CalledProcessError:
+        return ""
+
+
 def main():
     installed = get_installed()
     get_database = load_database()
     combined_database = add_to_database(installed, get_database)
     create_missing_list(installed, combined_database)
     print(
-        "Missing list complete. Install using paru -S --needed - < arch_pkg/install.txt"
+        f"Missing list complete. Install using paru -S --needed - < arch_pkg/{HOSTNAME}_install.txt"
     )
     return
 

@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/etc/mkinitcpio.d'
+let g:netrw_dirhist_3='/home/nicholaschitwood/src/dotfiles'
 let g:netrw_dirhist_2='/home/nicholaschitwood/src/dotfiles/waybar'
 let g:netrw_dirhist_1='/home/nicholaschitwood/src/dotfiles'
 let g:netrw_dirhist_0='/etc'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_8='/home/nicholaschitwood/.config/sway'
 let g:netrw_dirhist_7='/home/nicholaschitwood/.config'
 let g:netrw_dirhist_6='/home/nicholaschitwood'
 let g:netrw_dirhist_5='/home/nicholaschitwood/.config/waybar'
-let g:netrw_dirhist_4='/home/nicholaschitwood/.config'
-let g:netrw_dirhist_3='/home/nicholaschitwood'

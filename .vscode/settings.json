@@ -1,4 +1,4 @@
 {
     "python.formatting.provider": "black",
-    "python.pythonPath": "/home/nicholaschitwood/git/dotfiles/venv/bin/python3.9"
+    "python.pythonPath": "venv/bin/python"
 }

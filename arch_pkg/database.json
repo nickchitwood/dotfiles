@@ -90,6 +90,12 @@
     "category": "System-Core"
   },
   {
+    "pkg": "exfatprogs",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core"
+  },
+  {
     "pkg": "expac",
     "loc": "sync",
     "scope": "Global",
@@ -868,12 +874,6 @@
     "loc": "aur",
     "scope": "Global",
     "category": "Development"
-  },
-  {
-    "pkg": "ao",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "Office"
   },
   {
     "pkg": "cups",
