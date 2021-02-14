@@ -3,918 +3,1472 @@
     "pkg": "base",
     "loc": "sync",
     "scope": "Global",
-    "category": "pacstrap"
+    "category": "pacstrap",
+    "whatis": ""
   },
   {
     "pkg": "intel-ucode",
     "loc": "sync",
     "scope": "Global",
-    "category": "pacstrap"
+    "category": "pacstrap",
+    "whatis": ""
   },
   {
     "pkg": "linux",
     "loc": "sync",
     "scope": "Global",
-    "category": "pacstrap"
+    "category": "pacstrap",
+    "whatis": ""
   },
   {
     "pkg": "linux-firmware",
     "loc": "sync",
     "scope": "Global",
-    "category": "pacstrap"
+    "category": "pacstrap",
+    "whatis": ""
   },
   {
     "pkg": "man-db",
     "loc": "sync",
     "scope": "Global",
-    "category": "pacstrap"
+    "category": "pacstrap",
+    "whatis": [
+      "accessdb (8)         - dumps the content of a man-db database in a human readable format",
+      "apropos (1)          - search the manual page names and descriptions",
+      "catman (8)           - create or update the pre-formatted manual pages",
+      "lexgrog (1)          - parse header information in man pages",
+      "man (7)              - macros to format man pages",
+      "man (1)              - an interface to the system reference manuals",
+      "man (1p)             - display system documentation",
+      "man-recode (1)       - convert manual pages to another encoding",
+      "mandb (8)            - create or update the manual page index caches",
+      "manpath (5)          - format of the /etc/man_db.conf file",
+      "manpath (1)          - determine search path for manual pages",
+      "whatis (1)           - display one-line manual page descriptions"
+    ]
   },
   {
     "pkg": "man-pages",
     "loc": "sync",
     "scope": "Global",
-    "category": "pacstrap"
+    "category": "pacstrap",
+    "whatis": ""
   },
   {
     "pkg": "neovim",
     "loc": "sync",
     "scope": "Global",
-    "category": "pacstrap"
+    "category": "pacstrap",
+    "whatis": [
+      "nvim (1)             - edit text"
+    ]
   },
   {
     "pkg": "refind",
     "loc": "sync",
     "scope": "Global",
-    "category": "pacstrap"
+    "category": "pacstrap",
+    "whatis": [
+      "mkrlconf (8)         - Create a Linux kernel configuration file for rEFInd",
+      "mvrefind (8)         - Move a rEFInd installation from one location to another",
+      "refind-install (8)   - Install rEFInd to the ESP and create an NVRAM entry",
+      "refind-mkdefault (8) - Set rEFInd as the default EFI boot option"
+    ]
   },
   {
     "pkg": "vi",
     "loc": "sync",
     "scope": "Global",
-    "category": "pacstrap"
+    "category": "pacstrap",
+    "whatis": [
+      "edit (1)             - text editor",
+      "ex (1p)              - text editor",
+      "ex (1)               - text editor",
+      "vedit (1)            - screen oriented (visual) display editor based on ex",
+      "vi (1p)              - screen-oriented (visual) display editor",
+      "vi (1)               - screen oriented (visual) display editor based on ex",
+      "view (1)             - screen oriented (visual) display editor based on ex"
+    ]
   },
   {
     "pkg": "zsh",
     "loc": "sync",
     "scope": "Global",
-    "category": "pacstrap"
+    "category": "pacstrap",
+    "whatis": [
+      "zsh (1)              - the Z shell"
+    ]
   },
   {
     "pkg": "acpi_call",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": ""
   },
   {
     "pkg": "apfs-fuse-git",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": ""
   },
   {
     "pkg": "asp",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "asp (1)              - Manage Arch Linux build sources"
+    ]
   },
   {
     "pkg": "cifs-utils",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "cifs.idmap (8)       - Userspace helper for mapping ids for Common Internet File System (CIFS)",
+      "cifs.upcall (8)      - Userspace upcall helper for Common Internet File System (CIFS)",
+      "cifscreds (1)        - manage NTLM credentials in kernel keyring",
+      "getcifsacl (1)       - Userspace helper to display an ACL in a security descriptor for Common Internet File System...",
+      "mount.cifs (8)       - mount using the Common Internet File System (CIFS)",
+      "mount.smb3 (8)       - mount using the Common Internet File System (CIFS)",
+      "setcifsacl (1)       - Userspace helper to alter components of a security descriptor for Common Internet File Syst...",
+      "smb2-quota (1)       - Userspace helper to display quota information for the Linux SMB client file system (CIFS)",
+      "smbinfo (1)          - Userspace helper to display SMB-specific file information for the Linux SMB client file sys..."
+    ]
   },
   {
     "pkg": "dmidecode",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "biosdecode (8)       - BIOS information decoder",
+      "dmidecode (8)        - DMI table decoder",
+      "ownership (8)        - Compaq ownership tag retriever",
+      "vpddecode (8)        - VPD structure decoder"
+    ]
   },
   {
     "pkg": "exfatprogs",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "dump.exfat (8)       - Show on-disk information of exfat filesystem",
+      "exfatlabel (8)       - Get or Set volume label or volume serial of an exFAT filesystem",
+      "fsck.exfat (8)       - check an exFAT filesystem",
+      "mkfs.exfat (8)       - create an exFAT filesystem",
+      "tune.exfat (8)       - adjust tunable filesystem parameters on an exFAT filesystem"
+    ]
   },
   {
     "pkg": "expac",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "expac (1)            - alpm data extraction utility"
+    ]
   },
   {
     "pkg": "gcc-fortran",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "gfortran (1)         - GNU Fortran compiler"
+    ]
   },
   {
     "pkg": "git",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "git (1)              - the stupid content tracker",
+      "Git (3pm)            - Perl interface to the Git version control system",
+      "git-cvsserver (1)    - A CVS server emulator for Git",
+      "git-receive-pack (1) - Receive what is pushed into the repository",
+      "git-shell (1)        - Restricted login shell for Git-only SSH access",
+      "git-upload-archive (1) - Send archive back to git-archive",
+      "git-upload-pack (1)  - Send objects packed back to git-fetch-pack",
+      "gitk (1)             - The Git repository browser"
+    ]
   },
   {
     "pkg": "gnome-disk-utility",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "gnome-disk-image-mounter (1) - Attach and mount disk images",
+      "gnome-disks (1)      - the GNOME Disks application"
+    ]
   },
   {
     "pkg": "gnome-keyring",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "gnome-keyring (1)    - The gnome-keyring commandline tool",
+      "gnome-keyring-3 (1)  - The gnome-keyring commandline tool",
+      "gnome-keyring-daemon (1) - The gnome-keyring daemon"
+    ]
   },
   {
     "pkg": "hwinfo",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": ""
   },
   {
     "pkg": "i7z",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "i7z (1)              - A better i7 (and now i3, i5) reporting tool for Linux."
+    ]
   },
   {
     "pkg": "kitty",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "kitty (1)            - kitty Documentation"
+    ]
   },
   {
     "pkg": "libfido2",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "fido2-assert (1)     - get/verify a FIDO 2 assertion",
+      "fido2-cred (1)       - make/verify a FIDO 2 credential",
+      "fido2-token (1)      - find and manage a FIDO 2 authenticator"
+    ]
   },
   {
     "pkg": "libu2f-host",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "u2f-host (1)         - Yubico Universal 2nd Factor (U2F) Host Tool"
+    ]
   },
   {
     "pkg": "ltunify",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": ""
   },
   {
     "pkg": "mlocate",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "locate (1)           - find files by name",
+      "updatedb (8)         - update a database for mlocate"
+    ]
   },
   {
     "pkg": "nano",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "nano (1)             - Nano's ANOther editor, inspired by Pico",
+      "rnano (1)            - a restricted nano"
+    ]
   },
   {
     "pkg": "oh-my-zsh-git",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": ""
   },
   {
     "pkg": "opensc",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "cardos-tool (1)      - displays information about Card OS-based security tokens or format them",
+      "cryptoflex-tool (1)  - utility for manipulating Schlumberger Cryptoflex data structures",
+      "dnie-tool (1)        - displays information about DNIe based security tokens",
+      "egk-tool (1)         - displays information on the German electronic health card (elektronische Gesundheitskarte, ...",
+      "eidenv (1)           - utility for accessing visible data from electronic identity cards",
+      "gids-tool (1)        - smart card utility for GIDS cards",
+      "goid-tool (1)        - ???",
+      "iasecc-tool (1)      - displays information about IAS/ECC card",
+      "netkey-tool (1)      - administrative utility for Netkey E4 cards",
+      "npa-tool (1)         - displays information on the German eID card (neuer Personalausweis, nPA).",
+      "openpgp-tool (1)     - utility for accessing visible data OpenPGP smart cards and compatible tokens",
+      "opensc-asn1 (1)      - parse ASN.1 data",
+      "opensc-explorer (1)  - generic interactive utility for accessing smart card and similar security token functions",
+      "opensc-notify (1)    - monitor smart card events and send notifications",
+      "opensc-tool (1)      - generic smart card utility",
+      "piv-tool (1)         - smart card utility for HSPD-12 PIV cards",
+      "pkcs11-register (1)  - Simple tool to install PKCS#11 modules to known applications.",
+      "pkcs11-tool (1)      - utility for managing and using PKCS #11 security tokens",
+      "pkcs15-crypt (1)     - perform crypto operations using PKCS#15 smart cards",
+      "pkcs15-init (1)      - smart card personalization utility",
+      "pkcs15-tool (1)      - utility for manipulating PKCS #15 data structures on smart cards and similar security tokens",
+      "sc-hsm-tool (1)      - smart card utility for SmartCard-HSM",
+      "westcos-tool (1)     - utility for manipulating data structures on westcos smart cards"
+    ]
   },
   {
     "pkg": "p7zip",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "7z (1)               - A file archiver with highest compression ratio",
+      "7za (1)              - A file archiver with highest compression ratio",
+      "7zr (1)              - A file archiver with highest compression ratio"
+    ]
   },
   {
     "pkg": "paru",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "paru (8)             - AUR helper and pacman wrapper"
+    ]
   },
   {
     "pkg": "pigz",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "pigz (1)             - compress or expand files"
+    ]
   },
   {
     "pkg": "pkgstats",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": ""
   },
   {
     "pkg": "polkit-gnome",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": ""
   },
   {
     "pkg": "powerline",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "powerline (1)        - Powerline prompt and statusline script.",
+      "powerline-config (1) - Script used to obtain powerline configuration.",
+      "powerline-daemon (1) - Daemon that improves powerline performance.",
+      "powerline-lint (1)   - Powerline configuration checker."
+    ]
   },
   {
     "pkg": "python",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "idle (2)             - make process 0 idle",
+      "python (1)           - an interpreted, interactive, object-oriented programming language",
+      "python3 (1)          - an interpreted, interactive, object-oriented programming language",
+      "python3.9 (1)        - an interpreted, interactive, object-oriented programming language"
+    ]
   },
   {
     "pkg": "python-pillow",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": ""
   },
   {
     "pkg": "python-pip",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "pip (1)              - package manager for Python packages"
+    ]
   },
   {
     "pkg": "python-setuptools",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": ""
   },
   {
     "pkg": "ranger",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "rifle (1)            - ranger's file opener"
+    ]
   },
   {
     "pkg": "rsync",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "rsync (1)            - a fast, versatile, remote (and local) file-copying tool",
+      "rsync-ssl (1)        - a helper script for connecting to an ssl rsync daemon"
+    ]
   },
   {
     "pkg": "seahorse",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "seahorse (1)         - Passwords and Keys"
+    ]
   },
   {
     "pkg": "stress",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "stress (1)           - tool to impose load on and stress test systems"
+    ]
   },
   {
     "pkg": "tmux",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "tmux (1)             - terminal multiplexer"
+    ]
   },
   {
     "pkg": "udevil",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": ""
   },
   {
     "pkg": "unzip",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "funzip (1)           - filter for extracting from a ZIP archive in a pipe",
+      "unzip (1)            - list, test and extract compressed files in a ZIP archive",
+      "unzipsfx (1)         - self-extracting stub for prepending to ZIP archives",
+      "zipgrep (1)          - search files in a ZIP archive for lines matching a pattern",
+      "zipinfo (1)          - list detailed information about a ZIP archive"
+    ]
   },
   {
     "pkg": "usbutils",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "lsusb (8)            - list USB devices",
+      "usb-devices (1)      - print USB device details",
+      "usbhid-dump (8)      - dump USB HID device report descriptors and streams"
+    ]
   },
   {
     "pkg": "wev",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "wev (1)              - show wayland events"
+    ]
   },
   {
     "pkg": "xdg-user-dirs",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": [
+      "xdg-user-dir (1)     - Find an XDG user dir",
+      "xdg-user-dirs-update (1) - Update XDG user dir configuration"
+    ]
   },
   {
     "pkg": "yubioath-desktop",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": ""
   },
   {
     "pkg": "zsh-theme-powerlevel10k",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Core"
+    "category": "System-Core",
+    "whatis": ""
   },
   {
     "pkg": "brightnessctl",
     "loc": "sync",
     "scope": "t480",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": [
+      "brightnessctl (1)    - read and control device brightness"
+    ]
   },
   {
     "pkg": "grim",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": [
+      "grim (1)             - grab images from a Wayland compositor"
+    ]
   },
   {
     "pkg": "i3status",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": [
+      "i3status (1)         - Generates a status line for i3bar, dzen2, xmobar or lemonbar"
+    ]
   },
   {
     "pkg": "intel-media-driver",
     "loc": "sync",
     "scope": "t480",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "libva-mesa-driver",
     "loc": "sync",
     "scope": "mp-arch",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "libva-utils",
     "loc": "sync",
     "scope": "t480",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "mako",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": [
+      "mako (5)             - configuration file",
+      "mako (1)             - notification daemon for Wayland",
+      "makoctl (1)          - controls the mako(1) daemon"
+    ]
   },
   {
     "pkg": "nerd-fonts-complete",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "noto-fonts-emoji",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "otf-font-awesome",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "powerline-fonts",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "qt5-wayland",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "qt6-wayland",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "rofi-lbonn-wayland-git",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": [
+      "rofi (1)             - A window switcher, application launcher, ssh dialog and dmenu replacement",
+      "rofi-sensible-terminal (1) - launches $TERMINAL with fallbacks",
+      "rofi-theme-selector (1) - Preview and apply themes for rofi"
+    ]
   },
   {
     "pkg": "slurp",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": [
+      "slurp (1)            - select a region in a Wayland compositor"
+    ]
   },
   {
     "pkg": "sway",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": [
+      "sway (5)             - configuration file and commands",
+      "sway (1)             - An i3-compatible Wayland compositor",
+      "swaymsg (1)          - Send messages to a running instance of sway over the IPC socket.",
+      "swaynag (5)          - swaynag configuration file",
+      "swaynag (1)          - Show a warning or error message with buttons"
+    ]
   },
   {
     "pkg": "swayidle",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": [
+      "swayidle (1)         - Idle manager for Wayland"
+    ]
   },
   {
     "pkg": "swaylock",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": [
+      "swaylock (1)         - Screen locker for Wayland"
+    ]
   },
   {
     "pkg": "ttf-font-awesome",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "ttf-lato",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "ttf-ms-win10",
     "loc": "aur",
     "scope": "Ignore",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "ttf-ms-win10-japanese",
     "loc": "aur",
     "scope": "Ignore",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "ttf-ms-win10-korean",
     "loc": "aur",
     "scope": "Ignore",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "ttf-ms-win10-other",
     "loc": "aur",
     "scope": "Ignore",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "ttf-ms-win10-sea",
     "loc": "aur",
     "scope": "Ignore",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "ttf-ms-win10-thai",
     "loc": "aur",
     "scope": "Ignore",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "ttf-ms-win10-zh_cn",
     "loc": "aur",
     "scope": "Ignore",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "ttf-ms-win10-zh_tw",
     "loc": "aur",
     "scope": "Ignore",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "ttf-roboto",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "ttf-roboto-slab",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "vulkan-radeon",
     "loc": "sync",
     "scope": "mp-arch",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "waybar",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": [
+      "waybar (5)           - configuration file"
+    ]
   },
   {
     "pkg": "wl-clipboard",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": [
+      "wl-copy (1)          - Wayland copy and paste command line utilities",
+      "wl-paste (1)         - Wayland copy and paste command line utilities"
+    ]
   },
   {
     "pkg": "wofi",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": [
+      "wofi (5)             - configuration file and styling",
+      "wofi (7)             - Built in modes and other features",
+      "wofi (1)             - A rofi inspired launcher for wlroots compositors",
+      "wofi (3)             - Mode functions and documentation"
+    ]
   },
   {
     "pkg": "xorg-xwayland",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Graphics"
+    "category": "System-Graphics",
+    "whatis": [
+      "Xwayland (1)         - an X server for running X clients under Wayland."
+    ]
   },
   {
     "pkg": "bat",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Utilities"
+    "category": "System-Utilities",
+    "whatis": [
+      "bat (1)              - a cat(1) clone with syntax highlighting and Git integration."
+    ]
   },
   {
     "pkg": "edk2-ovmf",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Utilities"
+    "category": "System-Utilities",
+    "whatis": ""
   },
   {
     "pkg": "geekbench",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Utilities"
+    "category": "System-Utilities",
+    "whatis": ""
   },
   {
     "pkg": "glances",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Utilities"
+    "category": "System-Utilities",
+    "whatis": [
+      "glances (1)          - An eye on your system"
+    ]
   },
   {
     "pkg": "htop",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Utilities"
+    "category": "System-Utilities",
+    "whatis": [
+      "htop (1)             - interactive process viewer"
+    ]
   },
   {
     "pkg": "jq",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Utilities"
+    "category": "System-Utilities",
+    "whatis": [
+      "jq (1)               - Command-line JSON processor"
+    ]
   },
   {
     "pkg": "libvirt",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Utilities"
+    "category": "System-Utilities",
+    "whatis": [
+      "libvirtd (8)         - libvirt management daemon",
+      "virsh (1)            - management user interface",
+      "virt-admin (1)       - daemon administration interface",
+      "virt-host-validate (1) - validate host virtualization setup",
+      "virt-login-shell (1) - tool to execute a shell within a container",
+      "virt-pki-validate (1) - validate libvirt PKI files are configured correctly",
+      "virt-qemu-run (1)    - Run a standalone QEMU guest",
+      "virt-xml-validate (1) - validate libvirt XML files against a schema",
+      "virtlockd (8)        - libvirt lock management daemon",
+      "virtlogd (8)         - libvirt log management daemon"
+    ]
   },
   {
     "pkg": "neofetch",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Utilities"
+    "category": "System-Utilities",
+    "whatis": [
+      "neofetch (1)         - A fast, highly customizable system info script"
+    ]
   },
   {
     "pkg": "qemu",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Utilities"
+    "category": "System-Utilities",
+    "whatis": [
+      "qemu-img (1)         - QEMU disk image utility",
+      "qemu-nbd (8)         - QEMU Disk Network Block Device Server",
+      "qemu-pr-helper (8)   - QEMU persistent reservation helper"
+    ]
   },
   {
     "pkg": "tree",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Utilities"
+    "category": "System-Utilities",
+    "whatis": [
+      "tree (1)             - list contents of directories in a tree-like format.",
+      "tree (3bsd)          - implementations of splay and red-black trees"
+    ]
   },
   {
     "pkg": "virt-manager",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Utilities"
+    "category": "System-Utilities",
+    "whatis": [
+      "virt-manager (1)     - Graphical tool for managing libvirt VMs"
+    ]
   },
   {
     "pkg": "w3m",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Utilities"
+    "category": "System-Utilities",
+    "whatis": [
+      "w3m (1)              - a text based web browser and pager",
+      "w3mman (1)           - an interface to the on-line reference manuals via w3m(1)"
+    ]
   },
   {
     "pkg": "xxd-standalone",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Utilities"
+    "category": "System-Utilities",
+    "whatis": [
+      "xxd (1)              - make a hexdump or do the reverse."
+    ]
   },
   {
     "pkg": "b43-firmware",
     "loc": "aur",
     "scope": "t480",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": ""
   },
   {
     "pkg": "blueberry",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": ""
   },
   {
     "pkg": "bluez",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": ""
   },
   {
     "pkg": "bluez-utils",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "bccmd (1)            - Utility for the CSR BCCMD interface",
+      "btattach (1)         - attach serial devices to BlueZ stack",
+      "hwdb (7)             - Hardware Database",
+      "l2ping (1)           - Send L2CAP echo request and receive answer",
+      "rctest (1)           - RFCOMM testing"
+    ]
   },
   {
     "pkg": "broadcom-wl",
     "loc": "sync",
     "scope": "t480",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": ""
   },
   {
     "pkg": "dnsmasq",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "dhcp_lease_time (1)  - Query remaining time of a lease on a the local dnsmasq DHCP server.",
+      "dhcp_release (1)     - Release a DHCP lease on a the local dnsmasq DHCP server.",
+      "dhcp_release6 (1)    - Release a DHCPv6 lease on a the local dnsmasq DHCP server.",
+      "dnsmasq (8)          - A lightweight DHCP and caching DNS server."
+    ]
   },
   {
     "pkg": "ebtables",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "ebtables (8)         - (unknown subject)"
+    ]
   },
   {
     "pkg": "freerdp",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "freerdp-shadow-cli (1) - A utility for sharing a X display via RDP.",
+      "winpr-hash (1)       - NTLM hashing tool",
+      "winpr-makecert (1)   - A tool to create X.509 certificates.",
+      "wlfreerdp (1)        - FreeRDP wayland client",
+      "xfreerdp (1)         - FreeRDP X11 client"
+    ]
   },
   {
     "pkg": "iwd",
     "loc": "sync",
     "scope": "t480",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "hwsim (1)            - Internet wireless simulation utility",
+      "iwctl (1)            - Internet wireless control utility",
+      "iwmon (1)            - Internet wireless monitor utility"
+    ]
   },
   {
     "pkg": "libvncserver",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": ""
   },
   {
     "pkg": "nmap",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "ncat (1)             - Concatenate and redirect sockets",
+      "nmap (1)             - Network exploration tool and security / port scanner",
+      "nping (1)            - Network packet generation tool / ping utility"
+    ]
   },
   {
     "pkg": "onedrive-abraunegg",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "onedrive (1)         - folder synchronization with OneDrive"
+    ]
   },
   {
     "pkg": "openconnect",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "openconnect (8)      - Multi-protocol VPN client, for Cisco AnyConnect VPNs and others"
+    ]
   },
   {
     "pkg": "openssh",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "scp (1)              - OpenSSH secure file copy",
+      "sftp (1)             - OpenSSH secure file transfer",
+      "ssh (1)              - OpenSSH remote login client",
+      "ssh-add (1)          - adds private key identities to the OpenSSH authentication agent",
+      "ssh-agent (1)        - OpenSSH authentication agent",
+      "ssh-copy-id (1)      - use locally available keys to authorise logins on a remote machine",
+      "ssh-keygen (1)       - OpenSSH authentication key utility",
+      "ssh-keyscan (1)      - gather SSH public keys from servers",
+      "sshd (8)             - OpenSSH daemon"
+    ]
   },
   {
     "pkg": "openvpn",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "openvpn (8)          - Secure IP tunnel daemon"
+    ]
   },
   {
     "pkg": "openvpn-update-systemd-resolved",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": ""
   },
   {
     "pkg": "pulseaudio-bluetooth",
     "loc": "sync",
     "scope": "t480",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": ""
   },
   {
     "pkg": "remmina",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "remmina (1)          - Remmina the GTK+ Remote Desktop Client",
+      "remmina-file-wrapper (1) - (unknown subject)"
+    ]
   },
   {
     "pkg": "remmina-plugin-rdesktop",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": ""
   },
   {
     "pkg": "wakeonlan",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "wakeonlan (1p)       - Perl script to wake up computers"
+    ]
   },
   {
     "pkg": "wayvnc",
     "loc": "aur",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "wayvnc (1)           - A VNC server for wlroots based Wayland compositors."
+    ]
   },
   {
     "pkg": "wget",
     "loc": "sync",
     "scope": "Global",
-    "category": "System-Network"
+    "category": "System-Network",
+    "whatis": [
+      "wget (1)             - The non-interactive network downloader."
+    ]
   },
   {
     "pkg": "1password",
     "loc": "aur",
     "scope": "Global",
-    "category": "Internet"
+    "category": "Internet",
+    "whatis": ""
   },
   {
     "pkg": "chromium",
     "loc": "sync",
     "scope": "Global",
-    "category": "Internet"
+    "category": "Internet",
+    "whatis": [
+      "chromium (1)         - the web browser from Google"
+    ]
   },
   {
     "pkg": "discord",
     "loc": "sync",
     "scope": "Global",
-    "category": "Internet"
+    "category": "Internet",
+    "whatis": ""
   },
   {
     "pkg": "newsflash",
     "loc": "aur",
     "scope": "Global",
-    "category": "Internet"
+    "category": "Internet",
+    "whatis": ""
   },
   {
     "pkg": "slack-desktop",
     "loc": "aur",
     "scope": "Global",
-    "category": "Internet"
+    "category": "Internet",
+    "whatis": ""
   },
   {
     "pkg": "teams",
     "loc": "aur",
     "scope": "Global",
-    "category": "Internet"
+    "category": "Internet",
+    "whatis": ""
   },
   {
     "pkg": "weechat",
     "loc": "sync",
     "scope": "Global",
-    "category": "Internet"
+    "category": "Internet",
+    "whatis": [
+      "weechat (1)          - the extensible chat client",
+      "weechat-headless (1) - the extensible chat client (headless version)"
+    ]
   },
   {
     "pkg": "zoom",
     "loc": "aur",
     "scope": "Global",
-    "category": "Internet"
+    "category": "Internet",
+    "whatis": ""
   },
   {
     "pkg": "alsa-utils",
     "loc": "sync",
     "scope": "Global",
-    "category": "AudioVideo"
+    "category": "AudioVideo",
+    "whatis": [
+      "aconnect (1)         - ALSA sequencer connection manager",
+      "alsa-info.sh (1)     - command-line utility to gather information about the ALSA subsystem",
+      "alsabat (1)          - command-line sound tester for ALSA sound card driver",
+      "alsactl (1)          - advanced controls for ALSA soundcard driver",
+      "alsaloop (1)         - command-line PCM loopback",
+      "alsamixer (1)        - soundcard mixer for ALSA soundcard driver, with ncurses interface",
+      "alsatplg (1)         - ALSA Topology Compiler",
+      "alsaucm (1)          - ALSA Use Case Manager",
+      "amidi (1)            - read from and write to ALSA RawMIDI ports",
+      "amixer (1)           - command-line mixer for ALSA soundcard driver",
+      "aplay (1)            - command-line sound recorder and player for ALSA soundcard driver",
+      "aplaymidi (1)        - play Standard MIDI Files",
+      "arecord (1)          - command-line sound recorder and player for ALSA soundcard driver",
+      "arecordmidi (1)      - record Standard MIDI Files",
+      "aseqdump (1)         - show the events received at an ALSA sequencer port",
+      "aseqnet (1)          - ALSA sequencer connectors over network",
+      "axfer (1)            - command-line sound recorder and player for sound devices and nodes supported by Linux sound...",
+      "iecset (1)           - Set or dump IEC958 status bits",
+      "speaker-test (1)     - command-line speaker test tone generator for ALSA"
+    ]
   },
   {
     "pkg": "asoundconf",
     "loc": "sync",
     "scope": "Global",
-    "category": "AudioVideo"
+    "category": "AudioVideo",
+    "whatis": [
+      "asoundconf (1)       - utility to read and change the user's ALSA library configuration"
+    ]
   },
   {
     "pkg": "pasystray",
     "loc": "sync",
     "scope": "t480",
-    "category": "AudioVideo"
+    "category": "AudioVideo",
+    "whatis": [
+      "pasystray (1)        - PulseAudio controller for the system tray"
+    ]
   },
   {
     "pkg": "playerctl",
     "loc": "sync",
     "scope": "Global",
-    "category": "AudioVideo"
+    "category": "AudioVideo",
+    "whatis": [
+      "playerctl (1)        - control media players via MPRIS"
+    ]
   },
   {
     "pkg": "pulseaudio",
     "loc": "sync",
     "scope": "t480",
-    "category": "AudioVideo"
+    "category": "AudioVideo",
+    "whatis": [
+      "pacmd (1)            - Reconfigure a PulseAudio sound server during runtime",
+      "pasuspender (1)      - Temporarily suspend PulseAudio",
+      "pax11publish (1)     - PulseAudio X11 Credential Utility",
+      "pulseaudio (1)       - The PulseAudio Sound System",
+      "start-pulseaudio-x11 (1) - PulseAudio Sound Server X11 Startup Script"
+    ]
   },
   {
     "pkg": "pulseaudio-alsa",
     "loc": "sync",
     "scope": "t480",
-    "category": "AudioVideo"
+    "category": "AudioVideo",
+    "whatis": ""
   },
   {
     "pkg": "pulsemixer",
     "loc": "sync",
     "scope": "t480",
-    "category": "AudioVideo"
+    "category": "AudioVideo",
+    "whatis": ""
   },
   {
     "pkg": "spotifyd",
     "loc": "sync",
     "scope": "Global",
-    "category": "AudioVideo"
+    "category": "AudioVideo",
+    "whatis": ""
   },
   {
     "pkg": "youtube-dl",
     "loc": "sync",
     "scope": "Global",
-    "category": "AudioVideo"
+    "category": "AudioVideo",
+    "whatis": [
+      "youtube-dl (1)       - download videos from youtube.com or other video platforms"
+    ]
   },
   {
     "pkg": "feh",
     "loc": "sync",
     "scope": "Global",
-    "category": "Graphics"
+    "category": "Graphics",
+    "whatis": [
+      "feh (1)              - image viewer and cataloguer"
+    ]
   },
   {
     "pkg": "imagemagick",
     "loc": "sync",
     "scope": "Global",
-    "category": "Graphics"
+    "category": "Graphics",
+    "whatis": [
+      "Magick++-config (1)  - get information about the installed version of Magick++",
+      "MagickCore-config (1) - get information about the installed version of ImageMagick",
+      "MagickWand-config (1) - get information about the installed version of the Magick Wand",
+      "animate (1)          - animates an image or image sequence on any X server.",
+      "compare (1)          - mathematically and visually annotate the difference between an image and its reconstruction.",
+      "composite (1)        - overlaps one image over another.",
+      "conjure (1)          - interprets and executes scripts written in the Magick Scripting Language (MSL).",
+      "convert (1)          - convert between image formats as well as resize an image, blur, crop, despeckle, dither, dr...",
+      "display (1)          - displays an image or image sequence on any X server.",
+      "identify (1)         - describes the format and characteristics of one or more image files.",
+      "import (1)           - saves any visible window on an X server and outputs it as an image file. You can capture a ...",
+      "magick (1)           - convert between image formats as well as resize an image, blur, crop, despeckle, dither, dr...",
+      "magick-script (1)    - scripting language that converts between image formats as well as resize an image, blur, cr...",
+      "mogrify (1)          - resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much mo...",
+      "montage (1)          - create a composite image by combining several separate images. The images are tiled on the ...",
+      "stream (1)           - a lightweight tool to stream one or more pixel components of the image or portion of the im..."
+    ]
   },
   {
     "pkg": "asdf-vm",
     "loc": "aur",
     "scope": "Global",
-    "category": "Development"
+    "category": "Development",
+    "whatis": ""
   },
   {
     "pkg": "github-cli",
     "loc": "sync",
     "scope": "Global",
-    "category": "Development"
+    "category": "Development",
+    "whatis": [
+      "gh (1)               - GitHub CLI"
+    ]
   },
   {
     "pkg": "rstudio-desktop-bin",
     "loc": "aur",
     "scope": "Global",
-    "category": "Development"
+    "category": "Development",
+    "whatis": ""
   },
   {
     "pkg": "visual-studio-code-bin",
     "loc": "aur",
     "scope": "Global",
-    "category": "Development"
+    "category": "Development",
+    "whatis": [
+      "code (n)             - capture the namespace context for a code fragment"
+    ]
   },
   {
     "pkg": "cups",
     "loc": "sync",
     "scope": "Global",
-    "category": "Office"
+    "category": "Office",
+    "whatis": [
+      "cancel (1)           - cancel jobs",
+      "cupsaccept (8)       - accept/reject jobs sent to a destination",
+      "cupsctl (8)          - configure cupsd.conf options",
+      "cupsd (8)            - cups scheduler",
+      "cupsdisable (8)      - stop/start printers and classes",
+      "cupsenable (8)       - stop/start printers and classes",
+      "cupsfilter (8)       - convert a file to another format using cups filters (deprecated)",
+      "cupsreject (8)       - accept/reject jobs sent to a destination",
+      "cupstestppd (1)      - test conformance of ppd files",
+      "ippeveprinter (1)    - an ipp everywhere printer application for cups",
+      "ippfind (1)          - find internet printing protocol printers",
+      "ipptool (1)          - perform internet printing protocol requests",
+      "lp (1p)              - send files to a printer",
+      "lp (4)               - line printer devices",
+      "lp (1)               - print files",
+      "lpadmin (8)          - configure cups printers and classes",
+      "lpc (8)              - line printer control program (deprecated)",
+      "lpinfo (8)           - show available devices or drivers (deprecated)",
+      "lpmove (8)           - move a job or all jobs to a new destination",
+      "lpoptions (1)        - display or set printer options and defaults",
+      "lpq (1)              - show printer queue status",
+      "lpr (1)              - print files",
+      "lprm (1)             - cancel print jobs",
+      "lpstat (1)           - print cups status information",
+      "ppdc (1)             - cups ppd compiler (deprecated)",
+      "ppdhtml (1)          - cups html summary generator (deprecated)",
+      "ppdi (1)             - import ppd files (deprecated)",
+      "ppdmerge (1)         - merge ppd files (deprecated)",
+      "ppdpo (1)            - ppd message catalog generator (deprecated)"
+    ]
   },
   {
     "pkg": "ghostscript",
     "loc": "sync",
     "scope": "Global",
-    "category": "Office"
+    "category": "Office",
+    "whatis": [
+      "dvipdf (1)           - Convert TeX DVI file to PDF using ghostscript and dvips",
+      "eps2eps (1)          - Ghostscript PostScript \"distiller\"",
+      "gs (1)               - Ghostscript (PostScript and PDF language interpreter and previewer)",
+      "gsbj (1)             - Format and print text for BubbleJet printer using ghostscript",
+      "gsdj (1)             - Format and print text for DeskJet printer using ghostscript",
+      "gsdj500 (1)          - Format and print text for DeskJet 500 BubbleJet using ghostscript",
+      "gslj (1)             - Format and print text for LaserJet printer using ghostscript",
+      "gslp (1)             - Format and print text using ghostscript",
+      "gsnd (1)             - Run ghostscript (PostScript and PDF engine) without display",
+      "pdf2dsc (1)          - generate a PostScript page list of a PDF document",
+      "pdf2ps (1)           - Ghostscript PDF to PostScript translator",
+      "pf2afm (1)           - Make an AFM file from Postscript (PFB/PFA/PFM) font files using ghostscript",
+      "pfbtopfa (1)         - Convert Postscript .pfb fonts to .pfa format using ghostscript",
+      "printafm (1)         - Print the metrics from a Postscript font in AFM format using ghostscript",
+      "ps2ascii (1)         - Ghostscript translator from PostScript or PDF to ASCII",
+      "ps2epsi (1)          - generate conforming Encapsulated PostScript",
+      "ps2pdf (1)           - Convert PostScript to PDF using ghostscript",
+      "ps2pdf12 (1)         - Convert PostScript to PDF 1.2 (Acrobat 3-and-later compatible) using ghostscript",
+      "ps2pdf13 (1)         - Convert PostScript to PDF 1.3 (Acrobat 4-and-later compatible) using ghostscript",
+      "ps2pdf14 (1)         - Convert PostScript to PDF 1.4 (Acrobat 5-and-later compatible) using ghostscript",
+      "ps2pdfwr (1)         - Convert PostScript to PDF without specifying CompatibilityLevel, using ghostscript",
+      "ps2ps (1)            - Ghostscript PostScript \"distiller\""
+    ]
   },
   {
     "pkg": "p3x-onenote",
     "loc": "aur",
     "scope": "Global",
-    "category": "Office"
+    "category": "Office",
+    "whatis": ""
   },
   {
     "pkg": "zathura",
     "loc": "sync",
     "scope": "Global",
-    "category": "Office"
+    "category": "Office",
+    "whatis": [
+      "zathura (1)          - a document viewer"
+    ]
   },
   {
     "pkg": "zathura-pdf-mupdf",
     "loc": "sync",
     "scope": "Global",
-    "category": "Office"
+    "category": "Office",
+    "whatis": ""
   },
   {
     "pkg": "minigalaxy",
     "loc": "aur",
     "scope": "Global",
-    "category": "Games"
+    "category": "Games",
+    "whatis": ""
   },
   {
     "pkg": "steam",
     "loc": "sync",
     "scope": "Global",
-    "category": "Games"
+    "category": "Games",
+    "whatis": ""
   }
 ]
