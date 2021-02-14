@@ -132,14 +132,13 @@ def add_to_database(installed: List, get_database: List):
         sort_key = f"{group_number.zfill(2)}-{item['pkg']}"
         return sort_key
 
-    sorted_database = combined_database.sort(key=sort_database)
+    combined_database.sort(key=sort_database)
 
-    whatis_database = [
-        i.update({"whatis": get_whatis(i["pkg"])}) for i in sorted_database
-    ]
+    for i in combined_database:
+        i.update({"whatis": get_whatis(i["pkg"])})
 
     with open("arch_pkg/database.json", "w") as f:
-        json.dump(whatis_database, f, indent=2)
+        json.dump(combined_database, f, indent=2)
     return combined_database
 
 
