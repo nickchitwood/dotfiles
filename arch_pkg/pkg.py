@@ -180,9 +180,9 @@ def get_whatis(package_name):
         ).splitlines()
         files_only = [i for i in files if i[-1] != "/"]
         path_files = [i for i in files_only if check_if_in_path(i)]
-        whatis = subprocess.check_output(
-            ["whatis"] + path_files, encoding="utf-8"
-        ).splitlines()
+        whatis = [{i: subprocess.check_output(
+            ["whatis",  i], encoding="utf-8"
+        ).splitlines()} for i in path_files]
         return whatis
     except subprocess.CalledProcessError:
         return ""
