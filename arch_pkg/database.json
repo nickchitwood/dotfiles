@@ -4,55 +4,42 @@
     "loc": "sync",
     "scope": "Global",
     "category": "pacstrap",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "intel-ucode",
     "loc": "sync",
     "scope": "Global",
     "category": "pacstrap",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux",
     "loc": "sync",
     "scope": "Global",
     "category": "pacstrap",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-firmware",
     "loc": "sync",
     "scope": "Global",
     "category": "pacstrap",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "man-db",
     "loc": "sync",
     "scope": "Global",
     "category": "pacstrap",
-    "whatis": [
-      "accessdb (8)         - dumps the content of a man-db database in a human readable format",
-      "apropos (1)          - search the manual page names and descriptions",
-      "catman (8)           - create or update the pre-formatted manual pages",
-      "lexgrog (1)          - parse header information in man pages",
-      "man (7)              - macros to format man pages",
-      "man (1)              - an interface to the system reference manuals",
-      "man (1p)             - display system documentation",
-      "man-recode (1)       - convert manual pages to another encoding",
-      "mandb (8)            - create or update the manual page index caches",
-      "manpath (5)          - format of the /etc/man_db.conf file",
-      "manpath (1)          - determine search path for manual pages",
-      "whatis (1)           - display one-line manual page descriptions"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "man-pages",
     "loc": "sync",
     "scope": "Global",
     "category": "pacstrap",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "neovim",
@@ -60,7 +47,11 @@
     "scope": "Global",
     "category": "pacstrap",
     "whatis": [
-      "nvim (1)             - edit text"
+      {
+        "/usr/bin/nvim": [
+          "nvim (1)             - edit text"
+        ]
+      }
     ]
   },
   {
@@ -68,12 +59,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "pacstrap",
-    "whatis": [
-      "mkrlconf (8)         - Create a Linux kernel configuration file for rEFInd",
-      "mvrefind (8)         - Move a rEFInd installation from one location to another",
-      "refind-install (8)   - Install rEFInd to the ESP and create an NVRAM entry",
-      "refind-mkdefault (8) - Set rEFInd as the default EFI boot option"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "vi",
@@ -81,13 +67,33 @@
     "scope": "Global",
     "category": "pacstrap",
     "whatis": [
-      "edit (1)             - text editor",
-      "ex (1p)              - text editor",
-      "ex (1)               - text editor",
-      "vedit (1)            - screen oriented (visual) display editor based on ex",
-      "vi (1p)              - screen-oriented (visual) display editor",
-      "vi (1)               - screen oriented (visual) display editor based on ex",
-      "view (1)             - screen oriented (visual) display editor based on ex"
+      {
+        "/usr/bin/edit": [
+          "edit (1)             - text editor"
+        ]
+      },
+      {
+        "/usr/bin/ex": [
+          "ex (1p)              - text editor",
+          "ex (1)               - text editor"
+        ]
+      },
+      {
+        "/usr/bin/vedit": [
+          "vedit (1)            - screen oriented (visual) display editor based on ex"
+        ]
+      },
+      {
+        "/usr/bin/vi": [
+          "vi (1p)              - screen-oriented (visual) display editor",
+          "vi (1)               - screen oriented (visual) display editor based on ex"
+        ]
+      },
+      {
+        "/usr/bin/view": [
+          "view (1)             - screen oriented (visual) display editor based on ex"
+        ]
+      }
     ]
   },
   {
@@ -95,16 +101,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "pacstrap",
-    "whatis": [
-      "zsh (1)              - the Z shell"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "acpi_call",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "apfs-fuse-git",
@@ -119,7 +123,11 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "asp (1)              - Manage Arch Linux build sources"
+      {
+        "/usr/bin/asp": [
+          "asp (1)              - Manage Arch Linux build sources"
+        ]
+      }
     ]
   },
   {
@@ -128,15 +136,51 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "cifs.idmap (8)       - Userspace helper for mapping ids for Common Internet File System (CIFS)",
-      "cifs.upcall (8)      - Userspace upcall helper for Common Internet File System (CIFS)",
-      "cifscreds (1)        - manage NTLM credentials in kernel keyring",
-      "getcifsacl (1)       - Userspace helper to display an ACL in a security descriptor for Common Internet File System...",
-      "mount.cifs (8)       - mount using the Common Internet File System (CIFS)",
-      "mount.smb3 (8)       - mount using the Common Internet File System (CIFS)",
-      "setcifsacl (1)       - Userspace helper to alter components of a security descriptor for Common Internet File Syst...",
-      "smb2-quota (1)       - Userspace helper to display quota information for the Linux SMB client file system (CIFS)",
-      "smbinfo (1)          - Userspace helper to display SMB-specific file information for the Linux SMB client file sys..."
+      {
+        "/usr/bin/cifs.idmap": [
+          "cifs.idmap (8)       - Userspace helper for mapping ids for Common Internet File System (CIFS)"
+        ]
+      },
+      {
+        "/usr/bin/cifs.upcall": [
+          "cifs.upcall (8)      - Userspace upcall helper for Common Internet File System (CIFS)"
+        ]
+      },
+      {
+        "/usr/bin/cifscreds": [
+          "cifscreds (1)        - manage NTLM credentials in kernel keyring"
+        ]
+      },
+      {
+        "/usr/bin/getcifsacl": [
+          "getcifsacl (1)       - Userspace helper to display an ACL in a security descriptor for Common Internet File System (CIFS)"
+        ]
+      },
+      {
+        "/usr/bin/mount.cifs": [
+          "mount.cifs (8)       - mount using the Common Internet File System (CIFS)"
+        ]
+      },
+      {
+        "/usr/bin/mount.smb3": [
+          "mount.smb3 (8)       - mount using the Common Internet File System (CIFS)"
+        ]
+      },
+      {
+        "/usr/bin/setcifsacl": [
+          "setcifsacl (1)       - Userspace helper to alter components of a security descriptor for Common Internet File System (CIFS)"
+        ]
+      },
+      {
+        "/usr/bin/smb2-quota": [
+          "smb2-quota (1)       - Userspace helper to display quota information for the Linux SMB client file system (CIFS)"
+        ]
+      },
+      {
+        "/usr/bin/smbinfo": [
+          "smbinfo (1)          - Userspace helper to display SMB-specific file information for the Linux SMB client file system (CIFS)"
+        ]
+      }
     ]
   },
   {
@@ -145,10 +189,26 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "biosdecode (8)       - BIOS information decoder",
-      "dmidecode (8)        - DMI table decoder",
-      "ownership (8)        - Compaq ownership tag retriever",
-      "vpddecode (8)        - VPD structure decoder"
+      {
+        "/usr/bin/biosdecode": [
+          "biosdecode (8)       - BIOS information decoder"
+        ]
+      },
+      {
+        "/usr/bin/dmidecode": [
+          "dmidecode (8)        - DMI table decoder"
+        ]
+      },
+      {
+        "/usr/bin/ownership": [
+          "ownership (8)        - Compaq ownership tag retriever"
+        ]
+      },
+      {
+        "/usr/bin/vpddecode": [
+          "vpddecode (8)        - VPD structure decoder"
+        ]
+      }
     ]
   },
   {
@@ -156,13 +216,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      "dump.exfat (8)       - Show on-disk information of exfat filesystem",
-      "exfatlabel (8)       - Get or Set volume label or volume serial of an exFAT filesystem",
-      "fsck.exfat (8)       - check an exFAT filesystem",
-      "mkfs.exfat (8)       - create an exFAT filesystem",
-      "tune.exfat (8)       - adjust tunable filesystem parameters on an exFAT filesystem"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "expac",
@@ -170,7 +224,11 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "expac (1)            - alpm data extraction utility"
+      {
+        "/usr/bin/expac": [
+          "expac (1)            - alpm data extraction utility"
+        ]
+      }
     ]
   },
   {
@@ -178,9 +236,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      "gfortran (1)         - GNU Fortran compiler"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "git",
@@ -188,14 +244,42 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "git (1)              - the stupid content tracker",
-      "Git (3pm)            - Perl interface to the Git version control system",
-      "git-cvsserver (1)    - A CVS server emulator for Git",
-      "git-receive-pack (1) - Receive what is pushed into the repository",
-      "git-shell (1)        - Restricted login shell for Git-only SSH access",
-      "git-upload-archive (1) - Send archive back to git-archive",
-      "git-upload-pack (1)  - Send objects packed back to git-fetch-pack",
-      "gitk (1)             - The Git repository browser"
+      {
+        "/usr/bin/git": [
+          "git (1)              - the stupid content tracker",
+          "Git (3pm)            - Perl interface to the Git version control system"
+        ]
+      },
+      {
+        "/usr/bin/git-cvsserver": [
+          "git-cvsserver (1)    - A CVS server emulator for Git"
+        ]
+      },
+      {
+        "/usr/bin/git-receive-pack": [
+          "git-receive-pack (1) - Receive what is pushed into the repository"
+        ]
+      },
+      {
+        "/usr/bin/git-shell": [
+          "git-shell (1)        - Restricted login shell for Git-only SSH access"
+        ]
+      },
+      {
+        "/usr/bin/git-upload-archive": [
+          "git-upload-archive (1) - Send archive back to git-archive"
+        ]
+      },
+      {
+        "/usr/bin/git-upload-pack": [
+          "git-upload-pack (1)  - Send objects packed back to git-fetch-pack"
+        ]
+      },
+      {
+        "/usr/bin/gitk": [
+          "gitk (1)             - The Git repository browser"
+        ]
+      }
     ]
   },
   {
@@ -204,8 +288,16 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "gnome-disk-image-mounter (1) - Attach and mount disk images",
-      "gnome-disks (1)      - the GNOME Disks application"
+      {
+        "/usr/bin/gnome-disk-image-mounter": [
+          "gnome-disk-image-mounter (1) - Attach and mount disk images"
+        ]
+      },
+      {
+        "/usr/bin/gnome-disks": [
+          "gnome-disks (1)      - the GNOME Disks application"
+        ]
+      }
     ]
   },
   {
@@ -214,9 +306,21 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "gnome-keyring (1)    - The gnome-keyring commandline tool",
-      "gnome-keyring-3 (1)  - The gnome-keyring commandline tool",
-      "gnome-keyring-daemon (1) - The gnome-keyring daemon"
+      {
+        "/usr/bin/gnome-keyring": [
+          "gnome-keyring (1)    - The gnome-keyring commandline tool"
+        ]
+      },
+      {
+        "/usr/bin/gnome-keyring-3": [
+          "gnome-keyring-3 (1)  - The gnome-keyring commandline tool"
+        ]
+      },
+      {
+        "/usr/bin/gnome-keyring-daemon": [
+          "gnome-keyring-daemon (1) - The gnome-keyring daemon"
+        ]
+      }
     ]
   },
   {
@@ -231,9 +335,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      "i7z (1)              - A better i7 (and now i3, i5) reporting tool for Linux."
-    ]
+    "whatis": ""
   },
   {
     "pkg": "kitty",
@@ -241,7 +343,11 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "kitty (1)            - kitty Documentation"
+      {
+        "/usr/bin/kitty": [
+          "kitty (1)            - kitty Documentation"
+        ]
+      }
     ]
   },
   {
@@ -250,9 +356,21 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "fido2-assert (1)     - get/verify a FIDO 2 assertion",
-      "fido2-cred (1)       - make/verify a FIDO 2 credential",
-      "fido2-token (1)      - find and manage a FIDO 2 authenticator"
+      {
+        "/usr/bin/fido2-assert": [
+          "fido2-assert (1)     - get/verify a FIDO 2 assertion"
+        ]
+      },
+      {
+        "/usr/bin/fido2-cred": [
+          "fido2-cred (1)       - make/verify a FIDO 2 credential"
+        ]
+      },
+      {
+        "/usr/bin/fido2-token": [
+          "fido2-token (1)      - find and manage a FIDO 2 authenticator"
+        ]
+      }
     ]
   },
   {
@@ -261,7 +379,11 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "u2f-host (1)         - Yubico Universal 2nd Factor (U2F) Host Tool"
+      {
+        "/usr/bin/u2f-host": [
+          "u2f-host (1)         - Yubico Universal 2nd Factor (U2F) Host Tool"
+        ]
+      }
     ]
   },
   {
@@ -276,10 +398,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      "locate (1)           - find files by name",
-      "updatedb (8)         - update a database for mlocate"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "nano",
@@ -287,8 +406,16 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "nano (1)             - Nano's ANOther editor, inspired by Pico",
-      "rnano (1)            - a restricted nano"
+      {
+        "/usr/bin/nano": [
+          "nano (1)             - Nano's ANOther editor, inspired by Pico"
+        ]
+      },
+      {
+        "/usr/bin/rnano": [
+          "rnano (1)            - a restricted nano"
+        ]
+      }
     ]
   },
   {
@@ -296,7 +423,7 @@
     "loc": "aur",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "opensc",
@@ -304,29 +431,121 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "cardos-tool (1)      - displays information about Card OS-based security tokens or format them",
-      "cryptoflex-tool (1)  - utility for manipulating Schlumberger Cryptoflex data structures",
-      "dnie-tool (1)        - displays information about DNIe based security tokens",
-      "egk-tool (1)         - displays information on the German electronic health card (elektronische Gesundheitskarte, ...",
-      "eidenv (1)           - utility for accessing visible data from electronic identity cards",
-      "gids-tool (1)        - smart card utility for GIDS cards",
-      "goid-tool (1)        - ???",
-      "iasecc-tool (1)      - displays information about IAS/ECC card",
-      "netkey-tool (1)      - administrative utility for Netkey E4 cards",
-      "npa-tool (1)         - displays information on the German eID card (neuer Personalausweis, nPA).",
-      "openpgp-tool (1)     - utility for accessing visible data OpenPGP smart cards and compatible tokens",
-      "opensc-asn1 (1)      - parse ASN.1 data",
-      "opensc-explorer (1)  - generic interactive utility for accessing smart card and similar security token functions",
-      "opensc-notify (1)    - monitor smart card events and send notifications",
-      "opensc-tool (1)      - generic smart card utility",
-      "piv-tool (1)         - smart card utility for HSPD-12 PIV cards",
-      "pkcs11-register (1)  - Simple tool to install PKCS#11 modules to known applications.",
-      "pkcs11-tool (1)      - utility for managing and using PKCS #11 security tokens",
-      "pkcs15-crypt (1)     - perform crypto operations using PKCS#15 smart cards",
-      "pkcs15-init (1)      - smart card personalization utility",
-      "pkcs15-tool (1)      - utility for manipulating PKCS #15 data structures on smart cards and similar security tokens",
-      "sc-hsm-tool (1)      - smart card utility for SmartCard-HSM",
-      "westcos-tool (1)     - utility for manipulating data structures on westcos smart cards"
+      {
+        "/usr/bin/cardos-tool": [
+          "cardos-tool (1)      - displays information about Card OS-based security tokens or format them"
+        ]
+      },
+      {
+        "/usr/bin/cryptoflex-tool": [
+          "cryptoflex-tool (1)  - utility for manipulating Schlumberger Cryptoflex data structures"
+        ]
+      },
+      {
+        "/usr/bin/dnie-tool": [
+          "dnie-tool (1)        - displays information about DNIe based security tokens"
+        ]
+      },
+      {
+        "/usr/bin/egk-tool": [
+          "egk-tool (1)         - displays information on the German electronic health card (elektronische Gesundheitskarte, eGK)"
+        ]
+      },
+      {
+        "/usr/bin/eidenv": [
+          "eidenv (1)           - utility for accessing visible data from electronic identity cards"
+        ]
+      },
+      {
+        "/usr/bin/gids-tool": [
+          "gids-tool (1)        - smart card utility for GIDS cards"
+        ]
+      },
+      {
+        "/usr/bin/goid-tool": [
+          "goid-tool (1)        - ???"
+        ]
+      },
+      {
+        "/usr/bin/iasecc-tool": [
+          "iasecc-tool (1)      - displays information about IAS/ECC card"
+        ]
+      },
+      {
+        "/usr/bin/netkey-tool": [
+          "netkey-tool (1)      - administrative utility for Netkey E4 cards"
+        ]
+      },
+      {
+        "/usr/bin/npa-tool": [
+          "npa-tool (1)         - displays information on the German eID card (neuer Personalausweis, nPA)."
+        ]
+      },
+      {
+        "/usr/bin/openpgp-tool": [
+          "openpgp-tool (1)     - utility for accessing visible data OpenPGP smart cards and compatible tokens"
+        ]
+      },
+      {
+        "/usr/bin/opensc-asn1": [
+          "opensc-asn1 (1)      - parse ASN.1 data"
+        ]
+      },
+      {
+        "/usr/bin/opensc-explorer": [
+          "opensc-explorer (1)  - generic interactive utility for accessing smart card and similar security token functions"
+        ]
+      },
+      {
+        "/usr/bin/opensc-notify": [
+          "opensc-notify (1)    - monitor smart card events and send notifications"
+        ]
+      },
+      {
+        "/usr/bin/opensc-tool": [
+          "opensc-tool (1)      - generic smart card utility"
+        ]
+      },
+      {
+        "/usr/bin/piv-tool": [
+          "piv-tool (1)         - smart card utility for HSPD-12 PIV cards"
+        ]
+      },
+      {
+        "/usr/bin/pkcs11-register": [
+          "pkcs11-register (1)  - Simple tool to install PKCS#11 modules to known applications."
+        ]
+      },
+      {
+        "/usr/bin/pkcs11-tool": [
+          "pkcs11-tool (1)      - utility for managing and using PKCS #11 security tokens"
+        ]
+      },
+      {
+        "/usr/bin/pkcs15-crypt": [
+          "pkcs15-crypt (1)     - perform crypto operations using PKCS#15 smart cards"
+        ]
+      },
+      {
+        "/usr/bin/pkcs15-init": [
+          "pkcs15-init (1)      - smart card personalization utility"
+        ]
+      },
+      {
+        "/usr/bin/pkcs15-tool": [
+          "pkcs15-tool (1)      - utility for manipulating PKCS #15 data structures on smart cards and similar security tokens"
+        ]
+      },
+      {
+        "/usr/bin/sc-hsm-tool": [
+          "sc-hsm-tool (1)      - smart card utility for SmartCard-HSM"
+        ]
+      },
+      {
+        "/usr/bin/westcos-tool": [
+          "westcos-tool (1)     - utility for manipulating data structures on westcos smart cards"
+        ]
+      }
     ]
   },
   {
@@ -335,9 +554,21 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "7z (1)               - A file archiver with highest compression ratio",
-      "7za (1)              - A file archiver with highest compression ratio",
-      "7zr (1)              - A file archiver with highest compression ratio"
+      {
+        "/usr/bin/7z": [
+          "7z (1)               - A file archiver with highest compression ratio"
+        ]
+      },
+      {
+        "/usr/bin/7za": [
+          "7za (1)              - A file archiver with highest compression ratio"
+        ]
+      },
+      {
+        "/usr/bin/7zr": [
+          "7zr (1)              - A file archiver with highest compression ratio"
+        ]
+      }
     ]
   },
   {
@@ -346,7 +577,11 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "paru (8)             - AUR helper and pacman wrapper"
+      {
+        "/usr/bin/paru": [
+          "paru (8)             - AUR helper and pacman wrapper"
+        ]
+      }
     ]
   },
   {
@@ -355,7 +590,16 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "pigz (1)             - compress or expand files"
+      {
+        "/usr/bin/pigz": [
+          "pigz (1)             - compress or expand files"
+        ]
+      },
+      {
+        "/usr/bin/unpigz": [
+          "pigz (1)             - compress or expand files"
+        ]
+      }
     ]
   },
   {
@@ -370,63 +614,49 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "powerline",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      "powerline (1)        - Powerline prompt and statusline script.",
-      "powerline-config (1) - Script used to obtain powerline configuration.",
-      "powerline-daemon (1) - Daemon that improves powerline performance.",
-      "powerline-lint (1)   - Powerline configuration checker."
-    ]
+    "whatis": ""
   },
   {
     "pkg": "python",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      "idle (2)             - make process 0 idle",
-      "python (1)           - an interpreted, interactive, object-oriented programming language",
-      "python3 (1)          - an interpreted, interactive, object-oriented programming language",
-      "python3.9 (1)        - an interpreted, interactive, object-oriented programming language"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "python-pillow",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "python-pip",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      "pip (1)              - package manager for Python packages"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "python-setuptools",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ranger",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      "rifle (1)            - ranger's file opener"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "rsync",
@@ -434,8 +664,16 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "rsync (1)            - a fast, versatile, remote (and local) file-copying tool",
-      "rsync-ssl (1)        - a helper script for connecting to an ssl rsync daemon"
+      {
+        "/usr/bin/rsync": [
+          "rsync (1)            - a fast, versatile, remote (and local) file-copying tool"
+        ]
+      },
+      {
+        "/usr/bin/rsync-ssl": [
+          "rsync-ssl (1)        - a helper script for connecting to an ssl rsync daemon"
+        ]
+      }
     ]
   },
   {
@@ -444,7 +682,11 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "seahorse (1)         - Passwords and Keys"
+      {
+        "/usr/bin/seahorse": [
+          "seahorse (1)         - Passwords and Keys"
+        ]
+      }
     ]
   },
   {
@@ -453,7 +695,11 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "stress (1)           - tool to impose load on and stress test systems"
+      {
+        "/usr/bin/stress": [
+          "stress (1)           - tool to impose load on and stress test systems"
+        ]
+      }
     ]
   },
   {
@@ -462,7 +708,11 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "tmux (1)             - terminal multiplexer"
+      {
+        "/usr/bin/tmux": [
+          "tmux (1)             - terminal multiplexer"
+        ]
+      }
     ]
   },
   {
@@ -478,11 +728,31 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "funzip (1)           - filter for extracting from a ZIP archive in a pipe",
-      "unzip (1)            - list, test and extract compressed files in a ZIP archive",
-      "unzipsfx (1)         - self-extracting stub for prepending to ZIP archives",
-      "zipgrep (1)          - search files in a ZIP archive for lines matching a pattern",
-      "zipinfo (1)          - list detailed information about a ZIP archive"
+      {
+        "/usr/bin/funzip": [
+          "funzip (1)           - filter for extracting from a ZIP archive in a pipe"
+        ]
+      },
+      {
+        "/usr/bin/unzip": [
+          "unzip (1)            - list, test and extract compressed files in a ZIP archive"
+        ]
+      },
+      {
+        "/usr/bin/unzipsfx": [
+          "unzipsfx (1)         - self-extracting stub for prepending to ZIP archives"
+        ]
+      },
+      {
+        "/usr/bin/zipgrep": [
+          "zipgrep (1)          - search files in a ZIP archive for lines matching a pattern"
+        ]
+      },
+      {
+        "/usr/bin/zipinfo": [
+          "zipinfo (1)          - list detailed information about a ZIP archive"
+        ]
+      }
     ]
   },
   {
@@ -490,11 +760,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      "lsusb (8)            - list USB devices",
-      "usb-devices (1)      - print USB device details",
-      "usbhid-dump (8)      - dump USB HID device report descriptors and streams"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "wev",
@@ -502,7 +768,11 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "wev (1)              - show wayland events"
+      {
+        "/usr/bin/wev": [
+          "wev (1)              - show wayland events"
+        ]
+      }
     ]
   },
   {
@@ -511,8 +781,16 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": [
-      "xdg-user-dir (1)     - Find an XDG user dir",
-      "xdg-user-dirs-update (1) - Update XDG user dir configuration"
+      {
+        "/usr/bin/xdg-user-dir": [
+          "xdg-user-dir (1)     - Find an XDG user dir"
+        ]
+      },
+      {
+        "/usr/bin/xdg-user-dirs-update": [
+          "xdg-user-dirs-update (1) - Update XDG user dir configuration"
+        ]
+      }
     ]
   },
   {
@@ -527,16 +805,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "brightnessctl",
     "loc": "sync",
     "scope": "t480",
     "category": "System-Graphics",
-    "whatis": [
-      "brightnessctl (1)    - read and control device brightness"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "grim",
@@ -544,7 +820,11 @@
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": [
-      "grim (1)             - grab images from a Wayland compositor"
+      {
+        "/usr/bin/grim": [
+          "grim (1)             - grab images from a Wayland compositor"
+        ]
+      }
     ]
   },
   {
@@ -553,7 +833,11 @@
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": [
-      "i3status (1)         - Generates a status line for i3bar, dzen2, xmobar or lemonbar"
+      {
+        "/usr/bin/i3status": [
+          "i3status (1)         - Generates a status line for i3bar, dzen2, xmobar or lemonbar"
+        ]
+      }
     ]
   },
   {
@@ -568,7 +852,7 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "libva-utils",
@@ -583,9 +867,17 @@
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": [
-      "mako (5)             - configuration file",
-      "mako (1)             - notification daemon for Wayland",
-      "makoctl (1)          - controls the mako(1) daemon"
+      {
+        "/usr/bin/mako": [
+          "mako (1)             - notification daemon for Wayland",
+          "mako (5)             - configuration file"
+        ]
+      },
+      {
+        "/usr/bin/makoctl": [
+          "makoctl (1)          - controls the mako(1) daemon"
+        ]
+      }
     ]
   },
   {
@@ -593,31 +885,38 @@
     "loc": "aur",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "noto-fonts-emoji",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "otf-font-awesome",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "powerline-fonts",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "qt5-wayland",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": ""
+  },
+  {
+    "pkg": "qt5ct",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
@@ -628,7 +927,20 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
+  },
+  {
+    "pkg": "radeontop",
+    "loc": "sync",
+    "scope": "mp-arch",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/radeontop": [
+          "radeontop (1)        - tool to show GPU utilization"
+        ]
+      }
+    ]
   },
   {
     "pkg": "rofi-lbonn-wayland-git",
@@ -636,9 +948,21 @@
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": [
-      "rofi (1)             - A window switcher, application launcher, ssh dialog and dmenu replacement",
-      "rofi-sensible-terminal (1) - launches $TERMINAL with fallbacks",
-      "rofi-theme-selector (1) - Preview and apply themes for rofi"
+      {
+        "/usr/bin/rofi": [
+          "rofi (1)             - A window switcher, application launcher, ssh dialog and dmenu replacement"
+        ]
+      },
+      {
+        "/usr/bin/rofi-sensible-terminal": [
+          "rofi-sensible-terminal (1) - launches $TERMINAL with fallbacks"
+        ]
+      },
+      {
+        "/usr/bin/rofi-theme-selector": [
+          "rofi-theme-selector (1) - Preview and apply themes for rofi"
+        ]
+      }
     ]
   },
   {
@@ -647,7 +971,11 @@
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": [
-      "slurp (1)            - select a region in a Wayland compositor"
+      {
+        "/usr/bin/slurp": [
+          "slurp (1)            - select a region in a Wayland compositor"
+        ]
+      }
     ]
   },
   {
@@ -655,13 +983,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": [
-      "sway (5)             - configuration file and commands",
-      "sway (1)             - An i3-compatible Wayland compositor",
-      "swaymsg (1)          - Send messages to a running instance of sway over the IPC socket.",
-      "swaynag (5)          - swaynag configuration file",
-      "swaynag (1)          - Show a warning or error message with buttons"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "swayidle",
@@ -669,7 +991,11 @@
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": [
-      "swayidle (1)         - Idle manager for Wayland"
+      {
+        "/usr/bin/swayidle": [
+          "swayidle (1)         - Idle manager for Wayland"
+        ]
+      }
     ]
   },
   {
@@ -678,7 +1004,11 @@
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": [
-      "swaylock (1)         - Screen locker for Wayland"
+      {
+        "/usr/bin/swaylock": [
+          "swaylock (1)         - Screen locker for Wayland"
+        ]
+      }
     ]
   },
   {
@@ -686,91 +1016,91 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ttf-lato",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ttf-ms-win10",
     "loc": "aur",
     "scope": "Ignore",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ttf-ms-win10-japanese",
     "loc": "aur",
     "scope": "Ignore",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ttf-ms-win10-korean",
     "loc": "aur",
     "scope": "Ignore",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ttf-ms-win10-other",
     "loc": "aur",
     "scope": "Ignore",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ttf-ms-win10-sea",
     "loc": "aur",
     "scope": "Ignore",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ttf-ms-win10-thai",
     "loc": "aur",
     "scope": "Ignore",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ttf-ms-win10-zh_cn",
     "loc": "aur",
     "scope": "Ignore",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ttf-ms-win10-zh_tw",
     "loc": "aur",
     "scope": "Ignore",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ttf-roboto",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ttf-roboto-slab",
     "loc": "aur",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "vulkan-radeon",
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "waybar",
@@ -778,8 +1108,19 @@
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": [
-      "waybar (5)           - configuration file"
+      {
+        "/usr/bin/waybar": [
+          "waybar (5)           - configuration file"
+        ]
+      }
     ]
+  },
+  {
+    "pkg": "wf-recorder",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "wl-clipboard",
@@ -787,8 +1128,16 @@
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": [
-      "wl-copy (1)          - Wayland copy and paste command line utilities",
-      "wl-paste (1)         - Wayland copy and paste command line utilities"
+      {
+        "/usr/bin/wl-copy": [
+          "wl-copy (1)          - Wayland copy and paste command line utilities"
+        ]
+      },
+      {
+        "/usr/bin/wl-paste": [
+          "wl-paste (1)         - Wayland copy and paste command line utilities"
+        ]
+      }
     ]
   },
   {
@@ -797,10 +1146,27 @@
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": [
-      "wofi (5)             - configuration file and styling",
-      "wofi (7)             - Built in modes and other features",
-      "wofi (1)             - A rofi inspired launcher for wlroots compositors",
-      "wofi (3)             - Mode functions and documentation"
+      {
+        "/usr/bin/wofi": [
+          "wofi (1)             - A rofi inspired launcher for wlroots compositors",
+          "wofi (3)             - Mode functions and documentation",
+          "wofi (5)             - configuration file and styling",
+          "wofi (7)             - Built in modes and other features"
+        ]
+      }
+    ]
+  },
+  {
+    "pkg": "xorg-xeyes",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/xeyes": [
+          "xeyes (1)            - a follow the mouse X demo"
+        ]
+      }
     ]
   },
   {
@@ -809,7 +1175,11 @@
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": [
-      "Xwayland (1)         - an X server for running X clients under Wayland."
+      {
+        "/usr/bin/Xwayland": [
+          "Xwayland (1)         - an X server for running X clients under Wayland."
+        ]
+      }
     ]
   },
   {
@@ -818,7 +1188,11 @@
     "scope": "Global",
     "category": "System-Utilities",
     "whatis": [
-      "bat (1)              - a cat(1) clone with syntax highlighting and Git integration."
+      {
+        "/usr/bin/bat": [
+          "bat (1)              - a cat(1) clone with syntax highlighting and Git integration."
+        ]
+      }
     ]
   },
   {
@@ -826,7 +1200,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Utilities",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "geekbench",
@@ -841,7 +1215,11 @@
     "scope": "Global",
     "category": "System-Utilities",
     "whatis": [
-      "glances (1)          - An eye on your system"
+      {
+        "/usr/bin/glances": [
+          "glances (1)          - An eye on your system"
+        ]
+      }
     ]
   },
   {
@@ -850,7 +1228,11 @@
     "scope": "Global",
     "category": "System-Utilities",
     "whatis": [
-      "htop (1)             - interactive process viewer"
+      {
+        "/usr/bin/htop": [
+          "htop (1)             - interactive process viewer"
+        ]
+      }
     ]
   },
   {
@@ -859,7 +1241,11 @@
     "scope": "Global",
     "category": "System-Utilities",
     "whatis": [
-      "jq (1)               - Command-line JSON processor"
+      {
+        "/usr/bin/jq": [
+          "jq (1)               - Command-line JSON processor"
+        ]
+      }
     ]
   },
   {
@@ -867,18 +1253,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Utilities",
-    "whatis": [
-      "libvirtd (8)         - libvirt management daemon",
-      "virsh (1)            - management user interface",
-      "virt-admin (1)       - daemon administration interface",
-      "virt-host-validate (1) - validate host virtualization setup",
-      "virt-login-shell (1) - tool to execute a shell within a container",
-      "virt-pki-validate (1) - validate libvirt PKI files are configured correctly",
-      "virt-qemu-run (1)    - Run a standalone QEMU guest",
-      "virt-xml-validate (1) - validate libvirt XML files against a schema",
-      "virtlockd (8)        - libvirt lock management daemon",
-      "virtlogd (8)         - libvirt log management daemon"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "neofetch",
@@ -886,7 +1261,11 @@
     "scope": "Global",
     "category": "System-Utilities",
     "whatis": [
-      "neofetch (1)         - A fast, highly customizable system info script"
+      {
+        "/usr/bin/neofetch": [
+          "neofetch (1)         - A fast, highly customizable system info script"
+        ]
+      }
     ]
   },
   {
@@ -894,11 +1273,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Utilities",
-    "whatis": [
-      "qemu-img (1)         - QEMU disk image utility",
-      "qemu-nbd (8)         - QEMU Disk Network Block Device Server",
-      "qemu-pr-helper (8)   - QEMU persistent reservation helper"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "tree",
@@ -906,8 +1281,12 @@
     "scope": "Global",
     "category": "System-Utilities",
     "whatis": [
-      "tree (1)             - list contents of directories in a tree-like format.",
-      "tree (3bsd)          - implementations of splay and red-black trees"
+      {
+        "/usr/bin/tree": [
+          "tree (1)             - list contents of directories in a tree-like format.",
+          "tree (3bsd)          - implementations of splay and red-black trees"
+        ]
+      }
     ]
   },
   {
@@ -916,7 +1295,11 @@
     "scope": "Global",
     "category": "System-Utilities",
     "whatis": [
-      "virt-manager (1)     - Graphical tool for managing libvirt VMs"
+      {
+        "/usr/bin/virt-manager": [
+          "virt-manager (1)     - Graphical tool for managing libvirt VMs"
+        ]
+      }
     ]
   },
   {
@@ -925,8 +1308,16 @@
     "scope": "Global",
     "category": "System-Utilities",
     "whatis": [
-      "w3m (1)              - a text based web browser and pager",
-      "w3mman (1)           - an interface to the on-line reference manuals via w3m(1)"
+      {
+        "/usr/bin/w3m": [
+          "w3m (1)              - a text based web browser and pager"
+        ]
+      },
+      {
+        "/usr/bin/w3mman": [
+          "w3mman (1)           - an interface to the on-line reference manuals via w3m(1)"
+        ]
+      }
     ]
   },
   {
@@ -935,7 +1326,11 @@
     "scope": "Global",
     "category": "System-Utilities",
     "whatis": [
-      "xxd (1)              - make a hexdump or do the reverse."
+      {
+        "/usr/bin/xxd": [
+          "xxd (1)              - make a hexdump or do the reverse."
+        ]
+      }
     ]
   },
   {
@@ -957,20 +1352,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "bluez-utils",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": [
-      "bccmd (1)            - Utility for the CSR BCCMD interface",
-      "btattach (1)         - attach serial devices to BlueZ stack",
-      "hwdb (7)             - Hardware Database",
-      "l2ping (1)           - Send L2CAP echo request and receive answer",
-      "rctest (1)           - RFCOMM testing"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "broadcom-wl",
@@ -985,10 +1374,26 @@
     "scope": "Global",
     "category": "System-Network",
     "whatis": [
-      "dhcp_lease_time (1)  - Query remaining time of a lease on a the local dnsmasq DHCP server.",
-      "dhcp_release (1)     - Release a DHCP lease on a the local dnsmasq DHCP server.",
-      "dhcp_release6 (1)    - Release a DHCPv6 lease on a the local dnsmasq DHCP server.",
-      "dnsmasq (8)          - A lightweight DHCP and caching DNS server."
+      {
+        "/usr/bin/dhcp_lease_time": [
+          "dhcp_lease_time (1)  - Query remaining time of a lease on a the local dnsmasq DHCP server."
+        ]
+      },
+      {
+        "/usr/bin/dhcp_release": [
+          "dhcp_release (1)     - Release a DHCP lease on a the local dnsmasq DHCP server."
+        ]
+      },
+      {
+        "/usr/bin/dhcp_release6": [
+          "dhcp_release6 (1)    - Release a DHCPv6 lease on a the local dnsmasq DHCP server."
+        ]
+      },
+      {
+        "/usr/bin/dnsmasq": [
+          "dnsmasq (8)          - A lightweight DHCP and caching DNS server."
+        ]
+      }
     ]
   },
   {
@@ -996,40 +1401,28 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": [
-      "ebtables (8)         - (unknown subject)"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "freerdp",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": [
-      "freerdp-shadow-cli (1) - A utility for sharing a X display via RDP.",
-      "winpr-hash (1)       - NTLM hashing tool",
-      "winpr-makecert (1)   - A tool to create X.509 certificates.",
-      "wlfreerdp (1)        - FreeRDP wayland client",
-      "xfreerdp (1)         - FreeRDP X11 client"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "iwd",
     "loc": "sync",
     "scope": "t480",
     "category": "System-Network",
-    "whatis": [
-      "hwsim (1)            - Internet wireless simulation utility",
-      "iwctl (1)            - Internet wireless control utility",
-      "iwmon (1)            - Internet wireless monitor utility"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "libvncserver",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "nmap",
@@ -1037,9 +1430,21 @@
     "scope": "Global",
     "category": "System-Network",
     "whatis": [
-      "ncat (1)             - Concatenate and redirect sockets",
-      "nmap (1)             - Network exploration tool and security / port scanner",
-      "nping (1)            - Network packet generation tool / ping utility"
+      {
+        "/usr/bin/ncat": [
+          "ncat (1)             - Concatenate and redirect sockets"
+        ]
+      },
+      {
+        "/usr/bin/nmap": [
+          "nmap (1)             - Network exploration tool and security / port scanner"
+        ]
+      },
+      {
+        "/usr/bin/nping": [
+          "nping (1)            - Network packet generation tool / ping utility"
+        ]
+      }
     ]
   },
   {
@@ -1048,7 +1453,11 @@
     "scope": "Global",
     "category": "System-Network",
     "whatis": [
-      "onedrive (1)         - folder synchronization with OneDrive"
+      {
+        "/usr/bin/onedrive": [
+          "onedrive (1)         - folder synchronization with OneDrive"
+        ]
+      }
     ]
   },
   {
@@ -1057,7 +1466,11 @@
     "scope": "Global",
     "category": "System-Network",
     "whatis": [
-      "openconnect (8)      - Multi-protocol VPN client, for Cisco AnyConnect VPNs and others"
+      {
+        "/usr/bin/openconnect": [
+          "openconnect (8)      - Multi-protocol VPN client, for Cisco AnyConnect VPNs and others"
+        ]
+      }
     ]
   },
   {
@@ -1065,17 +1478,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": [
-      "scp (1)              - OpenSSH secure file copy",
-      "sftp (1)             - OpenSSH secure file transfer",
-      "ssh (1)              - OpenSSH remote login client",
-      "ssh-add (1)          - adds private key identities to the OpenSSH authentication agent",
-      "ssh-agent (1)        - OpenSSH authentication agent",
-      "ssh-copy-id (1)      - use locally available keys to authorise logins on a remote machine",
-      "ssh-keygen (1)       - OpenSSH authentication key utility",
-      "ssh-keyscan (1)      - gather SSH public keys from servers",
-      "sshd (8)             - OpenSSH daemon"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "openvpn",
@@ -1083,7 +1486,11 @@
     "scope": "Global",
     "category": "System-Network",
     "whatis": [
-      "openvpn (8)          - Secure IP tunnel daemon"
+      {
+        "/usr/bin/openvpn": [
+          "openvpn (8)          - Secure IP tunnel daemon"
+        ]
+      }
     ]
   },
   {
@@ -1091,14 +1498,14 @@
     "loc": "aur",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "pulseaudio-bluetooth",
     "loc": "sync",
     "scope": "t480",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "remmina",
@@ -1106,8 +1513,16 @@
     "scope": "Global",
     "category": "System-Network",
     "whatis": [
-      "remmina (1)          - Remmina the GTK+ Remote Desktop Client",
-      "remmina-file-wrapper (1) - (unknown subject)"
+      {
+        "/usr/bin/remmina": [
+          "remmina (1)          - Remmina the GTK+ Remote Desktop Client"
+        ]
+      },
+      {
+        "/usr/bin/remmina-file-wrapper": [
+          "remmina-file-wrapper (1) - (unknown subject)"
+        ]
+      }
     ]
   },
   {
@@ -1115,7 +1530,7 @@
     "loc": "aur",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "wakeonlan",
@@ -1123,7 +1538,11 @@
     "scope": "Global",
     "category": "System-Network",
     "whatis": [
-      "wakeonlan (1p)       - Perl script to wake up computers"
+      {
+        "/usr/bin/wakeonlan": [
+          "wakeonlan (1p)       - Perl script to wake up computers"
+        ]
+      }
     ]
   },
   {
@@ -1132,7 +1551,11 @@
     "scope": "Global",
     "category": "System-Network",
     "whatis": [
-      "wayvnc (1)           - A VNC server for wlroots based Wayland compositors."
+      {
+        "/usr/bin/wayvnc": [
+          "wayvnc (1)           - A VNC server for wlroots based Wayland compositors."
+        ]
+      }
     ]
   },
   {
@@ -1141,7 +1564,11 @@
     "scope": "Global",
     "category": "System-Network",
     "whatis": [
-      "wget (1)             - The non-interactive network downloader."
+      {
+        "/usr/bin/wget": [
+          "wget (1)             - The non-interactive network downloader."
+        ]
+      }
     ]
   },
   {
@@ -1156,9 +1583,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Internet",
-    "whatis": [
-      "chromium (1)         - the web browser from Google"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "discord",
@@ -1193,10 +1618,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Internet",
-    "whatis": [
-      "weechat (1)          - the extensible chat client",
-      "weechat-headless (1) - the extensible chat client (headless version)"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "zoom",
@@ -1210,67 +1632,35 @@
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": [
-      "aconnect (1)         - ALSA sequencer connection manager",
-      "alsa-info.sh (1)     - command-line utility to gather information about the ALSA subsystem",
-      "alsabat (1)          - command-line sound tester for ALSA sound card driver",
-      "alsactl (1)          - advanced controls for ALSA soundcard driver",
-      "alsaloop (1)         - command-line PCM loopback",
-      "alsamixer (1)        - soundcard mixer for ALSA soundcard driver, with ncurses interface",
-      "alsatplg (1)         - ALSA Topology Compiler",
-      "alsaucm (1)          - ALSA Use Case Manager",
-      "amidi (1)            - read from and write to ALSA RawMIDI ports",
-      "amixer (1)           - command-line mixer for ALSA soundcard driver",
-      "aplay (1)            - command-line sound recorder and player for ALSA soundcard driver",
-      "aplaymidi (1)        - play Standard MIDI Files",
-      "arecord (1)          - command-line sound recorder and player for ALSA soundcard driver",
-      "arecordmidi (1)      - record Standard MIDI Files",
-      "aseqdump (1)         - show the events received at an ALSA sequencer port",
-      "aseqnet (1)          - ALSA sequencer connectors over network",
-      "axfer (1)            - command-line sound recorder and player for sound devices and nodes supported by Linux sound...",
-      "iecset (1)           - Set or dump IEC958 status bits",
-      "speaker-test (1)     - command-line speaker test tone generator for ALSA"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "asoundconf",
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": [
-      "asoundconf (1)       - utility to read and change the user's ALSA library configuration"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "pasystray",
     "loc": "sync",
     "scope": "t480",
     "category": "AudioVideo",
-    "whatis": [
-      "pasystray (1)        - PulseAudio controller for the system tray"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "playerctl",
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": [
-      "playerctl (1)        - control media players via MPRIS"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "pulseaudio",
     "loc": "sync",
     "scope": "t480",
     "category": "AudioVideo",
-    "whatis": [
-      "pacmd (1)            - Reconfigure a PulseAudio sound server during runtime",
-      "pasuspender (1)      - Temporarily suspend PulseAudio",
-      "pax11publish (1)     - PulseAudio X11 Credential Utility",
-      "pulseaudio (1)       - The PulseAudio Sound System",
-      "start-pulseaudio-x11 (1) - PulseAudio Sound Server X11 Startup Script"
-    ]
+    "whatis": ""
   },
   {
     "pkg": "pulseaudio-alsa",
@@ -1299,7 +1689,11 @@
     "scope": "Global",
     "category": "AudioVideo",
     "whatis": [
-      "youtube-dl (1)       - download videos from youtube.com or other video platforms"
+      {
+        "/usr/bin/youtube-dl": [
+          "youtube-dl (1)       - download videos from youtube.com or other video platforms"
+        ]
+      }
     ]
   },
   {
@@ -1308,7 +1702,11 @@
     "scope": "Global",
     "category": "Graphics",
     "whatis": [
-      "feh (1)              - image viewer and cataloguer"
+      {
+        "/usr/bin/feh": [
+          "feh (1)              - image viewer and cataloguer"
+        ]
+      }
     ]
   },
   {
@@ -1317,22 +1715,86 @@
     "scope": "Global",
     "category": "Graphics",
     "whatis": [
-      "Magick++-config (1)  - get information about the installed version of Magick++",
-      "MagickCore-config (1) - get information about the installed version of ImageMagick",
-      "MagickWand-config (1) - get information about the installed version of the Magick Wand",
-      "animate (1)          - animates an image or image sequence on any X server.",
-      "compare (1)          - mathematically and visually annotate the difference between an image and its reconstruction.",
-      "composite (1)        - overlaps one image over another.",
-      "conjure (1)          - interprets and executes scripts written in the Magick Scripting Language (MSL).",
-      "convert (1)          - convert between image formats as well as resize an image, blur, crop, despeckle, dither, dr...",
-      "display (1)          - displays an image or image sequence on any X server.",
-      "identify (1)         - describes the format and characteristics of one or more image files.",
-      "import (1)           - saves any visible window on an X server and outputs it as an image file. You can capture a ...",
-      "magick (1)           - convert between image formats as well as resize an image, blur, crop, despeckle, dither, dr...",
-      "magick-script (1)    - scripting language that converts between image formats as well as resize an image, blur, cr...",
-      "mogrify (1)          - resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much mo...",
-      "montage (1)          - create a composite image by combining several separate images. The images are tiled on the ...",
-      "stream (1)           - a lightweight tool to stream one or more pixel components of the image or portion of the im..."
+      {
+        "/usr/bin/Magick++-config": [
+          "Magick++-config (1)  - get information about the installed version of Magick++"
+        ]
+      },
+      {
+        "/usr/bin/MagickCore-config": [
+          "MagickCore-config (1) - get information about the installed version of ImageMagick"
+        ]
+      },
+      {
+        "/usr/bin/MagickWand-config": [
+          "MagickWand-config (1) - get information about the installed version of the Magick Wand"
+        ]
+      },
+      {
+        "/usr/bin/animate": [
+          "animate (1)          - animates an image or image sequence on any X server."
+        ]
+      },
+      {
+        "/usr/bin/compare": [
+          "compare (1)          - mathematically and visually annotate the difference between an image and its reconstruction."
+        ]
+      },
+      {
+        "/usr/bin/composite": [
+          "composite (1)        - overlaps one image over another."
+        ]
+      },
+      {
+        "/usr/bin/conjure": [
+          "conjure (1)          - interprets and executes scripts written in the Magick Scripting Language (MSL)."
+        ]
+      },
+      {
+        "/usr/bin/convert": [
+          "convert (1)          - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more."
+        ]
+      },
+      {
+        "/usr/bin/display": [
+          "display (1)          - displays an image or image sequence on any X server."
+        ]
+      },
+      {
+        "/usr/bin/identify": [
+          "identify (1)         - describes the format and characteristics of one or more image files."
+        ]
+      },
+      {
+        "/usr/bin/import": [
+          "import (1)           - saves any visible window on an X server and outputs it as an image file. You can capture a single window, the entire screen, or any rectangular portion of the screen. The window to capture is selected by clicking the desired window or a program option."
+        ]
+      },
+      {
+        "/usr/bin/magick": [
+          "magick (1)           - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more."
+        ]
+      },
+      {
+        "/usr/bin/magick-script": [
+          "magick-script (1)    - scripting language that converts between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more."
+        ]
+      },
+      {
+        "/usr/bin/mogrify": [
+          "mogrify (1)          - resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more. Mogrify overwrites the original image file, whereas, convert(1) writes to a different image file."
+        ]
+      },
+      {
+        "/usr/bin/montage": [
+          "montage (1)          - create a composite image by combining several separate images. The images are tiled on the composite image optionally adorned with a border, frame, image name, and more."
+        ]
+      },
+      {
+        "/usr/bin/stream": [
+          "stream (1)           - a lightweight tool to stream one or more pixel components of the image or portion of the image to your choice of storage formats."
+        ]
+      }
     ]
   },
   {
@@ -1348,7 +1810,11 @@
     "scope": "Global",
     "category": "Development",
     "whatis": [
-      "gh (1)               - GitHub CLI"
+      {
+        "/usr/bin/gh": [
+          "gh (1)               - GitHub CLI"
+        ]
+      }
     ]
   },
   {
@@ -1364,7 +1830,11 @@
     "scope": "Global",
     "category": "Development",
     "whatis": [
-      "code (n)             - capture the namespace context for a code fragment"
+      {
+        "/usr/bin/code": [
+          "code (n)             - capture the namespace context for a code fragment"
+        ]
+      }
     ]
   },
   {
@@ -1373,35 +1843,143 @@
     "scope": "Global",
     "category": "Office",
     "whatis": [
-      "cancel (1)           - cancel jobs",
-      "cupsaccept (8)       - accept/reject jobs sent to a destination",
-      "cupsctl (8)          - configure cupsd.conf options",
-      "cupsd (8)            - cups scheduler",
-      "cupsdisable (8)      - stop/start printers and classes",
-      "cupsenable (8)       - stop/start printers and classes",
-      "cupsfilter (8)       - convert a file to another format using cups filters (deprecated)",
-      "cupsreject (8)       - accept/reject jobs sent to a destination",
-      "cupstestppd (1)      - test conformance of ppd files",
-      "ippeveprinter (1)    - an ipp everywhere printer application for cups",
-      "ippfind (1)          - find internet printing protocol printers",
-      "ipptool (1)          - perform internet printing protocol requests",
-      "lp (1p)              - send files to a printer",
-      "lp (4)               - line printer devices",
-      "lp (1)               - print files",
-      "lpadmin (8)          - configure cups printers and classes",
-      "lpc (8)              - line printer control program (deprecated)",
-      "lpinfo (8)           - show available devices or drivers (deprecated)",
-      "lpmove (8)           - move a job or all jobs to a new destination",
-      "lpoptions (1)        - display or set printer options and defaults",
-      "lpq (1)              - show printer queue status",
-      "lpr (1)              - print files",
-      "lprm (1)             - cancel print jobs",
-      "lpstat (1)           - print cups status information",
-      "ppdc (1)             - cups ppd compiler (deprecated)",
-      "ppdhtml (1)          - cups html summary generator (deprecated)",
-      "ppdi (1)             - import ppd files (deprecated)",
-      "ppdmerge (1)         - merge ppd files (deprecated)",
-      "ppdpo (1)            - ppd message catalog generator (deprecated)"
+      {
+        "/usr/bin/cancel": [
+          "cancel (1)           - cancel jobs"
+        ]
+      },
+      {
+        "/usr/bin/cupsaccept": [
+          "cupsaccept (8)       - accept/reject jobs sent to a destination"
+        ]
+      },
+      {
+        "/usr/bin/cupsctl": [
+          "cupsctl (8)          - configure cupsd.conf options"
+        ]
+      },
+      {
+        "/usr/bin/cupsd": [
+          "cupsd (8)            - cups scheduler"
+        ]
+      },
+      {
+        "/usr/bin/cupsdisable": [
+          "cupsdisable (8)      - stop/start printers and classes"
+        ]
+      },
+      {
+        "/usr/bin/cupsenable": [
+          "cupsenable (8)       - stop/start printers and classes"
+        ]
+      },
+      {
+        "/usr/bin/cupsfilter": [
+          "cupsfilter (8)       - convert a file to another format using cups filters (deprecated)"
+        ]
+      },
+      {
+        "/usr/bin/cupsreject": [
+          "cupsreject (8)       - accept/reject jobs sent to a destination"
+        ]
+      },
+      {
+        "/usr/bin/cupstestppd": [
+          "cupstestppd (1)      - test conformance of ppd files"
+        ]
+      },
+      {
+        "/usr/bin/ippeveprinter": [
+          "ippeveprinter (1)    - an ipp everywhere printer application for cups"
+        ]
+      },
+      {
+        "/usr/bin/ippfind": [
+          "ippfind (1)          - find internet printing protocol printers"
+        ]
+      },
+      {
+        "/usr/bin/ipptool": [
+          "ipptool (1)          - perform internet printing protocol requests"
+        ]
+      },
+      {
+        "/usr/bin/lp": [
+          "lp (1p)              - send files to a printer",
+          "lp (4)               - line printer devices",
+          "lp (1)               - print files"
+        ]
+      },
+      {
+        "/usr/bin/lpadmin": [
+          "lpadmin (8)          - configure cups printers and classes"
+        ]
+      },
+      {
+        "/usr/bin/lpc": [
+          "lpc (8)              - line printer control program (deprecated)"
+        ]
+      },
+      {
+        "/usr/bin/lpinfo": [
+          "lpinfo (8)           - show available devices or drivers (deprecated)"
+        ]
+      },
+      {
+        "/usr/bin/lpmove": [
+          "lpmove (8)           - move a job or all jobs to a new destination"
+        ]
+      },
+      {
+        "/usr/bin/lpoptions": [
+          "lpoptions (1)        - display or set printer options and defaults"
+        ]
+      },
+      {
+        "/usr/bin/lpq": [
+          "lpq (1)              - show printer queue status"
+        ]
+      },
+      {
+        "/usr/bin/lpr": [
+          "lpr (1)              - print files"
+        ]
+      },
+      {
+        "/usr/bin/lprm": [
+          "lprm (1)             - cancel print jobs"
+        ]
+      },
+      {
+        "/usr/bin/lpstat": [
+          "lpstat (1)           - print cups status information"
+        ]
+      },
+      {
+        "/usr/bin/ppdc": [
+          "ppdc (1)             - cups ppd compiler (deprecated)"
+        ]
+      },
+      {
+        "/usr/bin/ppdhtml": [
+          "ppdhtml (1)          - cups html summary generator (deprecated)"
+        ]
+      },
+      {
+        "/usr/bin/ppdi": [
+          "ppdi (1)             - import ppd files (deprecated)"
+        ]
+      },
+      {
+        "/usr/bin/ppdmerge": [
+          "ppdmerge (1)         - merge ppd files (deprecated)"
+        ]
+      },
+      {
+        "/usr/bin/ppdpo": [
+          "ppdpo (1)            - ppd message catalog generator (deprecated)"
+        ]
+      }
     ]
   },
   {
@@ -1409,30 +1987,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": [
-      "dvipdf (1)           - Convert TeX DVI file to PDF using ghostscript and dvips",
-      "eps2eps (1)          - Ghostscript PostScript \"distiller\"",
-      "gs (1)               - Ghostscript (PostScript and PDF language interpreter and previewer)",
-      "gsbj (1)             - Format and print text for BubbleJet printer using ghostscript",
-      "gsdj (1)             - Format and print text for DeskJet printer using ghostscript",
-      "gsdj500 (1)          - Format and print text for DeskJet 500 BubbleJet using ghostscript",
-      "gslj (1)             - Format and print text for LaserJet printer using ghostscript",
-      "gslp (1)             - Format and print text using ghostscript",
-      "gsnd (1)             - Run ghostscript (PostScript and PDF engine) without display",
-      "pdf2dsc (1)          - generate a PostScript page list of a PDF document",
-      "pdf2ps (1)           - Ghostscript PDF to PostScript translator",
-      "pf2afm (1)           - Make an AFM file from Postscript (PFB/PFA/PFM) font files using ghostscript",
-      "pfbtopfa (1)         - Convert Postscript .pfb fonts to .pfa format using ghostscript",
-      "printafm (1)         - Print the metrics from a Postscript font in AFM format using ghostscript",
-      "ps2ascii (1)         - Ghostscript translator from PostScript or PDF to ASCII",
-      "ps2epsi (1)          - generate conforming Encapsulated PostScript",
-      "ps2pdf (1)           - Convert PostScript to PDF using ghostscript",
-      "ps2pdf12 (1)         - Convert PostScript to PDF 1.2 (Acrobat 3-and-later compatible) using ghostscript",
-      "ps2pdf13 (1)         - Convert PostScript to PDF 1.3 (Acrobat 4-and-later compatible) using ghostscript",
-      "ps2pdf14 (1)         - Convert PostScript to PDF 1.4 (Acrobat 5-and-later compatible) using ghostscript",
-      "ps2pdfwr (1)         - Convert PostScript to PDF without specifying CompatibilityLevel, using ghostscript",
-      "ps2ps (1)            - Ghostscript PostScript \"distiller\""
-    ]
+    "whatis": ""
+  },
+  {
+    "pkg": "libreoffice-fresh",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": ""
   },
   {
     "pkg": "p3x-onenote",
@@ -1447,7 +2009,11 @@
     "scope": "Global",
     "category": "Office",
     "whatis": [
-      "zathura (1)          - a document viewer"
+      {
+        "/usr/bin/zathura": [
+          "zathura (1)          - a document viewer"
+        ]
+      }
     ]
   },
   {
@@ -1455,7 +2021,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "minigalaxy",
