@@ -205,6 +205,7 @@ bar {
 	for_window [app_id="chromium" title="Save File"] floating enable
 	for_window [app_id="zoom" title="^(?!Zoom Meeting.*$)"] floating enable
 	for_window [app_id="org.remmina.Remmina" title="Remmina Remote Desktop Client"] floating enable
+	for_window [app_id="virt-manager" title="Virtual Machine Manager"] floating enable
 
 #
 # Startup apps
