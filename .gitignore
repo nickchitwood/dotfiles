@@ -1,3 +1,6 @@
+# Others to ignore
+gtk-3.0/bookmarks
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
