@@ -131,6 +131,13 @@
     ]
   },
   {
+    "pkg": "bemenu-wlroots",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
+  },
+  {
     "pkg": "cifs-utils",
     "loc": "sync",
     "scope": "Global",
@@ -239,6 +246,34 @@
     "whatis": ""
   },
   {
+    "pkg": "gdb",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": [
+      {
+        "/usr/bin/gcore": [
+          "gcore (1)            - Generate a core file of a running program"
+        ]
+      },
+      {
+        "/usr/bin/gdb": [
+          "gdb (1)              - The GNU Debugger"
+        ]
+      },
+      {
+        "/usr/bin/gdb-add-index": [
+          "gdb-add-index (1)    - Add index files to speed up GDB"
+        ]
+      },
+      {
+        "/usr/bin/gdbserver": [
+          "gdbserver (1)        - Remote Server for the GNU Debugger"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "git",
     "loc": "sync",
     "scope": "Global",
@@ -333,6 +368,13 @@
   {
     "pkg": "i7z",
     "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": ""
+  },
+  {
+    "pkg": "j4-dmenu-desktop",
+    "loc": "aur",
     "scope": "Global",
     "category": "System-Core",
     "whatis": ""
@@ -659,6 +701,13 @@
     "whatis": ""
   },
   {
+    "pkg": "rclone",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": ""
+  },
+  {
     "pkg": "rsync",
     "loc": "sync",
     "scope": "Global",
@@ -811,6 +860,13 @@
     "pkg": "brightnessctl",
     "loc": "sync",
     "scope": "t480",
+    "category": "System-Graphics",
+    "whatis": ""
+  },
+  {
+    "pkg": "fontpreview-git",
+    "loc": "aur",
+    "scope": "Global",
     "category": "System-Graphics",
     "whatis": ""
   },
@@ -1120,7 +1176,13 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/wf-recorder": [
+          "wf-recorder (1)      - A simple screen recording program for wlroots-based compositors"
+        ]
+      }
+    ]
   },
   {
     "pkg": "wl-clipboard",
@@ -1145,16 +1207,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": [
-      {
-        "/usr/bin/wofi": [
-          "wofi (1)             - A rofi inspired launcher for wlroots compositors",
-          "wofi (3)             - Mode functions and documentation",
-          "wofi (5)             - configuration file and styling",
-          "wofi (7)             - Built in modes and other features"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "xorg-xeyes",
@@ -1411,6 +1464,13 @@
     "whatis": ""
   },
   {
+    "pkg": "google-drive-ocamlfuse",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Network",
+    "whatis": ""
+  },
+  {
     "pkg": "iwd",
     "loc": "sync",
     "scope": "t480",
@@ -1423,6 +1483,37 @@
     "scope": "Global",
     "category": "System-Network",
     "whatis": []
+  },
+  {
+    "pkg": "nethogs",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Network",
+    "whatis": [
+      {
+        "/usr/bin/nethogs": [
+          "nethogs (8)          - Net top tool grouping bandwidth per process"
+        ]
+      }
+    ]
+  },
+  {
+    "pkg": "nextcloud-client",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Network",
+    "whatis": [
+      {
+        "/usr/bin/nextcloud": [
+          "nextcloud (1)        - File synchronisation desktop utility."
+        ]
+      },
+      {
+        "/usr/bin/nextcloudcmd": [
+          "nextcloudcmd (1)     - Command line Nextcloud client tool."
+        ]
+      }
+    ]
   },
   {
     "pkg": "nmap",
@@ -1752,7 +1843,7 @@
       },
       {
         "/usr/bin/convert": [
-          "convert (1)          - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more."
+          "convert (1)          - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-s..."
         ]
       },
       {
@@ -1767,32 +1858,32 @@
       },
       {
         "/usr/bin/import": [
-          "import (1)           - saves any visible window on an X server and outputs it as an image file. You can capture a single window, the entire screen, or any rectangular portion of the screen. The window to capture is selected by clicking the desired window or a program option."
+          "import (1)           - saves any visible window on an X server and outputs it as an image file. You can capture a single window, the enti..."
         ]
       },
       {
         "/usr/bin/magick": [
-          "magick (1)           - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more."
+          "magick (1)           - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-s..."
         ]
       },
       {
         "/usr/bin/magick-script": [
-          "magick-script (1)    - scripting language that converts between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more."
+          "magick-script (1)    - scripting language that converts between image formats as well as resize an image, blur, crop, despeckle, dither, ..."
         ]
       },
       {
         "/usr/bin/mogrify": [
-          "mogrify (1)          - resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more. Mogrify overwrites the original image file, whereas, convert(1) writes to a different image file."
+          "mogrify (1)          - resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more. Mogrify overwrites ..."
         ]
       },
       {
         "/usr/bin/montage": [
-          "montage (1)          - create a composite image by combining several separate images. The images are tiled on the composite image optionally adorned with a border, frame, image name, and more."
+          "montage (1)          - create a composite image by combining several separate images. The images are tiled on the composite image optiona..."
         ]
       },
       {
         "/usr/bin/stream": [
-          "stream (1)           - a lightweight tool to stream one or more pixel components of the image or portion of the image to your choice of storage formats."
+          "stream (1)           - a lightweight tool to stream one or more pixel components of the image or portion of the image to your choice of s..."
         ]
       }
     ]
@@ -2036,5 +2127,12 @@
     "scope": "Global",
     "category": "Games",
     "whatis": ""
+  },
+  {
+    "pkg": "libgit2",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Data",
+    "whatis": []
   }
 ]
