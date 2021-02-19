@@ -29,8 +29,8 @@ font pango:Lato 10
 	bindsym $mod+Shift+backslash exec chromium --profile-directory="Profile 1"
 
 	# start program launcher
-	bindsym $mod+d exec j4-dmenu-desktop --dmenu="bemenu -i -m 2"
-	bindsym $mod+shift+d exec bemenu-run -i -m 2
+	bindsym $mod+d exec j4-dmenu-desktop --dmenu="bemenu -i -m DP-1"
+	bindsym $mod+shift+d exec bemenu-run -i -m DP-1
 
 	# Use Mouse+$mod to drag floating windows to their wanted position
 	floating_modifier $mod
@@ -220,9 +220,15 @@ bar {
 # Screenshots
 #
 	set $screenshot grim ~/Pictures/screenshots/scrn-$(date +"%Y-%m-%d-%H-%M-%S").png
+	set $screenshotwlcopy grim - | wl-copy
 	set $screenclip slurp | grim -g - ~/Pictures/screenshots/scrn-$(date +"%Y-%m-%d-%H-%M-%S").png
+	set $screenclipwlcopy slurp | grim -g - - | wl-copy
 	bindsym $mod+Print exec $screenshot
+	bindsym $mod+Control+3 exec $screenshot
+	bindsym $mod+Control+Shift+3 exec $screenshotwlcopy
 	bindsym $mod+Shift+Print exec $screenclip
+	bindsym $mod+Control+4 exec $screenclip
+	bindsym $mod+Control+Shift+4 exec $screenclipwlcopy
 
 #
 # Device specific config
