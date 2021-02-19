@@ -658,3 +658,65 @@
 2021-02-10 21:46:34		Options reloaded from perl.conf
 2021-02-10 21:46:34		Options reloaded from script.conf
 2021-02-10 21:46:34		Options reloaded from fset.conf
+2021-02-17 20:48:37		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2021-02-17 21:08:28		[core]
+2021-02-17 21:08:28		  away     buffer   command  debug    filter   history  key      mouse    plugin   proxy    reload   save     set      upgrade  version  window 
+2021-02-17 21:08:28		  bar      color    cursor   eval     help     input    layout   mute     print    quit     repeat   secure   unset    uptime   wait   
+2021-02-17 21:08:28		[logger]
+2021-02-17 21:08:28		  logger
+2021-02-17 21:08:28		[script]
+2021-02-17 21:08:28		  script
+2021-02-17 21:08:28		[fset]
+2021-02-17 21:08:28		  fset
+2021-02-17 21:08:28		[alias]
+2021-02-17 21:08:28		  AAWAY    ANICK    BYE      CHAT     CLOSE    IG       K        LEAVE    MSGBUF   N        REDRAW   SIGNOFF  UB       V        WC       WII      WW     
+2021-02-17 21:08:28		  alias    BEEP     C        CL       EXIT     J        KB       M        MUB      Q        SAY      T        UMODE    W        WI       WM     
+2021-02-17 21:08:28		[charset]
+2021-02-17 21:08:28		  charset
+2021-02-17 21:08:28		[xfer]
+2021-02-17 21:08:28		  me  xfer
+2021-02-17 21:08:28		[exec]
+2021-02-17 21:08:28		  exec
+2021-02-17 21:08:28		[perl]
+2021-02-17 21:08:28		  perl
+2021-02-17 21:08:28		[buflist]
+2021-02-17 21:08:28		  buflist
+2021-02-17 21:08:28		[fifo]
+2021-02-17 21:08:28		  fifo
+2021-02-17 21:08:28		[python]
+2021-02-17 21:08:28		  python
+2021-02-17 21:08:28		[relay]
+2021-02-17 21:08:28		  relay
+2021-02-17 21:08:28		[irc]
+2021-02-17 21:08:28		  admin       connect     devoice     invite      links       motd        op          quiet       sajoin      service     time        users       whois     
+2021-02-17 21:08:28		  allchan     ctcp        die         ison        list        msg         oper        quote       samode      servlist    topic       version     whowas    
+2021-02-17 21:08:28		  allpv       cycle       disconnect  join        lusers      names       part        reconnect   sanick      squery      trace       voice     
+2021-02-17 21:08:28		  allserv     dcc         halfop      kick        map         nick        ping        rehash      sapart      squit       unban       wallchops 
+2021-02-17 21:08:28		  ban         dehalfop    ignore      kickban     me          notice      pong        remove      saquit      stats       unquiet     wallops   
+2021-02-17 21:08:28		  cap         deop        info        kill        mode        notify      query       restart     server      summon      userhost    who       
+2021-02-17 21:08:28		[tcl]
+2021-02-17 21:08:28		  tcl
+2021-02-17 21:08:28		[trigger]
+2021-02-17 21:08:28		  trigger
+2021-02-17 21:08:28		[guile]
+2021-02-17 21:08:28		  guile
+2021-02-18 13:52:33		Options reloaded from sec.conf
+2021-02-18 13:52:33		Options reloaded from weechat.conf
+2021-02-18 13:52:33		Options reloaded from plugins.conf
+2021-02-18 13:52:33		Options reloaded from charset.conf
+2021-02-18 13:52:33		Options reloaded from logger.conf
+2021-02-18 13:52:33		Options reloaded from exec.conf
+2021-02-18 13:52:33		Options reloaded from trigger.conf
+2021-02-18 13:52:33		Options reloaded from alias.conf
+2021-02-18 13:52:33		Options reloaded from buflist.conf
+2021-02-18 13:52:33		Options reloaded from fifo.conf
+2021-02-18 13:52:33		Options reloaded from xfer.conf
+2021-02-18 13:52:33		Options reloaded from irc.conf
+2021-02-18 13:52:33		Options reloaded from relay.conf
+2021-02-18 13:52:33		Options reloaded from perl.conf
+2021-02-18 13:52:33		Options reloaded from python.conf
+2021-02-18 13:52:33		Options reloaded from tcl.conf
+2021-02-18 13:52:33		Options reloaded from guile.conf
+2021-02-18 13:52:33		Options reloaded from script.conf
+2021-02-18 13:52:33		Options reloaded from fset.conf
+2021-02-18 13:52:33		fifo: pipe closed
