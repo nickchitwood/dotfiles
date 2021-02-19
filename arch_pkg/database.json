@@ -705,7 +705,13 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/rclone": [
+          "rclone (1)           - (unknown subject)"
+        ]
+      }
+    ]
   },
   {
     "pkg": "rsync",
@@ -1843,7 +1849,7 @@
       },
       {
         "/usr/bin/convert": [
-          "convert (1)          - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-s..."
+          "convert (1)          - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more."
         ]
       },
       {
@@ -1858,32 +1864,33 @@
       },
       {
         "/usr/bin/import": [
-          "import (1)           - saves any visible window on an X server and outputs it as an image file. You can capture a single window, the enti..."
+          "import (1)           - saves any visible window on an X server and outputs it as an image file. You can capture a single window, the entire screen, or any rectangular portion of the screen. The window to capture is selected by clicking the desired window or a program option."
         ]
       },
       {
         "/usr/bin/magick": [
-          "magick (1)           - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-s..."
+          "magick (1)           - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more."
         ]
       },
       {
         "/usr/bin/magick-script": [
-          "magick-script (1)    - scripting language that converts between image formats as well as resize an image, blur, crop, despeckle, dither, ..."
+          "magick-script (1)    - scripting language that converts between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more."
         ]
       },
       {
         "/usr/bin/mogrify": [
-          "mogrify (1)          - resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more. Mogrify overwrites ..."
+          "mogrify (1)          - resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more. Mogrify overwrites the original image file, whereas, convert(1) writes to a different image file."
         ]
       },
       {
         "/usr/bin/montage": [
-          "montage (1)          - create a composite image by combining several separate images. The images are tiled on the composite image optiona..."
+          "montage (1)          - create a composite image by combining several separate images. The images are tiled on the composite image optionally adorned with a border, frame, image name, and more."
         ]
       },
       {
         "/usr/bin/stream": [
-          "stream (1)           - a lightweight tool to stream one or more pixel components of the image or portion of the image to your choice of s..."
+          "stream (1)           - a lightweight tool to stream one or more pixel components of the image or portion of the image to your choice of storage formats.",
+          "Stream (3o)          - Streams and parsers."
         ]
       }
     ]

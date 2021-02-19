@@ -720,3 +720,5 @@
 2021-02-18 13:52:33		Options reloaded from script.conf
 2021-02-18 13:52:33		Options reloaded from fset.conf
 2021-02-18 13:52:33		fifo: pipe closed
+2021-02-18 20:37:42		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2021-02-18 20:37:49		fifo: pipe closed
