@@ -5,6 +5,7 @@
 
 - link:
     ~/.weechat:
+    ~/.zshenv:
     ~/.zshrc:
     ~/.zprofile:
     ~/.aliases:
