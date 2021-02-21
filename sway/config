@@ -12,11 +12,6 @@ font pango:Lato 10
 	bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 10%-
 	bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl s +10%
 
-### Idle configuration
-	exec swayidle -w \
-		timeout 900 'swaymsg "output * dpms off"' \
-		resume 'swaymsg "output * dpms on"'
-
 ### Keybinds
 # 
 # Basics
