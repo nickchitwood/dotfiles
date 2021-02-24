@@ -149,7 +149,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "ccache",
@@ -487,21 +487,21 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-lts54-docs",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-lts54-headers",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-zen",
@@ -928,7 +928,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "tmux",
@@ -1113,14 +1113,14 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "libva-mesa-driver",
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "libva-utils",
@@ -1174,7 +1174,7 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "otf-san-francisco",
@@ -1209,7 +1209,13 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/radeontop": [
+          "radeontop (1)        - tool to show GPU utilization"
+        ]
+      }
+    ]
   },
   {
     "pkg": "rofi-lbonn-wayland-git",
@@ -1362,7 +1368,7 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "waybar",
@@ -1597,7 +1603,7 @@
     "loc": "aur",
     "scope": "t480",
     "category": "System-Network",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "blueberry",
@@ -2006,7 +2012,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "AudioVideo",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "pulsemixer",
@@ -2194,7 +2200,13 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "Development",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/code": [
+          "code (n)             - capture the namespace context for a code fragment"
+        ]
+      }
+    ]
   },
   {
     "pkg": "visual-studio-code-wayland",
