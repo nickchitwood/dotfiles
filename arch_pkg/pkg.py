@@ -135,7 +135,10 @@ def add_to_database(installed: List, get_database: List):
     combined_database.sort(key=sort_database)
 
     for i in combined_database:
-        i.update({"whatis": get_whatis(i["pkg"])})
+        if len(i["whatis"]) >= 1:
+            next
+        else:
+            i.update({"whatis": get_whatis(i["pkg"])})
 
     with open("arch_pkg/database.json", "w") as f:
         json.dump(combined_database, f, indent=2)
@@ -180,9 +183,10 @@ def get_whatis(package_name):
         ).splitlines()
         files_only = [i for i in files if i[-1] != "/"]
         path_files = [i for i in files_only if check_if_in_path(i)]
-        whatis = [{i: subprocess.check_output(
-            ["whatis",  i], encoding="utf-8"
-        ).splitlines()} for i in path_files]
+        whatis = [
+            {i: subprocess.check_output(["whatis", i], encoding="utf-8").splitlines()}
+            for i in path_files
+        ]
         return whatis
     except subprocess.CalledProcessError:
         return ""
