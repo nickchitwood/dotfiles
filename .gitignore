@@ -1,5 +1,6 @@
 # Others to ignore
 gtk-3.0/bookmarks
+weechat
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
