@@ -1,2 +1,7 @@
+acpica
 exfatprogs
+nasm
+s-tui
+upx
 wofi
+chiaki

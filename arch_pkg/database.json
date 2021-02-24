@@ -142,6 +142,13 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
+    "whatis": []
+  },
+  {
+    "pkg": "ccache",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
     "whatis": ""
   },
   {
@@ -230,33 +237,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      {
-        "/usr/bin/dump.exfat": [
-          "dump.exfat (8)       - Show on-disk information of exfat filesystem"
-        ]
-      },
-      {
-        "/usr/bin/exfatlabel": [
-          "exfatlabel (8)       - Get or Set volume label or volume serial of an exFAT filesystem"
-        ]
-      },
-      {
-        "/usr/bin/fsck.exfat": [
-          "fsck.exfat (8)       - check an exFAT filesystem"
-        ]
-      },
-      {
-        "/usr/bin/mkfs.exfat": [
-          "mkfs.exfat (8)       - create an exFAT filesystem"
-        ]
-      },
-      {
-        "/usr/bin/tune.exfat": [
-          "tune.exfat (8)       - adjust tunable filesystem parameters on an exFAT filesystem"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "expac",
@@ -283,7 +264,28 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/gcore": [
+          "gcore (1)            - Generate a core file of a running program"
+        ]
+      },
+      {
+        "/usr/bin/gdb": [
+          "gdb (1)              - The GNU Debugger"
+        ]
+      },
+      {
+        "/usr/bin/gdb-add-index": [
+          "gdb-add-index (1)    - Add index files to speed up GDB"
+        ]
+      },
+      {
+        "/usr/bin/gdbserver": [
+          "gdbserver (1)        - Remote Server for the GNU Debugger"
+        ]
+      }
+    ]
   },
   {
     "pkg": "git",
@@ -441,6 +443,27 @@
     ]
   },
   {
+    "pkg": "linux-lts54",
+    "loc": "aur",
+    "scope": "mp-arch",
+    "category": "System-Core",
+    "whatis": []
+  },
+  {
+    "pkg": "linux-lts54-docs",
+    "loc": "aur",
+    "scope": "mp-arch",
+    "category": "System-Core",
+    "whatis": []
+  },
+  {
+    "pkg": "linux-lts54-headers",
+    "loc": "aur",
+    "scope": "mp-arch",
+    "category": "System-Core",
+    "whatis": []
+  },
+  {
     "pkg": "ltunify",
     "loc": "aur",
     "scope": "Global",
@@ -477,63 +500,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      {
-        "/usr/bin/ldrdf": [
-          "ldrdf (1)            - link RDOFF objects and libraries produced by rdflib(1)"
-        ]
-      },
-      {
-        "/usr/bin/nasm": [
-          "nasm (1)             - the Netwide Assembler, a portable 80x86 assembler"
-        ]
-      },
-      {
-        "/usr/bin/ndisasm": [
-          "ndisasm (1)          - the Netwide Disassembler, an 80x86 binary file disassembler"
-        ]
-      },
-      {
-        "/usr/bin/rdf2bin": [
-          "rdf2bin (1)          - convert an RDOFF object file to flat binary"
-        ]
-      },
-      {
-        "/usr/bin/rdf2com": [
-          "rdf2com (1)          - convert an RDOFF object file to flat binary"
-        ]
-      },
-      {
-        "/usr/bin/rdf2ihx": [
-          "rdf2ihx (1)          - convert an RDOFF object file to flat binary"
-        ]
-      },
-      {
-        "/usr/bin/rdf2ith": [
-          "rdf2ith (1)          - convert an RDOFF object file to flat binary"
-        ]
-      },
-      {
-        "/usr/bin/rdf2srec": [
-          "rdf2srec (1)         - convert an RDOFF object file to flat binary"
-        ]
-      },
-      {
-        "/usr/bin/rdfdump": [
-          "rdfdump (1)          - dumps an RDOFF object in human-readable form"
-        ]
-      },
-      {
-        "/usr/bin/rdflib": [
-          "rdflib (1)           - manage a library file for use with ldrdf(1)"
-        ]
-      },
-      {
-        "/usr/bin/rdx": [
-          "rdx (1)              - load and execute an RDOFF object"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "oh-my-zsh-git",
@@ -789,6 +756,13 @@
     ]
   },
   {
+    "pkg": "reflector",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": ""
+  },
+  {
     "pkg": "rsync",
     "loc": "sync",
     "scope": "Global",
@@ -844,7 +818,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "tmux",
@@ -904,13 +878,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      {
-        "/usr/bin/upx": [
-          "upx (1)              - compress or expand executable files"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "usbutils",
@@ -965,17 +933,18 @@
     "whatis": []
   },
   {
+    "pkg": "amdgpu-clocks-git",
+    "loc": "aur",
+    "scope": "mp-arch",
+    "category": "System-Graphics",
+    "whatis": ""
+  },
+  {
     "pkg": "brightnessctl",
     "loc": "sync",
     "scope": "t480",
     "category": "System-Graphics",
-    "whatis": [
-      {
-        "/usr/bin/brightnessctl": [
-          "brightnessctl (1)    - read and control device brightness"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "fontpreview-git",
@@ -1015,14 +984,14 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "libva-mesa-driver",
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "libva-utils",
@@ -1039,8 +1008,8 @@
     "whatis": [
       {
         "/usr/bin/mako": [
-          "mako (5)             - configuration file",
-          "mako (1)             - notification daemon for Wayland"
+          "mako (1)             - notification daemon for Wayland",
+          "mako (5)             - configuration file"
         ]
       },
       {
@@ -1061,6 +1030,13 @@
     "pkg": "noto-fonts-emoji",
     "loc": "sync",
     "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "opencl-amd",
+    "loc": "aur",
+    "scope": "mp-arch",
     "category": "System-Graphics",
     "whatis": []
   },
@@ -1104,7 +1080,13 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/radeontop": [
+          "radeontop (1)        - tool to show GPU utilization"
+        ]
+      }
+    ]
   },
   {
     "pkg": "rofi-lbonn-wayland-git",
@@ -1264,7 +1246,7 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "waybar",
@@ -1280,11 +1262,24 @@
     ]
   },
   {
+    "pkg": "wayland-docs",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "wf-recorder",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/wf-recorder": [
+          "wf-recorder (1)      - A simple screen recording program for wlroots-based compositors"
+        ]
+      }
+    ]
   },
   {
     "pkg": "wl-clipboard",
@@ -1316,7 +1311,13 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/xeyes": [
+          "xeyes (1)            - a follow the mouse X demo"
+        ]
+      }
+    ]
   },
   {
     "pkg": "xorg-xwayland",
@@ -1487,7 +1488,7 @@
     "loc": "aur",
     "scope": "t480",
     "category": "System-Network",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "blueberry",
@@ -1515,7 +1516,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Network",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "dnsmasq",
@@ -1571,23 +1572,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Network",
-    "whatis": [
-      {
-        "/usr/bin/hwsim": [
-          "hwsim (1)            - Internet wireless simulation utility"
-        ]
-      },
-      {
-        "/usr/bin/iwctl": [
-          "iwctl (1)            - Internet wireless control utility"
-        ]
-      },
-      {
-        "/usr/bin/iwmon": [
-          "iwmon (1)            - Internet wireless monitor utility"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "libvncserver",
@@ -1709,6 +1694,19 @@
     "scope": "t480",
     "category": "System-Network",
     "whatis": []
+  },
+  {
+    "pkg": "realvnc-vnc-viewer",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Network",
+    "whatis": [
+      {
+        "/usr/bin/vncviewer": [
+          "vncviewer (1)        - VNC Viewer"
+        ]
+      }
+    ]
   },
   {
     "pkg": "remmina",
@@ -1849,13 +1847,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "AudioVideo",
-    "whatis": [
-      {
-        "/usr/bin/pasystray": [
-          "pasystray (1)        - PulseAudio controller for the system tray"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "playerctl",
@@ -1876,7 +1868,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "AudioVideo",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "pulsemixer",
@@ -1976,11 +1968,7 @@
       },
       {
         "/usr/bin/import": [
-<<<<<<< HEAD
-          "import (1)           - saves any visible window on an X server and outputs it as an image file. You can capture a single window, the entire screen, or any rectangular portion of the screen. The window to capture is selected by clicking the desired window or a program option."
-=======
           "import (1)           - saves any visible window on an X server and outputs it as an image file. You can capture a single window, the entire screen, or any rectangular portion of the scre..."
->>>>>>> e96c8cae7232d182fce793d0b296ea05616a8061
         ]
       },
       {
@@ -1995,36 +1983,31 @@
       },
       {
         "/usr/bin/mogrify": [
-<<<<<<< HEAD
-          "mogrify (1)          - resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more. Mogrify overwrites the original image file, whereas, convert(1) writes to a different image file."
-=======
           "mogrify (1)          - resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more. Mogrify overwrites the original image file, whereas, convert(1) writ..."
->>>>>>> e96c8cae7232d182fce793d0b296ea05616a8061
         ]
       },
       {
         "/usr/bin/montage": [
-<<<<<<< HEAD
-          "montage (1)          - create a composite image by combining several separate images. The images are tiled on the composite image optionally adorned with a border, frame, image name, and more."
-=======
           "montage (1)          - create a composite image by combining several separate images. The images are tiled on the composite image optionally adorned with a border, frame, image name, and..."
->>>>>>> e96c8cae7232d182fce793d0b296ea05616a8061
         ]
       },
       {
         "/usr/bin/stream": [
-<<<<<<< HEAD
           "stream (1)           - a lightweight tool to stream one or more pixel components of the image or portion of the image to your choice of storage formats.",
           "Stream (3o)          - Streams and parsers."
-=======
-          "stream (1)           - a lightweight tool to stream one or more pixel components of the image or portion of the image to your choice of storage formats."
->>>>>>> e96c8cae7232d182fce793d0b296ea05616a8061
         ]
       }
     ]
   },
   {
     "pkg": "asdf-vm",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Development",
+    "whatis": ""
+  },
+  {
+    "pkg": "bfg",
     "loc": "aur",
     "scope": "Global",
     "category": "Development",
@@ -2230,6 +2213,90 @@
     "whatis": ""
   },
   {
+    "pkg": "texlive-bibtexextra",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": ""
+  },
+  {
+    "pkg": "texlive-core",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": ""
+  },
+  {
+    "pkg": "texlive-fontsextra",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": []
+  },
+  {
+    "pkg": "texlive-formatsextra",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": []
+  },
+  {
+    "pkg": "texlive-games",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": ""
+  },
+  {
+    "pkg": "texlive-humanities",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": ""
+  },
+  {
+    "pkg": "texlive-latexextra",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": ""
+  },
+  {
+    "pkg": "texlive-music",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": ""
+  },
+  {
+    "pkg": "texlive-pictures",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": ""
+  },
+  {
+    "pkg": "texlive-pstricks",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": ""
+  },
+  {
+    "pkg": "texlive-publishers",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": []
+  },
+  {
+    "pkg": "texlive-science",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": ""
+  },
+  {
     "pkg": "zathura",
     "loc": "sync",
     "scope": "Global",
@@ -2275,6 +2342,6 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Data",
-    "whatis": ""
+    "whatis": []
   }
 ]
