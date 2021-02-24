@@ -1968,7 +1968,7 @@
       },
       {
         "/usr/bin/import": [
-          "import (1)           - saves any visible window on an X server and outputs it as an image file. You can capture a single window, the entire screen, or any rectangular portion of the scre..."
+          "import (1)           - saves any visible window on an X server and outputs it as an image ..."
         ]
       },
       {
@@ -1983,21 +1983,17 @@
       },
       {
         "/usr/bin/mogrify": [
-          "mogrify (1)          - resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more. Mogrify overwrites the original image file, whereas, convert(1) writ..."
+          "mogrify (1)          - resize an image, blur, crop, despeckle, dither, draw on, flip, join..."
         ]
       },
       {
         "/usr/bin/montage": [
-          "montage (1)          - create a composite image by combining several separate images. The images are tiled on the composite image optionally adorned with a border, frame, image name, and..."
+          "montage (1)          - create a composite image by combining several separate images. The ..."
         ]
       },
       {
         "/usr/bin/stream": [
-<<<<<<< HEAD
           "stream (1)           - a lightweight tool to stream one or more pixel components of the im...",
-=======
-          "stream (1)           - a lightweight tool to stream one or more pixel components of the image or portion of the image to your choice of storage formats.",
->>>>>>> 873806b6aaac082a8fe805621c25dc18c71561d9
           "Stream (3o)          - Streams and parsers."
         ]
       }

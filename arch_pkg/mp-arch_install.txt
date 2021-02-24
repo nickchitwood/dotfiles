@@ -3,5 +3,7 @@ exfatprogs
 nasm
 s-tui
 upx
+nerd-fonts-complete
+otf-font-awesome
 wofi
 chiaki
