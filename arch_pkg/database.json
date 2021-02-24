@@ -149,7 +149,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "ccache",
@@ -244,33 +244,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      {
-        "/usr/bin/dump.exfat": [
-          "dump.exfat (8)       - Show on-disk information of exfat filesystem"
-        ]
-      },
-      {
-        "/usr/bin/exfatlabel": [
-          "exfatlabel (8)       - Get or Set volume label or volume serial of an exFAT filesystem"
-        ]
-      },
-      {
-        "/usr/bin/fsck.exfat": [
-          "fsck.exfat (8)       - check an exFAT filesystem"
-        ]
-      },
-      {
-        "/usr/bin/mkfs.exfat": [
-          "mkfs.exfat (8)       - create an exFAT filesystem"
-        ]
-      },
-      {
-        "/usr/bin/tune.exfat": [
-          "tune.exfat (8)       - adjust tunable filesystem parameters on an exFAT filesystem"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "expac",
@@ -487,21 +461,21 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-lts54-docs",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-lts54-headers",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-zen",
@@ -554,63 +528,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      {
-        "/usr/bin/ldrdf": [
-          "ldrdf (1)            - link RDOFF objects and libraries produced by rdflib(1)"
-        ]
-      },
-      {
-        "/usr/bin/nasm": [
-          "nasm (1)             - the Netwide Assembler, a portable 80x86 assembler"
-        ]
-      },
-      {
-        "/usr/bin/ndisasm": [
-          "ndisasm (1)          - the Netwide Disassembler, an 80x86 binary file disassembler"
-        ]
-      },
-      {
-        "/usr/bin/rdf2bin": [
-          "rdf2bin (1)          - convert an RDOFF object file to flat binary"
-        ]
-      },
-      {
-        "/usr/bin/rdf2com": [
-          "rdf2com (1)          - convert an RDOFF object file to flat binary"
-        ]
-      },
-      {
-        "/usr/bin/rdf2ihx": [
-          "rdf2ihx (1)          - convert an RDOFF object file to flat binary"
-        ]
-      },
-      {
-        "/usr/bin/rdf2ith": [
-          "rdf2ith (1)          - convert an RDOFF object file to flat binary"
-        ]
-      },
-      {
-        "/usr/bin/rdf2srec": [
-          "rdf2srec (1)         - convert an RDOFF object file to flat binary"
-        ]
-      },
-      {
-        "/usr/bin/rdfdump": [
-          "rdfdump (1)          - dumps an RDOFF object in human-readable form"
-        ]
-      },
-      {
-        "/usr/bin/rdflib": [
-          "rdflib (1)           - manage a library file for use with ldrdf(1)"
-        ]
-      },
-      {
-        "/usr/bin/rdx": [
-          "rdx (1)              - load and execute an RDOFF object"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "oh-my-zsh-git",
@@ -928,7 +846,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "tmux",
@@ -988,13 +906,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      {
-        "/usr/bin/upx": [
-          "upx (1)              - compress or expand executable files"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "usbutils",
@@ -1060,13 +972,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Graphics",
-    "whatis": [
-      {
-        "/usr/bin/brightnessctl": [
-          "brightnessctl (1)    - read and control device brightness"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "fontpreview-git",
@@ -1113,14 +1019,14 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "libva-mesa-driver",
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "libva-utils",
@@ -1137,8 +1043,8 @@
     "whatis": [
       {
         "/usr/bin/mako": [
-          "mako (5)             - configuration file",
-          "mako (1)             - notification daemon for Wayland"
+          "mako (1)             - notification daemon for Wayland",
+          "mako (5)             - configuration file"
         ]
       },
       {
@@ -1174,7 +1080,7 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "otf-san-francisco",
@@ -1209,7 +1115,13 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/radeontop": [
+          "radeontop (1)        - tool to show GPU utilization"
+        ]
+      }
+    ]
   },
   {
     "pkg": "rofi-lbonn-wayland-git",
@@ -1362,7 +1274,7 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "waybar",
@@ -1411,22 +1323,6 @@
       {
         "/usr/bin/wl-paste": [
           "wl-paste (1)         - Wayland copy and paste command line utilities"
-        ]
-      }
-    ]
-  },
-  {
-    "pkg": "wofi",
-    "loc": "sync",
-    "scope": "Global",
-    "category": "System-Graphics",
-    "whatis": [
-      {
-        "/usr/bin/wofi": [
-          "wofi (5)             - configuration file and styling",
-          "wofi (7)             - Built in modes and other features",
-          "wofi (1)             - A rofi inspired launcher for wlroots compositors",
-          "wofi (3)             - Mode functions and documentation"
         ]
       }
     ]
@@ -1613,7 +1509,7 @@
     "loc": "aur",
     "scope": "t480",
     "category": "System-Network",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "blueberry",
@@ -1697,23 +1593,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Network",
-    "whatis": [
-      {
-        "/usr/bin/hwsim": [
-          "hwsim (1)            - Internet wireless simulation utility"
-        ]
-      },
-      {
-        "/usr/bin/iwctl": [
-          "iwctl (1)            - Internet wireless control utility"
-        ]
-      },
-      {
-        "/usr/bin/iwmon": [
-          "iwmon (1)            - Internet wireless monitor utility"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "libvncserver",
@@ -1995,13 +1875,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "AudioVideo",
-    "whatis": [
-      {
-        "/usr/bin/pasystray": [
-          "pasystray (1)        - PulseAudio controller for the system tray"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "playerctl",
@@ -2022,7 +1896,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "AudioVideo",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "pulsemixer",
@@ -2043,18 +1917,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": [
-      {
-        "/usr/bin/strawberry": [
-          "strawberry (1)       - music player and music collection organizer"
-        ]
-      },
-      {
-        "/usr/bin/strawberry-tagreader": [
-          "strawberry-tagreader (1) - internal tag reader for strawberry"
-        ]
-      }
-    ]
+    "whatis": ""
   },
   {
     "pkg": "youtube-dl",
@@ -2210,7 +2073,13 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "Development",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/code": [
+          "code (n)             - capture the namespace context for a code fragment"
+        ]
+      }
+    ]
   },
   {
     "pkg": "visual-studio-code-wayland",
