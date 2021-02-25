@@ -142,14 +142,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "broadcom-wl-dkms",
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "ccache",
@@ -493,21 +493,21 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-lts54-docs",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-lts54-headers",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-zen",
@@ -947,7 +947,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "tmux",
@@ -1075,6 +1075,24 @@
     "whatis": ""
   },
   {
+    "pkg": "bemenu-git",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/bemenu": [
+          "bemenu (1)           - Dynamic menu inspired by dmenu (1)"
+        ]
+      },
+      {
+        "/usr/bin/bemenu-run": [
+          "bemenu-run (1)       - Dynamic menu inspired by dmenu (1)"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "brightnessctl",
     "loc": "sync",
     "scope": "t480",
@@ -1106,7 +1124,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "gnome-control-center",
@@ -1127,17 +1145,24 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "gnome-remote-desktop",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "gnome-shell-extensions",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": ""
+  },
+  {
+    "pkg": "gnome-themes-extra",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
@@ -1157,6 +1182,13 @@
     ]
   },
   {
+    "pkg": "gtk2",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": ""
+  },
+  {
     "pkg": "i3status",
     "loc": "sync",
     "scope": "Global",
@@ -1174,14 +1206,47 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
+  },
+  {
+    "pkg": "intltool",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/intltool-extract": [
+          "intltool-extract (8) - generate header files which can be read by gettext"
+        ]
+      },
+      {
+        "/usr/bin/intltool-merge": [
+          "intltool-merge (8)   - merge translated strings into various types of file"
+        ]
+      },
+      {
+        "/usr/bin/intltool-prepare": [
+          "intltool-prepare (8) - Prepare software to make use of intltool"
+        ]
+      },
+      {
+        "/usr/bin/intltool-update": [
+          "intltool-update (8)  - updates PO template file and merge translations with it"
+        ]
+      },
+      {
+        "/usr/bin/intltoolize": [
+          "intltoolize (8)      - copy intltool related files to software package"
+        ]
+      }
+    ]
   },
   {
     "pkg": "libva-mesa-driver",
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "libva-utils",
@@ -1242,7 +1307,7 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "otf-san-francisco",
@@ -1436,7 +1501,7 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "waybar",
@@ -1494,14 +1559,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "xdg-desktop-portal-wlr",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "xorg-xeyes",
@@ -1685,7 +1750,7 @@
     "loc": "aur",
     "scope": "t480",
     "category": "System-Network",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "blueberry",
@@ -2094,7 +2159,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "AudioVideo",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "pulsemixer",
@@ -2248,7 +2313,7 @@
     "loc": "aur",
     "scope": "Global",
     "category": "Development",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "bfg",
@@ -2594,5 +2659,26 @@
     "scope": "Global",
     "category": "Data",
     "whatis": []
+  },
+  {
+    "pkg": "libglade",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Data",
+    "whatis": ""
+  },
+  {
+    "pkg": "libticalcs",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Data",
+    "whatis": []
+  },
+  {
+    "pkg": "tilp",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Data",
+    "whatis": ""
   }
 ]
