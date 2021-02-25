@@ -149,14 +149,20 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ccache",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/ccache": [
+          "ccache (1)           - a fast C/C++ compiler cache"
+        ]
+      }
+    ]
   },
   {
     "pkg": "cifs-utils",
@@ -487,21 +493,21 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "linux-lts54-docs",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "linux-lts54-headers",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "linux-zen",
@@ -516,6 +522,13 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": []
+  },
+  {
+    "pkg": "lsdesktopf",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": ""
   },
   {
     "pkg": "ltunify",
@@ -870,7 +883,13 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/reflector": [
+          "reflector (1)        - retrieve and filter the latest Pacman mirrorlist"
+        ]
+      }
+    ]
   },
   {
     "pkg": "rsync",
@@ -928,7 +947,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "tmux",
@@ -1076,11 +1095,53 @@
     "whatis": ""
   },
   {
+    "pkg": "gdm",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": ""
+  },
+  {
+    "pkg": "gnome-backgrounds",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "gnome-control-center",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": ""
+  },
+  {
     "pkg": "gnome-font-viewer",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": ""
+  },
+  {
+    "pkg": "gnome-menus",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "gnome-remote-desktop",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "gnome-shell-extensions",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
   },
   {
     "pkg": "grim",
@@ -1113,14 +1174,14 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "libva-mesa-driver",
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "libva-utils",
@@ -1149,6 +1210,13 @@
     ]
   },
   {
+    "pkg": "mutter",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": ""
+  },
+  {
     "pkg": "nerd-fonts-fira-code",
     "loc": "aur",
     "scope": "Global",
@@ -1174,7 +1242,7 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "otf-san-francisco",
@@ -1368,7 +1436,7 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "waybar",
@@ -1420,6 +1488,20 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "xdg-desktop-portal",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "xdg-desktop-portal-wlr",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
   },
   {
     "pkg": "xorg-xeyes",
@@ -1603,7 +1685,7 @@
     "loc": "aur",
     "scope": "t480",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "blueberry",
@@ -2012,7 +2094,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "AudioVideo",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "pulsemixer",

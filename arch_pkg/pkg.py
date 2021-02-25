@@ -135,9 +135,12 @@ def add_to_database(installed: List, get_database: List):
     combined_database.sort(key=sort_database)
 
     for i in combined_database:
-        if len(i["whatis"]) >= 1:
-            next
-        else:
+        try:
+            if len(i["whatis"]) >= 1:
+                next
+            else:
+                i.update({"whatis": get_whatis(i["pkg"])})
+        except KeyError:
             i.update({"whatis": get_whatis(i["pkg"])})
 
     with open("arch_pkg/database.json", "w") as f:

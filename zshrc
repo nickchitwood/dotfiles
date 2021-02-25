@@ -116,8 +116,11 @@ source $ZSH/oh-my-zsh.sh
 # Arch Conf
 if [[ $OS == "arch" && ($TERM != "screen-256color") && ($TERM != "linux") ]]; then
 	# Default apps
+	export EDITOR=/usr/bin/nvim
 	export VISUAL=/usr/bin/nvim
 	export TERMINAL=/usr/bin/kitty
+	export MANPAGER='nvim +Man!'
+	export MANWIDTH=999
 
 	# Powerlevel10k
 	source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
@@ -129,7 +132,7 @@ if [[ $OS == "arch" && ($TERM != "screen-256color") && ($TERM != "linux") ]]; th
 	export TERMCMD=/usr/bin/kitty
 	
 	# Enable asdf
-	. /opt/asdf-vm/asdf.sh
+	# . /opt/asdf-vm/asdf.sh
 
 	autoload -Uz compinit
 	compinit
