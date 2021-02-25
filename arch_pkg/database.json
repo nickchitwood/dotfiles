@@ -2159,7 +2159,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "AudioVideo",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "pulsemixer",
@@ -2679,6 +2679,12 @@
     "loc": "aur",
     "scope": "Global",
     "category": "Data",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/tilp": [
+          "tilp (1)             - a communication program for TI calculators ('Tilp Is a Linking Program')"
+        ]
+      }
+    ]
   }
 ]

@@ -1,6 +1,4 @@
-bemenu-wlroots
 lsdesktopf
-gdm
 gnome-backgrounds
 gnome-control-center
 gnome-menus
@@ -9,4 +7,3 @@ gnome-shell-extensions
 mutter
 xdg-desktop-portal
 xdg-desktop-portal-wlr
-chiaki
