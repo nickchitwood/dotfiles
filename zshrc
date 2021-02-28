@@ -88,7 +88,9 @@ HIST_STAMPS="yyyy-mm-dd"
 plugins=(
 	docker 
 	git 
+	npm
 	vi-mode 
+	yarn
 	z 
 	zsh-autosuggestions
 	)
@@ -132,7 +134,7 @@ if [[ $OS == "arch" && ($TERM != "screen-256color") && ($TERM != "linux") ]]; th
 	export TERMCMD=/usr/bin/kitty
 	
 	# Enable asdf
-	# . /opt/asdf-vm/asdf.sh
+	. /opt/asdf-vm/asdf.sh
 
 	autoload -Uz compinit
 	compinit

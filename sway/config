@@ -24,8 +24,8 @@ font pango:Lato 10
 	bindsym $mod+Shift+backslash exec chromium --profile-directory="Profile 1"
 
 	# start program launcher
-	bindsym $mod+d exec j4-dmenu-desktop --dmenu="bemenu -i -m DP-1" --term="kitty"
-	bindsym $mod+shift+d exec bemenu-run -i -m DP-1
+	bindsym $mod+d exec wofi -S drun
+	# bindsym $mod+shift+d exec wofi -S run 
 
 	# Use Mouse+$mod to drag floating windows to their wanted position
 	floating_modifier $mod

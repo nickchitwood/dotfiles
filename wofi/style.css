@@ -1,0 +1,34 @@
+window {
+	margin: 5px;
+	background-color: rgba(1,22,39,0.8);
+	border 1px solid #d6deeb;
+}
+
+#input {
+	margin: 5px;
+	background-color: #011627;
+	color: #d6deeb;
+}
+
+#inner-box {
+	border-radius: 3px 3px 3px 3px;
+	background-color: #011627;
+	border 1px solid #637777;
+}
+
+#outer-box {
+	margin: 3px;
+}
+
+#scroll {
+	margin: 5px;
+}
+
+#text {
+	color: #d6deeb;
+} 
+
+#entry:selected {
+background-color: #1d3b53;
+}
+

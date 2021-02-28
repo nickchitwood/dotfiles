@@ -155,8 +155,13 @@ def create_missing_list(installed, combined_database):
             cat_pkgs = [j for j in combined_database if j["category"] == CATEGORIES[i]]
             print(f"Category {i}: {CATEGORIES[i]}")
             for j in cat_pkgs:
-                if j["pkg"] in installed_packages:
+                if j["pkg"] in installed_packages and (
+                    j["scope"] == "Global" or j["scope"] == HOSTNAME
+                ):
                     print(f"{j['pkg']} already installed")
+                    next
+                elif j["pkg"] in installed_packages:
+                    print(f"{j['pkg']} INSTALLED BUT OUT OF SCOPE")
                     next
                 elif j["scope"] == "Global":
                     print(f"{j['pkg']} added to install.txt.")
