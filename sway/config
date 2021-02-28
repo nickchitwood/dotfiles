@@ -204,6 +204,7 @@ bar {
 	for_window [class="zoom"] floating enable
 	for_window [app_id="org.remmina.Remmina" title="Remmina Remote Desktop Client"] floating enable
 	for_window [app_id="virt-manager" title="Virtual Machine Manager"] floating enable
+	for_window [app_id="yubico.com.yubioath-desktop"] floating enable
 
 #
 # Startup apps
