@@ -138,13 +138,6 @@
     ]
   },
   {
-    "pkg": "bemenu-wlroots",
-    "loc": "sync",
-    "scope": "Global",
-    "category": "System-Core",
-    "whatis": ""
-  },
-  {
     "pkg": "broadcom-wl-dkms",
     "loc": "sync",
     "scope": "t480",
@@ -426,13 +419,6 @@
     "whatis": ""
   },
   {
-    "pkg": "j4-dmenu-desktop",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "System-Core",
-    "whatis": ""
-  },
-  {
     "pkg": "kitty",
     "loc": "sync",
     "scope": "Global",
@@ -493,21 +479,21 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "linux-lts54-docs",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "linux-lts54-headers",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "linux-zen",
@@ -624,6 +610,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "ocaml-ounit",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
   },
   {
     "pkg": "oh-my-zsh-git",
@@ -947,7 +940,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "tmux",
@@ -1075,24 +1068,6 @@
     "whatis": ""
   },
   {
-    "pkg": "bemenu-git",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "System-Graphics",
-    "whatis": [
-      {
-        "/usr/bin/bemenu": [
-          "bemenu (1)           - Dynamic menu inspired by dmenu (1)"
-        ]
-      },
-      {
-        "/usr/bin/bemenu-run": [
-          "bemenu-run (1)       - Dynamic menu inspired by dmenu (1)"
-        ]
-      }
-    ]
-  },
-  {
     "pkg": "brightnessctl",
     "loc": "sync",
     "scope": "t480",
@@ -1124,14 +1099,20 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "gnome-control-center",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/gnome-control-center": [
+          "gnome-control-center (1) - Configure GNOME settings"
+        ]
+      }
+    ]
   },
   {
     "pkg": "gnome-font-viewer",
@@ -1145,21 +1126,21 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "gnome-remote-desktop",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "gnome-shell-extensions",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "gnome-themes-extra",
@@ -1206,7 +1187,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "intltool",
@@ -1246,7 +1227,7 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "libva-utils",
@@ -1279,7 +1260,13 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": [
+      {
+        "/usr/bin/mutter": [
+          "mutter (1)           - Clutter based compositing GTK2 Window Manager"
+        ]
+      }
+    ]
   },
   {
     "pkg": "nerd-fonts-fira-code",
@@ -1307,7 +1294,7 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "otf-san-francisco",
@@ -1346,29 +1333,6 @@
       {
         "/usr/bin/radeontop": [
           "radeontop (1)        - tool to show GPU utilization"
-        ]
-      }
-    ]
-  },
-  {
-    "pkg": "rofi-lbonn-wayland-git",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "System-Graphics",
-    "whatis": [
-      {
-        "/usr/bin/rofi": [
-          "rofi (1)             - A window switcher, application launcher, ssh dialog and dmenu repla..."
-        ]
-      },
-      {
-        "/usr/bin/rofi-sensible-terminal": [
-          "rofi-sensible-terminal (1) - launches $TERMINAL with fallbacks"
-        ]
-      },
-      {
-        "/usr/bin/rofi-theme-selector": [
-          "rofi-theme-selector (1) - Preview and apply themes for rofi"
         ]
       }
     ]
@@ -1501,7 +1465,7 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "waybar",
@@ -1555,18 +1519,34 @@
     ]
   },
   {
+    "pkg": "wofi",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/wofi": [
+          "wofi (5)             - configuration file and styling",
+          "wofi (7)             - Built in modes and other features",
+          "wofi (1)             - A rofi inspired launcher for wlroots compositors",
+          "wofi (3)             - Mode functions and documentation"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "xdg-desktop-portal",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "xdg-desktop-portal-wlr",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "xorg-xeyes",
@@ -1828,6 +1808,19 @@
     "scope": "Global",
     "category": "System-Network",
     "whatis": ""
+  },
+  {
+    "pkg": "iperf3",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Network",
+    "whatis": [
+      {
+        "/usr/bin/iperf3": [
+          "iperf3 (1)           - perform network throughput tests"
+        ]
+      }
+    ]
   },
   {
     "pkg": "iwd",
@@ -2313,7 +2306,7 @@
     "loc": "aur",
     "scope": "Global",
     "category": "Development",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "bfg",
@@ -2668,7 +2661,21 @@
     "whatis": ""
   },
   {
+    "pkg": "libticables",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Data",
+    "whatis": []
+  },
+  {
     "pkg": "libticalcs",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Data",
+    "whatis": []
+  },
+  {
+    "pkg": "libtifiles",
     "loc": "aur",
     "scope": "Global",
     "category": "Data",
