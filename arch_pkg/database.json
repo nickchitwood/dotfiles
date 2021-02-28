@@ -479,21 +479,21 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-lts54-docs",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-lts54-headers",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-zen",
@@ -940,7 +940,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "tmux",
@@ -1187,7 +1187,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "intltool",
@@ -1227,12 +1227,12 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "libva-utils",
     "loc": "sync",
-    "scope": "t480",
+    "scope": "Global",
     "category": "System-Graphics",
     "whatis": ""
   },
@@ -1254,6 +1254,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "mesa-demos",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": ""
   },
   {
     "pkg": "mutter",
@@ -1294,7 +1301,7 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "otf-san-francisco",
@@ -1465,7 +1472,7 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "waybar",
@@ -1967,19 +1974,6 @@
     "whatis": []
   },
   {
-    "pkg": "realvnc-vnc-viewer",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "System-Network",
-    "whatis": [
-      {
-        "/usr/bin/vncviewer": [
-          "vncviewer (1)        - VNC Viewer"
-        ]
-      }
-    ]
-  },
-  {
     "pkg": "remmina",
     "loc": "sync",
     "scope": "Global",
@@ -2010,6 +2004,19 @@
     "scope": "Global",
     "category": "System-Network",
     "whatis": ""
+  },
+  {
+    "pkg": "vinagre",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Network",
+    "whatis": [
+      {
+        "/usr/bin/vinagre": [
+          "vinagre (1)          - a remote desktop viewer for the GNOME Desktop"
+        ]
+      }
+    ]
   },
   {
     "pkg": "wakeonlan",
@@ -2157,7 +2164,7 @@
   {
     "pkg": "pulsemixer",
     "loc": "sync",
-    "scope": "t480",
+    "scope": "Global",
     "category": "AudioVideo",
     "whatis": ""
   },
@@ -2306,7 +2313,7 @@
     "loc": "aur",
     "scope": "Global",
     "category": "Development",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "bfg",
@@ -2624,13 +2631,6 @@
     "scope": "Global",
     "category": "Office",
     "whatis": []
-  },
-  {
-    "pkg": "chiaki",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "Games",
-    "whatis": ""
   },
   {
     "pkg": "minigalaxy",

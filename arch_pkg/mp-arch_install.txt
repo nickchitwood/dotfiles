@@ -1,9 +1,3 @@
-lsdesktopf
-gnome-backgrounds
-gnome-control-center
-gnome-menus
-gnome-remote-desktop
-gnome-shell-extensions
 mutter
-xdg-desktop-portal
-xdg-desktop-portal-wlr
+libticables
+libtifiles
