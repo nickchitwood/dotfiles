@@ -1,1 +1,3 @@
 gnome-themes-extra
+mesa-demos
+vinagre
