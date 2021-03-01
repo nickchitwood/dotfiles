@@ -4,7 +4,7 @@
 - clean: ['~']
 
 - link:
-    ~/.weechat:
+    ~/.gtkrc-2.0:
     ~/.zshenv:
     ~/.zshrc:
     ~/.zprofile:
