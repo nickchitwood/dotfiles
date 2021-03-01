@@ -138,6 +138,13 @@
     ]
   },
   {
+    "pkg": "aspell",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": ""
+  },
+  {
     "pkg": "broadcom-wl-dkms",
     "loc": "sync",
     "scope": "t480",
@@ -403,6 +410,20 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "gvfs-google",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
+  },
+  {
+    "pkg": "gvfs-smb",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
   },
   {
     "pkg": "hwinfo",
@@ -1068,6 +1089,26 @@
     "whatis": ""
   },
   {
+    "pkg": "appmenu-gtk-module",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "baobab",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/baobab": [
+          "baobab (1)           - A graphical disk usage analyzer for the GNOME desktop"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "brightnessctl",
     "loc": "sync",
     "scope": "t480",
@@ -1150,6 +1191,13 @@
     "whatis": []
   },
   {
+    "pkg": "gnome-tweaks",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": ""
+  },
+  {
     "pkg": "grim",
     "loc": "sync",
     "scope": "Global",
@@ -1161,6 +1209,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "gstreamer-vaapi",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
   },
   {
     "pkg": "gtk2",
@@ -1223,6 +1278,20 @@
     ]
   },
   {
+    "pkg": "kvantum-qt5",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": ""
+  },
+  {
+    "pkg": "kvantum-theme-orchis-git",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "libva-mesa-driver",
     "loc": "sync",
     "scope": "mp-arch",
@@ -1276,6 +1345,24 @@
     ]
   },
   {
+    "pkg": "nautilus",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/nautilus": [
+          "nautilus (1)         - a file manager for GNOME"
+        ]
+      },
+      {
+        "/usr/bin/nautilus-autorun-software": [
+          "nautilus-autorun-software (1) - (unknown subject)"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "nerd-fonts-fira-code",
     "loc": "aur",
     "scope": "Global",
@@ -1302,6 +1389,13 @@
     "scope": "mp-arch",
     "category": "System-Graphics",
     "whatis": ""
+  },
+  {
+    "pkg": "orchis-theme-git",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
   },
   {
     "pkg": "otf-san-francisco",
@@ -1389,6 +1483,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "tela-circle-icon-theme-git",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
   },
   {
     "pkg": "ttf-lato",
@@ -1580,6 +1681,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "aspell-en",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Utilities",
+    "whatis": []
   },
   {
     "pkg": "bat",
@@ -2363,6 +2471,13 @@
     "whatis": ""
   },
   {
+    "pkg": "calibre",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Office",
+    "whatis": ""
+  },
+  {
     "pkg": "cups",
     "loc": "sync",
     "scope": "Global",
@@ -2645,6 +2760,19 @@
     "scope": "Global",
     "category": "Games",
     "whatis": ""
+  },
+  {
+    "pkg": "galculator",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Data",
+    "whatis": [
+      {
+        "/usr/bin/galculator": [
+          "galculator (1)       - a GTK 2 / GTK 3 based scientific calculator"
+        ]
+      }
+    ]
   },
   {
     "pkg": "libgit2",
