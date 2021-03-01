@@ -16,6 +16,7 @@
     ~/.config/glances:
     ~/.config/i3:
     ~/.config/gtk-3.0:
+    ~/.config/gtk-4.0:
     ~/.config/i3status:
     ~/.config/kitty:
     ~/.config/picom:
