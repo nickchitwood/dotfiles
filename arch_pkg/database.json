@@ -500,21 +500,21 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "linux-lts54-docs",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "linux-lts54-headers",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "linux-zen",
@@ -961,7 +961,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "tmux",
@@ -1184,13 +1184,6 @@
     "whatis": []
   },
   {
-    "pkg": "gnome-themes-extra",
-    "loc": "sync",
-    "scope": "Global",
-    "category": "System-Graphics",
-    "whatis": []
-  },
-  {
     "pkg": "gnome-tweaks",
     "loc": "sync",
     "scope": "Global",
@@ -1225,24 +1218,11 @@
     "whatis": ""
   },
   {
-    "pkg": "i3status",
-    "loc": "sync",
-    "scope": "Global",
-    "category": "System-Graphics",
-    "whatis": [
-      {
-        "/usr/bin/i3status": [
-          "i3status (1)         - Generates a status line for i3bar, dzen2, xmobar or lemonbar"
-        ]
-      }
-    ]
-  },
-  {
     "pkg": "intel-media-driver",
     "loc": "sync",
     "scope": "t480",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "intltool",
@@ -1296,7 +1276,7 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "libva-utils",
@@ -1330,19 +1310,6 @@
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": ""
-  },
-  {
-    "pkg": "mutter",
-    "loc": "sync",
-    "scope": "Global",
-    "category": "System-Graphics",
-    "whatis": [
-      {
-        "/usr/bin/mutter": [
-          "mutter (1)           - Clutter based compositing GTK2 Window Manager"
-        ]
-      }
-    ]
   },
   {
     "pkg": "nautilus",
@@ -1388,7 +1355,7 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "orchis-theme-git",
@@ -1576,11 +1543,24 @@
     "whatis": []
   },
   {
+    "pkg": "unoconv",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/unoconv": [
+          "unoconv (1)          - convert any document from and to any LibreOffice supported format"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "vulkan-radeon",
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "waybar",
@@ -1651,6 +1631,13 @@
   },
   {
     "pkg": "xdg-desktop-portal",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "xdg-desktop-portal-gtk",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
@@ -2256,6 +2243,27 @@
     ]
   },
   {
+    "pkg": "pavucontrol",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": ""
+  },
+  {
+    "pkg": "pipewire",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": ""
+  },
+  {
+    "pkg": "pipewire-pulse",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": []
+  },
+  {
     "pkg": "playerctl",
     "loc": "sync",
     "scope": "Global",
@@ -2267,7 +2275,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "AudioVideo",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "pulseaudio-alsa",
@@ -2755,6 +2763,13 @@
     "whatis": []
   },
   {
+    "pkg": "chiaki",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Games",
+    "whatis": ""
+  },
+  {
     "pkg": "minigalaxy",
     "loc": "aur",
     "scope": "Global",
@@ -2794,27 +2809,6 @@
     "scope": "Global",
     "category": "Data",
     "whatis": ""
-  },
-  {
-    "pkg": "libticables",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "Data",
-    "whatis": []
-  },
-  {
-    "pkg": "libticalcs",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "Data",
-    "whatis": []
-  },
-  {
-    "pkg": "libtifiles",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "Data",
-    "whatis": []
   },
   {
     "pkg": "tilp",

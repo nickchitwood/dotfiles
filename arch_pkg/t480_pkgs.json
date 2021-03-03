@@ -1,606 +1,6 @@
 [
   {
-    "pkg": "ghostscript",
-    "loc": "sync"
-  },
-  {
-    "pkg": "refind",
-    "loc": "sync"
-  },
-  {
-    "pkg": "mako",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-control-center",
-    "loc": "sync"
-  },
-  {
-    "pkg": "zsh-theme-powerlevel10k",
-    "loc": "sync"
-  },
-  {
-    "pkg": "s-tui",
-    "loc": "sync"
-  },
-  {
-    "pkg": "libvncserver",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pulseaudio-bluetooth",
-    "loc": "sync"
-  },
-  {
-    "pkg": "youtube-dl",
-    "loc": "sync"
-  },
-  {
-    "pkg": "swayidle",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gdb",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gvfs-google",
-    "loc": "sync"
-  },
-  {
-    "pkg": "tmux",
-    "loc": "sync"
-  },
-  {
-    "pkg": "reflector",
-    "loc": "sync"
-  },
-  {
-    "pkg": "iperf3",
-    "loc": "sync"
-  },
-  {
-    "pkg": "nextcloud-client",
-    "loc": "sync"
-  },
-  {
-    "pkg": "texlive-latexextra",
-    "loc": "sync"
-  },
-  {
-    "pkg": "playerctl",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gdm",
-    "loc": "sync"
-  },
-  {
-    "pkg": "i7z",
-    "loc": "sync"
-  },
-  {
-    "pkg": "github-cli",
-    "loc": "sync"
-  },
-  {
-    "pkg": "intltool",
-    "loc": "sync"
-  },
-  {
-    "pkg": "texlive-core",
-    "loc": "sync"
-  },
-  {
-    "pkg": "appmenu-gtk-module",
-    "loc": "sync"
-  },
-  {
-    "pkg": "acpica",
-    "loc": "sync"
-  },
-  {
-    "pkg": "feh",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pasystray",
-    "loc": "sync"
-  },
-  {
-    "pkg": "opensc",
-    "loc": "sync"
-  },
-  {
-    "pkg": "vi",
-    "loc": "sync"
-  },
-  {
-    "pkg": "edk2-ovmf",
-    "loc": "sync"
-  },
-  {
-    "pkg": "iwd",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pulsemixer",
-    "loc": "sync"
-  },
-  {
-    "pkg": "openconnect",
-    "loc": "sync"
-  },
-  {
-    "pkg": "xdg-desktop-portal",
-    "loc": "sync"
-  },
-  {
-    "pkg": "mutter",
-    "loc": "sync"
-  },
-  {
-    "pkg": "alsa-utils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "texlive-fontsextra",
-    "loc": "sync"
-  },
-  {
-    "pkg": "virt-manager",
-    "loc": "sync"
-  },
-  {
-    "pkg": "galculator",
-    "loc": "sync"
-  },
-  {
-    "pkg": "asoundconf",
-    "loc": "sync"
-  },
-  {
-    "pkg": "libgit2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "stress",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-menus",
-    "loc": "sync"
-  },
-  {
-    "pkg": "powerline",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gstreamer-vaapi",
-    "loc": "sync"
-  },
-  {
-    "pkg": "ccache",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-backgrounds",
-    "loc": "sync"
-  },
-  {
-    "pkg": "libu2f-host",
-    "loc": "sync"
-  },
-  {
-    "pkg": "linux",
-    "loc": "sync"
-  },
-  {
-    "pkg": "rsync",
-    "loc": "sync"
-  },
-  {
-    "pkg": "sway",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pulseaudio-alsa",
-    "loc": "sync"
-  },
-  {
-    "pkg": "aspell-en",
-    "loc": "sync"
-  },
-  {
-    "pkg": "cups",
-    "loc": "sync"
-  },
-  {
-    "pkg": "freerdp",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-remote-desktop",
-    "loc": "sync"
-  },
-  {
-    "pkg": "noto-fonts-emoji",
-    "loc": "sync"
-  },
-  {
-    "pkg": "ttf-roboto",
-    "loc": "sync"
-  },
-  {
-    "pkg": "ranger",
-    "loc": "sync"
-  },
-  {
-    "pkg": "tree",
-    "loc": "sync"
-  },
-  {
-    "pkg": "nautilus",
-    "loc": "sync"
-  },
-  {
-    "pkg": "remmina",
-    "loc": "sync"
-  },
-  {
-    "pkg": "spotifyd",
-    "loc": "sync"
-  },
-  {
-    "pkg": "asp",
-    "loc": "sync"
-  },
-  {
-    "pkg": "openssh",
-    "loc": "sync"
-  },
-  {
-    "pkg": "throttled",
-    "loc": "sync"
-  },
-  {
-    "pkg": "strawberry",
-    "loc": "sync"
-  },
-  {
-    "pkg": "acpi_call",
-    "loc": "sync"
-  },
-  {
-    "pkg": "nmap",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5ct",
-    "loc": "sync"
-  },
-  {
-    "pkg": "openvpn",
-    "loc": "sync"
-  },
-  {
-    "pkg": "blueberry",
-    "loc": "sync"
-  },
-  {
-    "pkg": "texlive-formatsextra",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-tweaks",
-    "loc": "sync"
-  },
-  {
-    "pkg": "python-pillow",
-    "loc": "sync"
-  },
-  {
-    "pkg": "ttf-lato",
-    "loc": "sync"
-  },
-  {
     "pkg": "aspell",
-    "loc": "sync"
-  },
-  {
-    "pkg": "htop",
-    "loc": "sync"
-  },
-  {
-    "pkg": "mesa-demos",
-    "loc": "sync"
-  },
-  {
-    "pkg": "ebtables",
-    "loc": "sync"
-  },
-  {
-    "pkg": "wf-recorder",
-    "loc": "sync"
-  },
-  {
-    "pkg": "linux-headers",
-    "loc": "sync"
-  },
-  {
-    "pkg": "p7zip",
-    "loc": "sync"
-  },
-  {
-    "pkg": "cifs-utils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "wget",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-keyring",
-    "loc": "sync"
-  },
-  {
-    "pkg": "exfatprogs",
-    "loc": "sync"
-  },
-  {
-    "pkg": "texlive-pictures",
-    "loc": "sync"
-  },
-  {
-    "pkg": "waybar",
-    "loc": "sync"
-  },
-  {
-    "pkg": "kitty",
-    "loc": "sync"
-  },
-  {
-    "pkg": "neofetch",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gcc-fortran",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pkgstats",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qemu",
-    "loc": "sync"
-  },
-  {
-    "pkg": "rclone",
-    "loc": "sync"
-  },
-  {
-    "pkg": "speedtest-cli",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pulseaudio",
-    "loc": "sync"
-  },
-  {
-    "pkg": "nethogs",
-    "loc": "sync"
-  },
-  {
-    "pkg": "texlive-humanities",
-    "loc": "sync"
-  },
-  {
-    "pkg": "intel-media-driver",
-    "loc": "sync"
-  },
-  {
-    "pkg": "grim",
-    "loc": "sync"
-  },
-  {
-    "pkg": "python",
-    "loc": "sync"
-  },
-  {
-    "pkg": "linux-zen-headers",
-    "loc": "sync"
-  },
-  {
-    "pkg": "zathura-pdf-mupdf",
-    "loc": "sync"
-  },
-  {
-    "pkg": "expac",
-    "loc": "sync"
-  },
-  {
-    "pkg": "intel-ucode",
-    "loc": "sync"
-  },
-  {
-    "pkg": "libva-utils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "zathura",
-    "loc": "sync"
-  },
-  {
-    "pkg": "zsh",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-shell-extensions",
-    "loc": "sync"
-  },
-  {
-    "pkg": "xdg-user-dirs",
-    "loc": "sync"
-  },
-  {
-    "pkg": "libfido2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "python-pip",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gvfs-smb",
-    "loc": "sync"
-  },
-  {
-    "pkg": "wayland-docs",
-    "loc": "sync"
-  },
-  {
-    "pkg": "weechat",
-    "loc": "sync"
-  },
-  {
-    "pkg": "libglade",
-    "loc": "sync"
-  },
-  {
-    "pkg": "texlive-bibtexextra",
-    "loc": "sync"
-  },
-  {
-    "pkg": "texlive-pstricks",
-    "loc": "sync"
-  },
-  {
-    "pkg": "swaylock",
-    "loc": "sync"
-  },
-  {
-    "pkg": "xdg-desktop-portal-wlr",
-    "loc": "sync"
-  },
-  {
-    "pkg": "xorg-xeyes",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gtk2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "texlive-publishers",
-    "loc": "sync"
-  },
-  {
-    "pkg": "imagemagick",
-    "loc": "sync"
-  },
-  {
-    "pkg": "hwinfo",
-    "loc": "sync"
-  },
-  {
-    "pkg": "jq",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pigz",
-    "loc": "sync"
-  },
-  {
-    "pkg": "python-setuptools",
-    "loc": "sync"
-  },
-  {
-    "pkg": "udevil",
-    "loc": "sync"
-  },
-  {
-    "pkg": "dnsmasq",
-    "loc": "sync"
-  },
-  {
-    "pkg": "wofi",
-    "loc": "sync"
-  },
-  {
-    "pkg": "steam",
-    "loc": "sync"
-  },
-  {
-    "pkg": "dmidecode",
-    "loc": "sync"
-  },
-  {
-    "pkg": "libreoffice-fresh",
-    "loc": "sync"
-  },
-  {
-    "pkg": "brightnessctl",
-    "loc": "sync"
-  },
-  {
-    "pkg": "base",
-    "loc": "sync"
-  },
-  {
-    "pkg": "man-db",
-    "loc": "sync"
-  },
-  {
-    "pkg": "man-pages",
-    "loc": "sync"
-  },
-  {
-    "pkg": "texlive-games",
-    "loc": "sync"
-  },
-  {
-    "pkg": "bat",
-    "loc": "sync"
-  },
-  {
-    "pkg": "wl-clipboard",
-    "loc": "sync"
-  },
-  {
-    "pkg": "texlive-science",
-    "loc": "sync"
-  },
-  {
-    "pkg": "xorg-xwayland",
-    "loc": "sync"
-  },
-  {
-    "pkg": "calibre",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-wayland",
-    "loc": "sync"
-  },
-  {
-    "pkg": "w3m",
-    "loc": "sync"
-  },
-  {
-    "pkg": "git",
-    "loc": "sync"
-  },
-  {
-    "pkg": "polkit-gnome",
-    "loc": "sync"
-  },
-  {
-    "pkg": "i3status",
-    "loc": "sync"
-  },
-  {
-    "pkg": "neovim",
     "loc": "sync"
   },
   {
@@ -608,67 +8,19 @@
     "loc": "sync"
   },
   {
-    "pkg": "nasm",
+    "pkg": "gstreamer-vaapi",
     "loc": "sync"
   },
   {
-    "pkg": "yubioath-desktop",
+    "pkg": "tree",
     "loc": "sync"
   },
   {
-    "pkg": "chromium",
+    "pkg": "texlive-formatsextra",
     "loc": "sync"
   },
   {
-    "pkg": "nano",
-    "loc": "sync"
-  },
-  {
-    "pkg": "slurp",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-wayland",
-    "loc": "sync"
-  },
-  {
-    "pkg": "texlive-music",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-font-viewer",
-    "loc": "sync"
-  },
-  {
-    "pkg": "vinagre",
-    "loc": "sync"
-  },
-  {
-    "pkg": "upx",
-    "loc": "sync"
-  },
-  {
-    "pkg": "usbutils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "linux-firmware",
-    "loc": "sync"
-  },
-  {
-    "pkg": "bluez",
-    "loc": "sync"
-  },
-  {
-    "pkg": "bluez-utils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "baobab",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-disk-utility",
+    "pkg": "pavucontrol",
     "loc": "sync"
   },
   {
@@ -676,7 +28,195 @@
     "loc": "sync"
   },
   {
-    "pkg": "mlocate",
+    "pkg": "blueberry",
+    "loc": "sync"
+  },
+  {
+    "pkg": "texlive-games",
+    "loc": "sync"
+  },
+  {
+    "pkg": "upx",
+    "loc": "sync"
+  },
+  {
+    "pkg": "edk2-ovmf",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gdb",
+    "loc": "sync"
+  },
+  {
+    "pkg": "dmidecode",
+    "loc": "sync"
+  },
+  {
+    "pkg": "texlive-core",
+    "loc": "sync"
+  },
+  {
+    "pkg": "iwd",
+    "loc": "sync"
+  },
+  {
+    "pkg": "linux-firmware",
+    "loc": "sync"
+  },
+  {
+    "pkg": "opensc",
+    "loc": "sync"
+  },
+  {
+    "pkg": "swayidle",
+    "loc": "sync"
+  },
+  {
+    "pkg": "kitty",
+    "loc": "sync"
+  },
+  {
+    "pkg": "weechat",
+    "loc": "sync"
+  },
+  {
+    "pkg": "man-pages",
+    "loc": "sync"
+  },
+  {
+    "pkg": "python",
+    "loc": "sync"
+  },
+  {
+    "pkg": "wayland-docs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "python-pip",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ttf-roboto",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-tweaks",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pigz",
+    "loc": "sync"
+  },
+  {
+    "pkg": "unoconv",
+    "loc": "sync"
+  },
+  {
+    "pkg": "zathura-pdf-mupdf",
+    "loc": "sync"
+  },
+  {
+    "pkg": "yubioath-desktop",
+    "loc": "sync"
+  },
+  {
+    "pkg": "jq",
+    "loc": "sync"
+  },
+  {
+    "pkg": "imagemagick",
+    "loc": "sync"
+  },
+  {
+    "pkg": "sway",
+    "loc": "sync"
+  },
+  {
+    "pkg": "usbutils",
+    "loc": "sync"
+  },
+  {
+    "pkg": "libva-utils",
+    "loc": "sync"
+  },
+  {
+    "pkg": "openvpn",
+    "loc": "sync"
+  },
+  {
+    "pkg": "bluez",
+    "loc": "sync"
+  },
+  {
+    "pkg": "baobab",
+    "loc": "sync"
+  },
+  {
+    "pkg": "galculator",
+    "loc": "sync"
+  },
+  {
+    "pkg": "xorg-xeyes",
+    "loc": "sync"
+  },
+  {
+    "pkg": "libfido2",
+    "loc": "sync"
+  },
+  {
+    "pkg": "spotifyd",
+    "loc": "sync"
+  },
+  {
+    "pkg": "expac",
+    "loc": "sync"
+  },
+  {
+    "pkg": "nethogs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "git",
+    "loc": "sync"
+  },
+  {
+    "pkg": "asp",
+    "loc": "sync"
+  },
+  {
+    "pkg": "linux-zen-headers",
+    "loc": "sync"
+  },
+  {
+    "pkg": "python-setuptools",
+    "loc": "sync"
+  },
+  {
+    "pkg": "sushi",
+    "loc": "sync"
+  },
+  {
+    "pkg": "wget",
+    "loc": "sync"
+  },
+  {
+    "pkg": "zathura",
+    "loc": "sync"
+  },
+  {
+    "pkg": "nasm",
+    "loc": "sync"
+  },
+  {
+    "pkg": "throttled",
+    "loc": "sync"
+  },
+  {
+    "pkg": "nmap",
+    "loc": "sync"
+  },
+  {
+    "pkg": "w3m",
     "loc": "sync"
   },
   {
@@ -684,15 +224,91 @@
     "loc": "sync"
   },
   {
-    "pkg": "glances",
+    "pkg": "polkit-gnome",
     "loc": "sync"
   },
   {
-    "pkg": "libvirt",
+    "pkg": "pkgstats",
     "loc": "sync"
   },
   {
-    "pkg": "unzip",
+    "pkg": "gtk2",
+    "loc": "sync"
+  },
+  {
+    "pkg": "stress",
+    "loc": "sync"
+  },
+  {
+    "pkg": "intel-ucode",
+    "loc": "sync"
+  },
+  {
+    "pkg": "neovim",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ghostscript",
+    "loc": "sync"
+  },
+  {
+    "pkg": "exfatprogs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "libglade",
+    "loc": "sync"
+  },
+  {
+    "pkg": "texlive-science",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gcc-fortran",
+    "loc": "sync"
+  },
+  {
+    "pkg": "htop",
+    "loc": "sync"
+  },
+  {
+    "pkg": "zsh-theme-powerlevel10k",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ccache",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gvfs-google",
+    "loc": "sync"
+  },
+  {
+    "pkg": "vinagre",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qemu",
+    "loc": "sync"
+  },
+  {
+    "pkg": "iperf3",
+    "loc": "sync"
+  },
+  {
+    "pkg": "xorg-xwayland",
+    "loc": "sync"
+  },
+  {
+    "pkg": "strawberry",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-remote-desktop",
+    "loc": "sync"
+  },
+  {
+    "pkg": "neofetch",
     "loc": "sync"
   },
   {
@@ -700,55 +316,399 @@
     "loc": "sync"
   },
   {
-    "pkg": "bfg",
-    "loc": "aur"
+    "pkg": "base",
+    "loc": "sync"
   },
   {
-    "pkg": "tela-circle-icon-theme-git",
-    "loc": "aur"
+    "pkg": "texlive-music",
+    "loc": "sync"
   },
   {
-    "pkg": "nerd-fonts-jetbrains-mono",
-    "loc": "aur"
+    "pkg": "calibre",
+    "loc": "sync"
   },
   {
-    "pkg": "openvpn-update-systemd-resolved",
-    "loc": "aur"
+    "pkg": "gnome-keyring",
+    "loc": "sync"
   },
   {
-    "pkg": "ttf-ms-win10-zh_cn",
-    "loc": "aur"
+    "pkg": "gnome-font-viewer",
+    "loc": "sync"
   },
   {
-    "pkg": "teams",
-    "loc": "aur"
+    "pkg": "openconnect",
+    "loc": "sync"
   },
   {
-    "pkg": "libticables",
-    "loc": "aur"
+    "pkg": "speedtest-cli",
+    "loc": "sync"
   },
   {
-    "pkg": "libticalcs",
-    "loc": "aur"
+    "pkg": "unzip",
+    "loc": "sync"
   },
   {
-    "pkg": "nerd-fonts-fira-code",
-    "loc": "aur"
+    "pkg": "xdg-desktop-portal-gtk",
+    "loc": "sync"
   },
   {
-    "pkg": "ttf-ms-win10-other",
-    "loc": "aur"
+    "pkg": "rsync",
+    "loc": "sync"
   },
   {
-    "pkg": "fontpreview-git",
-    "loc": "aur"
+    "pkg": "gdm",
+    "loc": "sync"
   },
   {
-    "pkg": "orchis-theme-git",
-    "loc": "aur"
+    "pkg": "nautilus",
+    "loc": "sync"
   },
   {
-    "pkg": "slack-desktop",
+    "pkg": "intel-media-driver",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pulsemixer",
+    "loc": "sync"
+  },
+  {
+    "pkg": "rclone",
+    "loc": "sync"
+  },
+  {
+    "pkg": "mlocate",
+    "loc": "sync"
+  },
+  {
+    "pkg": "slurp",
+    "loc": "sync"
+  },
+  {
+    "pkg": "reflector",
+    "loc": "sync"
+  },
+  {
+    "pkg": "xdg-desktop-portal",
+    "loc": "sync"
+  },
+  {
+    "pkg": "texlive-bibtexextra",
+    "loc": "sync"
+  },
+  {
+    "pkg": "refind",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-disk-utility",
+    "loc": "sync"
+  },
+  {
+    "pkg": "playerctl",
+    "loc": "sync"
+  },
+  {
+    "pkg": "cups",
+    "loc": "sync"
+  },
+  {
+    "pkg": "dnsmasq",
+    "loc": "sync"
+  },
+  {
+    "pkg": "swaylock",
+    "loc": "sync"
+  },
+  {
+    "pkg": "brightnessctl",
+    "loc": "sync"
+  },
+  {
+    "pkg": "texlive-latexextra",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-menus",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pipewire-pulse",
+    "loc": "sync"
+  },
+  {
+    "pkg": "appmenu-gtk-module",
+    "loc": "sync"
+  },
+  {
+    "pkg": "libgit2",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5ct",
+    "loc": "sync"
+  },
+  {
+    "pkg": "openssh",
+    "loc": "sync"
+  },
+  {
+    "pkg": "python-pillow",
+    "loc": "sync"
+  },
+  {
+    "pkg": "linux-headers",
+    "loc": "sync"
+  },
+  {
+    "pkg": "texlive-humanities",
+    "loc": "sync"
+  },
+  {
+    "pkg": "bat",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-control-center",
+    "loc": "sync"
+  },
+  {
+    "pkg": "texlive-pictures",
+    "loc": "sync"
+  },
+  {
+    "pkg": "youtube-dl",
+    "loc": "sync"
+  },
+  {
+    "pkg": "alsa-utils",
+    "loc": "sync"
+  },
+  {
+    "pkg": "udevil",
+    "loc": "sync"
+  },
+  {
+    "pkg": "freerdp",
+    "loc": "sync"
+  },
+  {
+    "pkg": "cifs-utils",
+    "loc": "sync"
+  },
+  {
+    "pkg": "mako",
+    "loc": "sync"
+  },
+  {
+    "pkg": "p7zip",
+    "loc": "sync"
+  },
+  {
+    "pkg": "tmux",
+    "loc": "sync"
+  },
+  {
+    "pkg": "glances",
+    "loc": "sync"
+  },
+  {
+    "pkg": "i7z",
+    "loc": "sync"
+  },
+  {
+    "pkg": "asoundconf",
+    "loc": "sync"
+  },
+  {
+    "pkg": "powerline",
+    "loc": "sync"
+  },
+  {
+    "pkg": "wofi",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ttf-lato",
+    "loc": "sync"
+  },
+  {
+    "pkg": "hwinfo",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-backgrounds",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-shell-extensions",
+    "loc": "sync"
+  },
+  {
+    "pkg": "vi",
+    "loc": "sync"
+  },
+  {
+    "pkg": "intltool",
+    "loc": "sync"
+  },
+  {
+    "pkg": "acpica",
+    "loc": "sync"
+  },
+  {
+    "pkg": "man-db",
+    "loc": "sync"
+  },
+  {
+    "pkg": "github-cli",
+    "loc": "sync"
+  },
+  {
+    "pkg": "zsh",
+    "loc": "sync"
+  },
+  {
+    "pkg": "mesa-demos",
+    "loc": "sync"
+  },
+  {
+    "pkg": "wf-recorder",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pulseaudio-alsa",
+    "loc": "sync"
+  },
+  {
+    "pkg": "libvirt",
+    "loc": "sync"
+  },
+  {
+    "pkg": "chromium",
+    "loc": "sync"
+  },
+  {
+    "pkg": "s-tui",
+    "loc": "sync"
+  },
+  {
+    "pkg": "nextcloud-client",
+    "loc": "sync"
+  },
+  {
+    "pkg": "libvncserver",
+    "loc": "sync"
+  },
+  {
+    "pkg": "texlive-pstricks",
+    "loc": "sync"
+  },
+  {
+    "pkg": "steam",
+    "loc": "sync"
+  },
+  {
+    "pkg": "libu2f-host",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pipewire",
+    "loc": "sync"
+  },
+  {
+    "pkg": "grim",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ebtables",
+    "loc": "sync"
+  },
+  {
+    "pkg": "xdg-desktop-portal-wlr",
+    "loc": "sync"
+  },
+  {
+    "pkg": "texlive-publishers",
+    "loc": "sync"
+  },
+  {
+    "pkg": "xdg-user-dirs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ranger",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gvfs-smb",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-wayland",
+    "loc": "sync"
+  },
+  {
+    "pkg": "feh",
+    "loc": "sync"
+  },
+  {
+    "pkg": "bluez-utils",
+    "loc": "sync"
+  },
+  {
+    "pkg": "wl-clipboard",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-wayland",
+    "loc": "sync"
+  },
+  {
+    "pkg": "texlive-fontsextra",
+    "loc": "sync"
+  },
+  {
+    "pkg": "linux",
+    "loc": "sync"
+  },
+  {
+    "pkg": "virt-manager",
+    "loc": "sync"
+  },
+  {
+    "pkg": "nano",
+    "loc": "sync"
+  },
+  {
+    "pkg": "acpi_call",
+    "loc": "sync"
+  },
+  {
+    "pkg": "aspell-en",
+    "loc": "sync"
+  },
+  {
+    "pkg": "waybar",
+    "loc": "sync"
+  },
+  {
+    "pkg": "libreoffice-fresh",
+    "loc": "sync"
+  },
+  {
+    "pkg": "noto-fonts-emoji",
+    "loc": "sync"
+  },
+  {
+    "pkg": "remmina",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pasystray",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ttf-ms-win10-korean",
     "loc": "aur"
   },
   {
@@ -756,55 +716,11 @@
     "loc": "aur"
   },
   {
-    "pkg": "ttf-ms-win10-korean",
+    "pkg": "p3x-onenote",
     "loc": "aur"
   },
   {
-    "pkg": "wakeonlan",
-    "loc": "aur"
-  },
-  {
-    "pkg": "1password",
-    "loc": "aur"
-  },
-  {
-    "pkg": "libtifiles",
-    "loc": "aur"
-  },
-  {
-    "pkg": "remmina-plugin-rdesktop",
-    "loc": "aur"
-  },
-  {
-    "pkg": "xxd-standalone",
-    "loc": "aur"
-  },
-  {
-    "pkg": "google-drive-ocamlfuse",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10-japanese",
-    "loc": "aur"
-  },
-  {
-    "pkg": "geekbench",
-    "loc": "aur"
-  },
-  {
-    "pkg": "visual-studio-code-wayland",
-    "loc": "aur"
-  },
-  {
-    "pkg": "minigalaxy",
-    "loc": "aur"
-  },
-  {
-    "pkg": "zoom",
-    "loc": "aur"
-  },
-  {
-    "pkg": "tilp",
+    "pkg": "tela-circle-icon-theme-git",
     "loc": "aur"
   },
   {
@@ -812,59 +728,11 @@
     "loc": "aur"
   },
   {
-    "pkg": "ttf-ms-win10",
-    "loc": "aur"
-  },
-  {
     "pkg": "ttf-ms-win10-zh_tw",
     "loc": "aur"
   },
   {
-    "pkg": "asdf-vm",
-    "loc": "aur"
-  },
-  {
-    "pkg": "p3x-onenote",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ltunify",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ocaml-ounit",
-    "loc": "aur"
-  },
-  {
-    "pkg": "onedrive-abraunegg",
-    "loc": "aur"
-  },
-  {
-    "pkg": "paru",
-    "loc": "aur"
-  },
-  {
-    "pkg": "otf-san-francisco",
-    "loc": "aur"
-  },
-  {
-    "pkg": "kvantum-theme-orchis-git",
-    "loc": "aur"
-  },
-  {
-    "pkg": "oh-my-zsh-git",
-    "loc": "aur"
-  },
-  {
-    "pkg": "apfs-fuse-git",
-    "loc": "aur"
-  },
-  {
-    "pkg": "wev",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10-thai",
+    "pkg": "xxd-standalone",
     "loc": "aur"
   },
   {
@@ -872,15 +740,147 @@
     "loc": "aur"
   },
   {
-    "pkg": "ttf-ms-win10-sea",
-    "loc": "aur"
-  },
-  {
     "pkg": "ttf-roboto-slab",
     "loc": "aur"
   },
   {
+    "pkg": "google-drive-ocamlfuse",
+    "loc": "aur"
+  },
+  {
+    "pkg": "remmina-plugin-rdesktop",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-other",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10",
+    "loc": "aur"
+  },
+  {
+    "pkg": "minigalaxy",
+    "loc": "aur"
+  },
+  {
+    "pkg": "bfg",
+    "loc": "aur"
+  },
+  {
     "pkg": "wayvnc",
+    "loc": "aur"
+  },
+  {
+    "pkg": "orchis-theme-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ltunify",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-thai",
+    "loc": "aur"
+  },
+  {
+    "pkg": "wakeonlan",
+    "loc": "aur"
+  },
+  {
+    "pkg": "geekbench",
+    "loc": "aur"
+  },
+  {
+    "pkg": "apfs-fuse-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "tilp",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-japanese",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-zh_cn",
+    "loc": "aur"
+  },
+  {
+    "pkg": "visual-studio-code-wayland",
+    "loc": "aur"
+  },
+  {
+    "pkg": "wev",
+    "loc": "aur"
+  },
+  {
+    "pkg": "zoom",
+    "loc": "aur"
+  },
+  {
+    "pkg": "chiaki",
+    "loc": "aur"
+  },
+  {
+    "pkg": "paru",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ocaml-ounit",
+    "loc": "aur"
+  },
+  {
+    "pkg": "fontpreview-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "onedrive-abraunegg",
+    "loc": "aur"
+  },
+  {
+    "pkg": "nerd-fonts-fira-code",
+    "loc": "aur"
+  },
+  {
+    "pkg": "asdf-vm",
+    "loc": "aur"
+  },
+  {
+    "pkg": "kvantum-theme-orchis-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "nerd-fonts-jetbrains-mono",
+    "loc": "aur"
+  },
+  {
+    "pkg": "oh-my-zsh-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "1password",
+    "loc": "aur"
+  },
+  {
+    "pkg": "teams",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-sea",
+    "loc": "aur"
+  },
+  {
+    "pkg": "otf-san-francisco",
+    "loc": "aur"
+  },
+  {
+    "pkg": "openvpn-update-systemd-resolved",
+    "loc": "aur"
+  },
+  {
+    "pkg": "slack-desktop",
     "loc": "aur"
   }
 ]

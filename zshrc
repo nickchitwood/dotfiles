@@ -136,8 +136,8 @@ if [[ $OS == "arch" && ($TERM != "screen-256color") && ($TERM != "linux") ]]; th
 	# Enable asdf
 	. /opt/asdf-vm/asdf.sh
 
-	autoload -Uz compinit
-	compinit
+	# autoload -Uz compinit
+	# compinit
 
 	alias ssh='kitty +kitten ssh '
 fi

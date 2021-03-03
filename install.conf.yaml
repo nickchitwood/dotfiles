@@ -25,6 +25,7 @@
     ~/.config/mpv:
     ~/.config/pacman: 
     ~/.config/nvim: 
+    ~/.config/paru: 
     ~/.config/sway:
     ~/.config/waybar:
     ~/.config/wayvnc:

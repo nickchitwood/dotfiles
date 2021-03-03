@@ -207,6 +207,8 @@ bar {
 	for_window [app_id="org.remmina.Remmina" title="Remmina Remote Desktop Client"] floating enable
 	for_window [app_id="virt-manager" title="Virtual Machine Manager"] floating enable
 	for_window [app_id="yubico.com.yubioath-desktop"] floating enable
+	for_window [app_id="org.gnome.NautilusPreviewer"] floating enable
+	for_window [app_id="pavucontrol"] floating enable
 
 #
 # Startup apps
