@@ -500,21 +500,21 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-lts54-docs",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-lts54-headers",
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "linux-zen",
@@ -924,6 +924,13 @@
     ]
   },
   {
+    "pkg": "ruby",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": ""
+  },
+  {
     "pkg": "s-tui",
     "loc": "sync",
     "scope": "Global",
@@ -961,7 +968,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "tmux",
@@ -1222,7 +1229,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "intltool",
@@ -1276,7 +1283,7 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "libva-utils",
@@ -1355,7 +1362,7 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "orchis-theme-git",
@@ -1560,7 +1567,7 @@
     "loc": "sync",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "waybar",
@@ -1641,7 +1648,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "xdg-desktop-portal-wlr",
@@ -2181,6 +2188,13 @@
     "whatis": ""
   },
   {
+    "pkg": "google-chrome",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Internet",
+    "whatis": ""
+  },
+  {
     "pkg": "newsflash",
     "loc": "aur",
     "scope": "Global",
@@ -2261,7 +2275,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "playerctl",
@@ -2275,7 +2289,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "AudioVideo",
-    "whatis": []
+    "whatis": ""
   },
   {
     "pkg": "pulseaudio-alsa",

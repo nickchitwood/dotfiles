@@ -1,3 +1,4 @@
-mutter
-libticables
-libtifiles
+xdg-desktop-portal-gtk
+pavucontrol
+pipewire
+pipewire-pulse
