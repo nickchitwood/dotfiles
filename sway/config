@@ -20,7 +20,7 @@ font pango:Roboto 11
 	bindsym $mod+Return exec kitty
 
 	# start chromium
-	bindsym $mod+Shift+Return exec chromium --profile-directory=Default
+	bindsym $mod+Shift+Return exec env MOZ_ENABLE_WAYLAND=1 /usr/lib/firefox/firefox
 	bindsym $mod+Shift+backslash exec google-chrome-stable --profile-directory=Default
 
 	# start program launcher
@@ -200,6 +200,8 @@ bar {
 	for_window [app_id="blueberry.py"] floating enable
 	for_window [app_id="Google-chrome"] border pixel 1
 	for_window [app_id="Chromium"] border pixel 1
+	for_window [app_id="firefox"] border pixel 1
+	for_window [app_id="firefox" title="^Picture-in-Picture$"] floating enable, sticky enable
 	for_window [app_id="Google-chrome" title="Save File"] floating enable
 	for_window [app_id="chromium" title="Save File"] floating enable
 	for_window [app_id="electron" title="Open.*"] floating enable
