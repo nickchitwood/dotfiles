@@ -32,7 +32,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "pacstrap",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "man-pages",
@@ -59,7 +59,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "pacstrap",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "vi",
@@ -101,7 +101,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "pacstrap",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "acpi_call",
@@ -115,14 +115,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "apfs-fuse-git",
     "loc": "aur",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "asp",
@@ -142,14 +142,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "broadcom-wl-dkms",
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ccache",
@@ -296,7 +296,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "gdb",
@@ -430,14 +430,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "i7z",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "kitty",
@@ -535,21 +535,21 @@
     "loc": "aur",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "ltunify",
     "loc": "aur",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "mlocate",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "nano",
@@ -828,7 +828,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "polkit-gnome",
@@ -842,14 +842,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "python",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "python-pillow",
@@ -863,7 +863,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "python-setuptools",
@@ -877,7 +877,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "rclone",
@@ -928,14 +928,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "s-tui",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "seahorse",
@@ -968,7 +968,7 @@
     "loc": "sync",
     "scope": "t480",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "tmux",
@@ -988,7 +988,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "unzip",
@@ -1041,7 +1041,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "wev",
@@ -1079,7 +1079,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "zsh-theme-powerlevel10k",
@@ -1093,7 +1093,7 @@
     "loc": "aur",
     "scope": "mp-arch",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "appmenu-gtk-module",
@@ -1133,14 +1133,14 @@
     "loc": "aur",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "gdm",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "gnome-backgrounds",
@@ -1167,7 +1167,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "gnome-menus",
@@ -1195,7 +1195,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "grim",
@@ -1222,14 +1222,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "intel-media-driver",
     "loc": "sync",
     "scope": "t480",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "intltool",
@@ -1269,7 +1269,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "kvantum-theme-orchis-git",
@@ -1290,7 +1290,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "mako",
@@ -1316,7 +1316,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "nautilus",
@@ -1383,14 +1383,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "qt5ct",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "qt6-wayland",
@@ -1430,14 +1430,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "sway",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "swayidle",
@@ -1715,7 +1715,7 @@
     "loc": "aur",
     "scope": "Global",
     "category": "System-Utilities",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "glances",
@@ -1761,7 +1761,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Utilities",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "neofetch",
@@ -1781,7 +1781,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Utilities",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "tree",
@@ -1846,14 +1846,14 @@
     "loc": "aur",
     "scope": "t480",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "blueberry",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "bluez",
@@ -1867,14 +1867,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "broadcom-wl",
     "loc": "sync",
     "scope": "t480",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "dnsmasq",
@@ -1909,21 +1909,21 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "freerdp",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "google-drive-ocamlfuse",
     "loc": "aur",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "iperf3",
@@ -2053,7 +2053,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "openvpn",
@@ -2112,7 +2112,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "vinagre",
@@ -2171,28 +2171,28 @@
     "loc": "aur",
     "scope": "Global",
     "category": "Internet",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "chromium",
     "loc": "sync",
     "scope": "Global",
     "category": "Internet",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "discord",
     "loc": "sync",
     "scope": "Global",
     "category": "Internet",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "firefox",
     "loc": "sync",
     "scope": "Global",
     "category": "Internet",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "google-chrome",
@@ -2212,49 +2212,49 @@
     "loc": "aur",
     "scope": "Global",
     "category": "Internet",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "slack-desktop",
     "loc": "aur",
     "scope": "Global",
     "category": "Internet",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "teams",
     "loc": "aur",
     "scope": "Global",
     "category": "Internet",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "weechat",
     "loc": "sync",
     "scope": "Global",
     "category": "Internet",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "zoom",
     "loc": "aur",
     "scope": "Global",
     "category": "Internet",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "alsa-utils",
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "asoundconf",
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "pasystray",
@@ -2274,35 +2274,35 @@
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "pipewire",
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "pipewire-pulse",
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "playerctl",
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "pulseaudio",
     "loc": "sync",
     "scope": "t480",
     "category": "AudioVideo",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "pulseaudio-alsa",
@@ -2316,14 +2316,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "spotifyd",
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "strawberry",
@@ -2470,7 +2470,7 @@
     "loc": "aur",
     "scope": "Global",
     "category": "Development",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "github-cli",
@@ -2490,7 +2490,7 @@
     "loc": "aur",
     "scope": "Global",
     "category": "Development",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "visual-studio-code-bin",
@@ -2510,14 +2510,14 @@
     "loc": "aur",
     "scope": "t480",
     "category": "Development",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "calibre",
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "cups",
@@ -2669,35 +2669,35 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "libreoffice-fresh",
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "p3x-onenote",
     "loc": "aur",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "texlive-bibtexextra",
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "texlive-core",
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "texlive-fontsextra",
@@ -2718,42 +2718,42 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "texlive-humanities",
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "texlive-latexextra",
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "texlive-music",
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "texlive-pictures",
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "texlive-pstricks",
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "texlive-publishers",
@@ -2767,7 +2767,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "zathura",
@@ -2794,21 +2794,21 @@
     "loc": "aur",
     "scope": "Global",
     "category": "Games",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "minigalaxy",
     "loc": "aur",
     "scope": "Global",
     "category": "Games",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "steam",
     "loc": "sync",
     "scope": "Global",
     "category": "Games",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "galculator",
@@ -2835,7 +2835,7 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Data",
-    "whatis": ""
+    "whatis": []
   },
   {
     "pkg": "tilp",

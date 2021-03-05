@@ -188,19 +188,22 @@ bar {
 # Visual configurations
 #
 	# Gaps
+	for_window [app_id=".*"] border pixel 1
 	for_window [class=".*"] border pixel 1
 	gaps outer 0
 	gaps inner 6
 	smart_borders on
 	smart_gaps on
 
+#
+# Fullscreen apps fixes
+#
+	for_window [class="xfreerdp"] fullscreen enable
 
+#
 # Floating apps fixes
 #
 	for_window [app_id="blueberry.py"] floating enable
-	for_window [app_id="Google-chrome"] border pixel 1
-	for_window [app_id="Chromium"] border pixel 1
-	for_window [app_id="firefox"] border pixel 1
 	for_window [app_id="firefox" title="^Picture-in-Picture$"] floating enable, sticky enable
 	for_window [app_id="Google-chrome" title="Save File"] floating enable
 	for_window [app_id="chromium" title="Save File"] floating enable
@@ -208,12 +211,17 @@ bar {
 	for_window [app_id="zoom"] floating enable
 	for_window [app_id="galculator"] floating enable
 	for_window [class="zoom"] floating enable
-	for_window [class="xfreerdp"] fullscreen enable
 	for_window [app_id="org.remmina.Remmina" title="Remmina Remote Desktop Client"] floating enable
 	for_window [app_id="virt-manager" title="Virtual Machine Manager"] floating enable
 	for_window [app_id="yubico.com.yubioath-desktop"] floating enable
 	for_window [app_id="org.gnome.NautilusPreviewer"] floating enable
 	for_window [app_id="pavucontrol"] floating enable
+
+#
+# Opacity adjustments
+#
+	for_window [app_id="kitty"] opacity 0.9
+
 
 #
 # Startup apps

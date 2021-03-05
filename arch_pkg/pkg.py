@@ -187,18 +187,24 @@ def check_if_in_path(filepath):
 def get_whatis(package_name):
     try:
         files = subprocess.check_output(
-            ["pacman", "-Qql", package_name], encoding="utf-8"
-        ).splitlines()
+            ["pacman", "-Qql", package_name], encoding="utf-8",
+        stderr=subprocess.DEVNULL).splitlines()
         files_only = [i for i in files if i[-1] != "/"]
         path_files = [i for i in files_only if check_if_in_path(i)]
         whatis = [
-            {i: subprocess.check_output(["whatis", i], encoding="utf-8").splitlines()}
+            {i: subprocess.check_output(["whatis", i], encoding="utf-8",stderr=subprocess.DEVNULL).splitlines()}
             for i in path_files
         ]
         return whatis
     except subprocess.CalledProcessError:
-        return ""
+        return []
 
+def print_needed():
+    print(f"")
+    print(f"Install file contents")
+    print(f"---------------------")
+    with open(f"arch_pkg/{HOSTNAME}_install.txt") as f:
+        print(f.read())
 
 def main():
     installed = get_installed()
@@ -208,6 +214,7 @@ def main():
     print(
         f"Missing list complete. Install using paru -S --needed - < arch_pkg/{HOSTNAME}_install.txt"
     )
+    print_needed()
     return
 
 
