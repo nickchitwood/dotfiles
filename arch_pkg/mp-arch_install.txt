@@ -1,4 +1,3 @@
-xdg-desktop-portal-gtk
 pavucontrol
 pipewire
 pipewire-pulse
