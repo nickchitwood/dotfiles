@@ -121,8 +121,8 @@ if [[ $OS == "arch" && ($TERM != "screen-256color") && ($TERM != "linux") ]]; th
 	export EDITOR=/usr/bin/nvim
 	export VISUAL=/usr/bin/nvim
 	export TERMINAL=/usr/bin/kitty
-	export MANPAGER='nvim +Man!'
 	export MANWIDTH=999
+	export MANPAGER='nvim +Man!'
 
 	# Powerlevel10k
 	source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
