@@ -218,6 +218,13 @@
     ]
   },
   {
+    "pkg": "cppo",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
+  },
+  {
     "pkg": "dmidecode",
     "loc": "sync",
     "scope": "Global",
@@ -424,6 +431,24 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": []
+  },
+  {
+    "pkg": "hfsprogs",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": [
+      {
+        "/usr/bin/fsck.hfsplus": [
+          "fsck.hfsplus (8)     - HFS file system consistency check"
+        ]
+      },
+      {
+        "/usr/bin/mkfs.hfsplus": [
+          "mkfs.hfsplus (8)     - construct a new HFS Plus file system"
+        ]
+      }
+    ]
   },
   {
     "pkg": "hwinfo",
@@ -706,6 +731,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "pipewire-docs",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
   },
   {
     "pkg": "pkgstats",
@@ -2251,6 +2283,13 @@
     "whatis": []
   },
   {
+    "pkg": "beets",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": []
+  },
+  {
     "pkg": "celluloid",
     "loc": "sync",
     "scope": "Global",
@@ -2262,6 +2301,20 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "gst-libav",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": []
+  },
+  {
+    "pkg": "gst-plugins-ugly",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": []
   },
   {
     "pkg": "pasystray",
@@ -2320,6 +2373,13 @@
   },
   {
     "pkg": "pulsemixer",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": []
+  },
+  {
+    "pkg": "quodlibet",
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
@@ -2477,7 +2537,18 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Graphics",
-    "whatis": []
+    "whatis": [
+      {
+        "/usr/bin/inkscape": [
+          "inkscape (1)         - an SVG (Scalable Vector Graphics) editing program."
+        ]
+      },
+      {
+        "/usr/bin/inkview": [
+          "inkview (1)          - an SVG viewer and slideshow program."
+        ]
+      }
+    ]
   },
   {
     "pkg": "mypaint",

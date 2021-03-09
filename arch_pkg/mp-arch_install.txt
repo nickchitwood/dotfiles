@@ -1,4 +1,10 @@
-opensc
+ltunify
+imv
+kanshi
+libart-lgpl
+python-pypdf2
+networkmanager
 pavucontrol
 pipewire
-pipewire-pulse
+strawberry
+mypaint

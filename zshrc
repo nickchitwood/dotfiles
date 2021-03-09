@@ -123,6 +123,7 @@ if [[ $OS == "arch" && ($TERM != "screen-256color") && ($TERM != "linux") ]]; th
 	export TERMINAL=/usr/bin/kitty
 	export MANWIDTH=999
 	export MANPAGER='nvim +Man!'
+	export MOZ_DBUS_REMOTE=1
 
 	# Powerlevel10k
 	source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme

@@ -227,10 +227,14 @@ bar {
 # Startup apps
 #
 	exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
-	exec "dbus-update-activation-environment --systemd --all"
+	exec systemctl --user import-environemtn DISPLAY WAYLAND_DISPLAY SWAYSOCK
+	exec hash dbus-update-activation-environment 2>/dev/null && \
+     dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
 
 	exec kitty glances  --process-short-name 
 	for_window [app_id = "kitty" title="glances"] move container to workspace $ws9
+
+	export MOZ_DBUS_REMOTE = 1
 
 #
 # Screenshots
