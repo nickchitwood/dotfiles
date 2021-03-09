@@ -1,1 +1,1 @@
-export R_EXTRA_CONFIGURE_OPTIONS=--enable-R-shlib
+export QT_STYLE_OVERRIDE=kvantum

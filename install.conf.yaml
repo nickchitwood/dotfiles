@@ -17,7 +17,9 @@
     ~/.config/gtk-3.0:
     ~/.config/gtk-4.0:
     ~/.config/i3status:
+    ~/.config/kanshi:
     ~/.config/kitty:
+    ~/.config/mimeapps.list:
     ~/.config/picom:
     ~/.config/ranger:
     ~/.config/rofi:

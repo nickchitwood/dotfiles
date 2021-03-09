@@ -227,6 +227,7 @@ bar {
 # Startup apps
 #
 	exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
+	exec "dbus-update-activation-environment --systemd --all"
 
 	exec kitty glances  --process-short-name 
 	for_window [app_id = "kitty" title="glances"] move container to workspace $ws9

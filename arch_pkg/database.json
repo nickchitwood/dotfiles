@@ -640,134 +640,18 @@
     "whatis": []
   },
   {
-    "pkg": "oh-my-zsh-git",
+    "pkg": "ocaml-ppxlib",
     "loc": "aur",
     "scope": "Global",
     "category": "System-Core",
     "whatis": []
   },
   {
-    "pkg": "opensc",
-    "loc": "sync",
+    "pkg": "oh-my-zsh-git",
+    "loc": "aur",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": [
-      {
-        "/usr/bin/cardos-tool": [
-          "cardos-tool (1)      - displays information about Card OS-based security tokens or format ..."
-        ]
-      },
-      {
-        "/usr/bin/cryptoflex-tool": [
-          "cryptoflex-tool (1)  - utility for manipulating Schlumberger Cryptoflex data structures"
-        ]
-      },
-      {
-        "/usr/bin/dnie-tool": [
-          "dnie-tool (1)        - displays information about DNIe based security tokens"
-        ]
-      },
-      {
-        "/usr/bin/egk-tool": [
-          "egk-tool (1)         - displays information on the German electronic health card (elektron..."
-        ]
-      },
-      {
-        "/usr/bin/eidenv": [
-          "eidenv (1)           - utility for accessing visible data from electronic identity cards"
-        ]
-      },
-      {
-        "/usr/bin/gids-tool": [
-          "gids-tool (1)        - smart card utility for GIDS cards"
-        ]
-      },
-      {
-        "/usr/bin/goid-tool": [
-          "goid-tool (1)        - ???"
-        ]
-      },
-      {
-        "/usr/bin/iasecc-tool": [
-          "iasecc-tool (1)      - displays information about IAS/ECC card"
-        ]
-      },
-      {
-        "/usr/bin/netkey-tool": [
-          "netkey-tool (1)      - administrative utility for Netkey E4 cards"
-        ]
-      },
-      {
-        "/usr/bin/npa-tool": [
-          "npa-tool (1)         - displays information on the German eID card (neuer Personalausweis,..."
-        ]
-      },
-      {
-        "/usr/bin/openpgp-tool": [
-          "openpgp-tool (1)     - utility for accessing visible data OpenPGP smart cards and compatib..."
-        ]
-      },
-      {
-        "/usr/bin/opensc-asn1": [
-          "opensc-asn1 (1)      - parse ASN.1 data"
-        ]
-      },
-      {
-        "/usr/bin/opensc-explorer": [
-          "opensc-explorer (1)  - generic interactive utility for accessing smart card and similar se..."
-        ]
-      },
-      {
-        "/usr/bin/opensc-notify": [
-          "opensc-notify (1)    - monitor smart card events and send notifications"
-        ]
-      },
-      {
-        "/usr/bin/opensc-tool": [
-          "opensc-tool (1)      - generic smart card utility"
-        ]
-      },
-      {
-        "/usr/bin/piv-tool": [
-          "piv-tool (1)         - smart card utility for HSPD-12 PIV cards"
-        ]
-      },
-      {
-        "/usr/bin/pkcs11-register": [
-          "pkcs11-register (1)  - Simple tool to install PKCS#11 modules to known applications."
-        ]
-      },
-      {
-        "/usr/bin/pkcs11-tool": [
-          "pkcs11-tool (1)      - utility for managing and using PKCS #11 security tokens"
-        ]
-      },
-      {
-        "/usr/bin/pkcs15-crypt": [
-          "pkcs15-crypt (1)     - perform crypto operations using PKCS#15 smart cards"
-        ]
-      },
-      {
-        "/usr/bin/pkcs15-init": [
-          "pkcs15-init (1)      - smart card personalization utility"
-        ]
-      },
-      {
-        "/usr/bin/pkcs15-tool": [
-          "pkcs15-tool (1)      - utility for manipulating PKCS #15 data structures on smart cards an..."
-        ]
-      },
-      {
-        "/usr/bin/sc-hsm-tool": [
-          "sc-hsm-tool (1)      - smart card utility for SmartCard-HSM"
-        ]
-      },
-      {
-        "/usr/bin/westcos-tool": [
-          "westcos-tool (1)     - utility for manipulating data structures on westcos smart cards"
-        ]
-      }
-    ]
+    "whatis": []
   },
   {
     "pkg": "p7zip",
@@ -1129,6 +1013,20 @@
     ]
   },
   {
+    "pkg": "cuda",
+    "loc": "sync",
+    "scope": "t480",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "cuda-tools",
+    "loc": "sync",
+    "scope": "t480",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "fontpreview-git",
     "loc": "aur",
     "scope": "Global",
@@ -1225,6 +1123,13 @@
     "whatis": []
   },
   {
+    "pkg": "imv",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "intel-media-driver",
     "loc": "sync",
     "scope": "t480",
@@ -1265,6 +1170,13 @@
     ]
   },
   {
+    "pkg": "kanshi",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "kvantum-qt5",
     "loc": "sync",
     "scope": "Global",
@@ -1273,6 +1185,13 @@
   },
   {
     "pkg": "kvantum-theme-orchis-git",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "libart-lgpl",
     "loc": "aur",
     "scope": "Global",
     "category": "System-Graphics",
@@ -1358,6 +1277,34 @@
     "whatis": []
   },
   {
+    "pkg": "nvidia-dkms-performance",
+    "loc": "aur",
+    "scope": "t480",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "nvidia-prime",
+    "loc": "sync",
+    "scope": "t480",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "nvidia-utils",
+    "loc": "sync",
+    "scope": "t480",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "ocaml-luv",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "opencl-amd",
     "loc": "aur",
     "scope": "mp-arch",
@@ -1373,6 +1320,13 @@
   },
   {
     "pkg": "otf-san-francisco",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "python-pypdf2",
     "loc": "aur",
     "scope": "Global",
     "category": "System-Graphics",
@@ -1435,9 +1389,29 @@
   {
     "pkg": "sway",
     "loc": "sync",
-    "scope": "Global",
+    "scope": "mp-arch",
     "category": "System-Graphics",
     "whatis": []
+  },
+  {
+    "pkg": "sway-hidpi-git",
+    "loc": "aur",
+    "scope": "t480",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "swaybg-git",
+    "loc": "aur",
+    "scope": "t480",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/swaybg": [
+          "swaybg (1)           - Background for Wayland"
+        ]
+      }
+    ]
   },
   {
     "pkg": "swayidle",
@@ -1621,6 +1595,13 @@
     ]
   },
   {
+    "pkg": "wlroots-hidpi-git",
+    "loc": "aur",
+    "scope": "t480",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "wofi",
     "loc": "sync",
     "scope": "Global",
@@ -1653,7 +1634,14 @@
   {
     "pkg": "xdg-desktop-portal-wlr",
     "loc": "sync",
-    "scope": "Global",
+    "scope": "mp-arch",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "xdg-desktop-portal-wlr-git",
+    "loc": "aur",
+    "scope": "t480",
     "category": "System-Graphics",
     "whatis": []
   },
@@ -1673,7 +1661,20 @@
   {
     "pkg": "xorg-xwayland",
     "loc": "sync",
-    "scope": "Global",
+    "scope": "mp-arch",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/Xwayland": [
+          "Xwayland (1)         - an X server for running X clients under Wayland."
+        ]
+      }
+    ]
+  },
+  {
+    "pkg": "xorg-xwayland-hidpi-git",
+    "loc": "aur",
+    "scope": "t480",
     "category": "System-Graphics",
     "whatis": [
       {
@@ -1982,6 +1983,13 @@
     ]
   },
   {
+    "pkg": "networkmanager",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Network",
+    "whatis": []
+  },
+  {
     "pkg": "nextcloud-client",
     "loc": "sync",
     "scope": "Global",
@@ -2101,13 +2109,6 @@
     ]
   },
   {
-    "pkg": "remmina-plugin-rdesktop",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "System-Network",
-    "whatis": []
-  },
-  {
     "pkg": "speedtest-cli",
     "loc": "sync",
     "scope": "Global",
@@ -2169,13 +2170,6 @@
   {
     "pkg": "1password",
     "loc": "aur",
-    "scope": "Global",
-    "category": "Internet",
-    "whatis": []
-  },
-  {
-    "pkg": "chromium",
-    "loc": "sync",
     "scope": "Global",
     "category": "Internet",
     "whatis": []
@@ -2255,6 +2249,19 @@
     "scope": "Global",
     "category": "AudioVideo",
     "whatis": []
+  },
+  {
+    "pkg": "celluloid",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": [
+      {
+        "/usr/bin/celluloid": [
+          "celluloid (1)        - A simple GTK+ frontend for mpv"
+        ]
+      }
+    ]
   },
   {
     "pkg": "pasystray",
@@ -2370,6 +2377,13 @@
     ]
   },
   {
+    "pkg": "gimp-git",
+    "loc": "aur",
+    "scope": "t480",
+    "category": "Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "imagemagick",
     "loc": "sync",
     "scope": "Global",
@@ -2459,6 +2473,20 @@
     ]
   },
   {
+    "pkg": "inkscape",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "mypaint",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "asdf-vm",
     "loc": "aur",
     "scope": "Global",
@@ -2495,7 +2523,7 @@
   {
     "pkg": "visual-studio-code-bin",
     "loc": "aur",
-    "scope": "mp-arch",
+    "scope": "Global",
     "category": "Development",
     "whatis": [
       {
@@ -2504,13 +2532,6 @@
         ]
       }
     ]
-  },
-  {
-    "pkg": "visual-studio-code-wayland",
-    "loc": "aur",
-    "scope": "t480",
-    "category": "Development",
-    "whatis": []
   },
   {
     "pkg": "calibre",

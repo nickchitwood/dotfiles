@@ -1,0 +1,14 @@
+[Default Applications]
+x-scheme-handler/msteams=teams.desktop
+x-scheme-handler/mailto=chromium.desktop
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+
+[Added Associations]
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+image/jpeg=pinta.desktop;
+
+[Removed Associations]
+application/vnd.ms-word.document.macroenabled.12=calibre-gui.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=calibre-ebook-edit.desktop;calibre-gui.desktop;
