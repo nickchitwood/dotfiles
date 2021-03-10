@@ -1,0 +1,50 @@
+{
+    "Compress files": {
+        "name": "Compress files",
+        "command": "file-roller -d",
+        "parameter": "",
+        "pattern": "<~filename>",
+        "unique": false,
+        "max_args": 9999
+    },
+    "Browse folders (Thunar)": {
+        "name": "Browse folders (Thunar)",
+        "command": "thunar",
+        "parameter": "",
+        "pattern": "<~dirname>",
+        "unique": true,
+        "max_args": 50
+    },
+    "Flash notification": {
+        "name": "Flash notification",
+        "command": "notify-send -t 2000 -i /usr/share/icons/hicolor/scalable/apps/io.github.quodlibet.QuodLibet.svg",
+        "parameter": "",
+        "pattern": "<~rating> \"<title><version| (<version>)>\"<~people| by <~people>><album|, from <album><discnumber| : disk <discnumber>><~length| (<~length>)>",
+        "unique": false,
+        "max_args": 1
+    },
+    "Output playlist to stdout": {
+        "name": "Output playlist to stdout",
+        "command": "echo -e",
+        "parameter": "",
+        "pattern": "<~playlistname>: <~playlistindex>.  <~artist~title>\\\\n",
+        "unique": false,
+        "max_args": 10000
+    },
+    "Fix MP3 VBR with mp3val": {
+        "name": "Fix MP3 VBR with mp3val",
+        "command": "mp3val -f",
+        "parameter": "",
+        "pattern": "<~filename>",
+        "unique": true,
+        "max_args": 1
+    },
+    "Record Stream": {
+        "name": "Record Stream",
+        "command": "x-terminal-emulator -e wget -P $HOME",
+        "parameter": "",
+        "pattern": "<~filename>",
+        "unique": false,
+        "max_args": 1
+    }
+}
