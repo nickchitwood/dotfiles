@@ -867,6 +867,20 @@
     ]
   },
   {
+    "pkg": "sftpman",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
+  },
+  {
+    "pkg": "sshfs",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
+  },
+  {
     "pkg": "stress",
     "loc": "sync",
     "scope": "Global",
@@ -878,6 +892,20 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "syncthing",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
+  },
+  {
+    "pkg": "syncthing-gtk",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
   },
   {
     "pkg": "throttled",
@@ -1206,7 +1234,14 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
-    "whatis": []
+    "whatis": [
+      {
+        "/usr/bin/kanshi": [
+          "kanshi (5)           - configuration file",
+          "kanshi (1)           - dynamic output configuration"
+        ]
+      }
+    ]
   },
   {
     "pkg": "kvantum-qt5",
@@ -2019,7 +2054,43 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Network",
-    "whatis": []
+    "whatis": [
+      {
+        "/usr/bin/NetworkManager": [
+          "NetworkManager (8)   - network management daemon"
+        ]
+      },
+      {
+        "/usr/bin/nm-online": [
+          "nm-online (1)        - ask NetworkManager whether the network is connected"
+        ]
+      },
+      {
+        "/usr/bin/nmcli": [
+          "nmcli (1)            - command-line tool for controlling NetworkManager"
+        ]
+      },
+      {
+        "/usr/bin/nmtui": [
+          "nmtui (1)            - Text User Interface for controlling NetworkManager"
+        ]
+      },
+      {
+        "/usr/bin/nmtui-connect": [
+          "nmtui-connect (1)    - Text User Interface for controlling NetworkManager"
+        ]
+      },
+      {
+        "/usr/bin/nmtui-edit": [
+          "nmtui-edit (1)       - Text User Interface for controlling NetworkManager"
+        ]
+      },
+      {
+        "/usr/bin/nmtui-hostname": [
+          "nmtui-hostname (1)   - Text User Interface for controlling NetworkManager"
+        ]
+      }
+    ]
   },
   {
     "pkg": "nextcloud-client",
