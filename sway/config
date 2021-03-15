@@ -30,6 +30,9 @@ font pango:Roboto 11
 	# Use Mouse+$mod to drag floating windows to their wanted position
 	floating_modifier $mod
 
+	# Deactivate inhibitor
+	bindsym $mod+Escape seat * shortcuts_inhibitor disable
+
 	# kill focused window
 	bindsym $mod+Shift+q kill
 
@@ -111,8 +114,8 @@ floating_maximum_size 1200 x 800
 	set $ws8 "8"
 	set $ws9 "9"
 	set $ws10 "10-⚙"
-	set $ws11 "11"
-	set $ws12 "12"
+	set $wsL "L"
+	set $wsR "R"
 #
 # Workspace navigation
 #
@@ -126,9 +129,9 @@ floating_maximum_size 1200 x 800
 	bindsym $mod+7 workspace number $ws7
 	bindsym $mod+8 workspace number $ws8
 	bindsym $mod+9 workspace number $ws9
-	bindsym $mod+0 workspace number $ws10
-	bindsym $mod+minus workspace number $ws11
-	bindsym $mod+equal workspace number $ws12
+	bindsym $mod+0 workspace $ws10
+	bindsym $mod+minus workspace $wsL
+	bindsym $mod+equal workspace $wsR
 
 	# move focused container to workspace
 	bindsym $mod+Shift+1 move container to workspace number $ws1
@@ -140,9 +143,9 @@ floating_maximum_size 1200 x 800
 	bindsym $mod+Shift+7 move container to workspace number $ws7
 	bindsym $mod+Shift+8 move container to workspace number $ws8
 	bindsym $mod+Shift+9 move container to workspace number $ws9
-	bindsym $mod+Shift+0 move container to workspace number $ws10
-	bindsym $mod+Shift+minus move container to workspace number $ws11
-	bindsym $mod+Shift+equal move container to workspace number $ws12
+	bindsym $mod+Shift+0 move container to workspace $ws10
+	bindsym $mod+Shift+minus move container to workspace $wsL
+	bindsym $mod+Shift+equal move container to workspace $wsR
 
 #
 # Resizing
@@ -211,6 +214,7 @@ bar {
 	for_window [app_id="zoom"] floating enable
 	for_window [app_id="galculator"] floating enable
 	for_window [class="zoom"] floating enable
+	for_window [class="XEyes"] floating enable, sticky enable
 	for_window [app_id="org.remmina.Remmina" title="Remmina Remote Desktop Client"] floating enable
 	for_window [app_id="virt-manager" title="Virtual Machine Manager"] floating enable
 	for_window [app_id="yubico.com.yubioath-desktop"] floating enable
@@ -227,14 +231,12 @@ bar {
 # Startup apps
 #
 	exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
+	exec xsettingsd &
 	exec systemctl --user import-environemtn DISPLAY WAYLAND_DISPLAY SWAYSOCK
 	exec hash dbus-update-activation-environment 2>/dev/null && \
      dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
 
-	exec kitty glances  --process-short-name 
-	for_window [app_id = "kitty" title="glances"] move container to workspace $ws9
-
-	export MOZ_DBUS_REMOTE = 1
+	# export MOZ_DBUS_REMOTE=1
 
 #
 # Screenshots
@@ -254,3 +256,9 @@ bar {
 # Device specific config
 #
 	include "~/.config/sway/$(cat /etc/hostname).conf"
+
+#
+# Post-device initialization program launch
+#
+	exec kitty glances  --process-short-name 
+	for_window [app_id = "kitty" title="glances"] move container to workspace $ws9

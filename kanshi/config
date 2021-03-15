@@ -1,8 +1,15 @@
 profile default-t480 {
-	output eDP-1 scale 1.5 position 0,0
+	output eDP-1 position 0,0
 }
 	
 profile t480_whtv {
-	output eDP-1 scale 1.5 position 0,0
+	output eDP-1 position 0,0
 	output "Unknown LD-4065 6541H13600874" position -1920,-360
+}
+
+profile t480_home_dock {
+	output eDP-1 position 0,360
+	output "Unknown MPLE27QPM MSA131200001" position 1920,0
+	output "Samsung Electric Company SyncMaster HVDS900944" position 4480,360
+	exec /home/nicholaschitwood/.config/kanshi/t480-dock.sh
 }

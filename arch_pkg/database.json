@@ -218,13 +218,6 @@
     ]
   },
   {
-    "pkg": "cppo",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "System-Core",
-    "whatis": []
-  },
-  {
     "pkg": "dmidecode",
     "loc": "sync",
     "scope": "Global",
@@ -297,6 +290,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "flatpak",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
   },
   {
     "pkg": "gcc-fortran",
@@ -898,14 +898,26 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": []
+    "whatis": [
+      {
+        "/usr/bin/syncthing": [
+          "syncthing (1)        - Syncthing"
+        ]
+      }
+    ]
   },
   {
     "pkg": "syncthing-gtk",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": []
+    "whatis": [
+      {
+        "/usr/bin/syncthing-gtk": [
+          "syncthing-gtk (1)    - GUI for Syncthing"
+        ]
+      }
+    ]
   },
   {
     "pkg": "throttled",
@@ -1186,6 +1198,13 @@
     "pkg": "imv",
     "loc": "sync",
     "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "intel-gpu-tools",
+    "loc": "sync",
+    "scope": "t480",
     "category": "System-Graphics",
     "whatis": []
   },
@@ -1631,6 +1650,13 @@
     "whatis": []
   },
   {
+    "pkg": "wdisplays",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "wf-recorder",
     "loc": "sync",
     "scope": "Global",
@@ -1910,6 +1936,26 @@
     ]
   },
   {
+    "pkg": "yubikey-manager-qt",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Utilities",
+    "whatis": []
+  },
+  {
+    "pkg": "yubikey-personalization-gui",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Utilities",
+    "whatis": [
+      {
+        "/usr/bin/yubikey-personalization-gui": [
+          "yubikey-personalization-gui (1) - personalize YubiKey OTP tokens"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "b43-firmware",
     "loc": "aur",
     "scope": "t480",
@@ -2007,6 +2053,19 @@
     ]
   },
   {
+    "pkg": "iw",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Network",
+    "whatis": [
+      {
+        "/usr/bin/iw": [
+          "iw (8)               - show / manipulate wireless devices and their configuration"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "iwd",
     "loc": "sync",
     "scope": "t480",
@@ -2035,6 +2094,19 @@
     "scope": "Global",
     "category": "System-Network",
     "whatis": []
+  },
+  {
+    "pkg": "macchanger",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Network",
+    "whatis": [
+      {
+        "/usr/bin/macchanger": [
+          "macchanger (1)       - MAC Changer"
+        ]
+      }
+    ]
   },
   {
     "pkg": "nethogs",
@@ -2358,7 +2430,13 @@
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": []
+    "whatis": [
+      {
+        "/usr/bin/beet": [
+          "beet (1)             - music tagger and library organizer"
+        ]
+      }
+    ]
   },
   {
     "pkg": "celluloid",
@@ -2454,7 +2532,23 @@
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
-    "whatis": []
+    "whatis": [
+      {
+        "/usr/bin/exfalso": [
+          "exfalso (1)          - audio tag editor"
+        ]
+      },
+      {
+        "/usr/bin/operon": [
+          "operon (1)           - command line music tagger"
+        ]
+      },
+      {
+        "/usr/bin/quodlibet": [
+          "quodlibet (1)        - audio library manager and player"
+        ]
+      }
+    ]
   },
   {
     "pkg": "spotifyd",
@@ -2462,24 +2556,6 @@
     "scope": "Global",
     "category": "AudioVideo",
     "whatis": []
-  },
-  {
-    "pkg": "strawberry",
-    "loc": "sync",
-    "scope": "Global",
-    "category": "AudioVideo",
-    "whatis": [
-      {
-        "/usr/bin/strawberry": [
-          "strawberry (1)       - music player and music collection organizer"
-        ]
-      },
-      {
-        "/usr/bin/strawberry-tagreader": [
-          "strawberry-tagreader (1) - internal tag reader for strawberry"
-        ]
-      }
-    ]
   },
   {
     "pkg": "youtube-dl",
@@ -2961,6 +3037,20 @@
   },
   {
     "pkg": "minigalaxy",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Games",
+    "whatis": []
+  },
+  {
+    "pkg": "protontricks",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Games",
+    "whatis": []
+  },
+  {
+    "pkg": "python-vdf",
     "loc": "aur",
     "scope": "Global",
     "category": "Games",

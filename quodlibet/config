@@ -5,7 +5,7 @@ default_rating = 0.5
 scan = /home/nicholaschitwood/Music/Library
 
 [memory]
-browser = SearchBar
+browser = Paned
 browser_albumlist_maximized = 0
 browser_albumlist_position = 56 50
 browser_albumlist_size_ = 1006 963
@@ -29,7 +29,7 @@ prefs_page = browser
 queue = True
 queue_disable = False
 queue_expanded = True
-queue_position = 0.6511299435028248
+queue_position = 0.6535796766743649
 quodlibet_information_maximized = 0
 quodlibet_information_position = 0 0
 quodlibet_information_size_ = 586 799
@@ -42,9 +42,9 @@ quodlibet_properties_position = 0 0
 quodlibet_properties_size_ = 958 800
 quodlibet_properties_size_single = 607 408
 quodlibet_size_ = 1200 800
-seek = 22399
+seek = 0
 sidebar_pos = 0.25
-song = /home/nicholaschitwood/Music/Library/Compilations/To the Moon _OST_/1-01 To the Moon - Main Theme.mp3
+song = 
 sortby = 0album
 	
 volume = 1.0
@@ -72,7 +72,7 @@ pane_selection = 0	Soundtrack	.
 	1	.
 panedbrowser_pane_widths = 0.5
 	
-panedbrowser_pos = 0.19284876905041032
+panedbrowser_pos = 0.19270833333333334
 panes = genre	album
 playlistsbrowser_pos = 0.39976553341148885
 query_text = 
@@ -88,15 +88,15 @@ windows = true
 alltags = true
 
 [plugins]
-active_plugins = missing_query
-	Download Album Art
+active_plugins = lastfm-cover
 	SeekBar
+	missing_query
+	mpris
+	Download Album Art
 	Download Cover Art
-	Notify
 	discogs-cover
 	conditional_query
-	mpris
-	lastfm-cover
+	Notify
 	python_query
 animosd_monitor = 0
 cover_edit = False
