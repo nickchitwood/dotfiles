@@ -1,0 +1,4 @@
+acpi_call
+qt5ct
+swaylock
+spotifyd

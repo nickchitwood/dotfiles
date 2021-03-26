@@ -1,0 +1,96 @@
+=== SYSTEM INFORMATION:
+Quod Libet 4.4.0
+Mutagen 1.45.1
+Python 3.9.2 (default, Feb 20 2021, 18:40:11) 
+[GCC 10.2.0] linux
+Platform Linux-5.11.6-zen1-1-zen-x86_64-with-glibc2.33
+=== STACK TRACE
+
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.9/site-packages/quodlibet/qltk/dbus_.py", line 139, in __song_ended
+    self.SongEnded(song, skipped)
+
+  File "/usr/lib/python3.9/site-packages/quodlibet/qltk/dbus_.py", line 149, in SongEnded
+    self.conn.emit_signal(None, self.PATH, 'net.sacredchao.QuodLibet',
+
+gi.repository.GLib.GError: g-io-error-quark: The connection is closed (18)
+
+=== LOG:
+D: 1.402: qltk.window.__restore_size: Restore size
+D: 1.402: PluginManager.register_handler: Registering handler: 'EventPluginHandler'
+D: 1.402: PluginManager.enable: Enable 'Notify'
+D: 1.403: PluginManager.enable: Enable 'SeekBar'
+D: 1.404: PluginManager.enable: Enable 'mpris'
+D: 1.405: PluginManager.register_handler: Registering handler: 'UserInterfacePluginHandler'
+D: 1.407: mmkeys.find_active_backend: Trying to find a mmkeys backend
+D: 1.410: mmkeys.find_active_backend: Found 'GnomeBackend'
+D: 1.415: session.init: Trying GnomeSessionClient
+D: 1.415: GnomeSessionClient.open: Connecting with gnome session manager
+D: 1.419: GnomeSessionClient.open: Connected with gnome session manager: /org/gnome/SessionManager/Client25
+D: 1.419: _main.run: Entering quodlibet.main
+D: 1.488: Query.__init__: Creating query ''
+D: 1.494: PlaylistModel.set: Filling view model with 209 songs.
+D: 2.053: qltk.completion.__build_model: Updating tag model for whole library
+D: 2.054: SongFileLibrary.rebuild('main'): Rebuilding, force is False
+D: 2.146: qltk.completion.__build_model: Done updating tag model for whole library
+D: 2.167: SongFileLibrary.rebuild('main'): Removing 0, changing 0).
+D: 2.167: SongFileLibrary.scan('main'): Scanning /home/nicholaschitwood/Music/Library
+D: 4.902: QueueModel.go_to: Told to go to None
+D: 4.902: PlaylistModel.go_to: Told to go to None
+D: 4.902: PlaylistModel.next: Using <In Order>.next_explicit() to get next song
+D: 4.902: GStreamerPlayer._end: End song
+D: 4.902: player.gstbe.player.__destroy_pipeline: Destroying Gstreamer pipeline
+D: 4.902: player.gstbe.player.__init_pipeline: User pipeline (from player.gst_pipeline): ''
+D: 4.914: player.gstbe.player.__init_pipeline: GStreamer plugin pipeline: []
+D: 4.914: player.gstbe.util.link_many: Attempting to link Gstreamer element(s): ['GstVolume', 'GstPulseSink']
+D: 4.926: util.cover.manager.failure: Didn't get cover from FilesystemCover: This source is incapable of fetching covers
+D: 4.932: util.cover.manager.run: Found local cover from EmbeddedCover: <tempfile._TemporaryFileWrapper object at 0x7f0c4c1d65b0>
+D: 5.014: player.gstbe.player.__message: Recalculate latency
+D: 5.022: SongFileLibrary._changed('main'): Changing 1 items.
+D: 5.024: qltk.completion.__update_song: Updating tag model for 1 songs
+D: 5.024: qltk.completion.__update_song: Done updating tag model for 1 songs
+D: 27.634: player.gstbe.player.__about_to_finish: About to finish (async)
+D: 27.634: player.gstbe.player.__about_to_finish_sync: About to finish (sync)
+D: 27.634: player.gstbe.player.__about_to_finish_sync: Select next song in mainloop..
+D: 27.634: PlaylistModel.next_ended: Using <In Order>.next_implicit() to get next song
+D: 27.634: player.gstbe.player.__about_to_finish_sync: ..done.
+D: 27.634: player.gstbe.player.__about_to_finish: About to finish (async): setting uri
+D: 27.634: player.gstbe.player.__about_to_finish: About to finish (async): done
+D: 27.660: GStreamerPlayer.stop: Stop playing
+D: 27.660: player.gstbe.player.__destroy_pipeline: Destroying Gstreamer pipeline
+D: 27.666: player.gstbe.player.__handle_missing_plugin: Gstreamer plugin install result: <enum GST_INSTALL_PLUGINS_HELPER_MISSING of type GstPbutils.InstallPluginsReturn>
+D: 27.666: player.gstbe.player.__destroy_pipeline: Destroying Gstreamer pipeline
+W: 27.666: GStreamerPlayer._error:
+    No GStreamer element found to handle media format
+    Media format: MPEG-1 Layer 3 (MP3) decoder
+D: 46.508: player.gstbe.player.__init_pipeline: User pipeline (from player.gst_pipeline): ''
+D: 46.511: player.gstbe.player.__init_pipeline: GStreamer plugin pipeline: []
+D: 46.511: player.gstbe.util.link_many: Attempting to link Gstreamer element(s): ['GstVolume', 'GstPulseSink']
+D: 46.540: player.gstbe.player.__message: Recalculate latency
+D: 71.435: GStreamerPlayer.go_to: Going to <Gtk.TreeIter object at 0x7f0c3cddf880 (GtkTreeIter at 0x559dbaaffa60)>
+D: 71.435: PlaylistMux.go_to: Told to go to <Gtk.TreeIter object at 0x7f0c3cddf880 (GtkTreeIter at 0x559dbaaffa60)>
+D: 71.435: QueueModel.go_to: Told to go to None
+D: 71.435: PlaylistModel.go_to: Told to go to <Gtk.TreeIter object at 0x7f0c3cddf880 (GtkTreeIter at 0x559dbaaffa60)>
+D: 71.436: GStreamerPlayer._end: End song
+D: 71.437: player.gstbe.player.__destroy_pipeline: Destroying Gstreamer pipeline
+D: 71.439: player.gstbe.player.__init_pipeline: User pipeline (from player.gst_pipeline): ''
+D: 71.441: player.gstbe.player.__init_pipeline: GStreamer plugin pipeline: []
+D: 71.441: player.gstbe.util.link_many: Attempting to link Gstreamer element(s): ['GstVolume', 'GstPulseSink']
+D: 71.446: util.cover.manager.failure: Didn't get cover from FilesystemCover: This source is incapable of fetching covers
+D: 71.448: util.cover.manager.run: Found local cover from EmbeddedCover: <tempfile._TemporaryFileWrapper object at 0x7f0c3cbc3b80>
+D: 71.474: player.gstbe.player.__message: Recalculate latency
+D: 71.481: SongFileLibrary._changed('main'): Changing 1 items.
+D: 71.482: qltk.completion.__update_song: Updating tag model for 1 songs
+D: 71.482: qltk.completion.__update_song: Done updating tag model for 1 songs
+D: 01.420: config.save: Writing config...
+D: 01.426: library.save: Saving all libraries...
+D: 01.426: SongFileLibrary.save('main'): Saving contents to '/home/nicholaschitwood/.config/quodlibet/songs'
+D: 01.420: config.save: Writing config...
+D: 01.425: library.save: Saving all libraries...
+E: 86.100: mmkeys.gnome.__release: Gio.py:350:__call__: gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SettingsDaemon.MediaKeys was not provided by any .service files (2)
+D: 86.173: qltk.idle_handler: Python signal handler activated: SIGTERM
+D: 86.204: qltk.window.__restore_size: Restore size
+D: 86.218: main.before_quit: Saving active browser state
+D: 86.218: main.before_quit: Shutting down player device 'GStreamer: 1.18.3.0'.
+E: 86.223: errorreport.main.errorhook: dbus_.py:149:SongEnded: gi.repository.GLib.GError: g-io-error-quark: The connection is closed (18)

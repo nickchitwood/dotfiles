@@ -1,0 +1,94 @@
+=== SYSTEM INFORMATION:
+Quod Libet 4.4.0
+Mutagen 1.45.1
+Python 3.9.2 (default, Feb 20 2021, 18:40:11) 
+[GCC 10.2.0] linux
+Platform Linux-5.11.8-zen1-1-zen-x86_64-with-glibc2.33
+=== STACK TRACE
+
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.9/site-packages/quodlibet/qltk/exfalsowindow.py", line 75, in prefs_cb
+    window = PreferencesWindow(self)
+
+  File "/usr/lib/python3.9/site-packages/quodlibet/qltk/exfalsowindow.py", line 277, in __init__
+    super().__init__()
+
+TypeError: __init__() missing 1 required positional argument: 'parent'
+
+=== LOG:
+D: 0.668: PluginManager.register_handler: Registering handler: 'SongsMenuPluginHandler'
+D: 0.668: PluginManager.enable: Enable 'Download Cover Art'
+D: 0.668: PluginManager.enable: Enable 'Download Album Art'
+D: 0.668: PluginManager.enable: Enable 'FilterAll'
+D: 0.668: PluginManager.register_handler: Registering handler: 'CoverPluginHandler'
+D: 0.668: PluginManager.enable: Enable 'lastfm-cover'
+D: 0.668: CoverPluginHandler.plugin_enable: Registered LastFMCover cover source
+D: 0.668: PluginManager.enable: Enable 'discogs-cover'
+D: 0.668: CoverPluginHandler.plugin_enable: Registered DiscogsCover cover source
+D: 0.669: session.init: Trying GnomeSessionClient
+D: 0.669: GnomeSessionClient.open: Connecting with gnome session manager
+D: 0.673: GnomeSessionClient.open: Connected with gnome session manager: /org/gnome/SessionManager/Client23
+D: 0.673: _main.run: Entering quodlibet.main
+W: 9.936: formats._misc.MusicFile: Error loading '/home/nicholaschitwood/Music/organfinale.wav'
+E: 9.937: formats._misc.MusicFile: wave.py:268:_read_fmt_chunk: quodlibet.formats._misc.MutagenBug: unknown format: 3
+W: 10.116: formats._misc.MusicFile: Error loading '/home/nicholaschitwood/Music/organfinale.wav'
+E: 10.116: formats._misc.MusicFile: wave.py:268:_read_fmt_chunk: quodlibet.formats._misc.MutagenBug: unknown format: 3
+D: 19.867: SongFileLibrary.add('main'): Adding 1 items.
+D: 26.853: EditTags._popup_menu: Adding 0 plugin(s) to menu: 
+E: 29.875: errorreport.main.errorhook: exfalsowindow.py:277:__init__: TypeError: __init__() missing 1 required positional argument: 'parent'
+D: 91.805: SongFileLibrary.add('main'): Adding 1 items.
+D: 93.133: SongFileLibrary.add('main'): Adding 1 items.
+D: 95.473: SongFileLibrary.add('main'): Adding 1 items.
+D: 95.988: SongFileLibrary.add('main'): Adding 1 items.
+D: 96.362: SongFileLibrary.add('main'): Adding 1 items.
+D: 96.718: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.218: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.246: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.275: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.310: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.339: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.364: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.395: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.428: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.456: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.484: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.536: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.565: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.599: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.606: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.635: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.665: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.699: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.732: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.765: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.799: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.832: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.865: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.899: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.906: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.935: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.965: SongFileLibrary.add('main'): Adding 1 items.
+D: 97.999: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.031: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.065: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.099: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.132: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.165: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.198: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.206: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.235: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.269: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.301: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.333: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.365: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.398: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.432: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.465: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.498: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.506: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.535: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.565: SongFileLibrary.add('main'): Adding 1 items.
+D: 98.599: SongFileLibrary.add('main'): Adding 1 items.
+E: 16.953: errorreport.main.errorhook: exfalsowindow.py:277:__init__: TypeError: __init__() missing 1 required positional argument: 'parent'
+E: 22.044: errorreport.main.errorhook: exfalsowindow.py:277:__init__: TypeError: __init__() missing 1 required positional argument: 'parent'

@@ -7,7 +7,12 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoff
 [Added Associations]
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
-image/jpeg=pinta.desktop;
+image/jpeg=gimp.desktop;pinta.desktop;
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;org.gnome.Evince.desktop;libreoffice-draw.desktop;
+text/html=google-chrome.desktop;
+text/plain=nvim.desktop;
+application/x-cd-image=gnome-disk-image-writer.desktop;
+image/png=google-chrome.desktop;
 
 [Removed Associations]
 application/vnd.ms-word.document.macroenabled.12=calibre-gui.desktop;

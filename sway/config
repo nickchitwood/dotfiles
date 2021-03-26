@@ -17,10 +17,10 @@ font pango:Roboto 11
 # Basics
 #
 	# start a terminal
-	bindsym $mod+Return exec kitty
+	bindsym $mod+Return exec kitty -d ~
 
 	# start chromium
-	bindsym $mod+Shift+Return exec env MOZ_ENABLE_WAYLAND=1 /usr/lib/firefox/firefox
+	bindsym $mod+Shift+Return exec /usr/lib/firefox/firefox
 	bindsym $mod+Shift+backslash exec google-chrome-stable --profile-directory=Default
 
 	# start program launcher
@@ -113,9 +113,9 @@ floating_maximum_size 1200 x 800
 	set $ws7 "7"
 	set $ws8 "8"
 	set $ws9 "9"
-	set $ws10 "10-⚙"
-	set $wsL "L"
-	set $wsR "R"
+	set $ws10 10-⚙
+	set $wsL L
+	set $wsR R
 #
 # Workspace navigation
 #
@@ -129,9 +129,9 @@ floating_maximum_size 1200 x 800
 	bindsym $mod+7 workspace number $ws7
 	bindsym $mod+8 workspace number $ws8
 	bindsym $mod+9 workspace number $ws9
-	bindsym $mod+0 workspace $ws10
-	bindsym $mod+minus workspace $wsL
-	bindsym $mod+equal workspace $wsR
+	bindsym $mod+0 workspace 10:$ws10
+	bindsym $mod+minus workspace 0:$wsL
+	bindsym $mod+equal workspace 11:$wsR
 
 	# move focused container to workspace
 	bindsym $mod+Shift+1 move container to workspace number $ws1
@@ -191,8 +191,8 @@ bar {
 # Visual configurations
 #
 	# Gaps
-	for_window [app_id=".*"] border pixel 1
-	for_window [class=".*"] border pixel 1
+	for_window [app_id=".*"] border pixel 2
+	for_window [class=".*"] border pixel 2
 	gaps outer 0
 	gaps inner 6
 	smart_borders on
@@ -220,6 +220,8 @@ bar {
 	for_window [app_id="yubico.com.yubioath-desktop"] floating enable
 	for_window [app_id="org.gnome.NautilusPreviewer"] floating enable
 	for_window [app_id="pavucontrol"] floating enable
+	for_window [class="Code" window_type="dialog"] resize set 800 600
+	for_window [class="Code" window_type="dialog"] move position center
 
 #
 # Opacity adjustments
@@ -232,7 +234,7 @@ bar {
 #
 	exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
 	exec xsettingsd &
-	exec systemctl --user import-environemtn DISPLAY WAYLAND_DISPLAY SWAYSOCK
+	exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
 	exec hash dbus-update-activation-environment 2>/dev/null && \
      dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
 

@@ -1,0 +1,97 @@
+=== SYSTEM INFORMATION:
+Quod Libet 4.4.0
+Mutagen 1.45.1
+Python 3.9.2 (default, Feb 20 2021, 18:40:11) 
+[GCC 10.2.0] linux
+Platform Linux-5.11.8-zen1-1-zen-x86_64-with-glibc2.33
+=== STACK TRACE
+
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.9/site-packages/quodlibet/util/__init__.py", line 712, in wrap
+    return handler(that, *args)
+
+  File "/usr/lib/python3.9/site-packages/quodlibet/qltk/edittags.py", line 710, in show_prefs
+    window = PreferencesWindow(parent)
+
+  File "/usr/lib/python3.9/site-packages/quodlibet/qltk/exfalsowindow.py", line 277, in __init__
+    super().__init__()
+
+TypeError: __init__() missing 1 required positional argument: 'parent'
+
+=== LOG:
+D: 0.068: formats._misc.init: Supported formats: aac, aiff, dsf, midi, mod, monkeysaudio, mp3, mp4, mpc, spc, trueaudio, vgm, wav, wavpack, wma, xiph
+D: 0.201: qltk.add_signal_watch: Register Python signal handler: 'SIGINT'
+D: 0.201: qltk.add_signal_watch: Register Python signal handler: 'SIGTERM'
+D: 0.201: qltk.add_signal_watch: Register Python signal handler: 'SIGHUP'
+D: 0.222: SongFileLibrary.__init__: Initializing <class 'quodlibet.library.libraries.SongFileLibrary'>: 'main'
+D: 0.222: SongFileLibrary.__init__: Using pickling persistence for library "main"
+D: 0.245: NullPlayer.go_to: Going to None
+D: 0.245: PlaylistModel.go_to: Told to go to None
+D: 0.245: _main.init_plugins: Starting plugin manager
+D: 0.245: _main.init_plugins: Scanning folders: ['/usr/lib/python3.9/site-packages/quodlibet/ext/editing', '/usr/lib/python3.9/site-packages/quodlibet/ext/events', '/usr/lib/python3.9/site-packages/quodlibet/ext/playorder', '/usr/lib/python3.9/site-packages/quodlibet/ext/songsmenu', '/usr/lib/python3.9/site-packages/quodlibet/ext/playlist', '/usr/lib/python3.9/site-packages/quodlibet/ext/gstreamer', '/usr/lib/python3.9/site-packages/quodlibet/ext/covers', '/usr/lib/python3.9/site-packages/quodlibet/ext/query', '/home/nicholaschitwood/.config/quodlibet/plugins']
+D: 0.246: plugins.__restore: Restoring plugins: 10
+D: 0.246: PluginManager.rescan: Rescanning..
+D: 0.246: ModuleScanner.rescan: Rescanning..
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/editing/__pycache__'
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/events/__pycache__'
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/events/trayicon/__pycache__'
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/events/mpdserver/__pycache__'
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/events/mpris/__pycache__'
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/events/animosd/__pycache__'
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/playorder/__pycache__'
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/songsmenu/__pycache__'
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/songsmenu/fingerprint/__pycache__'
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/songsmenu/brainz/__pycache__'
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/playlist/__pycache__'
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/gstreamer/__pycache__'
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/covers/__pycache__'
+D: 0.246: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/query/__pycache__'
+D: 0.554: ModuleScanner.rescan: Rescanning done: 97 added, 0 removed, 4 error(s)
+D: 0.556: PluginManager.rescan: Rescanning done.
+D: 0.556: PluginManager.register_handler: Registering handler: 'EditTagsPluginHandler'
+D: 0.556: PluginManager.register_handler: Registering handler: 'RenameFilesPluginHandler'
+D: 0.556: PluginManager.register_handler: Registering handler: 'TagsFromPathPluginHandler'
+D: 0.556: PluginManager.rescan: Rescanning..
+D: 0.556: ModuleScanner.rescan: Rescanning..
+D: 0.556: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/editing/__pycache__'
+D: 0.556: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/events/__pycache__'
+D: 0.556: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/events/trayicon/__pycache__'
+D: 0.556: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/events/mpdserver/__pycache__'
+D: 0.556: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/events/mpris/__pycache__'
+D: 0.556: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/events/animosd/__pycache__'
+D: 0.556: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/playorder/__pycache__'
+D: 0.556: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/songsmenu/__pycache__'
+D: 0.557: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/songsmenu/fingerprint/__pycache__'
+D: 0.557: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/songsmenu/brainz/__pycache__'
+D: 0.557: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/playlist/__pycache__'
+D: 0.557: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/gstreamer/__pycache__'
+D: 0.557: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/covers/__pycache__'
+D: 0.557: util.importhelper.get_importables: Ignoring '/usr/lib/python3.9/site-packages/quodlibet/ext/query/__pycache__'
+D: 0.559: ModuleScanner.rescan: Rescanning done: 0 added, 0 removed, 4 error(s)
+D: 0.559: PluginManager.rescan: Rescanning done.
+D: 0.636: qltk.window.__restore_size: Restore size
+D: 0.687: PluginManager.register_handler: Registering handler: 'SongsMenuPluginHandler'
+D: 0.687: PluginManager.enable: Enable 'Download Cover Art'
+D: 0.687: PluginManager.enable: Enable 'Download Album Art'
+D: 0.687: PluginManager.register_handler: Registering handler: 'CoverPluginHandler'
+D: 0.687: PluginManager.enable: Enable 'lastfm-cover'
+D: 0.687: CoverPluginHandler.plugin_enable: Registered LastFMCover cover source
+D: 0.687: PluginManager.enable: Enable 'discogs-cover'
+D: 0.687: CoverPluginHandler.plugin_enable: Registered DiscogsCover cover source
+D: 0.688: session.init: Trying GnomeSessionClient
+D: 0.688: GnomeSessionClient.open: Connecting with gnome session manager
+D: 0.689: session.init: org.gnome.SessionManager unowned
+D: 0.689: session.init: Trying XfceSessionClient
+D: 0.689: XfceSessionClient.open: Connecting with gnome session manager
+D: 0.690: session.init: org.xfce.SessionManager unowned
+D: 0.690: session.init: Trying XSMPSessionClient
+D: 0.692: XSMPSessionClient.open: Connecting with XSMP
+D: 0.692: session.init: open failed: 'SESSION_MANAGER environment variable not defined'
+D: 0.692: session.init: Trying SessionClient
+D: 0.692: _main.run: Entering quodlibet.main
+D: 15.673: SongFileLibrary.add('main'): Adding 1 items.
+D: 16.641: SongFileLibrary.add('main'): Adding 22 items.
+D: 24.002: EditTags._popup_menu: Adding 0 plugin(s) to menu: 
+D: 27.766: EditTags._popup_menu: Adding 0 plugin(s) to menu: 
+E: 29.957: errorreport.main.errorhook: exfalsowindow.py:277:__init__: TypeError: __init__() missing 1 required positional argument: 'parent'

@@ -12,6 +12,8 @@
     ~/.aliases:
     ~/.p10k.zsh:
     ~/.gitconfig:
+    ~/.config/beets:    
+    ~/.config/bg:    
     ~/.config/fontconfig:    
     ~/.config/glances:
     ~/.config/i3:
@@ -20,7 +22,7 @@
     ~/.config/i3status:
     ~/.config/kanshi:
     ~/.config/kitty:
-    ~/.config/mimeapps.list:
+    ~/.config/openconnect:
     ~/.config/picom:
     ~/.config/quodlibet:
     ~/.config/ranger:
@@ -30,6 +32,7 @@
     ~/.config/nvim: 
     ~/.config/paru: 
     ~/.config/sway:
+    ~/.config/swaylock:
     ~/.config/waybar:
     ~/.config/wayvnc:
     ~/.config/wofi:

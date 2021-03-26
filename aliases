@@ -9,7 +9,7 @@ alias sudo='sudo '
 alias ip='ip -color=auto'
 
 # Website apps
-alias asana='chromium --profile-directory="Profile 1" --app=https://asana.com'
+alias asana='google-chrome-stable --app=https://asana.com'
 
 # RDP
 rdpwork() {

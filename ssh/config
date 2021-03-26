@@ -8,6 +8,9 @@ Host pfsense pihole
 Host pve* file heimdall plex nextcloud bt sonarr jackett qbittorrent usenet radarr assistant audio rundeck print headphones huginn log influxdb elastic mongo postgres wiki mysql pxe calibre grafana mirror moviedb paycheck unifi minecraft rss irc
 	User root
 
+Host rhel8 rhel8.nickchitwood.com
+	User nchitwood
+
 Host RIV-AACI-01.rcoe.us
 	HostName RIV-AACI-01.rcoe.us
 

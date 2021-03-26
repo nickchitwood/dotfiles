@@ -111,6 +111,13 @@
     "whatis": []
   },
   {
+    "pkg": "acpi_call-dkms",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
+  },
+  {
     "pkg": "acpica",
     "loc": "sync",
     "scope": "Global",
@@ -297,6 +304,49 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": []
+  },
+  {
+    "pkg": "fwupd",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": [
+      {
+        "/usr/bin/dfu-tool": [
+          "dfu-tool (1)         - dfu-tool"
+        ]
+      },
+      {
+        "/usr/bin/fwupd-dbxtool": [
+          "fwupd-dbxtool (1)    - dbxtool"
+        ]
+      },
+      {
+        "/usr/bin/fwupdagent": [
+          "fwupdagent (1)       - Firmware updating agent"
+        ]
+      },
+      {
+        "/usr/bin/fwupdate": [
+          "fwupdate (1)         - Debugging utility for UEFI firmware updates"
+        ]
+      },
+      {
+        "/usr/bin/fwupdmgr": [
+          "fwupdmgr (1)         - Firmware update manager client utility"
+        ]
+      },
+      {
+        "/usr/bin/fwupdtool": [
+          "fwupdtool (1)        - Standalone firmware update utility"
+        ]
+      },
+      {
+        "/usr/bin/fwupdtpmevlog": [
+          "fwupdtpmevlog (1)    - Debugging utility for the TPM event log"
+        ]
+      }
+    ]
   },
   {
     "pkg": "gcc-fortran",
@@ -927,6 +977,49 @@
     "whatis": []
   },
   {
+    "pkg": "tlp",
+    "loc": "sync",
+    "scope": "t480",
+    "category": "System-Core",
+    "whatis": [
+      {
+        "/usr/bin/bluetooth": [
+          "bluetooth (1)        - enable/disable internal bluetooth device"
+        ]
+      },
+      {
+        "/usr/bin/run-on-ac": [
+          "run-on-ac (1)        - run command when on ac power"
+        ]
+      },
+      {
+        "/usr/bin/run-on-bat": [
+          "run-on-bat (1)       - run command when on battery power"
+        ]
+      },
+      {
+        "/usr/bin/tlp": [
+          "tlp (8)              - apply laptop power saving settings"
+        ]
+      },
+      {
+        "/usr/bin/tlp-stat": [
+          "tlp-stat (8)         - show power saving settings"
+        ]
+      },
+      {
+        "/usr/bin/wifi": [
+          "wifi (1)             - enable/disable internal wifi device"
+        ]
+      },
+      {
+        "/usr/bin/wwan": [
+          "wwan (1)             - enable/disable internal wwan (3G/4G) device"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "tmux",
     "loc": "sync",
     "scope": "Global",
@@ -938,6 +1031,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "tp_smapi-dkms",
+    "loc": "aur",
+    "scope": "t480",
+    "category": "System-Core",
+    "whatis": []
   },
   {
     "pkg": "udevil",
@@ -1085,6 +1185,13 @@
     ]
   },
   {
+    "pkg": "chrome-gnome-shell",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "cuda",
     "loc": "sync",
     "scope": "t480",
@@ -1097,6 +1204,19 @@
     "scope": "t480",
     "category": "System-Graphics",
     "whatis": []
+  },
+  {
+    "pkg": "dconf-editor",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/dconf-editor": [
+          "dconf-editor (1)     - Graphical editor for gsettings and dconf"
+        ]
+      }
+    ]
   },
   {
     "pkg": "fontpreview-git",
@@ -1128,6 +1248,19 @@
       {
         "/usr/bin/gnome-control-center": [
           "gnome-control-center (1) - Configure GNOME settings"
+        ]
+      }
+    ]
+  },
+  {
+    "pkg": "gnome-firmware",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/gnome-firmware": [
+          "gnome-firmware (1)   - gnome-firmware"
         ]
       }
     ]
@@ -1526,6 +1659,19 @@
     ]
   },
   {
+    "pkg": "swaylock-effects-git",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/swaylock": [
+          "swaylock (1)         - Fancier screen locker for Wayland"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "tela-circle-icon-theme-git",
     "loc": "aur",
     "scope": "Global",
@@ -1798,6 +1944,13 @@
     ]
   },
   {
+    "pkg": "dupeguru",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Utilities",
+    "whatis": []
+  },
+  {
     "pkg": "edk2-ovmf",
     "loc": "sync",
     "scope": "Global",
@@ -1869,6 +2022,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "python-polib",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Utilities",
+    "whatis": []
   },
   {
     "pkg": "qemu",
@@ -2165,6 +2325,13 @@
     ]
   },
   {
+    "pkg": "networkmanager-openconnect",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Network",
+    "whatis": []
+  },
+  {
     "pkg": "nextcloud-client",
     "loc": "sync",
     "scope": "Global",
@@ -2439,6 +2606,13 @@
     ]
   },
   {
+    "pkg": "cava",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": []
+  },
+  {
     "pkg": "celluloid",
     "loc": "sync",
     "scope": "Global",
@@ -2447,6 +2621,25 @@
       {
         "/usr/bin/celluloid": [
           "celluloid (1)        - A simple GTK+ frontend for mpv"
+        ]
+      }
+    ]
+  },
+  {
+    "pkg": "cmus",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": [
+      {
+        "/usr/bin/cmus": [
+          "cmus-tutorial (7)    - C* Music Player tutorial",
+          "cmus (1)             - C* Music Player"
+        ]
+      },
+      {
+        "/usr/bin/cmus-remote": [
+          "cmus-remote (1)      - control cmus"
         ]
       }
     ]
@@ -2461,6 +2654,13 @@
   {
     "pkg": "gst-plugins-ugly",
     "loc": "sync",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": []
+  },
+  {
+    "pkg": "ncspot",
+    "loc": "aur",
     "scope": "Global",
     "category": "AudioVideo",
     "whatis": []
@@ -2507,6 +2707,19 @@
     "whatis": []
   },
   {
+    "pkg": "puddletag",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": [
+      {
+        "/usr/bin/puddletag": [
+          "puddletag (1)        - puddletag"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "pulseaudio",
     "loc": "sync",
     "scope": "t480",
@@ -2523,6 +2736,13 @@
   {
     "pkg": "pulsemixer",
     "loc": "sync",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": []
+  },
+  {
+    "pkg": "python-hsaudiotag3k",
+    "loc": "aur",
     "scope": "Global",
     "category": "AudioVideo",
     "whatis": []
@@ -2569,6 +2789,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "drawing",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Graphics",
+    "whatis": []
   },
   {
     "pkg": "feh",
@@ -2730,6 +2957,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "pgadmin4",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Development",
+    "whatis": []
   },
   {
     "pkg": "rstudio-desktop-bin",
