@@ -7,6 +7,19 @@
     "whatis": []
   },
   {
+    "pkg": "compsize",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "pacstrap",
+    "whatis": [
+      {
+        "/usr/bin/compsize": [
+          "compsize (8)         - calculate compression ratio of a set of files on btrfs"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "intel-ucode",
     "loc": "sync",
     "scope": "Global",
@@ -53,6 +66,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "nvme-cli",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "pacstrap",
+    "whatis": []
   },
   {
     "pkg": "refind",
@@ -1992,6 +2012,19 @@
     "whatis": []
   },
   {
+    "pkg": "swaybg",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/swaybg": [
+          "swaybg (1)           - Background for Wayland"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "swaybg-git",
     "loc": "aur",
     "scope": "t480",
@@ -3188,6 +3221,19 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Graphics",
+    "whatis": [
+      {
+        "/usr/bin/cheese": [
+          "cheese (1)           - tool to take pictures and videos from your webcam"
+        ]
+      }
+    ]
+  },
+  {
+    "pkg": "displaycal",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Graphics",
     "whatis": []
   },
   {
@@ -3542,7 +3588,23 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Office",
-    "whatis": []
+    "whatis": [
+      {
+        "/usr/bin/evince": [
+          "evince (1)           - GNOME document viewer"
+        ]
+      },
+      {
+        "/usr/bin/evince-previewer": [
+          "evince-previewer (1) - show a printing preview of PostScript and PDF documents"
+        ]
+      },
+      {
+        "/usr/bin/evince-thumbnailer": [
+          "evince-thumbnailer (1) - create png thumbnails from PostScript and PDF documents"
+        ]
+      }
+    ]
   },
   {
     "pkg": "ghostscript",

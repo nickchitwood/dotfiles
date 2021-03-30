@@ -1,8 +1,10 @@
 #!/usr/bin/sh
 
-export QT_ENABLE_HIGHDPI_SCALING=1
-export MOZ_ENABLE_WAYLAND=1
-export MOZ_WAYLAND_USE_VAAPI=1
+# Disable Mozilla with Wayland until Sway 1.6
+# export MOZ_ENABLE_WAYLAND=1
+# export MOZ_WAYLAND_USE_VAAPI=1
+
+# Fix intdel gpu issues
 export WLR_DRM_NO_MODIFIERS=1
 
 # Log cleanup
