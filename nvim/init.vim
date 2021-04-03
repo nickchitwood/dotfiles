@@ -15,6 +15,7 @@ set shiftround " round indent to a multiple of 'shiftwidth'
 " *
 set number
 set textwidth=88
+set fo-=t
 
 " *
 " * Custom Mappings

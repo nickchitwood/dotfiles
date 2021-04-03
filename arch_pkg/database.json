@@ -245,6 +245,13 @@
     ]
   },
   {
+    "pkg": "distcc",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
+  },
+  {
     "pkg": "dmidecode",
     "loc": "sync",
     "scope": "Global",
@@ -938,6 +945,13 @@
     "whatis": []
   },
   {
+    "pkg": "snapd",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
+  },
+  {
     "pkg": "sshfs",
     "loc": "sync",
     "scope": "Global",
@@ -1125,6 +1139,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "woeusb",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
   },
   {
     "pkg": "xdg-user-dirs",
@@ -3375,6 +3396,13 @@
     "loc": "sync",
     "scope": "Global",
     "category": "Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "android-sdk-platform-tools",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "Development",
     "whatis": []
   },
   {
