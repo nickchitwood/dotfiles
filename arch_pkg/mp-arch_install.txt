@@ -1,12 +1,12 @@
 nvme-cli
 acpi_call
+btrfs-progs
 gnome-disk-utility
 gnome-keyring
 libu2f-host
 ocaml-ounit
 ocaml-ppxlib
 sftpman
-yubioath-desktop
 appmenu-gtk-module
 chrome-gnome-shell
 gnome-shell
@@ -18,7 +18,6 @@ ocaml-luv
 python-pypdf2
 qt5ct
 swaybg
-swayidle
 swaylock
 swaylock-effects-git
 unoconv

@@ -1539,6 +1539,13 @@
     "whatis": []
   },
   {
+    "pkg": "ly",
+    "loc": "aur",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "mako",
     "loc": "sync",
     "scope": "Global",
@@ -2081,6 +2088,13 @@
     "pkg": "sway",
     "loc": "sync",
     "scope": "mp-arch",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "sway-git",
+    "loc": "aur",
+    "scope": "Global",
     "category": "System-Graphics",
     "whatis": []
   },
