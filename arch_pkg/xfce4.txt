@@ -1,0 +1,14 @@
+thunar-volman
+tumbler
+xfce4-appfinder
+xfce4-power-manager
+xorg-iceauth
+xorg-xmodmap
+xorg-xinit
+xfce4-session
+xfce4-settings
+xfce4-terminal
+xfdesktop
+libxpresent
+xfwm4
+xfwm4-themes

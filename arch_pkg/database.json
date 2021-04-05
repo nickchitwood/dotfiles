@@ -772,6 +772,13 @@
     "whatis": []
   },
   {
+    "pkg": "lua53",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": []
+  },
+  {
     "pkg": "mlocate",
     "loc": "sync",
     "scope": "Global",

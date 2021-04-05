@@ -1,130 +1,38 @@
 [
   {
-    "pkg": "hwinfo",
+    "pkg": "vdpauinfo",
     "loc": "sync"
   },
   {
-    "pkg": "gnome-menus",
+    "pkg": "qt5-lottie",
     "loc": "sync"
   },
   {
-    "pkg": "ccache",
+    "pkg": "nextcloud-client",
     "loc": "sync"
   },
   {
-    "pkg": "playerctl",
+    "pkg": "qt6-examples",
     "loc": "sync"
   },
   {
-    "pkg": "gnome-remote-desktop",
+    "pkg": "qt5-examples",
     "loc": "sync"
   },
   {
-    "pkg": "kvantum-qt5",
+    "pkg": "tmux",
     "loc": "sync"
   },
   {
-    "pkg": "qt5-location",
+    "pkg": "python",
     "loc": "sync"
   },
   {
-    "pkg": "python-pip",
+    "pkg": "gcc-fortran",
     "loc": "sync"
   },
   {
-    "pkg": "gtk2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-base",
-    "loc": "sync"
-  },
-  {
-    "pkg": "waybar",
-    "loc": "sync"
-  },
-  {
-    "pkg": "syncthing",
-    "loc": "sync"
-  },
-  {
-    "pkg": "usbutils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "alsa-utils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gdm",
-    "loc": "sync"
-  },
-  {
-    "pkg": "mesa-demos",
-    "loc": "sync"
-  },
-  {
-    "pkg": "acpica",
-    "loc": "sync"
-  },
-  {
-    "pkg": "iperf3",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-tools",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gvfs-google",
-    "loc": "sync"
-  },
-  {
-    "pkg": "base",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pipewire-pulse",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-5compat",
-    "loc": "sync"
-  },
-  {
-    "pkg": "radeontop",
-    "loc": "sync"
-  },
-  {
-    "pkg": "xorg-xeyes",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-doc",
-    "loc": "sync"
-  },
-  {
-    "pkg": "discord",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-quickcontrols2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "asp",
-    "loc": "sync"
-  },
-  {
-    "pkg": "ranger",
-    "loc": "sync"
-  },
-  {
-    "pkg": "evince",
-    "loc": "sync"
-  },
-  {
-    "pkg": "freerdp",
+    "pkg": "libva-utils",
     "loc": "sync"
   },
   {
@@ -132,15 +40,235 @@
     "loc": "sync"
   },
   {
-    "pkg": "nautilus",
+    "pkg": "wl-clipboard",
     "loc": "sync"
   },
   {
-    "pkg": "qt5-speech",
+    "pkg": "qt5-virtualkeyboard",
     "loc": "sync"
   },
   {
-    "pkg": "ruby",
+    "pkg": "qt5-quickcontrols2",
+    "loc": "sync"
+  },
+  {
+    "pkg": "displaycal",
+    "loc": "sync"
+  },
+  {
+    "pkg": "sushi",
+    "loc": "sync"
+  },
+  {
+    "pkg": "baobab",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-tools",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-backgrounds",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pipewire-docs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "remmina",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-networkauth",
+    "loc": "sync"
+  },
+  {
+    "pkg": "swayidle",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-firmware",
+    "loc": "sync"
+  },
+  {
+    "pkg": "expac",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-gamepad",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-purchasing",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-scxml",
+    "loc": "sync"
+  },
+  {
+    "pkg": "htop",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-menus",
+    "loc": "sync"
+  },
+  {
+    "pkg": "galculator",
+    "loc": "sync"
+  },
+  {
+    "pkg": "firefox",
+    "loc": "sync"
+  },
+  {
+    "pkg": "noto-fonts-emoji",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gvfs-google",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-font-viewer",
+    "loc": "sync"
+  },
+  {
+    "pkg": "linux-headers",
+    "loc": "sync"
+  },
+  {
+    "pkg": "asp",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pigz",
+    "loc": "sync"
+  },
+  {
+    "pkg": "kitty",
+    "loc": "sync"
+  },
+  {
+    "pkg": "p7zip",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-charts",
+    "loc": "sync"
+  },
+  {
+    "pkg": "cifs-utils",
+    "loc": "sync"
+  },
+  {
+    "pkg": "grim",
+    "loc": "sync"
+  },
+  {
+    "pkg": "kvantum-qt5",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-xmlpatterns",
+    "loc": "sync"
+  },
+  {
+    "pkg": "git",
+    "loc": "sync"
+  },
+  {
+    "pkg": "wget",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-doc",
+    "loc": "sync"
+  },
+  {
+    "pkg": "tree",
+    "loc": "sync"
+  },
+  {
+    "pkg": "mako",
+    "loc": "sync"
+  },
+  {
+    "pkg": "freerdp",
+    "loc": "sync"
+  },
+  {
+    "pkg": "beets",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-wayland",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-remoteobjects",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gtk2",
+    "loc": "sync"
+  },
+  {
+    "pkg": "base",
+    "loc": "sync"
+  },
+  {
+    "pkg": "xdg-user-dirs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "intel-ucode",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-serialport",
+    "loc": "sync"
+  },
+  {
+    "pkg": "neofetch",
+    "loc": "sync"
+  },
+  {
+    "pkg": "python-pillow",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-serialbus",
+    "loc": "sync"
+  },
+  {
+    "pkg": "reflector",
+    "loc": "sync"
+  },
+  {
+    "pkg": "zsh-theme-powerlevel10k",
+    "loc": "sync"
+  },
+  {
+    "pkg": "cups",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-svg",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-sensors",
+    "loc": "sync"
+  },
+  {
+    "pkg": "mesa-vdpau",
+    "loc": "sync"
+  },
+  {
+    "pkg": "acpica",
     "loc": "sync"
   },
   {
@@ -152,503 +280,15 @@
     "loc": "sync"
   },
   {
-    "pkg": "grim",
-    "loc": "sync"
-  },
-  {
-    "pkg": "mlocate",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-imageformats",
-    "loc": "sync"
-  },
-  {
-    "pkg": "tree",
-    "loc": "sync"
-  },
-  {
-    "pkg": "upx",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-gamepad",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-translations",
-    "loc": "sync"
-  },
-  {
-    "pkg": "remmina",
-    "loc": "sync"
-  },
-  {
     "pkg": "flatpak",
     "loc": "sync"
   },
   {
-    "pkg": "qt5-wayland",
+    "pkg": "qt6-quickcontrols2",
     "loc": "sync"
   },
   {
-    "pkg": "qt5-webview",
-    "loc": "sync"
-  },
-  {
-    "pkg": "stress",
-    "loc": "sync"
-  },
-  {
-    "pkg": "wl-clipboard",
-    "loc": "sync"
-  },
-  {
-    "pkg": "cifs-utils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "compsize",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-translations",
-    "loc": "sync"
-  },
-  {
-    "pkg": "vi",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gdb",
-    "loc": "sync"
-  },
-  {
-    "pkg": "polkit-gnome",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-svg",
-    "loc": "sync"
-  },
-  {
-    "pkg": "vdpauinfo",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pkgstats",
-    "loc": "sync"
-  },
-  {
-    "pkg": "htop",
-    "loc": "sync"
-  },
-  {
-    "pkg": "slurp",
-    "loc": "sync"
-  },
-  {
-    "pkg": "zsh-theme-powerlevel10k",
-    "loc": "sync"
-  },
-  {
-    "pkg": "nasm",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-examples",
-    "loc": "sync"
-  },
-  {
-    "pkg": "unzip",
-    "loc": "sync"
-  },
-  {
-    "pkg": "baobab",
-    "loc": "sync"
-  },
-  {
-    "pkg": "dmidecode",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pyside2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "sushi",
-    "loc": "sync"
-  },
-  {
-    "pkg": "linux-zen-headers",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-scxml",
-    "loc": "sync"
-  },
-  {
-    "pkg": "exfatprogs",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-purchasing",
-    "loc": "sync"
-  },
-  {
-    "pkg": "aspell",
-    "loc": "sync"
-  },
-  {
-    "pkg": "cmus",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-font-viewer",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-imageformats",
-    "loc": "sync"
-  },
-  {
-    "pkg": "linux-zen",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pipewire-docs",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-3d",
-    "loc": "sync"
-  },
-  {
-    "pkg": "glances",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-serialbus",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-sensors",
-    "loc": "sync"
-  },
-  {
-    "pkg": "man-db",
-    "loc": "sync"
-  },
-  {
-    "pkg": "expac",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-quickcontrols",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-shadertools",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-networkauth",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-webchannel",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-charts",
-    "loc": "sync"
-  },
-  {
-    "pkg": "neovim",
-    "loc": "sync"
-  },
-  {
-    "pkg": "networkmanager",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-quicktimeline",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-quick3d",
-    "loc": "sync"
-  },
-  {
-    "pkg": "kanshi",
-    "loc": "sync"
-  },
-  {
-    "pkg": "dconf-editor",
-    "loc": "sync"
-  },
-  {
-    "pkg": "cups",
-    "loc": "sync"
-  },
-  {
-    "pkg": "bat",
-    "loc": "sync"
-  },
-  {
-    "pkg": "git",
-    "loc": "sync"
-  },
-  {
-    "pkg": "wf-recorder",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-wayland",
-    "loc": "sync"
-  },
-  {
-    "pkg": "nextcloud-client",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-graphicaleffects",
-    "loc": "sync"
-  },
-  {
-    "pkg": "rsync",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-quicktimeline",
-    "loc": "sync"
-  },
-  {
-    "pkg": "i7z",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-tools",
-    "loc": "sync"
-  },
-  {
-    "pkg": "cheese",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gcc-fortran",
-    "loc": "sync"
-  },
-  {
-    "pkg": "tmux",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pulsemixer",
-    "loc": "sync"
-  },
-  {
-    "pkg": "seahorse",
-    "loc": "sync"
-  },
-  {
-    "pkg": "linux-headers",
-    "loc": "sync"
-  },
-  {
-    "pkg": "wofi",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-doc",
-    "loc": "sync"
-  },
-  {
-    "pkg": "powerline",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-lottie",
-    "loc": "sync"
-  },
-  {
-    "pkg": "s-tui",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gvfs-smb",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-script",
-    "loc": "sync"
-  },
-  {
-    "pkg": "linux-firmware",
-    "loc": "sync"
-  },
-  {
-    "pkg": "nano",
-    "loc": "sync"
-  },
-  {
-    "pkg": "kitty",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-declarative",
-    "loc": "sync"
-  },
-  {
-    "pkg": "noto-fonts-emoji",
-    "loc": "sync"
-  },
-  {
-    "pkg": "weechat",
-    "loc": "sync"
-  },
-  {
-    "pkg": "mesa-vdpau",
-    "loc": "sync"
-  },
-  {
-    "pkg": "galculator",
-    "loc": "sync"
-  },
-  {
-    "pkg": "libva-utils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "refind",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-3d",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-serialport",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-webengine",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-quick3d",
-    "loc": "sync"
-  },
-  {
-    "pkg": "sshfs",
-    "loc": "sync"
-  },
-  {
-    "pkg": "reflector",
-    "loc": "sync"
-  },
-  {
-    "pkg": "python-pillow",
-    "loc": "sync"
-  },
-  {
-    "pkg": "libfido2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-networkauth",
-    "loc": "sync"
-  },
-  {
-    "pkg": "libva-mesa-driver",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-multimedia",
-    "loc": "sync"
-  },
-  {
-    "pkg": "ttf-lato",
-    "loc": "sync"
-  },
-  {
-    "pkg": "python",
-    "loc": "sync"
-  },
-  {
-    "pkg": "man-pages",
-    "loc": "sync"
-  },
-  {
-    "pkg": "swayidle",
-    "loc": "sync"
-  },
-  {
-    "pkg": "linux",
-    "loc": "sync"
-  },
-  {
-    "pkg": "ttf-roboto",
-    "loc": "sync"
-  },
-  {
-    "pkg": "xdg-user-dirs",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pbzip2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-tweaks",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-virtualkeyboard",
-    "loc": "sync"
-  },
-  {
-    "pkg": "vulkan-tools",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-examples",
-    "loc": "sync"
-  },
-  {
-    "pkg": "intel-ucode",
-    "loc": "sync"
-  },
-  {
-    "pkg": "firefox",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-xmlpatterns",
-    "loc": "sync"
-  },
-  {
-    "pkg": "python-setuptools",
-    "loc": "sync"
-  },
-  {
-    "pkg": "yubioath-desktop",
-    "loc": "sync"
-  },
-  {
-    "pkg": "zsh",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-quickcontrols2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "p7zip",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-webglplugin",
+    "pkg": "efibootmgr",
     "loc": "sync"
   },
   {
@@ -656,55 +296,19 @@
     "loc": "sync"
   },
   {
-    "pkg": "udevil",
+    "pkg": "stress",
     "loc": "sync"
   },
   {
-    "pkg": "gnome-control-center",
+    "pkg": "iperf3",
     "loc": "sync"
   },
   {
-    "pkg": "fwupd",
+    "pkg": "bluez",
     "loc": "sync"
   },
   {
-    "pkg": "gnome-backgrounds",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-firmware",
-    "loc": "sync"
-  },
-  {
-    "pkg": "openssh",
-    "loc": "sync"
-  },
-  {
-    "pkg": "displaycal",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pigz",
-    "loc": "sync"
-  },
-  {
-    "pkg": "imv",
-    "loc": "sync"
-  },
-  {
-    "pkg": "libreoffice-fresh",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-remoteobjects",
-    "loc": "sync"
-  },
-  {
-    "pkg": "neofetch",
-    "loc": "sync"
-  },
-  {
-    "pkg": "mako",
+    "pkg": "nmap",
     "loc": "sync"
   },
   {
@@ -712,187 +316,447 @@
     "loc": "sync"
   },
   {
-    "pkg": "asdf-vm",
-    "loc": "aur"
+    "pkg": "qt6-base",
+    "loc": "sync"
   },
   {
-    "pkg": "paru",
-    "loc": "aur"
+    "pkg": "libfido2",
+    "loc": "sync"
   },
   {
-    "pkg": "snapd",
-    "loc": "aur"
+    "pkg": "weechat",
+    "loc": "sync"
   },
   {
-    "pkg": "wev",
-    "loc": "aur"
+    "pkg": "qt6-5compat",
+    "loc": "sync"
   },
   {
-    "pkg": "wdisplays",
-    "loc": "aur"
+    "pkg": "libva-mesa-driver",
+    "loc": "sync"
   },
   {
-    "pkg": "ttf-ms-win10-korean",
-    "loc": "aur"
+    "pkg": "compsize",
+    "loc": "sync"
   },
   {
-    "pkg": "zoom",
-    "loc": "aur"
+    "pkg": "powerline",
+    "loc": "sync"
   },
   {
-    "pkg": "google-chrome",
-    "loc": "aur"
+    "pkg": "qt5-webglplugin",
+    "loc": "sync"
   },
   {
-    "pkg": "dupeguru",
-    "loc": "aur"
+    "pkg": "linux-zen",
+    "loc": "sync"
   },
   {
-    "pkg": "slack-desktop",
-    "loc": "aur"
+    "pkg": "alsa-utils",
+    "loc": "sync"
   },
   {
-    "pkg": "ly",
-    "loc": "aur"
+    "pkg": "vi",
+    "loc": "sync"
   },
   {
-    "pkg": "python-hsaudiotag3k",
-    "loc": "aur"
+    "pkg": "wf-recorder",
+    "loc": "sync"
   },
   {
-    "pkg": "python-polib",
-    "loc": "aur"
+    "pkg": "linux-zen-headers",
+    "loc": "sync"
   },
   {
-    "pkg": "orchis-theme-git",
-    "loc": "aur"
+    "pkg": "ttf-lato",
+    "loc": "sync"
   },
   {
-    "pkg": "tela-circle-icon-theme-git",
-    "loc": "aur"
+    "pkg": "qt5-webview",
+    "loc": "sync"
   },
   {
-    "pkg": "otf-san-francisco",
-    "loc": "aur"
+    "pkg": "dmidecode",
+    "loc": "sync"
   },
   {
-    "pkg": "cava",
-    "loc": "aur"
+    "pkg": "discord",
+    "loc": "sync"
   },
   {
-    "pkg": "teams",
-    "loc": "aur"
+    "pkg": "qt6-quicktimeline",
+    "loc": "sync"
   },
   {
-    "pkg": "neatvnc",
-    "loc": "aur"
+    "pkg": "mesa-demos",
+    "loc": "sync"
   },
   {
-    "pkg": "geekbench",
-    "loc": "aur"
+    "pkg": "imv",
+    "loc": "sync"
   },
   {
-    "pkg": "nerd-fonts-fira-code",
-    "loc": "aur"
+    "pkg": "speedtest-cli",
+    "loc": "sync"
   },
   {
-    "pkg": "1password",
-    "loc": "aur"
+    "pkg": "ruby",
+    "loc": "sync"
   },
   {
-    "pkg": "ttf-ms-win10-zh_tw",
-    "loc": "aur"
+    "pkg": "slurp",
+    "loc": "sync"
   },
   {
-    "pkg": "woeusb",
-    "loc": "aur"
+    "pkg": "btrfs-progs",
+    "loc": "sync"
   },
   {
-    "pkg": "wakeonlan",
-    "loc": "aur"
+    "pkg": "qt6-translations",
+    "loc": "sync"
   },
   {
-    "pkg": "newsflash",
-    "loc": "aur"
+    "pkg": "networkmanager",
+    "loc": "sync"
   },
   {
-    "pkg": "syncthing-gtk",
-    "loc": "aur"
+    "pkg": "qt6-shadertools",
+    "loc": "sync"
   },
   {
-    "pkg": "kvantum-theme-orchis-git",
-    "loc": "aur"
+    "pkg": "qt6-doc",
+    "loc": "sync"
   },
   {
-    "pkg": "ttf-ms-win10-other",
-    "loc": "aur"
+    "pkg": "qt5-quick3d",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ttf-roboto",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ccache",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pipewire-pulse",
+    "loc": "sync"
+  },
+  {
+    "pkg": "unzip",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-tweaks",
+    "loc": "sync"
+  },
+  {
+    "pkg": "exfatprogs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gvfs-smb",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pyside2",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pkgstats",
+    "loc": "sync"
+  },
+  {
+    "pkg": "playerctl",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-3d",
+    "loc": "sync"
+  },
+  {
+    "pkg": "sshfs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "aspell",
+    "loc": "sync"
+  },
+  {
+    "pkg": "waybar",
+    "loc": "sync"
+  },
+  {
+    "pkg": "evince",
+    "loc": "sync"
+  },
+  {
+    "pkg": "dconf-editor",
+    "loc": "sync"
+  },
+  {
+    "pkg": "neovim",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-networkauth",
+    "loc": "sync"
+  },
+  {
+    "pkg": "bat",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-remote-desktop",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-declarative",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-quick3d",
+    "loc": "sync"
+  },
+  {
+    "pkg": "nautilus",
+    "loc": "sync"
+  },
+  {
+    "pkg": "udevil",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pulsemixer",
+    "loc": "sync"
+  },
+  {
+    "pkg": "polkit-gnome",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-graphicaleffects",
+    "loc": "sync"
+  },
+  {
+    "pkg": "linux-firmware",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pbzip2",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-control-center",
+    "loc": "sync"
+  },
+  {
+    "pkg": "vulkan-tools",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-quicktimeline",
+    "loc": "sync"
+  },
+  {
+    "pkg": "bluez-utils",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-script",
+    "loc": "sync"
+  },
+  {
+    "pkg": "s-tui",
+    "loc": "sync"
+  },
+  {
+    "pkg": "refind",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-imageformats",
+    "loc": "sync"
+  },
+  {
+    "pkg": "usbutils",
+    "loc": "sync"
+  },
+  {
+    "pkg": "lua53",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ranger",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-wayland",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-translations",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-imageformats",
+    "loc": "sync"
+  },
+  {
+    "pkg": "hwinfo",
+    "loc": "sync"
+  },
+  {
+    "pkg": "man-db",
+    "loc": "sync"
+  },
+  {
+    "pkg": "i7z",
+    "loc": "sync"
+  },
+  {
+    "pkg": "cheese",
+    "loc": "sync"
+  },
+  {
+    "pkg": "radeontop",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-webchannel",
+    "loc": "sync"
+  },
+  {
+    "pkg": "rsync",
+    "loc": "sync"
+  },
+  {
+    "pkg": "nasm",
+    "loc": "sync"
+  },
+  {
+    "pkg": "mlocate",
+    "loc": "sync"
+  },
+  {
+    "pkg": "jq",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gdb",
+    "loc": "sync"
+  },
+  {
+    "pkg": "wofi",
+    "loc": "sync"
+  },
+  {
+    "pkg": "cmus",
+    "loc": "sync"
+  },
+  {
+    "pkg": "seahorse",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-multimedia",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-webengine",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-location",
+    "loc": "sync"
+  },
+  {
+    "pkg": "blueman",
+    "loc": "sync"
+  },
+  {
+    "pkg": "upx",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-3d",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gdm",
+    "loc": "sync"
+  },
+  {
+    "pkg": "yubioath-desktop",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-speech",
+    "loc": "sync"
+  },
+  {
+    "pkg": "python-setuptools",
+    "loc": "sync"
+  },
+  {
+    "pkg": "fwupd",
+    "loc": "sync"
+  },
+  {
+    "pkg": "kanshi",
+    "loc": "sync"
+  },
+  {
+    "pkg": "linux",
+    "loc": "sync"
+  },
+  {
+    "pkg": "nano",
+    "loc": "sync"
+  },
+  {
+    "pkg": "man-pages",
+    "loc": "sync"
+  },
+  {
+    "pkg": "xorg-xeyes",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-quickcontrols",
+    "loc": "sync"
+  },
+  {
+    "pkg": "openssh",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-tools",
+    "loc": "sync"
+  },
+  {
+    "pkg": "syncthing",
+    "loc": "sync"
+  },
+  {
+    "pkg": "glances",
+    "loc": "sync"
+  },
+  {
+    "pkg": "zsh",
+    "loc": "sync"
+  },
+  {
+    "pkg": "libreoffice-fresh",
+    "loc": "sync"
+  },
+  {
+    "pkg": "python-pip",
+    "loc": "sync"
   },
   {
     "pkg": "nerd-fonts-jetbrains-mono",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-roboto-slab",
-    "loc": "aur"
-  },
-  {
-    "pkg": "sway-git",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10-zh_cn",
-    "loc": "aur"
-  },
-  {
-    "pkg": "aml",
-    "loc": "aur"
-  },
-  {
-    "pkg": "android-sdk-platform-tools",
-    "loc": "aur"
-  },
-  {
-    "pkg": "oh-my-zsh-git",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10-japanese",
-    "loc": "aur"
-  },
-  {
-    "pkg": "wayvnc",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10-sea",
-    "loc": "aur"
-  },
-  {
-    "pkg": "hfsprogs",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10-thai",
-    "loc": "aur"
-  },
-  {
-    "pkg": "visual-studio-code-bin",
-    "loc": "aur"
-  },
-  {
-    "pkg": "amdgpu-clocks-git",
-    "loc": "aur"
-  },
-  {
-    "pkg": "das-keyboard-q",
-    "loc": "aur"
-  },
-  {
-    "pkg": "onedrive-abraunegg",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10",
     "loc": "aur"
   },
   {
@@ -900,7 +764,7 @@
     "loc": "aur"
   },
   {
-    "pkg": "apfs-fuse-git",
+    "pkg": "geekbench",
     "loc": "aur"
   },
   {
@@ -908,7 +772,79 @@
     "loc": "aur"
   },
   {
-    "pkg": "lsdesktopf",
+    "pkg": "orchis-theme-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "paru",
+    "loc": "aur"
+  },
+  {
+    "pkg": "amdgpu-clocks-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "oh-my-zsh-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "cava",
+    "loc": "aur"
+  },
+  {
+    "pkg": "fontpreview-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-japanese",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10",
+    "loc": "aur"
+  },
+  {
+    "pkg": "rstudio-desktop-bin",
+    "loc": "aur"
+  },
+  {
+    "pkg": "python-hsaudiotag3k",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-korean",
+    "loc": "aur"
+  },
+  {
+    "pkg": "neatvnc",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-other",
+    "loc": "aur"
+  },
+  {
+    "pkg": "teams",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-zh_cn",
+    "loc": "aur"
+  },
+  {
+    "pkg": "onedrive-abraunegg",
+    "loc": "aur"
+  },
+  {
+    "pkg": "tela-circle-icon-theme-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-roboto-slab",
+    "loc": "aur"
+  },
+  {
+    "pkg": "wayvnc",
     "loc": "aur"
   },
   {
@@ -916,7 +852,119 @@
     "loc": "aur"
   },
   {
-    "pkg": "fontpreview-git",
+    "pkg": "ly",
+    "loc": "aur"
+  },
+  {
+    "pkg": "asdf-vm",
+    "loc": "aur"
+  },
+  {
+    "pkg": "apfs-fuse-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "newsflash",
+    "loc": "aur"
+  },
+  {
+    "pkg": "wakeonlan",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-sea",
+    "loc": "aur"
+  },
+  {
+    "pkg": "aml",
+    "loc": "aur"
+  },
+  {
+    "pkg": "python-polib",
+    "loc": "aur"
+  },
+  {
+    "pkg": "1password",
+    "loc": "aur"
+  },
+  {
+    "pkg": "lsdesktopf",
+    "loc": "aur"
+  },
+  {
+    "pkg": "hfsprogs",
+    "loc": "aur"
+  },
+  {
+    "pkg": "das-keyboard-q",
+    "loc": "aur"
+  },
+  {
+    "pkg": "dupeguru",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-thai",
+    "loc": "aur"
+  },
+  {
+    "pkg": "otf-san-francisco",
+    "loc": "aur"
+  },
+  {
+    "pkg": "woeusb",
+    "loc": "aur"
+  },
+  {
+    "pkg": "wdisplays",
+    "loc": "aur"
+  },
+  {
+    "pkg": "zoom",
+    "loc": "aur"
+  },
+  {
+    "pkg": "wev",
+    "loc": "aur"
+  },
+  {
+    "pkg": "kvantum-theme-orchis-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "snapd",
+    "loc": "aur"
+  },
+  {
+    "pkg": "syncthing-gtk",
+    "loc": "aur"
+  },
+  {
+    "pkg": "visual-studio-code-bin",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-zh_tw",
+    "loc": "aur"
+  },
+  {
+    "pkg": "slack-desktop",
+    "loc": "aur"
+  },
+  {
+    "pkg": "sway-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "android-sdk-platform-tools",
+    "loc": "aur"
+  },
+  {
+    "pkg": "nerd-fonts-fira-code",
+    "loc": "aur"
+  },
+  {
+    "pkg": "google-chrome",
     "loc": "aur"
   }
 ]
