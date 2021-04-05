@@ -6,7 +6,7 @@ import subprocess
 import urllib.request
 from typing import List, Set
 
-GROUPS = ["base-devel", "dlang"]
+GROUPS = ["base-devel", "dlang", "xorg", "xfce4"]
 HOSTNAME = subprocess.check_output(
     ["hostnamectl", "--static"], encoding="utf-8"
 ).strip()

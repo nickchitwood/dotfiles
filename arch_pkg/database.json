@@ -172,6 +172,54 @@
     "whatis": []
   },
   {
+    "pkg": "blueman",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": [
+      {
+        "/usr/bin/blueman-adapters": [
+          "blueman-adapters (1) - an utility to set adapter properties"
+        ]
+      },
+      {
+        "/usr/bin/blueman-applet": [
+          "blueman-applet (1)   - a tray applet for managing bluetooth"
+        ]
+      },
+      {
+        "/usr/bin/blueman-assistant": [
+          "blueman-assistant (1) - application for configuring and pairing bluetooth devices"
+        ]
+      },
+      {
+        "/usr/bin/blueman-manager": [
+          "blueman-manager (1)  - bluetooth device manager"
+        ]
+      },
+      {
+        "/usr/bin/blueman-report": [
+          "blueman-report (1)   - a tool to create a commented log and upload it to GitHub for support or bug reports"
+        ]
+      },
+      {
+        "/usr/bin/blueman-sendto": [
+          "blueman-sendto (1)   - application for sending files to bluetooth devices"
+        ]
+      },
+      {
+        "/usr/bin/blueman-services": [
+          "blueman-services (1) - Configure local bluetooth services"
+        ]
+      },
+      {
+        "/usr/bin/blueman-tray": [
+          "blueman-tray (1)     - a status icon application for blueman"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "broadcom-wl-dkms",
     "loc": "sync",
     "scope": "t480",
@@ -334,6 +382,24 @@
       {
         "/usr/bin/vpddecode": [
           "vpddecode (8)        - VPD structure decoder"
+        ]
+      }
+    ]
+  },
+  {
+    "pkg": "efibootmgr",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": [
+      {
+        "/usr/bin/efibootdump": [
+          "efibootdump (8)      - dump a boot entries from a variable or a file"
+        ]
+      },
+      {
+        "/usr/bin/efibootmgr": [
+          "efibootmgr (8)       - manipulate the UEFI Boot Manager"
         ]
       }
     ]
@@ -1009,6 +1075,29 @@
     "scope": "Global",
     "category": "System-Core",
     "whatis": []
+  },
+  {
+    "pkg": "snapper",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Core",
+    "whatis": [
+      {
+        "/usr/bin/mksubvolume": [
+          "mksubvolume (8)      - Command-line program to create btrfs subvolume"
+        ]
+      },
+      {
+        "/usr/bin/snapper": [
+          "snapper (8)          - Command-line program for filesystem snapshot management"
+        ]
+      },
+      {
+        "/usr/bin/snapperd": [
+          "snapperd (8)         - DBus daemon for snapper"
+        ]
+      }
+    ]
   },
   {
     "pkg": "sshfs",
@@ -3166,6 +3255,13 @@
   },
   {
     "pkg": "gst-libav",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "AudioVideo",
+    "whatis": []
+  },
+  {
+    "pkg": "gst-plugin-pipewire",
     "loc": "sync",
     "scope": "Global",
     "category": "AudioVideo",
