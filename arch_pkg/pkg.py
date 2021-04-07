@@ -65,11 +65,17 @@ def get_installed():
     # Split non-sync between aur and non-aur
     aur = check_aur(nonsync_set)
 
+    # Get dependent installed packages
+    dep_pkgs = subprocess.run(["pacman", "-Qqd"], capture_output=True)
+    dep_list = dep_pkgs.stdout.decode("utf-8").split("\n")
+    dep_set = set(dep_list)
+
     # All installed
     all_installed = (
         [{"pkg": i, "loc": "sync"} for i in sync_set if i != ""]
         + [{"pkg": i, "loc": "aur"} for i in aur["aur_set"] if i != ""]
         + [{"pkg": i, "loc": "manual"} for i in aur["nonaur_set"] if i != ""]
+        + [{"pkg": i, "loc": "deps"} for i in dep_set if i != ""]
     )
     # Return all_installed
     with open(f"arch_pkg/{HOSTNAME}_pkgs.json", "w") as f:
@@ -92,7 +98,7 @@ def add_to_database(installed: List, get_database: List):
     scopes = ", ".join([f"{i}-{SCOPES[i]}" for i in SCOPES])
     categories = ", ".join([f"{i}-{CATEGORIES[i]}" for i in CATEGORIES])
     for i in installed:
-        if i["pkg"] in database_pkgs:
+        if i["pkg"] in database_pkgs or i["loc"] == "deps":
             next
         else:
             description = subprocess.check_output(
@@ -187,17 +193,24 @@ def check_if_in_path(filepath):
 def get_whatis(package_name):
     try:
         files = subprocess.check_output(
-            ["pacman", "-Qql", package_name], encoding="utf-8",
-        stderr=subprocess.DEVNULL).splitlines()
+            ["pacman", "-Qql", package_name],
+            encoding="utf-8",
+            stderr=subprocess.DEVNULL,
+        ).splitlines()
         files_only = [i for i in files if i[-1] != "/"]
         path_files = [i for i in files_only if check_if_in_path(i)]
         whatis = [
-            {i: subprocess.check_output(["whatis", i], encoding="utf-8",stderr=subprocess.DEVNULL).splitlines()}
+            {
+                i: subprocess.check_output(
+                    ["whatis", i], encoding="utf-8", stderr=subprocess.DEVNULL
+                ).splitlines()
+            }
             for i in path_files
         ]
         return whatis
     except subprocess.CalledProcessError:
         return []
+
 
 def print_needed():
     print(f"")
@@ -205,6 +218,7 @@ def print_needed():
     print(f"---------------------")
     with open(f"arch_pkg/{HOSTNAME}_install.txt") as f:
         print(f.read())
+
 
 def main():
     installed = get_installed()

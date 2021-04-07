@@ -1,102 +1,10 @@
 [
   {
-    "pkg": "vdpauinfo",
+    "pkg": "waybar",
     "loc": "sync"
   },
   {
-    "pkg": "qt5-lottie",
-    "loc": "sync"
-  },
-  {
-    "pkg": "nextcloud-client",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-examples",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-examples",
-    "loc": "sync"
-  },
-  {
-    "pkg": "tmux",
-    "loc": "sync"
-  },
-  {
-    "pkg": "python",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gcc-fortran",
-    "loc": "sync"
-  },
-  {
-    "pkg": "libva-utils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-connectivity",
-    "loc": "sync"
-  },
-  {
-    "pkg": "wl-clipboard",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-virtualkeyboard",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-quickcontrols2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "displaycal",
-    "loc": "sync"
-  },
-  {
-    "pkg": "sushi",
-    "loc": "sync"
-  },
-  {
-    "pkg": "baobab",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-tools",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-backgrounds",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pipewire-docs",
-    "loc": "sync"
-  },
-  {
-    "pkg": "remmina",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-networkauth",
-    "loc": "sync"
-  },
-  {
-    "pkg": "swayidle",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-firmware",
-    "loc": "sync"
-  },
-  {
-    "pkg": "expac",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-gamepad",
+    "pkg": "ruby",
     "loc": "sync"
   },
   {
@@ -104,7 +12,67 @@
     "loc": "sync"
   },
   {
-    "pkg": "qt5-scxml",
+    "pkg": "gvfs-goa",
+    "loc": "sync"
+  },
+  {
+    "pkg": "python-pillow",
+    "loc": "sync"
+  },
+  {
+    "pkg": "alsa-utils",
+    "loc": "sync"
+  },
+  {
+    "pkg": "fwupd",
+    "loc": "sync"
+  },
+  {
+    "pkg": "weechat",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-tweaks",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-quicktimeline",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-quickcontrols2",
+    "loc": "sync"
+  },
+  {
+    "pkg": "glances",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-tools",
+    "loc": "sync"
+  },
+  {
+    "pkg": "nextcloud-client",
+    "loc": "sync"
+  },
+  {
+    "pkg": "bat",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-color-manager",
+    "loc": "sync"
+  },
+  {
+    "pkg": "beets",
+    "loc": "sync"
+  },
+  {
+    "pkg": "displaycal",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-5compat",
     "loc": "sync"
   },
   {
@@ -112,19 +80,43 @@
     "loc": "sync"
   },
   {
-    "pkg": "gnome-menus",
+    "pkg": "usbutils",
     "loc": "sync"
   },
   {
-    "pkg": "galculator",
+    "pkg": "nmap",
     "loc": "sync"
   },
   {
-    "pkg": "firefox",
+    "pkg": "swayidle",
     "loc": "sync"
   },
   {
-    "pkg": "noto-fonts-emoji",
+    "pkg": "intel-ucode",
+    "loc": "sync"
+  },
+  {
+    "pkg": "mypaint",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-charts",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-quicktimeline",
+    "loc": "sync"
+  },
+  {
+    "pkg": "polkit-gnome",
+    "loc": "sync"
+  },
+  {
+    "pkg": "syncthing",
+    "loc": "sync"
+  },
+  {
+    "pkg": "rsync",
     "loc": "sync"
   },
   {
@@ -132,19 +124,59 @@
     "loc": "sync"
   },
   {
-    "pkg": "gnome-font-viewer",
+    "pkg": "zsh-theme-powerlevel10k",
     "loc": "sync"
   },
   {
-    "pkg": "linux-headers",
+    "pkg": "radeontop",
     "loc": "sync"
   },
   {
-    "pkg": "asp",
+    "pkg": "evince",
     "loc": "sync"
   },
   {
-    "pkg": "pigz",
+    "pkg": "jq",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-webview",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-examples",
+    "loc": "sync"
+  },
+  {
+    "pkg": "neovim",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gtk2",
+    "loc": "sync"
+  },
+  {
+    "pkg": "cmus",
+    "loc": "sync"
+  },
+  {
+    "pkg": "tmux",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-shell",
+    "loc": "sync"
+  },
+  {
+    "pkg": "yubikey-manager-qt",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-graphicaleffects",
+    "loc": "sync"
+  },
+  {
+    "pkg": "linux-zen-headers",
     "loc": "sync"
   },
   {
@@ -156,167 +188,7 @@
     "loc": "sync"
   },
   {
-    "pkg": "qt5-charts",
-    "loc": "sync"
-  },
-  {
-    "pkg": "cifs-utils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "grim",
-    "loc": "sync"
-  },
-  {
-    "pkg": "kvantum-qt5",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-xmlpatterns",
-    "loc": "sync"
-  },
-  {
-    "pkg": "git",
-    "loc": "sync"
-  },
-  {
-    "pkg": "wget",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-doc",
-    "loc": "sync"
-  },
-  {
-    "pkg": "tree",
-    "loc": "sync"
-  },
-  {
-    "pkg": "mako",
-    "loc": "sync"
-  },
-  {
-    "pkg": "freerdp",
-    "loc": "sync"
-  },
-  {
-    "pkg": "beets",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-wayland",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-remoteobjects",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gtk2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "base",
-    "loc": "sync"
-  },
-  {
-    "pkg": "xdg-user-dirs",
-    "loc": "sync"
-  },
-  {
-    "pkg": "intel-ucode",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-serialport",
-    "loc": "sync"
-  },
-  {
-    "pkg": "neofetch",
-    "loc": "sync"
-  },
-  {
-    "pkg": "python-pillow",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-serialbus",
-    "loc": "sync"
-  },
-  {
-    "pkg": "reflector",
-    "loc": "sync"
-  },
-  {
-    "pkg": "zsh-theme-powerlevel10k",
-    "loc": "sync"
-  },
-  {
-    "pkg": "cups",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-svg",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-sensors",
-    "loc": "sync"
-  },
-  {
-    "pkg": "mesa-vdpau",
-    "loc": "sync"
-  },
-  {
-    "pkg": "acpica",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-datavis3d",
-    "loc": "sync"
-  },
-  {
-    "pkg": "distcc",
-    "loc": "sync"
-  },
-  {
-    "pkg": "flatpak",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-quickcontrols2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "efibootmgr",
-    "loc": "sync"
-  },
-  {
-    "pkg": "acpi_call-dkms",
-    "loc": "sync"
-  },
-  {
-    "pkg": "stress",
-    "loc": "sync"
-  },
-  {
-    "pkg": "iperf3",
-    "loc": "sync"
-  },
-  {
-    "pkg": "bluez",
-    "loc": "sync"
-  },
-  {
-    "pkg": "nmap",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-websockets",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-base",
+    "pkg": "sushi",
     "loc": "sync"
   },
   {
@@ -324,351 +196,7 @@
     "loc": "sync"
   },
   {
-    "pkg": "weechat",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-5compat",
-    "loc": "sync"
-  },
-  {
-    "pkg": "libva-mesa-driver",
-    "loc": "sync"
-  },
-  {
-    "pkg": "compsize",
-    "loc": "sync"
-  },
-  {
-    "pkg": "powerline",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-webglplugin",
-    "loc": "sync"
-  },
-  {
-    "pkg": "linux-zen",
-    "loc": "sync"
-  },
-  {
-    "pkg": "alsa-utils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "vi",
-    "loc": "sync"
-  },
-  {
-    "pkg": "wf-recorder",
-    "loc": "sync"
-  },
-  {
-    "pkg": "linux-zen-headers",
-    "loc": "sync"
-  },
-  {
-    "pkg": "ttf-lato",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-webview",
-    "loc": "sync"
-  },
-  {
-    "pkg": "dmidecode",
-    "loc": "sync"
-  },
-  {
-    "pkg": "discord",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-quicktimeline",
-    "loc": "sync"
-  },
-  {
-    "pkg": "mesa-demos",
-    "loc": "sync"
-  },
-  {
-    "pkg": "imv",
-    "loc": "sync"
-  },
-  {
-    "pkg": "speedtest-cli",
-    "loc": "sync"
-  },
-  {
-    "pkg": "ruby",
-    "loc": "sync"
-  },
-  {
-    "pkg": "slurp",
-    "loc": "sync"
-  },
-  {
-    "pkg": "btrfs-progs",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-translations",
-    "loc": "sync"
-  },
-  {
-    "pkg": "networkmanager",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-shadertools",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-doc",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-quick3d",
-    "loc": "sync"
-  },
-  {
-    "pkg": "ttf-roboto",
-    "loc": "sync"
-  },
-  {
-    "pkg": "ccache",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pipewire-pulse",
-    "loc": "sync"
-  },
-  {
-    "pkg": "unzip",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-tweaks",
-    "loc": "sync"
-  },
-  {
-    "pkg": "exfatprogs",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gvfs-smb",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pyside2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pkgstats",
-    "loc": "sync"
-  },
-  {
-    "pkg": "playerctl",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-3d",
-    "loc": "sync"
-  },
-  {
-    "pkg": "sshfs",
-    "loc": "sync"
-  },
-  {
-    "pkg": "aspell",
-    "loc": "sync"
-  },
-  {
-    "pkg": "waybar",
-    "loc": "sync"
-  },
-  {
-    "pkg": "evince",
-    "loc": "sync"
-  },
-  {
-    "pkg": "dconf-editor",
-    "loc": "sync"
-  },
-  {
-    "pkg": "neovim",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-networkauth",
-    "loc": "sync"
-  },
-  {
-    "pkg": "bat",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-remote-desktop",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-declarative",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-quick3d",
-    "loc": "sync"
-  },
-  {
-    "pkg": "nautilus",
-    "loc": "sync"
-  },
-  {
-    "pkg": "udevil",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pulsemixer",
-    "loc": "sync"
-  },
-  {
-    "pkg": "polkit-gnome",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-graphicaleffects",
-    "loc": "sync"
-  },
-  {
-    "pkg": "linux-firmware",
-    "loc": "sync"
-  },
-  {
-    "pkg": "pbzip2",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gnome-control-center",
-    "loc": "sync"
-  },
-  {
-    "pkg": "vulkan-tools",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-quicktimeline",
-    "loc": "sync"
-  },
-  {
-    "pkg": "bluez-utils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-script",
-    "loc": "sync"
-  },
-  {
-    "pkg": "s-tui",
-    "loc": "sync"
-  },
-  {
-    "pkg": "refind",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-imageformats",
-    "loc": "sync"
-  },
-  {
-    "pkg": "usbutils",
-    "loc": "sync"
-  },
-  {
-    "pkg": "lua53",
-    "loc": "sync"
-  },
-  {
-    "pkg": "ranger",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-wayland",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-translations",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt6-imageformats",
-    "loc": "sync"
-  },
-  {
-    "pkg": "hwinfo",
-    "loc": "sync"
-  },
-  {
-    "pkg": "man-db",
-    "loc": "sync"
-  },
-  {
-    "pkg": "i7z",
-    "loc": "sync"
-  },
-  {
-    "pkg": "cheese",
-    "loc": "sync"
-  },
-  {
-    "pkg": "radeontop",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-webchannel",
-    "loc": "sync"
-  },
-  {
-    "pkg": "rsync",
-    "loc": "sync"
-  },
-  {
-    "pkg": "nasm",
-    "loc": "sync"
-  },
-  {
-    "pkg": "mlocate",
-    "loc": "sync"
-  },
-  {
-    "pkg": "jq",
-    "loc": "sync"
-  },
-  {
-    "pkg": "gdb",
-    "loc": "sync"
-  },
-  {
-    "pkg": "wofi",
-    "loc": "sync"
-  },
-  {
-    "pkg": "cmus",
-    "loc": "sync"
-  },
-  {
-    "pkg": "seahorse",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-multimedia",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-webengine",
-    "loc": "sync"
-  },
-  {
-    "pkg": "qt5-location",
+    "pkg": "gnome-disk-utility",
     "loc": "sync"
   },
   {
@@ -676,19 +204,127 @@
     "loc": "sync"
   },
   {
-    "pkg": "upx",
+    "pkg": "unzip",
     "loc": "sync"
   },
   {
-    "pkg": "qt5-3d",
+    "pkg": "qt5-scxml",
     "loc": "sync"
   },
   {
-    "pkg": "gdm",
+    "pkg": "qt5-networkauth",
     "loc": "sync"
   },
   {
-    "pkg": "yubioath-desktop",
+    "pkg": "grim",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gst-libav",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-base",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-quick3d",
+    "loc": "sync"
+  },
+  {
+    "pkg": "cifs-utils",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-remote-desktop",
+    "loc": "sync"
+  },
+  {
+    "pkg": "aspell",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-multimedia",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ttf-roboto",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-xmlpatterns",
+    "loc": "sync"
+  },
+  {
+    "pkg": "zathura",
+    "loc": "sync"
+  },
+  {
+    "pkg": "lua53",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-doc",
+    "loc": "sync"
+  },
+  {
+    "pkg": "chrome-gnome-shell",
+    "loc": "sync"
+  },
+  {
+    "pkg": "s-tui",
+    "loc": "sync"
+  },
+  {
+    "pkg": "sshfs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-wayland",
+    "loc": "sync"
+  },
+  {
+    "pkg": "openssh",
+    "loc": "sync"
+  },
+  {
+    "pkg": "nasm",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-control-center",
+    "loc": "sync"
+  },
+  {
+    "pkg": "acpi_call-dkms",
+    "loc": "sync"
+  },
+  {
+    "pkg": "calibre",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-doc",
+    "loc": "sync"
+  },
+  {
+    "pkg": "tree",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-websockets",
+    "loc": "sync"
+  },
+  {
+    "pkg": "powerline",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gdb",
+    "loc": "sync"
+  },
+  {
+    "pkg": "neofetch",
     "loc": "sync"
   },
   {
@@ -700,19 +336,119 @@
     "loc": "sync"
   },
   {
-    "pkg": "fwupd",
-    "loc": "sync"
-  },
-  {
-    "pkg": "kanshi",
-    "loc": "sync"
-  },
-  {
     "pkg": "linux",
     "loc": "sync"
   },
   {
-    "pkg": "nano",
+    "pkg": "feh",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-backgrounds",
+    "loc": "sync"
+  },
+  {
+    "pkg": "bluez",
+    "loc": "sync"
+  },
+  {
+    "pkg": "expac",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-remoteobjects",
+    "loc": "sync"
+  },
+  {
+    "pkg": "slurp",
+    "loc": "sync"
+  },
+  {
+    "pkg": "yubikey-personalization-gui",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-keyring",
+    "loc": "sync"
+  },
+  {
+    "pkg": "playerctl",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-connectivity",
+    "loc": "sync"
+  },
+  {
+    "pkg": "firefox",
+    "loc": "sync"
+  },
+  {
+    "pkg": "aspell-en",
+    "loc": "sync"
+  },
+  {
+    "pkg": "efibootmgr",
+    "loc": "sync"
+  },
+  {
+    "pkg": "galculator",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gst-plugins-ugly",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-shadertools",
+    "loc": "sync"
+  },
+  {
+    "pkg": "libva-mesa-driver",
+    "loc": "sync"
+  },
+  {
+    "pkg": "reflector",
+    "loc": "sync"
+  },
+  {
+    "pkg": "mutter",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-examples",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ccache",
+    "loc": "sync"
+  },
+  {
+    "pkg": "upx",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-translations",
+    "loc": "sync"
+  },
+  {
+    "pkg": "exfatprogs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pipewire-docs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pulsemixer",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-video-effects",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-declarative",
     "loc": "sync"
   },
   {
@@ -720,15 +456,143 @@
     "loc": "sync"
   },
   {
-    "pkg": "xorg-xeyes",
+    "pkg": "qt5-webchannel",
     "loc": "sync"
   },
   {
-    "pkg": "qt5-quickcontrols",
+    "pkg": "git",
     "loc": "sync"
   },
   {
-    "pkg": "openssh",
+    "pkg": "distcc",
+    "loc": "sync"
+  },
+  {
+    "pkg": "linux-headers",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pkgstats",
+    "loc": "sync"
+  },
+  {
+    "pkg": "speedtest-cli",
+    "loc": "sync"
+  },
+  {
+    "pkg": "asoundconf",
+    "loc": "sync"
+  },
+  {
+    "pkg": "dmidecode",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-wayland",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pgadmin4",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gdm",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-svg",
+    "loc": "sync"
+  },
+  {
+    "pkg": "xdg-user-dirs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "btrfs-progs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "mako",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-webglplugin",
+    "loc": "sync"
+  },
+  {
+    "pkg": "base",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-themes-extra",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-gamepad",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-session",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-quick3d",
+    "loc": "sync"
+  },
+  {
+    "pkg": "i7z",
+    "loc": "sync"
+  },
+  {
+    "pkg": "asp",
+    "loc": "sync"
+  },
+  {
+    "pkg": "youtube-dl",
+    "loc": "sync"
+  },
+  {
+    "pkg": "freerdp",
+    "loc": "sync"
+  },
+  {
+    "pkg": "libva-utils",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-3d",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-script",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-firmware",
+    "loc": "sync"
+  },
+  {
+    "pkg": "vi",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-3d",
+    "loc": "sync"
+  },
+  {
+    "pkg": "hwinfo",
+    "loc": "sync"
+  },
+  {
+    "pkg": "networkmanager",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-webengine",
+    "loc": "sync"
+  },
+  {
+    "pkg": "tracker3",
     "loc": "sync"
   },
   {
@@ -736,11 +600,59 @@
     "loc": "sync"
   },
   {
-    "pkg": "syncthing",
+    "pkg": "refind",
     "loc": "sync"
   },
   {
-    "pkg": "glances",
+    "pkg": "vulkan-tools",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-location",
+    "loc": "sync"
+  },
+  {
+    "pkg": "compsize",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-font-viewer",
+    "loc": "sync"
+  },
+  {
+    "pkg": "quodlibet",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gvfs",
+    "loc": "sync"
+  },
+  {
+    "pkg": "zathura-pdf-mupdf",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pyside2",
+    "loc": "sync"
+  },
+  {
+    "pkg": "drawing",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ranger",
+    "loc": "sync"
+  },
+  {
+    "pkg": "nano",
+    "loc": "sync"
+  },
+  {
+    "pkg": "discord",
+    "loc": "sync"
+  },
+  {
+    "pkg": "remmina",
     "loc": "sync"
   },
   {
@@ -748,7 +660,7 @@
     "loc": "sync"
   },
   {
-    "pkg": "libreoffice-fresh",
+    "pkg": "linux-zen",
     "loc": "sync"
   },
   {
@@ -756,187 +668,239 @@
     "loc": "sync"
   },
   {
-    "pkg": "nerd-fonts-jetbrains-mono",
-    "loc": "aur"
+    "pkg": "gnome-settings-daemon",
+    "loc": "sync"
   },
   {
-    "pkg": "ltunify",
-    "loc": "aur"
+    "pkg": "mesa-vdpau",
+    "loc": "sync"
   },
   {
-    "pkg": "geekbench",
-    "loc": "aur"
+    "pkg": "acpica",
+    "loc": "sync"
   },
   {
-    "pkg": "opencl-amd",
-    "loc": "aur"
+    "pkg": "kvantum-qt5",
+    "loc": "sync"
   },
   {
-    "pkg": "orchis-theme-git",
-    "loc": "aur"
+    "pkg": "noto-fonts-emoji",
+    "loc": "sync"
   },
   {
-    "pkg": "paru",
-    "loc": "aur"
+    "pkg": "yubioath-desktop",
+    "loc": "sync"
   },
   {
-    "pkg": "amdgpu-clocks-git",
-    "loc": "aur"
+    "pkg": "qt5-lottie",
+    "loc": "sync"
   },
   {
-    "pkg": "oh-my-zsh-git",
-    "loc": "aur"
+    "pkg": "libreoffice-fresh",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gimp",
+    "loc": "sync"
+  },
+  {
+    "pkg": "nautilus",
+    "loc": "sync"
+  },
+  {
+    "pkg": "python",
+    "loc": "sync"
+  },
+  {
+    "pkg": "xorg-xeyes",
+    "loc": "sync"
+  },
+  {
+    "pkg": "kanshi",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pavucontrol",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-serialport",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gnome-menus",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-datavis3d",
+    "loc": "sync"
+  },
+  {
+    "pkg": "udevil",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pbzip2",
+    "loc": "sync"
+  },
+  {
+    "pkg": "iperf3",
+    "loc": "sync"
+  },
+  {
+    "pkg": "mlocate",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pigz",
+    "loc": "sync"
+  },
+  {
+    "pkg": "baobab",
+    "loc": "sync"
+  },
+  {
+    "pkg": "stress",
+    "loc": "sync"
+  },
+  {
+    "pkg": "wofi",
+    "loc": "sync"
+  },
+  {
+    "pkg": "ttf-lato",
+    "loc": "sync"
+  },
+  {
+    "pkg": "inkscape",
+    "loc": "sync"
+  },
+  {
+    "pkg": "linux-firmware",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-sensors",
+    "loc": "sync"
+  },
+  {
+    "pkg": "snapper",
+    "loc": "sync"
+  },
+  {
+    "pkg": "celluloid",
+    "loc": "sync"
+  },
+  {
+    "pkg": "cheese",
+    "loc": "sync"
+  },
+  {
+    "pkg": "cups",
+    "loc": "sync"
+  },
+  {
+    "pkg": "wl-clipboard",
+    "loc": "sync"
+  },
+  {
+    "pkg": "github-cli",
+    "loc": "sync"
+  },
+  {
+    "pkg": "pipewire-pulse",
+    "loc": "sync"
+  },
+  {
+    "pkg": "spotifyd",
+    "loc": "sync"
+  },
+  {
+    "pkg": "wf-recorder",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-networkauth",
+    "loc": "sync"
+  },
+  {
+    "pkg": "man-db",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gcc-fortran",
+    "loc": "sync"
+  },
+  {
+    "pkg": "flatpak",
+    "loc": "sync"
+  },
+  {
+    "pkg": "wget",
+    "loc": "sync"
+  },
+  {
+    "pkg": "imv",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-quickcontrols",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-imageformats",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-imageformats",
+    "loc": "sync"
+  },
+  {
+    "pkg": "tracker3-miners",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-serialbus",
+    "loc": "sync"
+  },
+  {
+    "pkg": "gvfs-smb",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt5-virtualkeyboard",
+    "loc": "sync"
+  },
+  {
+    "pkg": "dconf-editor",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-quickcontrols2",
+    "loc": "sync"
+  },
+  {
+    "pkg": "mesa-demos",
+    "loc": "sync"
+  },
+  {
+    "pkg": "bluez-utils",
+    "loc": "sync"
+  },
+  {
+    "pkg": "qt6-translations",
+    "loc": "sync"
+  },
+  {
+    "pkg": "seahorse",
+    "loc": "sync"
+  },
+  {
+    "pkg": "vdpauinfo",
+    "loc": "sync"
   },
   {
     "pkg": "cava",
-    "loc": "aur"
-  },
-  {
-    "pkg": "fontpreview-git",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10-japanese",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10",
-    "loc": "aur"
-  },
-  {
-    "pkg": "rstudio-desktop-bin",
-    "loc": "aur"
-  },
-  {
-    "pkg": "python-hsaudiotag3k",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10-korean",
-    "loc": "aur"
-  },
-  {
-    "pkg": "neatvnc",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10-other",
-    "loc": "aur"
-  },
-  {
-    "pkg": "teams",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10-zh_cn",
-    "loc": "aur"
-  },
-  {
-    "pkg": "onedrive-abraunegg",
-    "loc": "aur"
-  },
-  {
-    "pkg": "tela-circle-icon-theme-git",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-roboto-slab",
-    "loc": "aur"
-  },
-  {
-    "pkg": "wayvnc",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ncspot",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ly",
-    "loc": "aur"
-  },
-  {
-    "pkg": "asdf-vm",
-    "loc": "aur"
-  },
-  {
-    "pkg": "apfs-fuse-git",
-    "loc": "aur"
-  },
-  {
-    "pkg": "newsflash",
-    "loc": "aur"
-  },
-  {
-    "pkg": "wakeonlan",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10-sea",
-    "loc": "aur"
-  },
-  {
-    "pkg": "aml",
-    "loc": "aur"
-  },
-  {
-    "pkg": "python-polib",
-    "loc": "aur"
-  },
-  {
-    "pkg": "1password",
-    "loc": "aur"
-  },
-  {
-    "pkg": "lsdesktopf",
-    "loc": "aur"
-  },
-  {
-    "pkg": "hfsprogs",
-    "loc": "aur"
-  },
-  {
-    "pkg": "das-keyboard-q",
-    "loc": "aur"
-  },
-  {
-    "pkg": "dupeguru",
-    "loc": "aur"
-  },
-  {
-    "pkg": "ttf-ms-win10-thai",
-    "loc": "aur"
-  },
-  {
-    "pkg": "otf-san-francisco",
-    "loc": "aur"
-  },
-  {
-    "pkg": "woeusb",
-    "loc": "aur"
-  },
-  {
-    "pkg": "wdisplays",
-    "loc": "aur"
-  },
-  {
-    "pkg": "zoom",
-    "loc": "aur"
-  },
-  {
-    "pkg": "wev",
-    "loc": "aur"
-  },
-  {
-    "pkg": "kvantum-theme-orchis-git",
-    "loc": "aur"
-  },
-  {
-    "pkg": "snapd",
-    "loc": "aur"
-  },
-  {
-    "pkg": "syncthing-gtk",
     "loc": "aur"
   },
   {
@@ -944,19 +908,43 @@
     "loc": "aur"
   },
   {
-    "pkg": "ttf-ms-win10-zh_tw",
+    "pkg": "fontpreview-git",
     "loc": "aur"
   },
   {
-    "pkg": "slack-desktop",
+    "pkg": "geekbench",
     "loc": "aur"
   },
   {
-    "pkg": "sway-git",
+    "pkg": "ttf-ms-win10-thai",
     "loc": "aur"
   },
   {
-    "pkg": "android-sdk-platform-tools",
+    "pkg": "wakeonlan",
+    "loc": "aur"
+  },
+  {
+    "pkg": "rstudio-desktop-bin",
+    "loc": "aur"
+  },
+  {
+    "pkg": "apfs-fuse-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "lsdesktopf",
+    "loc": "aur"
+  },
+  {
+    "pkg": "python-hsaudiotag3k",
+    "loc": "aur"
+  },
+  {
+    "pkg": "aml",
+    "loc": "aur"
+  },
+  {
+    "pkg": "neatvnc",
     "loc": "aur"
   },
   {
@@ -964,7 +952,3667 @@
     "loc": "aur"
   },
   {
+    "pkg": "tela-circle-icon-theme-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "das-keyboard-q",
+    "loc": "aur"
+  },
+  {
+    "pkg": "snapd",
+    "loc": "aur"
+  },
+  {
+    "pkg": "newsflash",
+    "loc": "aur"
+  },
+  {
+    "pkg": "syncthing-gtk",
+    "loc": "aur"
+  },
+  {
+    "pkg": "dupeguru",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ncspot",
+    "loc": "aur"
+  },
+  {
+    "pkg": "paru",
+    "loc": "aur"
+  },
+  {
+    "pkg": "opencl-amd",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-japanese",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-zh_tw",
+    "loc": "aur"
+  },
+  {
+    "pkg": "otf-san-francisco",
+    "loc": "aur"
+  },
+  {
+    "pkg": "sway-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10",
+    "loc": "aur"
+  },
+  {
+    "pkg": "wdisplays",
+    "loc": "aur"
+  },
+  {
+    "pkg": "amdgpu-clocks-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "puddletag",
+    "loc": "aur"
+  },
+  {
+    "pkg": "teams",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-other",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-sea",
+    "loc": "aur"
+  },
+  {
+    "pkg": "kvantum-theme-orchis-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "android-sdk-platform-tools",
+    "loc": "aur"
+  },
+  {
+    "pkg": "orchis-theme-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "zoom",
+    "loc": "aur"
+  },
+  {
+    "pkg": "wayvnc",
+    "loc": "aur"
+  },
+  {
+    "pkg": "p3x-onenote",
+    "loc": "aur"
+  },
+  {
+    "pkg": "hfsprogs",
+    "loc": "aur"
+  },
+  {
+    "pkg": "oh-my-zsh-git",
+    "loc": "aur"
+  },
+  {
+    "pkg": "onedrive-abraunegg",
+    "loc": "aur"
+  },
+  {
+    "pkg": "asdf-vm",
+    "loc": "aur"
+  },
+  {
+    "pkg": "python-polib",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-zh_cn",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-roboto-slab",
+    "loc": "aur"
+  },
+  {
+    "pkg": "nerd-fonts-jetbrains-mono",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ttf-ms-win10-korean",
+    "loc": "aur"
+  },
+  {
+    "pkg": "wev",
+    "loc": "aur"
+  },
+  {
+    "pkg": "1password",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ly",
+    "loc": "aur"
+  },
+  {
+    "pkg": "ltunify",
+    "loc": "aur"
+  },
+  {
     "pkg": "google-chrome",
     "loc": "aur"
+  },
+  {
+    "pkg": "slack-desktop",
+    "loc": "aur"
+  },
+  {
+    "pkg": "woeusb",
+    "loc": "aur"
+  },
+  {
+    "pkg": "gdb-common",
+    "loc": "deps"
+  },
+  {
+    "pkg": "qt5-base",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gupnp-dlna",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libheif",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python2-dateutil",
+    "loc": "deps"
+  },
+  {
+    "pkg": "rtmpdump",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pyqt5",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-colorama",
+    "loc": "deps"
+  },
+  {
+    "pkg": "slang",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libp11-kit",
+    "loc": "deps"
+  },
+  {
+    "pkg": "kbd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ghostscript",
+    "loc": "deps"
+  },
+  {
+    "pkg": "djvulibre",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pycryptodome",
+    "loc": "deps"
+  },
+  {
+    "pkg": "snappy",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pam",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gnome-desktop",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmpd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgnomekbd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "fribidi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "orc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "appstream-glib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libsm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-http-cookies",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmanette",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-www-robotrules",
+    "loc": "deps"
+  },
+  {
+    "pkg": "glew",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxkbcommon",
+    "loc": "deps"
+  },
+  {
+    "pkg": "p11-kit",
+    "loc": "deps"
+  },
+  {
+    "pkg": "wpa_supplicant",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmicrohttpd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libomxil-bellagio",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mailcap",
+    "loc": "deps"
+  },
+  {
+    "pkg": "powerline-common",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python2-wxpython3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "portaudio",
+    "loc": "deps"
+  },
+  {
+    "pkg": "serd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxpm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mobile-broadband-provider-info",
+    "loc": "deps"
+  },
+  {
+    "pkg": "sratom",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-msgpack",
+    "loc": "deps"
+  },
+  {
+    "pkg": "soundtouch",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libinih",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libsidplay",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pyqt5-webengine",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-webencodings",
+    "loc": "deps"
+  },
+  {
+    "pkg": "brotli",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxres",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-flask-security-too",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcdr",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-markdown",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pango",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-file-listing",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pciutils",
+    "loc": "deps"
+  },
+  {
+    "pkg": "semver",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libjcat",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgtop",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-http-daemon",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-flask-login",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libinput",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libtermkey",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libdvdread",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-jellyfish",
+    "loc": "deps"
+  },
+  {
+    "pkg": "linux-api-headers",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libhandy",
+    "loc": "deps"
+  },
+  {
+    "pkg": "krb5",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libopenaptx",
+    "loc": "deps"
+  },
+  {
+    "pkg": "librevenge",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-configobj",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xcb-util-keysyms",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-netifaces",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lz4",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-alembic",
+    "loc": "deps"
+  },
+  {
+    "pkg": "c-ares",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libwebp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcaca",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gcab",
+    "loc": "deps"
+  },
+  {
+    "pkg": "iso-codes",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pyotherside",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python2-pycparser",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pambase",
+    "loc": "deps"
+  },
+  {
+    "pkg": "zeromq",
+    "loc": "deps"
+  },
+  {
+    "pkg": "babl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "aom",
+    "loc": "deps"
+  },
+  {
+    "pkg": "vmaf",
+    "loc": "deps"
+  },
+  {
+    "pkg": "dnssec-anchors",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libbsd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libusb-compat",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-distlib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lua52-socket",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libplacebo",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libbluray",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-babel",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libsmbios",
+    "loc": "deps"
+  },
+  {
+    "pkg": "glu",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmicrodns",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxmlb",
+    "loc": "deps"
+  },
+  {
+    "pkg": "aalib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libsrtp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pcsclite",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xvidcore",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-markupsafe",
+    "loc": "deps"
+  },
+  {
+    "pkg": "faad2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libwmf",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcups",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libdbusmenu-gtk3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libdaemon",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libdca",
+    "loc": "deps"
+  },
+  {
+    "pkg": "argyllcms",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-future",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxmu",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxss",
+    "loc": "deps"
+  },
+  {
+    "pkg": "cryptsetup",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-toml",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libldap",
+    "loc": "deps"
+  },
+  {
+    "pkg": "bluez-libs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libsynctex",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libdiscid",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mdadm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "qt5-svg",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pulseaudio-alsa",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gtk3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libical",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libsasl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "podofo",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xdg-desktop-portal",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lpsolve",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libwpd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xdg-utils",
+    "loc": "deps"
+  },
+  {
+    "pkg": "at-spi2-core",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libavc1394",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "desktop-file-utils",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxklavier",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libzmf",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libixion",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libogg",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-xml-parser",
+    "loc": "deps"
+  },
+  {
+    "pkg": "squashfs-tools",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xcb-util-cursor",
+    "loc": "deps"
+  },
+  {
+    "pkg": "woff2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "spirv-tools",
+    "loc": "deps"
+  },
+  {
+    "pkg": "nm-connection-editor",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-sqlparse",
+    "loc": "deps"
+  },
+  {
+    "pkg": "alsa-card-profiles",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libqxp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmypaint",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libportal",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-html-tagset",
+    "loc": "deps"
+  },
+  {
+    "pkg": "minizip",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gssdp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gst-plugin-pipewire",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libsoxr",
+    "loc": "deps"
+  },
+  {
+    "pkg": "freetype2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "run-parts",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libiec61883",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-paramiko",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-flask-gravatar",
+    "loc": "deps"
+  },
+  {
+    "pkg": "dbus",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnotify",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libpcap",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxxf86vm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "hwids",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmnl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnghttp2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "iptables",
+    "loc": "deps"
+  },
+  {
+    "pkg": "msgpack-c",
+    "loc": "deps"
+  },
+  {
+    "pkg": "x264",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xcb-util",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libraqm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-lwp-mediatypes",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-powerline",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libevdev",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-css-parser",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libabw",
+    "loc": "deps"
+  },
+  {
+    "pkg": "assimp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-progress",
+    "loc": "deps"
+  },
+  {
+    "pkg": "avahi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "bubblewrap",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libburn",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libtommath",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libusb",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgdm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcap",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mjpegtools",
+    "loc": "deps"
+  },
+  {
+    "pkg": "shadow",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnetfilter_conntrack",
+    "loc": "deps"
+  },
+  {
+    "pkg": "meson",
+    "loc": "deps"
+  },
+  {
+    "pkg": "blas",
+    "loc": "deps"
+  },
+  {
+    "pkg": "dbus-glib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "unixodbc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnftnl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ninja",
+    "loc": "deps"
+  },
+  {
+    "pkg": "grub",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxml2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "osinfo-db",
+    "loc": "deps"
+  },
+  {
+    "pkg": "flashrom",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gst-plugins-bad",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libvpx",
+    "loc": "deps"
+  },
+  {
+    "pkg": "oniguruma",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libpsl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gtk-update-icon-cache",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-click",
+    "loc": "deps"
+  },
+  {
+    "pkg": "imagemagick",
+    "loc": "deps"
+  },
+  {
+    "pkg": "util-linux",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ca-certificates-mozilla",
+    "loc": "deps"
+  },
+  {
+    "pkg": "dconf",
+    "loc": "deps"
+  },
+  {
+    "pkg": "srt",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libexif",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxkbfile",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-apsw",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ccid",
+    "loc": "deps"
+  },
+  {
+    "pkg": "fuse3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "keyutils",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pyparsing",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libid3tag",
+    "loc": "deps"
+  },
+  {
+    "pkg": "opus",
+    "loc": "deps"
+  },
+  {
+    "pkg": "a52dec",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libavtp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libffi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "cups-pk-helper",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcbor",
+    "loc": "deps"
+  },
+  {
+    "pkg": "npth",
+    "loc": "deps"
+  },
+  {
+    "pkg": "optipng",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xcb-util-renderutil",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mpv",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libblockdev",
+    "loc": "deps"
+  },
+  {
+    "pkg": "exiv2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libwpe",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ostree",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libtasn1",
+    "loc": "deps"
+  },
+  {
+    "pkg": "parted",
+    "loc": "deps"
+  },
+  {
+    "pkg": "elfutils",
+    "loc": "deps"
+  },
+  {
+    "pkg": "kitty-terminfo",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pinentry",
+    "loc": "deps"
+  },
+  {
+    "pkg": "jsoncpp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "qtkeychain-qt5",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-mutagen",
+    "loc": "deps"
+  },
+  {
+    "pkg": "vte-common",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-http-date",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pcre",
+    "loc": "deps"
+  },
+  {
+    "pkg": "volume_key",
+    "loc": "deps"
+  },
+  {
+    "pkg": "zxing-cpp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gavl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gtkspell3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "webrtc-audio-processing",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-xml-writer",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gspell",
+    "loc": "deps"
+  },
+  {
+    "pkg": "openssl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libasyncns",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pyscard",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libdrm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pixman",
+    "loc": "deps"
+  },
+  {
+    "pkg": "alsa-topology-conf",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ndctl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libteam",
+    "loc": "deps"
+  },
+  {
+    "pkg": "geocode-glib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "zita-alsa-pcmi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "cups-filters",
+    "loc": "deps"
+  },
+  {
+    "pkg": "accountsservice",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmm-glib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "smbclient",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnfnetlink",
+    "loc": "deps"
+  },
+  {
+    "pkg": "sysfsutils",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libepubgen",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmpc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-passlib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libseccomp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libluv",
+    "loc": "deps"
+  },
+  {
+    "pkg": "re2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxt",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-blinker",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gst-plugins-base-libs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mkinitcpio-busybox",
+    "loc": "deps"
+  },
+  {
+    "pkg": "potrace",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-flask-mail",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-html5lib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "shaderc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgcrypt",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libiptcdata",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libstaroffice",
+    "loc": "deps"
+  },
+  {
+    "pkg": "jbig2dec",
+    "loc": "deps"
+  },
+  {
+    "pkg": "util-linux-libs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "colord-gtk",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lsof",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-dnspython",
+    "loc": "deps"
+  },
+  {
+    "pkg": "atk",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxcb",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-yaml",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gumbo-parser",
+    "loc": "deps"
+  },
+  {
+    "pkg": "liblrdf",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-mimeparse",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gnupg",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-cryptography",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mypaint-brushes",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-idna",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libyuv",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lua52",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gegl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libpng",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libjpeg-turbo",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-dateutil",
+    "loc": "deps"
+  },
+  {
+    "pkg": "coreutils",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libndp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libx11",
+    "loc": "deps"
+  },
+  {
+    "pkg": "wxgtk-common",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lame",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libvisual",
+    "loc": "deps"
+  },
+  {
+    "pkg": "upower",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gdl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "kwindowsystem",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-clone",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-psycopg2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "graphene",
+    "loc": "deps"
+  },
+  {
+    "pkg": "flac",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pyusb",
+    "loc": "deps"
+  },
+  {
+    "pkg": "cblas",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gst-plugins-good",
+    "loc": "deps"
+  },
+  {
+    "pkg": "systemd-libs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "hwloc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mujs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxinerama",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-werkzeug",
+    "loc": "deps"
+  },
+  {
+    "pkg": "wavpack",
+    "loc": "deps"
+  },
+  {
+    "pkg": "rasqal",
+    "loc": "deps"
+  },
+  {
+    "pkg": "readline",
+    "loc": "deps"
+  },
+  {
+    "pkg": "polkit",
+    "loc": "deps"
+  },
+  {
+    "pkg": "cogl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-gobject",
+    "loc": "deps"
+  },
+  {
+    "pkg": "sord",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-ply",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pyopenssl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxrender",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-zeroconf",
+    "loc": "deps"
+  },
+  {
+    "pkg": "speex",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcroco",
+    "loc": "deps"
+  },
+  {
+    "pkg": "tbb",
+    "loc": "deps"
+  },
+  {
+    "pkg": "hunspell",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-mako",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pyqt5-sip",
+    "loc": "deps"
+  },
+  {
+    "pkg": "cairo",
+    "loc": "deps"
+  },
+  {
+    "pkg": "tdb",
+    "loc": "deps"
+  },
+  {
+    "pkg": "girara",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libyaml",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libsigc++",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lua52-lpeg",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-psutil",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python2-bcrypt",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libwps",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ca-certificates-utils",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-resolvelib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "l-smash",
+    "loc": "deps"
+  },
+  {
+    "pkg": "svt-hevc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-speaklater",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-flask-migrate",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmms",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pipewire",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxkbcommon-x11",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libtheora",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libva",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-cffi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "e2fsprogs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "fftw",
+    "loc": "deps"
+  },
+  {
+    "pkg": "glslang",
+    "loc": "deps"
+  },
+  {
+    "pkg": "nss",
+    "loc": "deps"
+  },
+  {
+    "pkg": "boost-libs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gsfonts",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xdotool",
+    "loc": "deps"
+  },
+  {
+    "pkg": "clucene",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ffmpeg",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-numpy",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pynacl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "expat",
+    "loc": "deps"
+  },
+  {
+    "pkg": "alsa-lib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xz",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-send2trash",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libdatrie",
+    "loc": "deps"
+  },
+  {
+    "pkg": "raptor",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libelf",
+    "loc": "deps"
+  },
+  {
+    "pkg": "rubberband",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-sqlalchemy",
+    "loc": "deps"
+  },
+  {
+    "pkg": "chrono-date",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gcr",
+    "loc": "deps"
+  },
+  {
+    "pkg": "double-conversion",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-simplejson",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libpciaccess",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxdmcp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnma",
+    "loc": "deps"
+  },
+  {
+    "pkg": "talloc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "fluidsynth",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnumbertext",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libsoup",
+    "loc": "deps"
+  },
+  {
+    "pkg": "sxiv",
+    "loc": "deps"
+  },
+  {
+    "pkg": "filesystem",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ijs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgssglue",
+    "loc": "deps"
+  },
+  {
+    "pkg": "exempi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "liboauth",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libdvdnav",
+    "loc": "deps"
+  },
+  {
+    "pkg": "zenity",
+    "loc": "deps"
+  },
+  {
+    "pkg": "jack",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxfont2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-munkres",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-cssselect",
+    "loc": "deps"
+  },
+  {
+    "pkg": "clutter-gtk",
+    "loc": "deps"
+  },
+  {
+    "pkg": "guile",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libftdi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "fontconfig",
+    "loc": "deps"
+  },
+  {
+    "pkg": "json-c",
+    "loc": "deps"
+  },
+  {
+    "pkg": "fuse-common",
+    "loc": "deps"
+  },
+  {
+    "pkg": "npm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgpg-error",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pcre2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xmlsec",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gstreamer",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python2-six",
+    "loc": "deps"
+  },
+  {
+    "pkg": "systemd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gdbm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pbr",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libshout",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python2-numpy",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ruby-reline",
+    "loc": "deps"
+  },
+  {
+    "pkg": "cairomm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-mechanize",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-py7zr",
+    "loc": "deps"
+  },
+  {
+    "pkg": "graphicsmagick",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-flask-compress",
+    "loc": "deps"
+  },
+  {
+    "pkg": "grilo",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lmdb",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libplist",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libfontenc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libfreehand",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxvmc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "llvm-libs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gst-plugins-bad-libs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "zbar",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcdio-paranoia",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libexttextcat",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxau",
+    "loc": "deps"
+  },
+  {
+    "pkg": "chromaprint",
+    "loc": "deps"
+  },
+  {
+    "pkg": "openal",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libepoxy",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libx86emu",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gmp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libthai",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libice",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xcb-util-errors",
+    "loc": "deps"
+  },
+  {
+    "pkg": "webkit2gtk",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxv",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libfdk-aac",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libvisio",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pangomm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgsf",
+    "loc": "deps"
+  },
+  {
+    "pkg": "yubikey-personalization",
+    "loc": "deps"
+  },
+  {
+    "pkg": "graphite",
+    "loc": "deps"
+  },
+  {
+    "pkg": "nodejs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gts",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xine-lib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lilv",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libhandy0",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libvdpau",
+    "loc": "deps"
+  },
+  {
+    "pkg": "openmpi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-flask-principal",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmusicbrainz5",
+    "loc": "deps"
+  },
+  {
+    "pkg": "imlib2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libraw",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lzo",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libvncserver",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pep517",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libodfgen",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python2-gobject",
+    "loc": "deps"
+  },
+  {
+    "pkg": "device-mapper",
+    "loc": "deps"
+  },
+  {
+    "pkg": "hidapi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "v4l-utils",
+    "loc": "deps"
+  },
+  {
+    "pkg": "jasper",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-mailtools",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libsodium",
+    "loc": "deps"
+  },
+  {
+    "pkg": "tevent",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gdk-pixbuf2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-lxml",
+    "loc": "deps"
+  },
+  {
+    "pkg": "unibilium",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libass",
+    "loc": "deps"
+  },
+  {
+    "pkg": "tslib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xdg-dbus-proxy",
+    "loc": "deps"
+  },
+  {
+    "pkg": "iproute2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "bzip2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pacman-mirrorlist",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-fido2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "jansson",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-gssapi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-fixtures",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pyrsistent",
+    "loc": "deps"
+  },
+  {
+    "pkg": "yubico-c",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libbs2b",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libavif",
+    "loc": "deps"
+  },
+  {
+    "pkg": "qt5-x11extras",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-appdirs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgexiv2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "archlinux-keyring",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-http-message",
+    "loc": "deps"
+  },
+  {
+    "pkg": "adwaita-icon-theme",
+    "loc": "deps"
+  },
+  {
+    "pkg": "hyphen",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lua",
+    "loc": "deps"
+  },
+  {
+    "pkg": "wayland",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcddb",
+    "loc": "deps"
+  },
+  {
+    "pkg": "licenses",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ncurses",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libssh",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gnome-bluetooth",
+    "loc": "deps"
+  },
+  {
+    "pkg": "geoclue",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ntfs-3g",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-encode-locale",
+    "loc": "deps"
+  },
+  {
+    "pkg": "poppler-glib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "wimlib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libdbusmenu-glib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libofa",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gtk-engine-murrine",
+    "loc": "deps"
+  },
+  {
+    "pkg": "numactl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "cdparanoia",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-flask",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-packaging",
+    "loc": "deps"
+  },
+  {
+    "pkg": "vulkan-headers",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pahole",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnsgif",
+    "loc": "deps"
+  },
+  {
+    "pkg": "t1lib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "alsa-ucm-conf",
+    "loc": "deps"
+  },
+  {
+    "pkg": "redland",
+    "loc": "deps"
+  },
+  {
+    "pkg": "liblangtag",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libdc1394",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libtirpc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-flask-wtf",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mpg123",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lua52-bitop",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-retrying",
+    "loc": "deps"
+  },
+  {
+    "pkg": "iana-etc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnsl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libpgm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-try-tiny",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-contextlib2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "node-gyp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mypaint-brushes1",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pygments",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xkeyboard-config",
+    "loc": "deps"
+  },
+  {
+    "pkg": "argon2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python2-ply",
+    "loc": "deps"
+  },
+  {
+    "pkg": "spandsp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "enchant",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libatasmart",
+    "loc": "deps"
+  },
+  {
+    "pkg": "taglib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcanberra",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gcc-libs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "suitesparse",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gtk4",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-urwid",
+    "loc": "deps"
+  },
+  {
+    "pkg": "bc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "cantarell-fonts",
+    "loc": "deps"
+  },
+  {
+    "pkg": "sbc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcue",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lm_sensors",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgweather",
+    "loc": "deps"
+  },
+  {
+    "pkg": "db",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-uri",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-chardet",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gupnp-igd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "svt-av1",
+    "loc": "deps"
+  },
+  {
+    "pkg": "cracklib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "at-spi2-atk",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-flask-sqlalchemy",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xdg-desktop-portal-gtk",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libraw1394",
+    "loc": "deps"
+  },
+  {
+    "pkg": "bolt",
+    "loc": "deps"
+  },
+  {
+    "pkg": "thin-provisioning-tools",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxcomposite",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmpdclient",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-ldap3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "dkms",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-texttable",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-editor",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmtp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libspiro",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libvorbis",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python2-cairo",
+    "loc": "deps"
+  },
+  {
+    "pkg": "yubico-c-client",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-flask-paranoid",
+    "loc": "deps"
+  },
+  {
+    "pkg": "systemd-sysvcompat",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxaw",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-beautifulsoup4",
+    "loc": "deps"
+  },
+  {
+    "pkg": "diffutils",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libde265",
+    "loc": "deps"
+  },
+  {
+    "pkg": "clutter-gst",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-six",
+    "loc": "deps"
+  },
+  {
+    "pkg": "harfbuzz-icu",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xxhash",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xcb-proto",
+    "loc": "deps"
+  },
+  {
+    "pkg": "glib-networking",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-net-http",
+    "loc": "deps"
+  },
+  {
+    "pkg": "yubikey-manager",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gtkmm3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmfx",
+    "loc": "deps"
+  },
+  {
+    "pkg": "luajit",
+    "loc": "deps"
+  },
+  {
+    "pkg": "adobe-source-code-pro-fonts",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-urllib3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-itsdangerous",
+    "loc": "deps"
+  },
+  {
+    "pkg": "uchardet",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ucl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-extras",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgxps",
+    "loc": "deps"
+  },
+  {
+    "pkg": "zstd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmpcdec",
+    "loc": "deps"
+  },
+  {
+    "pkg": "sound-theme-freedesktop",
+    "loc": "deps"
+  },
+  {
+    "pkg": "shared-color-targets",
+    "loc": "deps"
+  },
+  {
+    "pkg": "tpm2-tss",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libvterm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxext",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-ifaddr",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-shiboken2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libunistring",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libunwind",
+    "loc": "deps"
+  },
+  {
+    "pkg": "freeimage",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-html2text",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pytz",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgusb",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gst-plugin-gtk",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libpaper",
+    "loc": "deps"
+  },
+  {
+    "pkg": "netpbm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "glib2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "vulkan-icd-loader",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libglvnd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "bash",
+    "loc": "deps"
+  },
+  {
+    "pkg": "udisks2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "rest",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxdamage",
+    "loc": "deps"
+  },
+  {
+    "pkg": "postgresql-libs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "shared-mime-info",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxslt",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcanberra-pulse",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxcrypt",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libassuan",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mesa",
+    "loc": "deps"
+  },
+  {
+    "pkg": "wildmidi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gsm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "usbmuxd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "zlib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-timedate",
+    "loc": "deps"
+  },
+  {
+    "pkg": "efivar",
+    "loc": "deps"
+  },
+  {
+    "pkg": "apparmor",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gjs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "atkmm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mathjax",
+    "loc": "deps"
+  },
+  {
+    "pkg": "x265",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libbytesize",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-html5-parser",
+    "loc": "deps"
+  },
+  {
+    "pkg": "wayland-protocols",
+    "loc": "deps"
+  },
+  {
+    "pkg": "nettle",
+    "loc": "deps"
+  },
+  {
+    "pkg": "zita-resampler",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gobject-introspection-runtime",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-mediafile",
+    "loc": "deps"
+  },
+  {
+    "pkg": "fmt",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxfixes",
+    "loc": "deps"
+  },
+  {
+    "pkg": "nspr",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ttf-liberation",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-wtforms",
+    "loc": "deps"
+  },
+  {
+    "pkg": "hicolor-icon-theme",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gtksourceview4",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmpeg2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pyasn1",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lapack",
+    "loc": "deps"
+  },
+  {
+    "pkg": "dmraid",
+    "loc": "deps"
+  },
+  {
+    "pkg": "wxgtk3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxshmfence",
+    "loc": "deps"
+  },
+  {
+    "pkg": "swaybg-git",
+    "loc": "deps"
+  },
+  {
+    "pkg": "zimg",
+    "loc": "deps"
+  },
+  {
+    "pkg": "pipewire-media-session",
+    "loc": "deps"
+  },
+  {
+    "pkg": "graphviz",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-distro",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-unrardll",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-libwww",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxtst",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libssh2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pychm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-cchardet",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python2-cffi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "procps-ng",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libarchive",
+    "loc": "deps"
+  },
+  {
+    "pkg": "chmlib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "poppler",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libspectre",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libetonyek",
+    "loc": "deps"
+  },
+  {
+    "pkg": "sndio",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libquvi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libkate",
+    "loc": "deps"
+  },
+  {
+    "pkg": "dav1d",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcdio",
+    "loc": "deps"
+  },
+  {
+    "pkg": "colord",
+    "loc": "deps"
+  },
+  {
+    "pkg": "icu",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gsettings-desktop-schemas",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libosinfo",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gnome-online-accounts",
+    "loc": "deps"
+  },
+  {
+    "pkg": "spdlog",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmspub",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-pycparser",
+    "loc": "deps"
+  },
+  {
+    "pkg": "poppler-data",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmng",
+    "loc": "deps"
+  },
+  {
+    "pkg": "harfbuzz",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ca-certificates",
+    "loc": "deps"
+  },
+  {
+    "pkg": "dbus-python",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libe-book",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libstemmer",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libimagequant",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libusbmuxd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcmis",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libwpg",
+    "loc": "deps"
+  },
+  {
+    "pkg": "vte3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gnome-autoar",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gtk-layer-shell",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxcursor",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xcb-util-wm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "popt",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lzop",
+    "loc": "deps"
+  },
+  {
+    "pkg": "zip",
+    "loc": "deps"
+  },
+  {
+    "pkg": "qrencode",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libproxy",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libidn2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gpgme",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libpulse",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-beaker",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libldac",
+    "loc": "deps"
+  },
+  {
+    "pkg": "frei0r-plugins",
+    "loc": "deps"
+  },
+  {
+    "pkg": "openexr",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gst-plugins-base",
+    "loc": "deps"
+  },
+  {
+    "pkg": "librsvg",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-cachecontrol",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-regex",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libisofs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libindicator-gtk3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libquvi-scripts",
+    "loc": "deps"
+  },
+  {
+    "pkg": "source-highlight",
+    "loc": "deps"
+  },
+  {
+    "pkg": "glibmm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lcms2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libwnck3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgme",
+    "loc": "deps"
+  },
+  {
+    "pkg": "alsa-plugins",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gpm",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libsamplerate",
+    "loc": "deps"
+  },
+  {
+    "pkg": "freeglut",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libevent",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xfsprogs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "kmod",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lvm2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "metis",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ldns",
+    "loc": "deps"
+  },
+  {
+    "pkg": "confuse",
+    "loc": "deps"
+  },
+  {
+    "pkg": "totem-pl-parser",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-bcrypt",
+    "loc": "deps"
+  },
+  {
+    "pkg": "wpebackend-fdo",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xcb-util-image",
+    "loc": "deps"
+  },
+  {
+    "pkg": "electron",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libsndfile",
+    "loc": "deps"
+  },
+  {
+    "pkg": "neon",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-html-parser",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lua52-luajson",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-flask-script",
+    "loc": "deps"
+  },
+  {
+    "pkg": "audit",
+    "loc": "deps"
+  },
+  {
+    "pkg": "iniparser",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcloudproviders",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgudev",
+    "loc": "deps"
+  },
+  {
+    "pkg": "curl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "fzf",
+    "loc": "deps"
+  },
+  {
+    "pkg": "json-glib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "liblouis",
+    "loc": "deps"
+  },
+  {
+    "pkg": "openjpeg2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxft",
+    "loc": "deps"
+  },
+  {
+    "pkg": "liblqr",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-io-html",
+    "loc": "deps"
+  },
+  {
+    "pkg": "attr",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-sshtunnel",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-testtools",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libinstpatch",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-error",
+    "loc": "deps"
+  },
+  {
+    "pkg": "glibc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libunrar",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gsound",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-confuse",
+    "loc": "deps"
+  },
+  {
+    "pkg": "js78",
+    "loc": "deps"
+  },
+  {
+    "pkg": "r",
+    "loc": "deps"
+  },
+  {
+    "pkg": "wlroots-git",
+    "loc": "deps"
+  },
+  {
+    "pkg": "dosfstools",
+    "loc": "deps"
+  },
+  {
+    "pkg": "startup-notification",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnautilus-extension",
+    "loc": "deps"
+  },
+  {
+    "pkg": "acl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "fuse2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "jxrlib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libsecret",
+    "loc": "deps"
+  },
+  {
+    "pkg": "sqlite",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libdv",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libwacom",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libpipeline",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-flask-babelex",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ldb",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-unidecode",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgdata",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libpagemaker",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libcap-ng",
+    "loc": "deps"
+  },
+  {
+    "pkg": "qpdf",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libgrss",
+    "loc": "deps"
+  },
+  {
+    "pkg": "rubygems",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libappindicator-gtk3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lua52-expat",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libidn",
+    "loc": "deps"
+  },
+  {
+    "pkg": "vid.stab",
+    "loc": "deps"
+  },
+  {
+    "pkg": "psmisc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libksba",
+    "loc": "deps"
+  },
+  {
+    "pkg": "tzdata",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xf86-input-libinput",
+    "loc": "deps"
+  },
+  {
+    "pkg": "liborcus",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gupnp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "opencore-amr",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-musicbrainzngs",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gc",
+    "loc": "deps"
+  },
+  {
+    "pkg": "lensfun",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-decorator",
+    "loc": "deps"
+  },
+  {
+    "pkg": "giflib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mkinitcpio",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-feedparser",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gnutls",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-cairo",
+    "loc": "deps"
+  },
+  {
+    "pkg": "speexdsp",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libkeybinder3",
+    "loc": "deps"
+  },
+  {
+    "pkg": "rav1e",
+    "loc": "deps"
+  },
+  {
+    "pkg": "sdl2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-jinja",
+    "loc": "deps"
+  },
+  {
+    "pkg": "perl-http-negotiate",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnewt",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-requests",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmwaw",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-soupsieve",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-sgmllib",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libb2",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libimobiledevice",
+    "loc": "deps"
+  },
+  {
+    "pkg": "qt5-declarative",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libmodplug",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libtiff",
+    "loc": "deps"
+  },
+  {
+    "pkg": "python-ordered-set",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libxrandr",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mtdev",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libuv",
+    "loc": "deps"
+  },
+  {
+    "pkg": "md4c",
+    "loc": "deps"
+  },
+  {
+    "pkg": "zvbi",
+    "loc": "deps"
+  },
+  {
+    "pkg": "iputils",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libpwquality",
+    "loc": "deps"
+  },
+  {
+    "pkg": "faac",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libibus",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ocl-icd",
+    "loc": "deps"
+  },
+  {
+    "pkg": "ruby-irb",
+    "loc": "deps"
+  },
+  {
+    "pkg": "box2d",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libnice",
+    "loc": "deps"
+  },
+  {
+    "pkg": "less",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libutempter",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gsl",
+    "loc": "deps"
+  },
+  {
+    "pkg": "mpfr",
+    "loc": "deps"
+  },
+  {
+    "pkg": "rtkit",
+    "loc": "deps"
+  },
+  {
+    "pkg": "clutter",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libatomic_ops",
+    "loc": "deps"
+  },
+  {
+    "pkg": "twolame",
+    "loc": "deps"
+  },
+  {
+    "pkg": "gptfdisk",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libaio",
+    "loc": "deps"
+  },
+  {
+    "pkg": "tar",
+    "loc": "deps"
+  },
+  {
+    "pkg": "xorgproto",
+    "loc": "deps"
+  },
+  {
+    "pkg": "libedit",
+    "loc": "deps"
   }
 ]

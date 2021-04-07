@@ -776,7 +776,18 @@
     "loc": "sync",
     "scope": "Global",
     "category": "System-Core",
-    "whatis": []
+    "whatis": [
+      {
+        "/usr/bin/lua5.3": [
+          "lua5.3 (1)           - Lua interpreter"
+        ]
+      },
+      {
+        "/usr/bin/luac5.3": [
+          "luac5.3 (1)          - Lua compiler"
+        ]
+      }
+    ]
   },
   {
     "pkg": "mlocate",
@@ -1068,13 +1079,6 @@
         ]
       }
     ]
-  },
-  {
-    "pkg": "sftpman",
-    "loc": "aur",
-    "scope": "Global",
-    "category": "System-Core",
-    "whatis": []
   },
   {
     "pkg": "snapd",
@@ -1437,6 +1441,34 @@
     "whatis": []
   },
   {
+    "pkg": "gnome-color-manager",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/gcm-import": [
+          "gcm-import (1)       - GNOME Color Manager Import Tool"
+        ]
+      },
+      {
+        "/usr/bin/gcm-inspect": [
+          "gcm-inspect (1)      - GNOME Color Manager Inspect Tool"
+        ]
+      },
+      {
+        "/usr/bin/gcm-picker": [
+          "gcm-picker (1)       - GNOME Color Manager Color Picker Tool"
+        ]
+      },
+      {
+        "/usr/bin/gcm-viewer": [
+          "gcm-viewer (1)       - GNOME Color Manager Profile Viewer Tool"
+        ]
+      }
+    ]
+  },
+  {
     "pkg": "gnome-control-center",
     "loc": "sync",
     "scope": "Global",
@@ -1484,6 +1516,20 @@
     "whatis": []
   },
   {
+    "pkg": "gnome-session",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "gnome-settings-daemon",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "gnome-shell",
     "loc": "sync",
     "scope": "Global",
@@ -1498,7 +1544,21 @@
     "whatis": []
   },
   {
+    "pkg": "gnome-themes-extra",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
     "pkg": "gnome-tweaks",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "gnome-video-effects",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
@@ -1526,6 +1586,20 @@
   },
   {
     "pkg": "gtk2",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "gvfs",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "gvfs-goa",
     "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
@@ -1673,6 +1747,19 @@
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": []
+  },
+  {
+    "pkg": "mutter",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": [
+      {
+        "/usr/bin/mutter": [
+          "mutter (1)           - Clutter based compositing GTK2 Window Manager"
+        ]
+      }
+    ]
   },
   {
     "pkg": "nautilus",
@@ -2269,6 +2356,20 @@
   {
     "pkg": "tela-circle-icon-theme-git",
     "loc": "aur",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "tracker3",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "System-Graphics",
+    "whatis": []
+  },
+  {
+    "pkg": "tracker3-miners",
+    "loc": "sync",
     "scope": "Global",
     "category": "System-Graphics",
     "whatis": []
@@ -3452,6 +3553,13 @@
         ]
       }
     ]
+  },
+  {
+    "pkg": "gimp",
+    "loc": "sync",
+    "scope": "Global",
+    "category": "Graphics",
+    "whatis": []
   },
   {
     "pkg": "gimp-git",
