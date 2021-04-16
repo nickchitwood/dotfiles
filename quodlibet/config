@@ -15,8 +15,8 @@ column_expands = album,0,~people,0,~title~version,0,~codec,0,~basename,1
 column_widths = album,370,~people,321,~title~version,244,~codec,106,~basename,-1
 download_cover_art_maximized = 4
 exfalso_last_active_version = 4.4.0
-exfalso_maximized = 0
-exfalso_paned_position = 0.18457943925233644
+exfalso_maximized = 4
+exfalso_paned_position = 0.18515625
 exfalso_position = 56 50
 exfalso_size_ = 750 475
 open_browsers = 
@@ -28,13 +28,13 @@ prefs_page = browser
 queue = True
 queue_disable = False
 queue_expanded = True
-queue_position = 0.6050955414012739
+queue_position = 0.6073170731707317
 quodlibet_information_maximized = 0
 quodlibet_information_position = 0 0
 quodlibet_information_size_ = 586 799
 quodlibet_last_active_version = 4.4.0
-quodlibet_maximized = 0
-quodlibet_position = 56 50
+quodlibet_maximized = 4
+quodlibet_position = 0 0
 quodlibet_properties_maximized = 0
 quodlibet_properties_pos = 0.2244258872651357
 quodlibet_properties_position = 0 0
@@ -45,7 +45,7 @@ seek = 171549
 sidebar_pos = 0.25
 song = /home/nicholaschitwood/Music/Library/Compilations/http___chrono.ocremix.org_/The Chrono Trigger.m4a
 sortby = 0~#disc
-volume = 0.600006103515625
+volume = 1.0
 
 [player]
 gst_buffer = 3.0
@@ -57,7 +57,7 @@ replaygain_mode = auto
 album_covers = true
 album_sort = 5
 album_substrings = true
-albumlist_pos = 0.20166666666666666
+albumlist_pos = 0.201953125
 albums = (('http://ff', 4.0, ('ocremix.org - echoes of betrayal, light of redemption',)), (), '')
 audiofeeds_pos = 0.39976553341148885
 collectionbrowser_pos = 0.40078125
@@ -87,17 +87,17 @@ windows = true
 alltags = true
 
 [plugins]
-active_plugins = conditional_query
-	FilterAll
+active_plugins = Download Album Art
 	SeekBar
-	mpris
-	missing_query
-	lastfm-cover
-	discogs-cover
 	Download Cover Art
-	Download Album Art
+	missing_query
+	conditional_query
+	discogs-cover
+	FilterAll
+	mpris
 	Notify
 	python_query
+	lastfm-cover
 animosd_monitor = 0
 cover_edit = False
 cover_edit_cmd = gimp
