@@ -3,9 +3,6 @@ if [[ "$ZPROF" = true ]]; then
   zmodload zsh/zprof
 fi
 
-# Deal with "insecure completion directory" for mac
-# ZSH_DISABLE_COMPFIX=true
-
 # Get current distro
 if [[ $OSTYPE != darwin* ]]; then
 	. /etc/os-release
@@ -21,7 +18,7 @@ fi
 
 # Path to your oh-my-zsh installation. 
 # Installed to user folder for RHEL, and MacOS. Arch installs to /usr/share
-if [[ -v REMOTE_CONTAINERS_IPC || $OS == "rhel" || $OSTYPE == darwin* ]]; then
+if [[ -v REMOTE_CONTAINERS_IPC || $OS == "rhel" || $OS == "fedora" ||  $OSTYPE == darwin* ]]; then
     ZSH=~/.oh-my-zsh
 else
     ZSH=/usr/share/oh-my-zsh
@@ -110,6 +107,13 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
 
+
+# Fedora Theme Conf
+if [[ $OS == "fedora" ]]; then
+	ZSH_THEME="powerlevel10k/powerlevel10k"
+	[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+fi
+
 # Oh my ZSh
 source $ZSH/oh-my-zsh.sh
 
@@ -165,6 +169,7 @@ if [[ $OSTYPE == darwin* ]]; then
 	# Load asdf
 	. $(brew --prefix asdf)/asdf.sh
 fi
+
 
 # Extended Globs
 setopt extendedglob
