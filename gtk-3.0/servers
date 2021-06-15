@@ -13,4 +13,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="smb://file.nickchitwood.com/scan/" added="2021-06-09T14:54:59.179959Z" modified="2021-06-09T14:54:59.179965Z" visited="2021-06-09T14:54:59.179960Z">
+    <title>scan on file.nickchitwood.com</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2021-06-09T14:54:59.179962Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

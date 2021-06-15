@@ -211,17 +211,16 @@ bar {
 	for_window [app_id="Google-chrome" title="Save File"] floating enable
 	for_window [app_id="chromium" title="Save File"] floating enable
 	for_window [app_id="electron" title="Open.*"] floating enable
-	for_window [app_id="zoom"] floating enable
 	for_window [app_id="galculator"] floating enable
-	for_window [class="zoom" title="Chat"] floating enable
+	for_window [class="zoom" title="((?!Zoom Meeting).)"] floating enable
 	for_window [class="zoom" title="Settings"] floating enable
 	for_window [class="zoom" title="Participants*"] floating enable
+	for_window [class="1Password"] floating enable
 	for_window [class="XEyes"] floating enable, sticky enable
 	for_window [app_id="org.remmina.Remmina" title="Remmina Remote Desktop Client"] floating enable
 	for_window [app_id="virt-manager" title="Virtual Machine Manager"] floating enable
 	for_window [app_id="yubico.com.yubioath-desktop"] floating enable
 	for_window [app_id="org.gnome.NautilusPreviewer"] floating enable
-	for_window [app_id="pavucontrol"] floating enable
 	for_window [class="Code" window_type="dialog"] resize set 800 600
 	for_window [class="Code" window_type="dialog"] move position center
 
@@ -236,12 +235,10 @@ bar {
 #
 	exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
 	exec /usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
-	# exec xsettingsd &
 	exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
 	exec hash dbus-update-activation-environment 2>/dev/null && \
      dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
 
-	# export MOZ_DBUS_REMOTE=1
 
 #
 # Screenshots
