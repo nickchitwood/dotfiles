@@ -8,7 +8,7 @@ Host pfsense pfsense.nickchitwood.com pihole pihole.nickchitwood.com
 Host esxi pve* file heimdall plex nextcloud bt sonarr jackett qbittorrent usenet radarr assistant audio print headphones huginn minecraft rss irc log influxdb elastic mongo postgres wiki mysql pxe calibre grafana mirror moviedb paycheck unifi 
 	User root
 
-Hose rundeck
+Host rundeck
 	User ansible
 
 Host rhel8 rhel8.nickchitwood.com RIV-AACI-01 RIV-AACI-01.rcoe.us RIV-AACI-02 RIV-AACI-02.rcoe.us RIV-AACI-03 RIV-AACI-03.rcoe.us
