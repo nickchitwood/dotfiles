@@ -118,7 +118,7 @@ fi
 source $ZSH/oh-my-zsh.sh
 
 # Arch Conf
-if [[ $OS == "arch" && ($TERM != "screen-256color") && ($TERM != "linux") ]]; then
+if [[ ( $OS == "arch" || $OS == "steamos" ) && ($TERM != "screen-256color") && ($TERM != "linux") ]]; then
 	# Default apps
 	export EDITOR=/usr/bin/nvim
 	export VISUAL=/usr/bin/nvim
@@ -135,13 +135,16 @@ if [[ $OS == "arch" && ($TERM != "screen-256color") && ($TERM != "linux") ]]; th
 	# Fix Ranger opening in XTerm
 	export TERMCMD=/usr/bin/kitty
 	
-	# Enable asdf
-	. /opt/asdf-vm/asdf.sh
 
 	# autoload -Uz compinit
 	# compinit
 
 	alias ssh='kitty +kitten ssh '
+fi
+
+# Enable asdf
+if [[ $OS == arch ]]; then	
+  . /opt/asdf-vm/asdf.sh
 fi
 
 # Mac OS Specific Config

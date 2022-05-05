@@ -1,0 +1,10 @@
+kitty
+kitty-terminfo
+neovim
+oh-my-zsh-git
+openssh
+openvpn
+pacman-system-update
+paru
+zsh
+zsh-theme-powerlevel10k
