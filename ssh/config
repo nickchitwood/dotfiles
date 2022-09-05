@@ -5,7 +5,7 @@
 Host pfsense pfsense.nickchitwood.com pihole pihole.nickchitwood.com
 	User admin
 
-Host esxi pve* file heimdall plex nextcloud bt sonarr jackett qbittorrent usenet radarr assistant audio print headphones huginn minecraft rss irc log influxdb elastic mongo postgres wiki mysql pxe calibre grafana mirror moviedb paycheck unifi 
+Host esxi pve* file heimdall plex nextcloud bt sonarr jackett qbittorrent usenet radarr assistant audio print headphones huginn minecraft rss irc log influxdb elastic mongo postgres wiki mysql pxe calibre grafana mirror moviedb paycheck unifi rpg
 	User root
 
 Host rundeck

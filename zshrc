@@ -157,20 +157,24 @@ if [[ $OSTYPE == darwin* ]]; then
 	  export EDITOR='nvim'
 	fi
 
-	# Powerlevel10k
-	source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
-	
 	# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 	[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 	# Fix brew path
-	export PATH="/usr/local/sbin:$PATH"	
+	eval "$(/opt/homebrew/bin/brew shellenv)"
+	
+	# Powerlevel10k
+	source $(brew --prefix powerlevel10k)/powerlevel10k.zsh-theme
 	
 	# Mac OS Specific plugins
 	plugins+=(brew)
 
 	# Load asdf
 	. $(brew --prefix asdf)/asdf.sh
+
+	# Set nativifier install path
+	export NATIVEFIER_APPS_DIR=~/Applications/
+
 fi
 
 
