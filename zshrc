@@ -170,7 +170,7 @@ if [[ $OSTYPE == darwin* ]]; then
 	plugins+=(brew)
 
 	# Load asdf
-	. $(brew --prefix asdf)/asdf.sh
+	. $(brew --prefix asdf)/libexec/asdf.sh
 
 	# Set nativifier install path
 	export NATIVEFIER_APPS_DIR=~/Applications/
