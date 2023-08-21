@@ -174,7 +174,16 @@ if [[ $OSTYPE == darwin* ]]; then
 
 	# Set nativifier install path
 	export NATIVEFIER_APPS_DIR=~/Applications/
-
+	
+	#  Pyenv
+	export PYENV_ROOT="$HOME/.pyenv"
+	command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+	eval "$(pyenv init -)"
+	
+	#NVM
+	export NVM_DIR="$HOME/.nvm"
+	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 fi
 
 
@@ -187,3 +196,4 @@ source ~/.aliases
 if [[ "$ZPROF" = true ]]; then
   zprof
 fi
+
