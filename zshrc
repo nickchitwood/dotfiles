@@ -164,10 +164,13 @@ if [[ $OSTYPE == darwin* ]]; then
 	eval "$(/opt/homebrew/bin/brew shellenv)"
 	
 	# Powerlevel10k
-	source $(brew --prefix powerlevel10k)/powerlevel10k.zsh-theme
+	source $(brew --prefix powerlevel10k)/share/powerlevel10k/powerlevel10k.zsh-theme
 	
 	# Mac OS Specific plugins
 	plugins+=(brew)
+
+	# kubectl autocomplete
+	source <(kubectl completion zsh)
 
 	# Load asdf
 	. $(brew --prefix asdf)/libexec/asdf.sh
@@ -175,15 +178,14 @@ if [[ $OSTYPE == darwin* ]]; then
 	# Set nativifier install path
 	export NATIVEFIER_APPS_DIR=~/Applications/
 	
-	#  Pyenv
-	export PYENV_ROOT="$HOME/.pyenv"
-	command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-	eval "$(pyenv init -)"
-	
 	#NVM
 	export NVM_DIR="$HOME/.nvm"
 	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+	export PATH="$PATH:/Users/nchitwood/.local/bin"
+
+	complete -o nospace -C /opt/homebrew/bin/mc mc
 fi
 
 
@@ -197,3 +199,29 @@ if [[ "$ZPROF" = true ]]; then
   zprof
 fi
 
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+
+. "$HOME/.cargo/env"
+source "$HOME/.cargo/bin"
+
+# dbt aliases
+alias dbtf=/Users/nchitwood/.local/bin/dbt
+
+# Added by Antigravity
+export PATH="/Users/nchitwood/.antigravity/antigravity/bin:$PATH"

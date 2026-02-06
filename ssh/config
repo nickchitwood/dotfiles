@@ -19,3 +19,7 @@ Host playwright
 
 Host mp-arch ironman
 	User nicholaschitwood
+
+Host 172.16.214.* 10.100.121.* 10.100.21.*
+	User nchitwood
+	IdentityFile ~/.ssh/id_aacidata_ed25519
