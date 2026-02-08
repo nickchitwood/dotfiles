@@ -1,0 +1,104 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+scan_timeout = 30
+
+format = """
+[░▒▓](#82aaff)\
+[  ](bg:#82aaff fg:#011627)\
+[](bg:#1d3b53 fg:#82aaff)\
+$directory\
+[](fg:#1d3b53 bg:#112630)\
+$git_branch\
+$git_status\
+[](fg:#112630 bg:#011627)\
+$python\
+$kubernetes\
+$aws\
+$nodejs\
+$rust\
+$golang\
+$php\
+$docker_context\
+[](fg:#011627 bg:#010e1a)\
+$cmd_duration\
+$time\
+[ ](fg:#010e1a)\
+\n$character"""
+
+[directory]
+style = "fg:#d6deeb bg:#1d3b53"
+format = "[ $path ]($style)"
+truncation_length = 5
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+"Developer" = "󰲋 "
+
+[git_branch]
+symbol = ""
+style = "bg:#112630"
+format = '[[ $symbol $branch ](fg:#7fdbca bg:#112630)]($style)'
+
+[git_status]
+style = "bg:#112630"
+format = '[[($all_status$ahead_behind )](fg:#7fdbca bg:#112630)]($style)'
+
+[nodejs]
+symbol = ""
+style = "bg:#011627"
+format = '[[ $symbol ($version) ](fg:#addb67 bg:#011627)]($style)'
+
+[rust]
+symbol = ""
+style = "bg:#011627"
+format = '[[ $symbol ($version) ](fg:#f78c6c bg:#011627)]($style)'
+
+[golang]
+symbol = ""
+style = "bg:#011627"
+format = '[[ $symbol ($version) ](fg:#7fdbca bg:#011627)]($style)'
+
+[php]
+symbol = ""
+style = "bg:#011627"
+format = '[[ $symbol ($version) ](fg:#c792ea bg:#011627)]($style)'
+
+[python]
+symbol = ""
+style = "bg:#011627"
+format = '[[ $symbol ($version)(\($virtualenv\)) ](fg:#ecc48d bg:#011627)]($style)'
+
+[kubernetes]
+disabled = false
+symbol = "󱃾"
+style = "bg:#011627"
+format = '[[ $symbol $context(\($namespace\)) ](fg:#82aaff bg:#011627)]($style)'
+
+[aws]
+symbol = ""
+style = "bg:#011627"
+format = '[[ $symbol ($profile)(\($region\)) ](fg:#f78c6c bg:#011627)]($style)'
+
+[docker_context]
+symbol = ""
+style = "bg:#011627"
+format = '[[ $symbol ($context) ](fg:#82aaff bg:#011627)]($style)'
+
+[cmd_duration]
+min_time = 2_000
+style = "bg:#010e1a"
+format = '[[ 󱎫 $duration ](fg:#ecc48d bg:#010e1a)]($style)'
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#010e1a"
+format = '[[  $time ](fg:#d6deeb bg:#010e1a)]($style)'
+
+[character]
+success_symbol = '[❯](bold fg:#addb67)'
+error_symbol = '[❯](bold fg:#ef5350)'

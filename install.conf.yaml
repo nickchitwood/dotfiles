@@ -13,7 +13,7 @@
     ~/.zshrc.d: zshrc.d
     ~/.zprofile:
     ~/.aliases:
-    ~/.p10k.zsh:
+    ~/.config/starship.toml: starship.toml
     ~/.gitconfig:
       force: true
     ~/.config/beets:
