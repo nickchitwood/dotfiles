@@ -6,7 +6,6 @@
 - create:
     - ~/.config
     - ~/.cache
-    - ~/.zshrc.d
 
 - link:
     ~/.zshrc:
