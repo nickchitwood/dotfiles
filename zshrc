@@ -11,42 +11,52 @@ else
   OS=$ID
 fi
 
-# --- Oh-My-Zsh Setup ---
-if [[ -v REMOTE_CONTAINERS_IPC || $OS == "rhel" || $OS == "fedora" || $OS == "ubuntu" || $OS == "debian" || $OS == "darwin" ]]; then
-  ZSH=~/.oh-my-zsh
-else
-  ZSH=/usr/share/oh-my-zsh
-fi
+# --- Cache dir ---
+ZSH_CACHE_DIR=$HOME/.cache/zsh
+[[ -d $ZSH_CACHE_DIR ]] || mkdir -p $ZSH_CACHE_DIR
 
-ZSH_THEME="robbyrussell"
-DISABLE_AUTO_UPDATE="true"
-HIST_STAMPS="yyyy-mm-dd"
+# --- History ---
+HISTFILE=$ZSH_CACHE_DIR/history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt extended_history hist_ignore_dups hist_ignore_space
+setopt inc_append_history share_history
 
-plugins=(
-  brew
-  docker
-  git
-  npm
-  vi-mode
-  yarn
-  z
-  zsh-autosuggestions
-)
+# --- Shell options ---
+setopt extendedglob auto_cd auto_pushd pushd_ignore_dups interactive_comments
 
-ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
-if [[ ! -d $ZSH_CACHE_DIR ]]; then
-  mkdir $ZSH_CACHE_DIR
-fi
+# --- Vi mode ---
+bindkey -v
+export KEYTIMEOUT=1
 
-source $ZSH/oh-my-zsh.sh
-
-# --- Shared Config ---
-setopt extendedglob
+# --- Shared ---
 export PATH="$HOME/.local/bin:$PATH"
 source ~/.aliases
 
-# --- Starship Prompt ---
-eval "$(starship init zsh)"
+# --- OS: macOS ---
+# Requires (brew bundle): fnm, fzf, starship, zoxide, zsh-autosuggestions, zsh-syntax-highlighting
+if [[ $OS == "darwin" ]]; then
+  if [[ -n $SSH_CONNECTION ]]; then
+    export EDITOR='nano'
+  else
+    export EDITOR='nvim'
+  fi
+
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+
+  # Completions
+  FPATH=$HOMEBREW_PREFIX/share/zsh/site-functions:$FPATH
+  autoload -Uz compinit
+  compinit -d $ZSH_CACHE_DIR/zcompdump
+
+  # Plugins — zsh-syntax-highlighting must be sourced last
+  source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+  source $HOMEBREW_PREFIX/opt/fzf/shell/key-bindings.zsh
+  source $HOMEBREW_PREFIX/opt/fzf/shell/completion.zsh
+  eval "$(zoxide init zsh)"
+  eval "$(fnm env --use-on-cd)"
+  source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
 
 # --- OS: Arch / SteamOS ---
 if [[ ($OS == "arch" || $OS == "steamos") && $TERM != "screen-256color" && $TERM != "linux" ]]; then
@@ -66,25 +76,8 @@ if [[ $OS == "ubuntu" || $OS == "debian" ]]; then
   export VISUAL='nvim'
 fi
 
-# --- OS: macOS ---
-if [[ $OS == "darwin" ]]; then
-  if [[ -n $SSH_CONNECTION ]]; then
-    export EDITOR='nano'
-  else
-    export EDITOR='nvim'
-  fi
-
-  eval "$(/opt/homebrew/bin/brew shellenv)"
-
-  # Brew completions
-  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
-  autoload -Uz compinit
-  compinit
-
-  export NVM_DIR="$HOME/.nvm"
-  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-fi
+# --- Starship Prompt ---
+eval "$(starship init zsh)"
 
 # --- Device Config ---
 [[ -f ~/.zshrc.d/${HOST%%.*}.zsh ]] && source ~/.zshrc.d/${HOST%%.*}.zsh
