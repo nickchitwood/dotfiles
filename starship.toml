@@ -48,6 +48,7 @@ style = "bg:#112630"
 format = '[[($all_status$ahead_behind )](fg:#7fdbca bg:#112630)]($style)'
 
 [nodejs]
+disabled = true
 symbol = ""
 style = "bg:#011627"
 format = '[[ $symbol ($version) ](fg:#addb67 bg:#011627)]($style)'

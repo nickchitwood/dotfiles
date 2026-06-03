@@ -60,10 +60,6 @@ if [[ ($OS == "arch" || $OS == "steamos") && $TERM != "screen-256color" && $TERM
   alias ssh='kitty +kitten ssh '
 fi
 
-if [[ $OS == "arch" ]]; then
-  . /opt/asdf-vm/asdf.sh
-fi
-
 # --- OS: Ubuntu / Debian ---
 if [[ $OS == "ubuntu" || $OS == "debian" ]]; then
   export EDITOR='nvim'
@@ -84,8 +80,6 @@ if [[ $OS == "darwin" ]]; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
   autoload -Uz compinit
   compinit
-
-  . $(brew --prefix asdf)/libexec/asdf.sh
 
   export NVM_DIR="$HOME/.nvm"
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
