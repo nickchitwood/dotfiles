@@ -33,6 +33,10 @@ export KEYTIMEOUT=1
 export PATH="$HOME/.local/bin:$PATH"
 source ~/.aliases
 
+# uv: one project venv per OS (.venv-darwin, .venv-arch, ...) so folders synced
+# between machines (OneDrive) don't share a single .venv built for another OS.
+export UV_PROJECT_ENVIRONMENT=".venv-$OS"
+
 # --- OS: macOS ---
 # Requires (brew bundle): fnm, fzf, starship, zoxide, zsh-autosuggestions, zsh-syntax-highlighting
 if [[ $OS == "darwin" ]]; then
